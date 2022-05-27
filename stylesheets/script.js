@@ -72,7 +72,7 @@ $(document).ready(function(){
             "background-size":"cover",
             "background-repeat":"no-repeat" 
         });
-        $("#pullupContent .hero h1").html("About Sorrel"); /* Project Name Setup */
+        $("#pullupContent .hero h1").html("About Shroombase"); /* Project Name Setup */
         $("#pullupContent .hero p").html("");
         setPullup(); /* Project Content Setup */
     });
