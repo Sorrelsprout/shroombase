@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
     checkWidth();
     $(window).resize(function() { checkWidth(); })
     function checkWidth() {
@@ -26,9 +25,9 @@ $(document).ready(function(){
 
 
     // Hero Fix ----------------------------------------------------------------------
-    var conHeight = $("#pullup .hero").height();
-    var imgHeight = $("#pullup .hero img").height();
-    var gap = (imgHeight - conHeight) / 2;
+    let conHeight = $("#pullup .hero").height();
+    let imgHeight = $("#pullup .hero img").height();
+    let gap = (imgHeight - conHeight) / 2;
     $("#pullup .hero img").css("top", -gap);
 
 

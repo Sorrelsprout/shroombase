@@ -92,6 +92,67 @@
 
 #pullup .hero p { font-size: 1em; }
 
+
+/* Pullup Contents ---------------------------------------------------------*/
+
+#fungiTags {
+    display: flex;
+    list-style-type: none !important;
+    margin: 0 auto !important;
+    justify-content: center;
+}
+
+#fungiTags li {
+    padding: 0.25rem 0.75rem;
+    margin: 0 0.5rem;
+    background: var(--SelectionBG);
+    font-size: 0.85em;
+}
+
+#distinguishingCharacteristics { }
+
+#specialCharacteristics { }
+
+#lifeStages { }
+
+#significance3Col { 
+    display: flex; 
+    flex-flow: row wrap;
+}
+
+#fungiGeography { }
+
+#lookalikes { }
+
+#pullup .characteristicsGrid, #significance3Col {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    margin: 0 -1rem;
+}
+
+#pullup .characteristicsGrid div, #significance3Col div {
+    width: 33.3%;
+    padding: 1rem;
+}
+
+@media (max-width: 600px){
+    #pullup .characteristicsGrid div, #significance3Col div {
+        width: 100%;
+    }
+}
+
+#pullup .characteristicsGrid div img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+#pullup .characteristicsGrid div h3 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
 /* Pullup Description ------------------------------------------------------*/
 
 #pullup .fullDescription {
@@ -157,6 +218,7 @@
     margin-top: 3rem;
     padding-top: 3rem;
     font-size: 1.35em;
+    text-align: center;
 }
 
 #pullup h2:first-of-type {
@@ -166,8 +228,14 @@
 }
 
 #pullup h3 {
-    font-size: 1em;
+    font-size: 1.2em;
     margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+#pullup h4 {
+    font-size: 1em;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -175,7 +243,6 @@
     line-height: 1.68em;
     margin-bottom: 1em;
 }
-
 
 #pullup ul {
     list-style-type: disc;
