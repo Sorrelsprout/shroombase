@@ -61,7 +61,6 @@ $(document).ready(function(){
         /* Project Content Setup */
         const PROJECTDESC = "pages/template.html";
         $("#pullupContent .fullDescription").load(PROJECTDESC); 
-        setPullup();
 
         // Fungi Database Setup ------------------------------------------------------------------------
         // const PROJECTDESC = "pages/" + (FUNGIFAMILY) + "/" + (FUNGIID) + ".html";
@@ -189,6 +188,7 @@ $(document).ready(function(){
                 $("#lookalikeGrid").html(lookalikeContent);
             }
         });
+        setPullup();
     });
 
     $("#about").click(function() { 
