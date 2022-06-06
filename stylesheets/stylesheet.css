@@ -2,6 +2,7 @@
 @import "./mobile.css";
 @import "./pullup.css";
 @import "./sectiontypes.css";
+@import "./search.css";
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap');
 
 :root {
@@ -12,6 +13,8 @@
   --ProjectContainerBG: #222;
   --BorderColor: #2223;
   --SelectionBG: #55423222;
+  --navHeight: 6rem;
+  --navWidth: 1196px;
 }
 
 html {
@@ -36,8 +39,8 @@ body {
 nav, .footer {
   display: flex;
   flex-direction: row;
-  height: 6rem;
-  max-width: 1196px;
+  height: var(--navHeight);
+  max-width: var(--navWidth);
   width: 100%;
   padding: 2rem 0;
   justify-content: space-between;
@@ -84,7 +87,7 @@ nav .socials {
   flex-flow: row wrap;
   max-width: 1200px;
   margin: auto;
-  margin-top: 6rem;
+  margin-top: calc( var(--navHeight) - 3rem);
   padding: 0.1%;
   justify-content: center;
 }
@@ -156,6 +159,19 @@ nav .socials {
 
 
 /* General Typography -------------------------------------------------------*/
+
+h2 {
+  line-height: 1.2em;
+  font-weight: 700;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  max-width: var(--navWidth);
+  border-top: 3px solid var(--BorderColor);
+  margin-top: 3rem;
+  padding-top: 3rem;
+  font-size: 1.35em;
+  text-align: center;
+}
 
 a {
   cursor: pointer;

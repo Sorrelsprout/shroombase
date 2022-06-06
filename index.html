@@ -26,8 +26,83 @@
             <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/samsung/320/mushroom_1f344.png" alt="Logo Icon" id="logo">
         </nav>
 
+<!-- S E A R C H --------------------------------------------------------------------------------------------------------->
+        
+        <div id="search" class="searchContainer">
+            <input id="searchbar" onkeyup="searchFungi()" type="text" name="search" placeholder="Find some fungi...">
+        </div>
+
+        <div id="searchAdvanced" class="searchContainer">
+            <div> <!-- Selections -->
+                <span class="inputSelect">
+                    <label for="searchEdibility" onkeyup="searchEdibility()">Edibility:</label>
+                    <select name="searchEdibility" id="searchEdibility">
+                        <option value="" disabled selected>Select your option</option>
+                        <option value="edible">Edible</option>
+                        <option value="poisonous">Poisonous</option>
+                        <option value="medicinal">Medicinal</option>
+                    </select>
+                </span>
+                <span class="inputSelect">
+                    <label for="searchTree" onkeyup="searchTree()">Related Tree:</label>
+                    <select name="searchTree" id="searchTree">
+                        <option value="oak">Oak</option>
+                        <option value="sycamore">Sycamore</option>
+                    </select>
+                </span>
+                <span class="inputSelect">
+                    <label for="searchColor" onkeyup="searchColor()">Color:</label>
+                    <select name="searchColor" id="searchColor">
+                        <option value="pink">Pink</option>
+                        <option value="red">Red</option>
+                        <option value="orange">Orange</option>
+                        <option value="tan">Tan</option>
+                        <option value="brown">Brown</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="green">Green</option>
+                        <option value="blue">Blue</option>
+                        <option value="purple">Purple</option>
+                        <option value="black">Black</option>
+                        <option value="grey">Grey</option>
+                        <option value="white">White</option>
+                    </select>
+                </span>
+                <span class="inputSelect">
+                    <label for="searchGeo" onkeyup="searchGeo()">Region:</label>
+                    <select name="searchGeo" id="searchGeo">
+                        <option value="red">North America</option>
+                        <option value="red">Central America</option>
+                        <option value="saab">South America</option>
+                        <option value="audi">North Africa</option>
+                        <option value="audi">South Africa</option>
+                        <option value="audi">North India</option>
+                        <option value="audi">South India</option>
+                        <option value="mercedes">Europe</option>
+                        <option value="audi">Russia</option>
+                        <option value="audi">East China</option>
+                        <option value="audi">West China</option>
+                        <option value="audi">Pacific Islands</option>
+                        <option value="audi">Australia</option>
+                    </select>
+                </span>
+                <span class="inputSelect">
+                    <label for="searchSeason" onkeyup="searchSeason()">Season:</label>
+                    <select name="searchSeason" id="searchSeason">
+                        <option value="spring">Spring</option>
+                        <option value="summer">Summer</option>
+                        <option value="fall">Fall</option>
+                        <option value="winter">Winter</option>
+                    </select>
+                </span>
+            </div>
+            <div><!-- Checkbox -->
+                <!-- <input id="searchbarEdibility" onkeyup="searchEdibility()" type="text" name="search" placeholder="Edibility"> -->
+            </div>
+        </div>
+
 <!-- F U N G I   G R I D   S T A R T ------------------------------------------------------------------------------------->
 
+        <h2 id="searchResultsTitle">Featured Specimens</h2>
         <div id="fungiGrid">
             <div class="amanitaceae" id="amanita-muscaria">
                 <img src="./images/amanitaceae/amanita-muscaria/amanitamuscaria.jpg" alt="Fly Agaric" loading="lazy">

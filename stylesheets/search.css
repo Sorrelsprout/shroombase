@@ -1,0 +1,57 @@
+.searchContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.searchContainer div {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem 0.5rem;
+    flex-flow: row wrap;
+}
+
+.searchContainer input, .searchContainer .inputSelect select {
+    border: none;
+    margin: 0.5rem 0rem;
+    padding: 0.25rem 0.5rem;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.searchContainer .inputSelect {
+    display: flex;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.searchContainer .inputSelect label {
+    padding-right: 0.25rem;
+}
+
+.searchContainer .inputSelect select {
+    flex: 1;
+}
+
+#search {
+    margin: calc( var(--navHeight) + 2rem) auto 1rem auto;
+}
+
+#searchAdvanced {
+    margin: 4rem auto 0 auto;
+}
+
+#searchAdvanced::before {
+    content: "Advanced Search";
+    display: block;
+    position: absolute;
+    top: -2rem;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media (max-width: 960px){
+    .searchContainer div {
+        flex-direction: column;
+    }
+}
