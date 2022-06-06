@@ -254,6 +254,10 @@
     border-bottom: 1px solid var(--TextColor);
 }
 
+#pullup strong {
+    font-weight: 600;
+}
+
 /* Pullup Image + Gallery ----------------------------------------------------*/
 
 #pullup .gallery { 

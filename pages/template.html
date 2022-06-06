@@ -1,55 +1,84 @@
 <!-- T A G S --------------------------------------------------------------->
-<div id="fungiTags">
-    <ul>
-        <li>Poisonous or Edible</li>
-        <li>Basidiomycete or Ascomycete</li>
-        <li>Relationship to Tree</li>
-    </ul>
-</div>
+<ul id="fungiTags">
+    <li id="tags-poisonousEdible">Poisonous or Edible</li>
+    <li id="tags-treeRelation">Relationship to Tree</li>
+</ul>
 
 <!-- D I S T I N G U I S H I N G   C H A R A C T E R I S T I C S ----------->
 <div id="distinguishingCharacteristics">
     <h2>Characteristics</h2>
     <ul>
-        <li>Taxonomy and Nomenclature</li>
-        <li>Aliases</li>
-        <li>Abundancy</li>
-        <li>Smell</li>
+        <li><strong>Division:</strong> <span id="nomenclature-division"></span></li>
+        <li><strong>Class:</strong> <span id="nomenclature-class"></span></li>
+        <li><strong>Order:</strong> <span id="nomenclature-order"></span></li>
+        <li><strong>Family:</strong> <span id="nomenclature-family"></span></li>
+        <li><strong>Genus:</strong> <span id="nomenclature-genus"></span></li>
+        <li><strong>Species:</strong> <span id="nomenclature-species"></span></li>
+        <li><strong>Variety:</strong> <span id="nomenclature-variety"></span></li>
+        <li><strong>Aliases:</strong> <span id="nomenclature-aliases"></span></li>
     </ul>
-    <p>Other tidbits to note.</p>
+    <ul>
+        <li><strong>Abundancy:</strong> <span id="distinguishing-abundancy"></span></li>
+        <li><strong>Smell:</strong> <span id="distinguishing-smell"></span></li>
+    </ul>
+    <p id="distinguishing-tidbits">Other tidbits to note.</p>
 
     <div class="characteristicsGrid">
         <div>
-            <img src="" alt="Cap"><h3>Cap</h3>
-            <p>-</p>
+            <figure>
+                <img src="" alt="Cap" id="characteristics-cap-img" loading="lazy"><h3>Cap</h3>
+                <figcation id="characteristics-cap-caption"></figcation>
+            </figure>
+            <p id="characteristics-cap-desc">-</p>
         </div>
         <div>
-            <img src="" alt="Underside"><h3>Underside</h3>
-            <p>-</p>
+            <figure>
+                <img src="" alt="Underside" id="characteristics-underside-img" loading="lazy"><h3>Underside</h3>
+                <figcation id="characteristics-underside-caption"></figcation>
+            </figure>
+            <p id="characteristics-underside-desc">-</p>
         </div>
         <div>
-            <img src="" alt="Side View"><h3>Side View</h3>
-            <p>-</p>
+            <figure>
+                <img src="" alt="Side View" id="characteristics-side-img" loading="lazy"><h3>Side View</h3>
+                <figcation id="characteristics-side-caption"></figcation>
+            </figure>
+            <p id="characteristics-side-desc">-</p>
         </div>
         <div>
-            <img src="" alt="Halved"><h3>Halved</h3>
-            <p>-</p>
+            <figure>
+                <img src="" alt="Halved" id="characteristics-halved-img" loading="lazy"><h3>Halved</h3>
+                <figcation id="characteristics-halved-caption"></figcation>
+            </figure>
+            <p id="characteristics-halved-desc">-</p>
         </div>
         <div>
-            <img src="" alt="Stem"><h3>Stem</h3>
-            <p>Ring?</p>
+            <figure>
+                <img src="" alt="Stem" id="characteristics-stem-img" loading="lazy"><h3>Stem</h3>
+                <figcation id="characteristics-stem-caption"></figcation>
+            </figure>
+            <p id="characteristics-stem-desc">Ring?</p>
         </div>
         <div>
-            <img src="" alt="Spore Print"><h3>Spore Print</h3>
-            <p>-</p>
+            <figure>
+                <img src="" alt="Spore Print" id="characteristics-sporeprint-img" loading="lazy"><h3>Spore Print</h3>
+                <figcation id="characteristics-sporeprint-caption"></figcation>
+            </figure>
+            <p id="characteristics-sporeprint-desc">-</p>
         </div>
         <div>
-            <img src="" alt="Mycelium"><h3>Mycelium</h3>
-            <p>-</p>
+            <figure>
+                <img src="" alt="Mycelium" id="characteristics-mycelium-img" loading="lazy"><h3>Mycelium</h3>
+                <figcation id="characteristics-mycelium-caption"></figcation>
+            </figure>
+            <p id="characteristics-mycelium-desc">-</p>
         </div>
         <div>
-            <img src="" alt="natural habitat"><h3>Natural Habitat</h3>
-            <p>Cluster growth? Associated vegetation?</p>
+            <figure>
+                <img src="" alt="Natural habitat" id="characteristics-habitat-img" loading="lazy"><h3>Natural Habitat</h3>
+                <figcation id="characteristics-habitat-caption"></figcation>
+            </figure>
+            <p id="characteristics-habitat-desc">Cluster growth? Associated vegetation?</p>
         </div>
     </div>
 </div>
@@ -60,20 +89,32 @@
     <h2>Special Characteristics</h2>
     <div class="characteristicsGrid">
         <div>
-            <img src="" alt="Bruising"><h3>Bruising</h3>
-            <p>-</p>
+            <figure>
+                <img src="" alt="Bruising" id="characteristics-bruising-img" loading="lazy"><h3>Bruising</h3>
+                <figcation id="characteristics-bruising-caption"></figcation>
+            </figure>
+            <p id="characteristics-bruising-desc">-</p>
         </div>
         <div>
-            <img src="" alt="KOH Test"><h3>KOH Test</h3>
-            <p>-</p>
+            <figure>
+                <img src="" alt="KOH Test" id="characteristics-koh-img" loading="lazy"><h3>KOH Test</h3>
+                <figcation id="characteristics-koh-caption"></figcation>
+            </figure>
+            <p id="characteristics-koh-desc">-</p>
         </div>
         <div>
-            <img src="" alt="Latex"><h3>Latex</h3>
-            <p>-</p>
+            <figure>
+                <img src="" alt="Latex" id="characteristics-latex-img" loading="lazy"><h3>Latex</h3>
+                <figcation id="characteristics-latex-caption"></figcation>
+            </figure>
+            <p id="characteristics-latex-desc">-</p>
         </div>
         <div>
-            <img src="" alt="Bioluminescence"><h3>Bioluminescence</h3>
-            <p>-</p>
+            <figure>
+                <img src="" alt="Bioluminescence" id="characteristics-bioluminescence-img" loading="lazy"><h3>Bioluminescence</h3>
+                <figcation id="characteristics-bioluminescence-caption"></figcation>
+            </figure>
+            <p id="characteristics-bioluminescence-desc">-</p>
         </div>
     </div>
 </div>
@@ -82,19 +123,12 @@
 <!-- L I F E   S T A G E S -------------------------------------------------->
 <div id="lifeStages">
     <h2>Life Stages</h2>
-    <div class="gallery lifeStagesGrid">
-        <figure>
-            <img alt="Young" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/samsung/320/mushroom_1f344.png">
+    <p><strong>Fruiting Season:</strong> <span id="lifestages-fruitseason"></span></p>
+    <div class="gallery lifeStagesGrid" id="lifestages-images">
+        <!-- <figure>
+            <img alt="lifeStage" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/samsung/320/mushroom_1f344.png" loading="lazy">
             <figcaption>Young. Bulb present?</figcaption>
-        </figure>
-        <figure>
-            <img alt="Mature" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/samsung/320/mushroom_1f344.png">
-            <figcaption>Mature</figcaption>
-        </figure>
-        <figure>
-            <img alt="Aged" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/samsung/320/mushroom_1f344.png">
-            <figcaption>Aged</figcaption>
-        </figure>
+        </figure> -->
     </div>
 </div>
 
@@ -105,25 +139,27 @@
     <div id="significance3Col">
         <div>
             <h3>Scientific</h3>
-            <p>-</p>
+            <p id="significance-scientific">-</p>
             <h4>Environmental Importance</h4>
-            <p>-</p>
+            <p id="significance-environmental">-</p>
             <h4>Gene Sequence</h4>
-            <p>-</p>
+            <p id="significance-gene">-</p>
         </div>
         <div>
             <h3>Cultural</h3>
-            <p>-</p>
+            <p id="significance-cultural">-</p>
             <h4>Medicinal</h4>
-            <p>-</p>
+            <p id="significance-medicinal">-</p>
             <h4>Fun Facts</h4>
-            <p>-</p>
+            <p id="significance-facts">-</p>
         </div>
         <div>
             <h3>Cullinary</h3>
-            <p>salty, sweet, sour, bitter, umami?</p>
+            <p id="significance-cullinary">-</p>
+            <h4>Taste</h4>
+            <p id="significance-taste">salty, sweet, sour, bitter, umami?</p>
             <h4>Recipes</h4>
-            <ul>
+            <ul id="significance-recipes">
                 <li>-</li>
                 <li>-</li>
                 <li>-</li>
@@ -136,8 +172,9 @@
 <!-- G E O G R A P H Y ------------------------------------------------------>
 <div id="fungiGeography">
     <h2>Geography</h2>
+    <p id="geography-fruitLocation"></p>
     <figure>
-        <img alt="Map" src="https://images.unsplash.com/photo-1524661135-423995f22d0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80">
+        <img alt="Map" src="https://images.unsplash.com/photo-1524661135-423995f22d0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80" loading="lazy">
         <figcaption>Map</figcaption>
     </figure>
 </div>
@@ -146,57 +183,10 @@
 <!-- L O O K A L I K E S ---------------------------------------------------->
 <div id="lookalikes">
     <h2>Lookalikes</h2>
-    <div class="characteristicsGrid">
+    <div id="characteristicsGrid">
         <div>
-            <img src="" alt="lookalike"><h3>Lookalike</h3>
+            <img src="" alt="lookalike" loading="lazy"><h3>Lookalike</h3>
             <p>How do they look alike?</p>
         </div>
     </div>
-</div>
-
-
-
-
-
-
-
-<!-- L O O K A L I K E S ---------------------------------------------------->
-<!-- G A L L E R I E S ------------------------------------------------------>
-
-<!-- Single Image, No Caption -->
-<img alt="lemon" src="./images/about/lemon-apple.png">
-
-<!-- Gallery Single Image with Caption -->
-<div class="gallery">
-    <figure>
-        <img alt="lemon" src="./images/about/lemon-apple.png">
-        <figcaption>Caption</figcaption>
-    </figure>
-</div>
-
-<!-- Gallery Multi Image with Caption -->
-<div class="gallery col2">
-    <figure>
-        <img alt="lemon" src="./images/about/lemon-apple.png">
-        <figcaption>2 Images</figcaption>
-    </figure>
-    <figure>
-        <img alt="lemon" src="./images/about/lemon-apple.png">
-        <figcaption>2 Images</figcaption>
-    </figure>
-</div>
-
-<div class="gallery col3">
-    <figure>
-        <img alt="lemon" src="./images/about/lemon-apple.png">
-        <figcaption>3 Images</figcaption>
-    </figure>
-    <figure>
-        <img alt="lemon" src="./images/about/lemon-apple.png">
-        <figcaption>3 Images</figcaption>
-    </figure>
-    <figure>
-        <img alt="lemon" src="./images/about/lemon-apple.png">
-        <figcaption>3 Images</figcaption>
-    </figure>
 </div>
