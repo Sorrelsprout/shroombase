@@ -71,7 +71,8 @@ $(document).ready(function(){
             
             /* Tags */
             $("#tags-poisonousEdible").html(shroom[0].edibility);
-            $("#tags-poisonousEdible").removeClass().addClass(shroom[0].edibility)
+            $("#tags-poisonousEdible").removeClass().addClass(shroom[0].edibility);
+            if (shroom[0].edibility == "") { $("#tags-poisonousEdible").css({"display":"none"}) }
             $("#tags-treeRelation").html(shroom[0].treelationship);
             
             /* Division */
