@@ -24,35 +24,6 @@ $(document).ready(function(){
     $(".currentYear").html(new Date().getFullYear());
 
 
-    // Fungi Database Setup ------------------------------------------------------------------------
-
-    // Setup databases
-    // Load each element
-    let tags_edibility, tags_treelationship = "";
-    
-    let nomenclature_division, nomenclature_class, nomenclature_order, nomenclature_family, nomenclature_genus, nomenclature_species, nomenclature_variation, nomenclature_aliases = "";
-
-    let distinguishing_abundancy, distinguishing_smell, distinguishing_tidbits = [];
-
-    let characteristics_cap_img, characteristics_underside_img, characteristics_side_img, characteristics_halved_img, characteristics_stem_img, characteristics_sporeprint_img, characteristics_bruising_img, characteristics_koh_img, characteristics_latex_img, characteristics_bioluminescence_img = "";
-    let characteristics_cap_caption, characteristics_underside_caption, characteristics_side_caption, characteristics_halved_caption, characteristics_stem_caption, characteristics_sporeprint_caption, characteristics_bruising_caption, characteristics_koh_caption, characteristics_latex_caption, characteristics_bioluminescence_caption = "";
-    let characteristics_cap_desc, characteristics_underside_desc, characteristics_side_desc, characteristics_halved_desc, characteristics_stem_desc, characteristics_sporeprint_desc, characteristics_bruising_desc, characteristics_koh_desc, characteristics_latex_desc, characteristics_bioluminescence_desc = "";
-
-    let lifestages_fruitseason = "";
-    let lifestages_fruiting_img,lifestages_egg_img,lifestages_eruption_img,lifestages_button_img,lifestages_mature_img,lifestages_old_img = "";
-    let lifestages_fruiting_caption,lifestages_egg_caption,lifestages_eruption_caption,lifestages_button_caption,lifestages_mature_caption,lifestages_old_caption = "";
-    let lifestages_fruiting_desc,lifestages_egg_desc,lifestages_eruption_desc,lifestages_button_desc,lifestages_mature_desc,lifestages_old_desc = "";
-
-    let significance_scientific, significance_scientific_environmental, significance_scientific_genetic = "";
-    let significance_cultural, significance_cultural_medicinal, significancecultural_funfacts = "";
-    let significance_cullinary, significance_cullinary_taste, significance_cullinary_recipelist = "";
-
-    let geography_fruitlocation = "";
-    let geography_coordinates = [];
-
-    let lookalikes_names, lookalikes_images, lookalikes_descs = [];
-
-
 
     // Hero Fix ----------------------------------------------------------------------
     let conHeight = $("#pullup .hero").height();
@@ -100,6 +71,7 @@ $(document).ready(function(){
             
             /* Tags */
             $("#tags-poisonousEdible").html(shroom[0].edibility);
+            $("#tags-poisonousEdible").removeClass().addClass(shroom[0].edibility)
             $("#tags-treeRelation").html(shroom[0].treelationship);
             
             /* Division */
@@ -195,35 +167,21 @@ $(document).ready(function(){
             $("#significance-recipes").html(shroom[5].cullinary.recipelist);
             
             /* Geography */
-            $("#geography-fruitLocation").html(shroom[6].fruitloaction);
+            $("#geography-fruitLocation").html(shroom[6].fruitlocation);
             // $("#geography-coordinates").html(shroom[6].coordinates);
             
             /* Lookalikes */
-            let lookalike_names = [];
-            let lookalike_imgs = [];
-            let lookalike_descs = [];
-            let lookalike_edibility = [];
-
-            // let lookalike_imgs = [ shroom[4].images.fruiting.img, shroom[4].images.egg.img, shroom[4].images.eruption.img, shroom[4].images.button.img, shroom[4].images.mature.img, shroom[4].images.old.img ]
-            // let lookalike_descs = [ shroom[4].images.fruiting.desc, shroom[4].images.egg.desc, shroom[4].images.eruption.desc, shroom[4].images.button.desc, shroom[4].images.mature.desc, shroom[4].images.old.desc ]
             let lookalikeContent = "";
-            $("#lookalikeGrid").html(
-                // Load each item
-                // shroom[7].names
-                // shroom[7].images
-                // shroom[7].desc
-            );
-
-            console.log(shroom[7].edibility)
-
             if (shroom[7].names.length == 0) { $("#lookalikes").css({"display":"none"}); }
             else {
                 for (let i=0; i<shroom[7].names.length; i++) {
-                    lookalikeContent += "<div>\
+                    let edibilityIcon = "";
+                    if ( shroom[7].edibility[i] == "poisonous") { edibilityIcon = "☠️ " + shroom[7].names[i] + " is not edible" }
+                    else if ( shroom[7].edibility[i] == "edible")  { edibilityIcon = "🍴" + shroom[7].names[i] + " is edible" }
+                    lookalikeContent += "<div title='" + edibilityIcon + "'>\
                         <img src='" + shroom[7].images[i] + "' alt='lookalike' loading='lazy'>\
-                        <h3>" + shroom[7].names[i] + "</h3>\
+                        <h3 class=" + shroom[7].edibility[i] + ">" + shroom[7].names[i] + "</h3>\
                         <p>" + shroom[7].desc[i] + "</p>\
-                        <span class='lookalikeEdibility " + shroom[7].edibility[i] + "'></span>\
                     </div>"
                 }
                 $("#lookalikes").css({"display":"block"});

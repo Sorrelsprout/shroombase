@@ -142,7 +142,7 @@
     },
 
     "geography":{
-        "fruitlocation":"",
+        "fruitlocation":"Found in the Americas along the west coast, from Alaska to Andean Colombia.",
         "coordinates":[""]
     },
 
@@ -151,10 +151,10 @@
             "R. Emetica"
         ],
         "images":[
-            "https://upload.wikimedia.org/wikipedia/commons/0/0f/Russula_emetica_in_Poland.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Russula_emetica_117475.jpg/500px-Russula_emetica_117475.jpg"
         ],
         "desc":[
-            "Image from Wikipedia. Similar to A. muscaria due to red cap and white stalk. Lacking in white spots on cap, and unlike A. muscaria, has no ring on the stem."
+            "Image from Wikimedia Commons. Similar to A. muscaria due to red cap and white stalk. Lacking in white spots on cap, and unlike A. muscaria, has no ring on the stem."
         ],
         "edibility":[
             "poisonous"

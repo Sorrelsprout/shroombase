@@ -1,0 +1,53 @@
+/* T A G S ------------------------------------------------------------------- */
+
+#tags-poisonousEdible.poisonous,
+#tags-poisonousEdible.Poisonous {
+    color: #fff;
+    background: #cb6248;
+}
+
+#tags-poisonousEdible.edible,
+#tags-poisonousEdible.Edible {
+    color: #fff;
+    background: #679450;
+}
+
+/* L O O K A L I K E S ------------------------------------------------------- */
+
+#lookalikeGrid.characteristicsGrid {
+    display: flex;
+    margin: 0 -0.5rem;
+    justify-content: center;
+}
+
+#lookalikeGrid.characteristicsGrid div {
+    position: relative;
+    background: #fff;
+    border-radius: 0.25rem;
+    margin: 1%;
+    width: 48%;
+}
+
+#lookalikeGrid.characteristicsGrid div p { margin-bottom: 0; }
+
+@media (min-width: 1024px){
+    #lookalikeGrid.characteristicsGrid div {
+        margin: 0.65%;
+        width: 32%;
+    }
+}
+
+@media (max-width: 600px){
+    #lookalikeGrid.characteristicsGrid div {
+        margin: 0.5rem;
+        width: 100%;
+    }
+}
+
+#lookalikeGrid.characteristicsGrid .poisonous {
+    color: #cb6248;
+}
+
+#lookalikeGrid.characteristicsGrid .edible { 
+    color: #679450;
+}
