@@ -153,8 +153,11 @@
         "images":[
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Russula_emetica_117475.jpg/500px-Russula_emetica_117475.jpg"
         ],
+        "caption":[
+            "Image from <a href='https://commons.wikimedia.org/wiki/Category:Russula_emetica#/media/File:Russula_emetica_117475.jpg'>Wikimedia Commons</a>."
+        ],
         "desc":[
-            "Image from Wikimedia Commons. Similar to A. muscaria due to red cap and white stalk. Lacking in white spots on cap, and unlike A. muscaria, has no ring on the stem."
+            "Similar to A. muscaria due to red cap and white stalk. Lacking in white spots on cap, and unlike A. muscaria, has no ring on the stem."
         ],
         "edibility":[
             "poisonous"

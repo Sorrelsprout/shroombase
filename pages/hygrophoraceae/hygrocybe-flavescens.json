@@ -149,6 +149,7 @@
     "lookalikes":{
         "names":[],
         "images":[],
+        "caption":[],
         "desc":[],
         "edibility":[]
     }
