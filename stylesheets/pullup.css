@@ -292,6 +292,31 @@
 #pullup .gallery.col3 > img { max-width: 33.3%; object-fit: cover; }
 
 
+/* Lookalikes Grid */
+#lookalikeGrid.characteristicsGrid {
+    display: flex;
+    margin: 0 -0.5rem;
+    justify-content: center;
+}
+
+#lookalikeGrid div {
+    background: #fff;
+    border-radius: 0.25rem;
+    margin: 0.65%;
+    max-width: 32%;
+}
+
+#lookalikeGrid div img {
+    border-radius: 0.25rem;
+}
+
+@media (max-width: 600px){
+    #lookalikeGrid div {
+        margin: 0.5rem;
+        max-width: 100%;
+    }
+}
+
 /* Queries -------------------------------------------------------------------*/
 
 @media (max-width: 600px){

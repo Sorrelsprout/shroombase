@@ -147,8 +147,9 @@
     },
 
     "lookalikes":{
-        "names":["",""],
-        "images":["",""],
-        "desc":["",""]
+        "names":[],
+        "images":[],
+        "desc":[],
+        "edibility":[]
     }
 }

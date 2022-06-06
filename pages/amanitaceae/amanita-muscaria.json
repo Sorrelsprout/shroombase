@@ -147,8 +147,17 @@
     },
 
     "lookalikes":{
-        "names":["",""],
-        "images":["",""],
-        "desc":["",""]
+        "names":[
+            "R. Emetica"
+        ],
+        "images":[
+            "https://upload.wikimedia.org/wikipedia/commons/0/0f/Russula_emetica_in_Poland.jpg"
+        ],
+        "desc":[
+            "Image from Wikipedia. Similar to A. muscaria due to red cap and white stalk. Lacking in white spots on cap, and unlike A. muscaria, has no ring on the stem."
+        ],
+        "edibility":[
+            "poisonous"
+        ]
     }
 }

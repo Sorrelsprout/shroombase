@@ -100,6 +100,7 @@ $(document).ready(function(){
             
             /* Tags */
             $("#tags-poisonousEdible").html(shroom[0].edibility);
+            $("#tags-treeRelation").html(shroom[0].treelationship);
             
             /* Division */
             $("#nomenclature-division").html(shroom[1].division);
@@ -198,12 +199,36 @@ $(document).ready(function(){
             // $("#geography-coordinates").html(shroom[6].coordinates);
             
             /* Lookalikes */
-            $("#characteristicsGrid").html(
+            let lookalike_names = [];
+            let lookalike_imgs = [];
+            let lookalike_descs = [];
+            let lookalike_edibility = [];
+
+            // let lookalike_imgs = [ shroom[4].images.fruiting.img, shroom[4].images.egg.img, shroom[4].images.eruption.img, shroom[4].images.button.img, shroom[4].images.mature.img, shroom[4].images.old.img ]
+            // let lookalike_descs = [ shroom[4].images.fruiting.desc, shroom[4].images.egg.desc, shroom[4].images.eruption.desc, shroom[4].images.button.desc, shroom[4].images.mature.desc, shroom[4].images.old.desc ]
+            let lookalikeContent = "";
+            $("#lookalikeGrid").html(
                 // Load each item
                 // shroom[7].names
                 // shroom[7].images
                 // shroom[7].desc
             );
+
+            console.log(shroom[7].edibility)
+
+            if (shroom[7].names.length == 0) { $("#lookalikes").css({"display":"none"}); }
+            else {
+                for (let i=0; i<shroom[7].names.length; i++) {
+                    lookalikeContent += "<div>\
+                        <img src='" + shroom[7].images[i] + "' alt='lookalike' loading='lazy'>\
+                        <h3>" + shroom[7].names[i] + "</h3>\
+                        <p>" + shroom[7].desc[i] + "</p>\
+                        <span class='lookalikeEdibility " + shroom[7].edibility[i] + "'></span>\
+                    </div>"
+                }
+                $("#lookalikes").css({"display":"block"});
+                $("#lookalikeGrid").html(lookalikeContent);
+            }
         });
     });
 
