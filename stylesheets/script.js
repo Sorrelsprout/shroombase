@@ -72,7 +72,21 @@ $(document).ready(function(){
             $("#tags-poisonousEdible").html(shroom[0].edibility);
             $("#tags-poisonousEdible").removeClass().addClass(shroom[0].edibility);
             if (shroom[0].edibility == "") { $("#tags-poisonousEdible").css({"display":"none"}) }
+
             $("#tags-treeRelation").html(shroom[0].treelationship);
+            if ( shroom[0].treelationship.length > 0 ) {
+                let basetags = "";
+                for (let i=0; i<shroom[0].treelationship.length; i++) { 
+                    basetags += "<li>" + shroom[0].treelationship[i] + "</li>";
+                }
+                $("#tags-treeRelation").html(basetags); 
+            } else {
+                $("#tags-treeRelation").css({"display":"none"});
+            }
+
+            $("#tags-type").html(shroom[0].type);
+            $("#tags-type").removeClass().addClass(shroom[0].type);
+            if (shroom[0].type == "") { $("#tags-type").css({"display":"none"}) }
             
             /* Division */
             $("#nomenclature-division").html(shroom[1].division);
@@ -192,10 +206,58 @@ $(document).ready(function(){
         setPullup();
     });
 
+
+    
+    // Search ------------------------------------------------------------------------
+    $("#search").change(function() {
+        $("#entrydetails").removeClass("show"); dim();
+        $("#badsearch").addClass("hidden");
+        let inputTag = $("#search").val(); 
+        if(!/\S/.test(inputTag)) { // when a whitespace character is searched
+            for (let i = 0; i < entrynum; i++) { // show all entries
+                $(".entries:nth-of-type("+i+")").removeClass("hidden");
+            }
+         } else {
+            for (let i = 0; i < entrynum; i++) {
+                let matchTag = $(".entries:nth-of-type("+i+") .tags").text() + aliases[i-1];
+                matchTag = matchTag.toLowerCase();
+                let tagTest = inputTag.toLowerCase();
+                tagTest = tagTest.replace(/\s+/g, '');
+                if(matchTag.indexOf(tagTest) >= 0) { 
+                    $(".entries:nth-of-type("+i+")").removeClass("hidden");
+                } else { 
+                    $(".entries:nth-of-type("+i+")").addClass("hidden");
+                }
+            }
+            if(($(".entries").length - 2) === $(".entries.hidden").length) { // When search term can't be found
+                $("#badsearch").removeClass("hidden");
+                $("#badsearch span").html(inputTag);
+            } else {
+                $("#badsearch").addClass("hidden");
+            }
+        }
+    });
+    
+
+
+    // Open Popup --------------------------------------------------------------------
+    $("#terms").click(function() { 
+        $("#pullupContent .fullDescription").load("pages/terms.html"); 
+        $("#pullupContent .hero").css({ 
+            "background": "url(./images/about/banner-about.jpg)", 
+            "background-position":"50% 50%",
+            "background-size":"cover",
+            "background-repeat":"no-repeat" 
+        });
+        $("#pullupContent .hero h1").html("Terms to Know"); /* Project Name Setup */
+        $("#pullupContent .hero p").html("");
+        setPullup(); /* Project Content Setup */
+    });
+
     $("#about").click(function() { 
         $("#pullupContent .fullDescription").load("pages/about.html"); 
         $("#pullupContent .hero").css({ 
-            "background": "url(images/about/banner-about.jpg)", 
+            "background": "url(./images/about/banner-about.jpg)", 
             "background-position":"50% 50%",
             "background-size":"cover",
             "background-repeat":"no-repeat" 
@@ -211,7 +273,6 @@ $(document).ready(function(){
     }
 
     $("#pullupToggle").click(function() { hidePullup() });
-    $("#nav-home").click(function() { hidePullup() });
     $("#logo").click(function() { hidePullup() });
     function hidePullup(){
         $("#pullup").removeClass("show");

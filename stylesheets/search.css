@@ -49,6 +49,15 @@
     text-align: center;
 }
 
+/* #searchAdvanced::after {
+    content: ">";
+    display: block;
+    position: absolute;
+    top: -2rem;
+    left: 3rem;
+    width: 100%;
+} */
+
 
 @media (max-width: 960px){
     .searchContainer div {

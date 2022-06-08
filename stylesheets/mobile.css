@@ -31,3 +31,12 @@
 .mobile .mobileMenu.expanded {
     margin-left: 0rem;
 }
+
+.mobile .mobileMenu:last-child {
+    top: 10rem;
+    background: none;
+    padding: 0 2.2rem;
+    justify-content: flex-start;
+    box-shadow: none;
+}
+

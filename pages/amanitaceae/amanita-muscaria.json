@@ -1,7 +1,9 @@
 {
     "tags": {
         "edibility":"Poisonous",
-        "treelationship":"Relationship to Tree"
+        "treelationship":["Beech", "Birch", "Cedar", "Fir", "Oak", "Pine", "Spruce"],
+        "color":"",
+        "type":"Mycorrhizol"
     },
 
     "nomenclature":{
@@ -62,7 +64,7 @@
         "habitat":{
             "img":"./images/templates/habitat.jpg",
             "caption":"",
-            "desc":""
+            "desc":"A. Muscaria is mycorrhizol."
         },
         "bruising":{
             "img":"./images/templates/bruising.jpg",

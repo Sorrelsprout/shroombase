@@ -1,5 +1,19 @@
 /* T A G S ------------------------------------------------------------------- */
 
+.fungiTags {
+    display: flex;
+    list-style-type: none !important;
+    margin: 0 auto 2rem auto !important;
+    justify-content: center;
+}
+
+.fungiTags li {
+    padding: 0.25rem 0.75rem;
+    margin: 0 0.5rem;
+    background: var(--SelectionBG);
+    font-size: 0.85em;
+}
+
 #tags-poisonousEdible.poisonous,
 #tags-poisonousEdible.Poisonous {
     color: #fff;

@@ -95,20 +95,6 @@
 
 /* Pullup Contents ---------------------------------------------------------*/
 
-#fungiTags {
-    display: flex;
-    list-style-type: none !important;
-    margin: 0 auto !important;
-    justify-content: center;
-}
-
-#fungiTags li {
-    padding: 0.25rem 0.75rem;
-    margin: 0 0.5rem;
-    background: var(--SelectionBG);
-    font-size: 0.85em;
-}
-
 #distinguishingCharacteristics { }
 
 #specialCharacteristics { }
@@ -152,11 +138,6 @@
     text-align: center;
     margin-top: 1rem;
 }
-
-/* #pullup .characteristicsGrid div figcaption {
-    text-align: center;
-    margin-top: 0.25rem;
-} */
 
 /* Pullup Description ------------------------------------------------------*/
 
