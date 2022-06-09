@@ -41,7 +41,7 @@ $(document).ready(function(){
 
         let fungusIMGFileName = fungusID.replace('-', '');
         let fungusFamilyExtract = $(this).attr("class").replace(' fungiGridElement', '')
-        fungusIMGFileName = "./images/" + fungusFamilyExtract + "/" + $(this).attr("id") + "/" + fungusIMGFileName + ".jpg";
+        fungusIMGFileName = "../images/" + fungusFamilyExtract + "/" + $(this).attr("id") + "/" + fungusIMGFileName + ".jpg";
         let fungusIMGHTML = "<img src='" + fungusIMGFileName + "' alt='" + fungusTitle + "' loading='lazy'>";
 
         let scientificNameRestructured = fungusID.replace('-', ' ')
@@ -257,6 +257,8 @@ $(document).ready(function(){
                 $("#badsearch").addClass("hidden");
             }
         }
+
+        console.log(matchTag)
     });
     
 
