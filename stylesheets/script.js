@@ -41,7 +41,7 @@ $(document).ready(function(){
 
         let fungusIMGFileName = fungusID.replace('-', '');
         let fungusFamilyExtract = $(this).attr("class").replace(' fungiGridElement', '')
-        fungusIMGFileName = "../images/" + fungusFamilyExtract + "/" + $(this).attr("id") + "/" + fungusIMGFileName + ".jpg";
+        fungusIMGFileName = "./images/" + fungusFamilyExtract + "/" + $(this).attr("id") + "/" + fungusIMGFileName + ".jpg";
         let fungusIMGHTML = "<img src='" + fungusIMGFileName + "' alt='" + fungusTitle + "' loading='lazy'>";
 
         let scientificNameRestructured = fungusID.replace('-', ' ')
@@ -84,7 +84,7 @@ $(document).ready(function(){
 
         // Fungi Database Setup ------------------------------------------------------------------------
         // const PROJECTDESC = "fungi/" + (FUNGIFAMILY) + "/" + (FUNGIID) + ".html";
-        const JSONURL = "fungi/" + (FUNGIFAMILY) + "/" + (FUNGIID) + ".json";
+        const JSONURL = "./fungi/" + (FUNGIFAMILY) + "/" + (FUNGIID) + ".json";
         $.getJSON(JSONURL, function(json) { 
             let shroom = Object.values(json);
             
