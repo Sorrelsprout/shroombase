@@ -1,0 +1,168 @@
+{
+    "tags": {
+        "edibility":"Poisonous",
+        "treelationship":["Beech", "Birch", "Cedar", "Fir", "Oak", "Pine", "Spruce"],
+        "color":"",
+        "type":"Mycorrhizol"
+    },
+
+    "nomenclature":{
+        "division":"Division",
+        "class":"Class",
+        "order":"Order",
+        "family":"Family",
+        "genus":"Genus",
+        "species":"Species",
+        "variation":"Var",
+        "aliases":"Aliases",
+        "displayalias":"Fly Agaric"
+    },
+
+    "distinguishing":{
+        "coverimg":"./images/amanitaceae/amanita-muscaria/amanitamuscaria.jpg",
+        "abundancy":"Abundancy",
+        "smell":"Smell",
+        "tidbits":"Other tidbits to note"
+    },
+
+    "characteristics": {
+        "cap":{
+            "img":"./images/templates/cap.jpg",
+            "caption":"caption",
+            "desc":"desc"
+        },
+        "underside":{
+            "img":"./images/templates/underside.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "side":{
+            "img":"./images/templates/side.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "halved":{
+            "img":"./images/templates/halved.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "stem":{
+            "img":"./images/templates/stem.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "sporeprint":{
+            "img":"./images/templates/sporeprint.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "mycelium":{
+            "img":"./images/templates/mycelium.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "habitat":{
+            "img":"./images/templates/habitat.jpg",
+            "caption":"",
+            "desc":"A. Muscaria is mycorrhizol."
+        },
+        "bruising":{
+            "img":"./images/templates/bruising.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "koh":{
+            "img":"./images/templates/koh.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "latex":{
+            "img":"./images/templates/latex.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bioluminescence":{
+            "img":"./images/templates/bioluminescence.jpg",
+            "caption":"",
+            "desc":""
+        }
+    },
+
+
+    "lifestages":{
+        "fruitseason":"",
+        "images":{
+            "fruiting":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "egg":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "eruption":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "button":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "mature":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "old":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            }
+        }
+    },
+
+    "significance":{
+        "scientific":{
+            "scientific":"",
+            "environmental":"",
+            "genetic":""
+        },
+        "cultural":{
+            "cultural":"",
+            "medicinal":"",
+            "funfacts":""
+        },
+        "cullinary":{
+            "cullinary":"",
+            "taste":"",
+            "recipelist":["",""]
+        }
+    },
+
+    "geography":{
+        "fruitlocation":"Found in the Americas along the west coast, from Alaska to Andean Colombia.",
+        "coordinates":[""]
+    },
+
+    "lookalikes":{
+        "names":[
+            "Russula Emetica"
+        ],
+        "images":[
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Russula_emetica_117475.jpg/500px-Russula_emetica_117475.jpg"
+        ],
+        "caption":[
+            "Image from <a href='https://commons.wikimedia.org/wiki/Category:Russula_emetica#/media/File:Russula_emetica_117475.jpg'>Wikimedia Commons</a>."
+        ],
+        "desc":[
+            "Similar to A. muscaria due to red cap and white stalk. Lacking in white spots on cap, and unlike A. muscaria, has no ring on the stem."
+        ],
+        "edibility":[
+            "poisonous"
+        ]
+    }
+}
