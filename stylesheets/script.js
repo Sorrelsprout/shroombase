@@ -250,7 +250,7 @@ $(document).ready(function(){
                     $(trackedFungus).addClass("hidden");
                 }
             }
-            if(($("#fungiGrid > div").length) === $("#fungiGrid > div.hidden").length) { // When search term can't be found
+            if((($("#fungiGrid > div").length) === $("#fungiGrid > div.hidden").length) && ($("#fungiGrid > div.hidden").length > 0)) { // When search term can't be found
                 $("#badsearch").removeClass("hidden");
                 $("#badsearch span").html(inputTag);
             } else {
@@ -261,6 +261,12 @@ $(document).ready(function(){
         console.log(matchTag)
     });
     
+    let searchDropdowns = ["#searchEdibility", "#searchTree", "#searchColor", "#searchGeo", "#searchSeason"];
+    for (let i=0; i<searchDropdowns.length; i++) {
+        $(searchDropdowns[i]).change(function() {
+            //search tags here
+        });
+    }
 
 
     // Open Popup --------------------------------------------------------------------
