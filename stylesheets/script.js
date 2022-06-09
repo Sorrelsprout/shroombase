@@ -79,7 +79,7 @@ $(document).ready(function(){
         $("#pullupContent .hero p").html(PSUBNAME);
 
         /* Project Content Setup */
-        const PROJECTDESC = "fungi/template.html";
+        const PROJECTDESC = "./fungi/template.html";
         $("#pullupContent .fullDescription").load(PROJECTDESC); 
 
         // Fungi Database Setup ------------------------------------------------------------------------
