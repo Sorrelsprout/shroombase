@@ -37,9 +37,11 @@ $(document).ready(function(){
     $("#fungiGrid").children().each(function(location){
         let fungusID = $(this).attr("id");
         let fungusTitle = $(this).attr("title");
+        $(this).addClass("fungiGridElement");
 
         let fungusIMGFileName = fungusID.replace('-', '');
-        fungusIMGFileName = "./images/" + $(this).attr("class") + "/" + $(this).attr("id") + "/" + fungusIMGFileName + ".jpg";
+        let fungusFamilyExtract = $(this).attr("class").replace(' fungiGridElement', '')
+        fungusIMGFileName = "./images/" + fungusFamilyExtract + "/" + $(this).attr("id") + "/" + fungusIMGFileName + ".jpg";
         let fungusIMGHTML = "<img src='" + fungusIMGFileName + "' alt='" + fungusTitle + "' loading='lazy'>";
 
         let scientificNameRestructured = fungusID.replace('-', ' ')
@@ -48,7 +50,6 @@ $(document).ready(function(){
 
         $(this).append(fungusIMGHTML);
         $(this).append(fungusDESC);
-        $(this).addClass("fungiGridElement");
      });
    
 
@@ -57,7 +58,7 @@ $(document).ready(function(){
         /* Get Project ID */
         const PROJECTINDEX = $(this).index();
         const FUNGIID = $("#fungiGrid > div:nth-child("+(PROJECTINDEX+1)+")").attr("id");
-        const FUNGIFAMILY = $("#fungiGrid > div:nth-child("+(PROJECTINDEX+1)+")").attr("class");
+        const FUNGIFAMILY = $("#fungiGrid > div:nth-child("+(PROJECTINDEX+1)+")").attr("class").replace(' fungiGridElement', '');
 
         /* Project Hero Image Setup */
         const PROJECTIMGURL = $("#"+(FUNGIID)+" img").attr("src");
@@ -233,7 +234,7 @@ $(document).ready(function(){
         let inputTag = $("#searchbar").val(); 
         if(!/\S/.test(inputTag)) { // when a whitespace character is searched
             for (let i=0; i < $(".fungiGrid > div").length; i++) { // show all entries
-                $(".fungiGridElement:nth-child("+i+")").addClass("hidden");
+                $(".fungiGridElement:nth-of-type("+i+")").addClass("hidden");
             }
         } else {
             // for (let i=0; i < entrynum; i++) {
@@ -254,6 +255,9 @@ $(document).ready(function(){
             //     $("#badsearch").addClass("hidden");
             // }
         }
+
+        // let numFungiDisplayed = $(".fungiGrid > div").length;
+        // console.log(numFungiDisplayed)
     });
     
 
