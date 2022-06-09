@@ -233,31 +233,30 @@ $(document).ready(function(){
         $("#badsearch").addClass("hidden");
         let inputTag = $("#searchbar").val(); 
         if(!/\S/.test(inputTag)) { // when a whitespace character is searched
-            for (let i=0; i < $(".fungiGrid > div").length; i++) { // show all entries
-                $(".fungiGridElement:nth-of-type("+i+")").addClass("hidden");
+            for (let i=0; i < $("#fungiGrid > div").length; i++) { // show all entries
+                $(".fungiGridElement:nth-of-type("+(i+1)+")").removeClass("hidden");
             }
         } else {
-            // for (let i=0; i < entrynum; i++) {
-            //     let matchTag = $(".entries:nth-of-type("+i+") .tags").text() + aliases[i-1];
-            //     matchTag = matchTag.toLowerCase();
-            //     let tagTest = inputTag.toLowerCase();
-            //     tagTest = tagTest.replace(/\s+/g, '');
-            //     if(matchTag.indexOf(tagTest) >= 0) { 
-            //         $(".entries:nth-of-type("+i+")").removeClass("hidden");
-            //     } else { 
-            //         $(".entries:nth-of-type("+i+")").addClass("hidden");
-            //     }
-            // }
-            // if(($(".entries").length - 2) === $(".entries.hidden").length) { // When search term can't be found
-            //     $("#badsearch").removeClass("hidden");
-            //     $("#badsearch span").html(inputTag);
-            // } else {
-            //     $("#badsearch").addClass("hidden");
-            // }
-        }
+            for (let i=0; i < $("#fungiGrid > div").length; i++) {
+                let trackedFungus = $("#fungiGrid > div:nth-of-type("+(i+1)+")");
+                let matchTag = trackedFungus.attr("id")+trackedFungus.attr("id") + trackedFungus.attr("class").replace(' fungiGridElement', '') + trackedFungus.attr("title");
 
-        // let numFungiDisplayed = $(".fungiGrid > div").length;
-        // console.log(numFungiDisplayed)
+                matchTag = matchTag.toLowerCase();
+                let tagTest = inputTag.toLowerCase();
+                tagTest = tagTest.replace(/\s+/g, '');
+                if(matchTag.indexOf(tagTest) >= 0) { 
+                    $(trackedFungus).removeClass("hidden");
+                } else { 
+                    $(trackedFungus).addClass("hidden");
+                }
+            }
+            if(($("#fungiGrid > div").length) === $("#fungiGrid > div.hidden").length) { // When search term can't be found
+                $("#badsearch").removeClass("hidden");
+                $("#badsearch span").html(inputTag);
+            } else {
+                $("#badsearch").addClass("hidden");
+            }
+        }
     });
     
 
