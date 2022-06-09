@@ -48,6 +48,7 @@ $(document).ready(function(){
 
         $(this).append(fungusIMGHTML);
         $(this).append(fungusDESC);
+        $(this).addClass("fungiGridElement");
      });
    
 
@@ -81,7 +82,7 @@ $(document).ready(function(){
         $("#pullupContent .fullDescription").load(PROJECTDESC); 
 
         // Fungi Database Setup ------------------------------------------------------------------------
-        // const PROJECTDESC = "pages/" + (FUNGIFAMILY) + "/" + (FUNGIID) + ".html";
+        // const PROJECTDESC = "fungi/" + (FUNGIFAMILY) + "/" + (FUNGIID) + ".html";
         const JSONURL = "fungi/" + (FUNGIFAMILY) + "/" + (FUNGIID) + ".json";
         $.getJSON(JSONURL, function(json) { 
             let shroom = Object.values(json);
@@ -227,32 +228,31 @@ $(document).ready(function(){
 
     
     // Search ------------------------------------------------------------------------
-    $("#search").change(function() {
-        $("#entrydetails").removeClass("show"); dim();
+    $("#searchbar").change(function() {
         $("#badsearch").addClass("hidden");
-        let inputTag = $("#search").val(); 
+        let inputTag = $("#searchbar").val(); 
         if(!/\S/.test(inputTag)) { // when a whitespace character is searched
-            for (let i = 0; i < entrynum; i++) { // show all entries
-                $(".entries:nth-of-type("+i+")").removeClass("hidden");
+            for (let i=0; i < $(".fungiGrid > div").length; i++) { // show all entries
+                $(".fungiGridElement:nth-child("+i+")").addClass("hidden");
             }
-         } else {
-            for (let i = 0; i < entrynum; i++) {
-                let matchTag = $(".entries:nth-of-type("+i+") .tags").text() + aliases[i-1];
-                matchTag = matchTag.toLowerCase();
-                let tagTest = inputTag.toLowerCase();
-                tagTest = tagTest.replace(/\s+/g, '');
-                if(matchTag.indexOf(tagTest) >= 0) { 
-                    $(".entries:nth-of-type("+i+")").removeClass("hidden");
-                } else { 
-                    $(".entries:nth-of-type("+i+")").addClass("hidden");
-                }
-            }
-            if(($(".entries").length - 2) === $(".entries.hidden").length) { // When search term can't be found
-                $("#badsearch").removeClass("hidden");
-                $("#badsearch span").html(inputTag);
-            } else {
-                $("#badsearch").addClass("hidden");
-            }
+        } else {
+            // for (let i=0; i < entrynum; i++) {
+            //     let matchTag = $(".entries:nth-of-type("+i+") .tags").text() + aliases[i-1];
+            //     matchTag = matchTag.toLowerCase();
+            //     let tagTest = inputTag.toLowerCase();
+            //     tagTest = tagTest.replace(/\s+/g, '');
+            //     if(matchTag.indexOf(tagTest) >= 0) { 
+            //         $(".entries:nth-of-type("+i+")").removeClass("hidden");
+            //     } else { 
+            //         $(".entries:nth-of-type("+i+")").addClass("hidden");
+            //     }
+            // }
+            // if(($(".entries").length - 2) === $(".entries.hidden").length) { // When search term can't be found
+            //     $("#badsearch").removeClass("hidden");
+            //     $("#badsearch span").html(inputTag);
+            // } else {
+            //     $("#badsearch").addClass("hidden");
+            // }
         }
     });
     
