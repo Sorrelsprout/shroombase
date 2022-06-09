@@ -1,0 +1,25 @@
+{
+    "Mycorrhizae":{ "definition":"Fungus that has a symbiotic relationship with a plant's roots", "image":"", "examples":"", "tags":"" },
+    "Ectomycorrhizae":{ "definition":"", "image":"", "examples":"", "tags":"" },
+    "Endomycorrhizae":{ "definition":"", "image":"", "examples":"", "tags":"" },
+    "Rhizomorph":{ "definition":"", "image":"", "examples":"", "tags":"" },
+    "Saprobe":{ "definition":"Organism that lives on decaying organisms", "image":"", "examples":"", "tags":"" },
+
+    "Adnexed":{ "definition":"Reaching towards but not attached to the stem", "image":"", "examples":"", "tags":"" },
+    "Bioluminescent":{ "definition":"", "image":"", "examples":"", "tags":"" },
+    "Decurrent":{ "definition":"Pointing downwards", "image":"", "examples":"", "tags":"" },
+    "Gleba":{ "definition":"Solid mass of spores. Sometimes slimy.", "image":"", "examples":"", "tags":""},
+    "Globose":{ "definition":"", "image":"", "examples":"", "tags":"" },
+    "Guttation":{ "definition":"Process in which water is exuded from tips and pores", "image":"", "examples":"", "tags":"" },
+    "Saprotrophic":{ "definition":"", "image":"", "examples":"", "tags":"" },
+    "Viscid":{ "definition":"Glutinous or sticky.", "image":"", "examples":"Gomphidius family", "tags":"" },
+
+    "Ascomycetes":{ "definition":"", "image":"", "examples":"", "tags":""},
+    "Basidiomycetes":{ "definition":"", "image":"", "examples":"", "tags":"" },
+    "Fruiting Body":{ "definition":"", "image":"", "examples":"", "tags":"" },
+    "Mazedium":{ "definition":"", "image":"", "examples":"", "tags":"" },
+    "Mushroom":{ "definition":"Fruiting body", "image":"", "examples":"", "tags":"" },
+    "Spore Print":{ "definition":"", "image":"", "examples":"", "tags":"" },
+    "Sporocarp":{ "definition":"", "image":"", "examples":"", "tags":"" },
+    "Xylem":{ "definition":"", "image":"", "examples":"", "tags":"" }
+}
