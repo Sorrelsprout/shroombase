@@ -32,6 +32,24 @@ $(document).ready(function(){
     $("#pullup .hero img").css("top", -gap);
 
 
+    // Setup Fungi Grid  -------------------------------------------------------------
+    
+    $("#fungiGrid").children().each(function(location){
+        let fungusID = $(this).attr("id");
+        let fungusTitle = $(this).attr("title");
+
+        let fungusIMGFileName = fungusID.replace('-', '');
+        fungusIMGFileName = "./images/" + $(this).attr("class") + "/" + $(this).attr("id") + "/" + fungusIMGFileName + ".jpg";
+        let fungusIMGHTML = "<img src='" + fungusIMGFileName + "' alt='" + fungusTitle + "' loading='lazy'>";
+
+        let scientificNameRestructured = fungusID.replace('-', ' ')
+        scientificNameRestructured = scientificNameRestructured.charAt(0).toUpperCase() + scientificNameRestructured.slice(1)
+        let fungusDESC = "<div class='fungiDescription'><p>" + fungusTitle + "</p><p>" + scientificNameRestructured + "</p></div>";
+
+        $(this).append(fungusIMGHTML);
+        $(this).append(fungusDESC);
+     });
+   
 
     // Pullup ------------------------------------------------------------------------
     $("#fungiGrid > div").click(function() { 
@@ -59,12 +77,12 @@ $(document).ready(function(){
         $("#pullupContent .hero p").html(PSUBNAME);
 
         /* Project Content Setup */
-        const PROJECTDESC = "pages/template.html";
+        const PROJECTDESC = "fungi/template.html";
         $("#pullupContent .fullDescription").load(PROJECTDESC); 
 
         // Fungi Database Setup ------------------------------------------------------------------------
         // const PROJECTDESC = "pages/" + (FUNGIFAMILY) + "/" + (FUNGIID) + ".html";
-        const JSONURL = "pages/" + (FUNGIFAMILY) + "/" + (FUNGIID) + ".json";
+        const JSONURL = "fungi/" + (FUNGIFAMILY) + "/" + (FUNGIID) + ".json";
         $.getJSON(JSONURL, function(json) { 
             let shroom = Object.values(json);
             
