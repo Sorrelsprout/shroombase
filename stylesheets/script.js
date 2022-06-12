@@ -229,9 +229,11 @@ $(document).ready(function(){
 
     
     // Search ------------------------------------------------------------------------
+    $("#badsearch").addClass("hidden");
+    
     $("#searchbar").change(function() {
-        $("#badsearch").addClass("hidden");
         let inputTag = $("#searchbar").val(); 
+        $("#badsearch").addClass("hidden");
         if(!/\S/.test(inputTag)) { // when a whitespace character is searched
             for (let i=0; i < $("#fungiGrid > div").length; i++) { // show all entries
                 $(".fungiGridElement:nth-of-type("+(i+1)+")").removeClass("hidden");
@@ -250,7 +252,7 @@ $(document).ready(function(){
                     $(trackedFungus).addClass("hidden");
                 }
             }
-            if((($("#fungiGrid > div").length) === $("#fungiGrid > div.hidden").length) && ($("#fungiGrid > div.hidden").length > 0)) { // When search term can't be found
+            if(($("#fungiGrid > div").length) === $("#fungiGrid > div.hidden").length) { // When search term can't be found
                 $("#badsearch").removeClass("hidden");
                 $("#badsearch span").html(inputTag);
             } else {
