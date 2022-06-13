@@ -86,6 +86,7 @@ nav .socials {
   display: flex;
   flex-flow: row wrap;
   max-width: 1200px;
+  width: 100%;
   margin: auto;
   margin-top: calc( var(--navHeight) - 3rem);
   padding: 0.1%;
@@ -93,7 +94,8 @@ nav .socials {
 }
 
 #fungiGrid > div {
-  width: 24.8%;
+  flex-basis: 24.8%;
+  min-width: 24.8%;
   height: 15rem;
   margin: 0.1%;
   background: var(--ProjectContainerBG);
@@ -241,7 +243,9 @@ body {
 }
 
 @media (max-width: 960px){
-  #fungiGrid > div { width: 49.5%; }
+  #fungiGrid > div { 
+    min-width: 49.5%;
+  }
   .footer {
     border-top: none;
     margin-top: 0;

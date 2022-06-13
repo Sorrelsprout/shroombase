@@ -230,9 +230,12 @@ $(document).ready(function(){
     
     // Search ------------------------------------------------------------------------
     $("#badsearch").addClass("hidden");
+    let completeSearchString = "";
     
     $("#searchbar").change(function() {
-        let inputTag = $("#searchbar").val(); 
+        let inputTag = $("#searchbar").val();
+        modCompleteSearchString(inputTag);
+
         $("#badsearch").addClass("hidden");
         if(!/\S/.test(inputTag)) { // when a whitespace character is searched
             for (let i=0; i < $("#fungiGrid > div").length; i++) { // show all entries
@@ -260,16 +263,40 @@ $(document).ready(function(){
             }
         }
 
-        console.log(matchTag)
+        return inputTag;
     });
     
-    let searchDropdowns = ["#searchEdibility", "#searchTree", "#searchColor", "#searchGeo", "#searchSeason"];
-    for (let i=0; i<searchDropdowns.length; i++) {
-        $(searchDropdowns[i]).change(function() {
+    let searchDropdownsIDs = ["#searchEdibility", "#searchTree", "#searchColor", "#searchGeo", "#searchSeason"];
+    let searchDropdowns = ["", "", "", "", ""];
+    for (let i=0; i<searchDropdownsIDs.length; i++) {
+        $(searchDropdownsIDs[i]).change(function() {
             //search tags here
+            
+            let inputTag = $(searchDropdownsIDs[i]).val();
+            let categoryValues = "";
+            modCompleteSearchString(inputTag);
+
+            if(inputTag == "all") {
+                // show all entries that fit current parameter
+            }
+
+            for(let j=0; j<i; j++) {
+                
+            }
         });
     }
 
+
+    // Example: modCompleteSearchString( "oak", 1, "poisonousoak")
+    function modCompleteSearchString(newString, searchDropdownsIDsIndex, stringToReplace){
+        completeSearchString.toLowerCase();
+        if(completeSearchString.includes(newString.toLowerCase())){
+            //do nothing
+        } else {
+            completeSearchString += newString;
+        }
+        console.log(completeSearchString)
+    }
 
     // Open Popup --------------------------------------------------------------------
     $("#terms").click(function() { 
