@@ -230,11 +230,12 @@ $(document).ready(function(){
     
     // Search ------------------------------------------------------------------------
     $("#badsearch").addClass("hidden");
+    let searchBarString = "";
+    let searchTagsStringSet = "";
     let completeSearchString = "";
     
     $("#searchbar").change(function() {
         let inputTag = $("#searchbar").val();
-        modCompleteSearchString(inputTag);
 
         $("#badsearch").addClass("hidden");
         if(!/\S/.test(inputTag)) { // when a whitespace character is searched
@@ -262,38 +263,29 @@ $(document).ready(function(){
                 $("#badsearch").addClass("hidden");
             }
         }
-
-        return inputTag;
+        searchBarString = inputTag;
+        modCompleteSearchString();
     });
     
     let searchDropdownsIDs = ["#searchEdibility", "#searchTree", "#searchColor", "#searchGeo", "#searchSeason"];
     let searchDropdowns = ["", "", "", "", ""];
     for (let i=0; i<searchDropdownsIDs.length; i++) {
         $(searchDropdownsIDs[i]).change(function() {
-            //search tags here
-            
-            let inputTag = $(searchDropdownsIDs[i]).val();
-            let categoryValues = "";
-            modCompleteSearchString(inputTag);
-
-            if(inputTag == "all") {
-                // show all entries that fit current parameter
-            }
-
-            for(let j=0; j<i; j++) {
-                
-            }
+            searchDropdowns[i] = $("#searchAdvanced .inputSelect:nth-child(" + (i+1) + ") option:selected").val()
+            searchTagsStringSet = searchDropdowns.join();
+            modCompleteSearchString();
         });
     }
 
 
     // Example: modCompleteSearchString( "oak", 1, "poisonousoak")
-    function modCompleteSearchString(newString, searchDropdownsIDsIndex, stringToReplace){
-        completeSearchString.toLowerCase();
-        if(completeSearchString.includes(newString.toLowerCase())){
-            //do nothing
+    function modCompleteSearchString(){
+        completeSearchString = searchBarString.toLowerCase() + "," + searchTagsStringSet.toLowerCase();
+
+        if(completeSearchString.includes("")){
+            //
         } else {
-            completeSearchString += newString;
+            //
         }
         console.log(completeSearchString)
     }

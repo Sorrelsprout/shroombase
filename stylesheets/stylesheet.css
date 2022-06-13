@@ -100,19 +100,19 @@ nav .socials {
   margin: 0.1%;
   background: var(--ProjectContainerBG);
   position: relative;
+  overflow: hidden;
 }
 
 #fungiGrid > div img {
   width: 100%;
   height: 100%;
-}
-
-#fungiGrid > div img {
   object-fit: cover;
 }
 
 #fungiGrid > div:hover img {
-  opacity: 0.5;
+  opacity: 0.65;
+  filter: blur(3px);
+  transform: scale(1.015);
 }
 
 .fungiDescription {
@@ -135,7 +135,6 @@ nav .socials {
 
 #fungiGrid > div:hover .fungiDescription {
   opacity: 1;
-  backdrop-filter: blur(3px);
   width: 100%;
   height: 100%;
 }
@@ -253,8 +252,8 @@ body {
 }
 
 @media (max-width: 600px){
-  #fungiGrid > div img { opacity: 0.5; }
+  #fungiGrid > div img { opacity: 0.5; filter: blur(0px); }
   #fungiGrid > div .fungiDescription { opacity: 1; }
-  #fungiGrid > div:hover img { opacity: 1; }  
+  #fungiGrid > div:hover img { opacity: 1; filter: blur(0px); }  
   #fungiGrid > div:hover .fungiDescription { opacity: 0; }
 }
