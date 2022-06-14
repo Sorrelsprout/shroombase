@@ -2,7 +2,7 @@
     "tags": {
         "edibility":"Poisonous",
         "treelationship":["Beech", "Birch", "Cedar", "Fir", "Oak", "Pine", "Spruce"],
-        "color":"",
+        "color":["red", "orange"],
         "type":"Mycorrhizol"
     },
 
@@ -11,9 +11,9 @@
         "class":"Class",
         "order":"Order",
         "family":"Family",
-        "genus":"Genus",
-        "species":"Species",
-        "variation":"Var",
+        "genus":"Amanita",
+        "species":"Muscaria",
+        "variation":"",
         "aliases":"Aliases",
         "displayalias":"Fly Agaric"
     },
@@ -90,7 +90,7 @@
 
 
     "lifestages":{
-        "fruitseason":"",
+        "fruitseason":["Summer", "Fall", "Winter"],
         "images":{
             "fruiting":{
                 "img":"",
@@ -144,6 +144,7 @@
     },
 
     "geography":{
+        "region":["North America"],
         "fruitlocation":"Found in the Americas along the west coast, from Alaska to Andean Colombia.",
         "coordinates":[""]
     },

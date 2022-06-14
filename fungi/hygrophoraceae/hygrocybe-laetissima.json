@@ -2,7 +2,7 @@
     "tags": {
         "edibility":"",
         "treelationship":["Relationship to Tree"],
-        "color":"",
+        "color":[""],
         "type":"Type of Fungus"
     },
 
@@ -11,8 +11,8 @@
         "class":"Class",
         "order":"Order",
         "family":"Family",
-        "genus":"Genus",
-        "species":"Species",
+        "genus":"Hygrocybe",
+        "species":"Laetissima",
         "variation":"Var",
         "aliases":"Aliases",
         "displayalias":"Hygrocybe laetissima"
@@ -144,6 +144,7 @@
     },
 
     "geography":{
+        "region":"",
         "fruitlocation":"",
         "coordinates":[""]
     },

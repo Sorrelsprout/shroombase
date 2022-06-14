@@ -2,7 +2,7 @@
     "tags": {
         "edibility":"Edible",
         "treelationship":["Relationship to Tree"],
-        "color":"",
+        "color":[""],
         "type":"Type of Fungus"
     },
 
@@ -11,8 +11,8 @@
         "class":"Class",
         "order":"Order",
         "family":"Family",
-        "genus":"Genus",
-        "species":"Species",
+        "genus":"Tremella",
+        "species":"Mensenterica",
         "variation":"Var",
         "aliases":"Aliases",
         "displayalias":"Witch's Butter"
@@ -144,6 +144,7 @@
     },
 
     "geography":{
+        "region":"",
         "fruitlocation":"",
         "coordinates":[""]
     },

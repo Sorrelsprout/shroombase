@@ -58,7 +58,9 @@ $(document).ready(function(){
         /* Get Project ID */
         const PROJECTINDEX = $(this).index();
         const FUNGIID = $("#fungiGrid > div:nth-child("+(PROJECTINDEX+1)+")").attr("id");
-        const FUNGIFAMILY = $("#fungiGrid > div:nth-child("+(PROJECTINDEX+1)+")").attr("class").replace(' fungiGridElement', '');
+
+        const ENDOFFAMILY = $("#fungiGrid > div:nth-child("+(PROJECTINDEX+1)+")").attr("class").indexOf(" ");
+        const FUNGIFAMILY = $("#fungiGrid > div:nth-child("+(PROJECTINDEX+1)+")").attr("class").substring(0,ENDOFFAMILY)
 
         /* Project Hero Image Setup */
         const PROJECTIMGURL = $("#"+(FUNGIID)+" img").attr("src");
@@ -93,16 +95,7 @@ $(document).ready(function(){
             $("#tags-poisonousEdible").removeClass().addClass(shroom[0].edibility);
             if (shroom[0].edibility == "") { $("#tags-poisonousEdible").css({"display":"none"}) }
 
-            $("#tags-treeRelation").html(shroom[0].treelationship);
-            if ( shroom[0].treelationship.length > 0 ) {
-                let basetags = "";
-                for (let i=0; i<shroom[0].treelationship.length; i++) { 
-                    basetags += "<li>" + shroom[0].treelationship[i] + "</li>";
-                }
-                $("#tags-treeRelation").html(basetags); 
-            } else {
-                $("#tags-treeRelation").css({"display":"none"});
-            }
+            arrayResponse("#tags-treeRelation", shroom[0].treelationship);
 
             $("#tags-type").html(shroom[0].type);
             $("#tags-type").removeClass().addClass(shroom[0].type);
@@ -164,7 +157,7 @@ $(document).ready(function(){
             $("#characteristics-bioluminescence-desc").html(shroom[3].bioluminescence.desc);
             
             /* Fruit Season */
-            $("#lifestages-fruitseason").html(shroom[4].fruitseason);
+            arrayResponse("#lifestages-fruitseason", shroom[4].fruitseason);
             let lifestages_img = [ shroom[4].images.fruiting.img, shroom[4].images.egg.img, shroom[4].images.eruption.img, shroom[4].images.button.img, shroom[4].images.mature.img, shroom[4].images.old.img ]
             let lifestages_desc = [ shroom[4].images.fruiting.desc, shroom[4].images.egg.desc, shroom[4].images.eruption.desc, shroom[4].images.button.desc, shroom[4].images.mature.desc, shroom[4].images.old.desc ]
             let lifestagesContent = "";
@@ -201,6 +194,7 @@ $(document).ready(function(){
             $("#significance-recipes").html(shroom[5].cullinary.recipelist);
             
             /* Geography */
+            // $("#geography-region").html(shroom[6].region);
             $("#geography-fruitLocation").html(shroom[6].fruitlocation);
             // $("#geography-coordinates").html(shroom[6].coordinates);
             
@@ -222,9 +216,62 @@ $(document).ready(function(){
                 $("#lookalikes").css({"display":"block"});
                 $("#lookalikeGrid").html(lookalikeContent);
             }
+
+            function arrayResponse(tagName, arrayToList) {
+                if ( arrayToList.length > 0 ) {
+                    let basetags = "";
+                    for (let i=0; i<arrayToList.length; i++) { 
+                        basetags += "<li>" + arrayToList[i] + "</li>";
+                    }
+                    $(tagName).html(basetags); 
+                } else {
+                    $(tagName).css({"display":"none"});
+                }
+            }
         });
         setPullup();
     });
+
+    for(let i=0; i<$(".fungiGridElement").length; i++) {
+        const FUNGIID = $(".fungiGridElement:nth-child("+(i+1)+")").attr("id");
+        const FUNGIFAMILY = $(".fungiGridElement:nth-child("+(i+1)+")").attr("class").replace(' fungiGridElement', '');
+
+        const JSONURL = "./fungi/" + (FUNGIFAMILY) + "/" + (FUNGIID) + ".json";
+        $.getJSON(JSONURL, function(json) { 
+            let shroom = Object.values(json);
+            let fungiID = shroom[1].genus.toLowerCase()+"-"+shroom[1].species.toLowerCase();
+
+            const TAGPREFIX = ["edibility", "treelationship", "color", "region", "fruitseason"];
+            const TAGOBJECTS = [shroom[0].edibility, shroom[0].treelationship, shroom[0].color, shroom[6].region, shroom[4].fruitseason];
+            let NEWTAGOBJECTS = ["","","","",""];
+
+            for (let i=0; i<TAGPREFIX.length; i++) {
+                NEWTAGOBJECTS[i] = TAGOBJECTS[i] + "";
+                setFungiClasses(fungiID, TAGPREFIX[i], NEWTAGOBJECTS[i].toLowerCase().replaceAll(' ', '')); 
+            }
+        });
+    }
+    
+    function setFungiClasses(shroomName, tagPrefix, tagSuffix) {
+        if(tagSuffix) {
+            let shroomNameID = "#" + shroomName;
+            let fullShroomClass = $(shroomNameID).attr('class');
+            let fullShroomClassString = fullShroomClass + "";
+            let newTag = tagPrefix + "_" + tagSuffix;
+
+            if(fullShroomClassString.indexOf(tagPrefix) >= 0){
+                let oldTag = "";
+                startTag = fullShroomClassString.lastIndexOf(tagPrefix);
+    
+                if(startTag >= 0) {
+                    endTag = fullShroomClassString.indexOf(" ",startTag+1);
+                    if (endTag >= 0) { oldTag = fullShroomClassString.substring(startTag,endTag-startTag); } 
+                    else { oldTag = fullShroomClassString.substring(startTag,fullShroomClassString.length-startTag); }
+                }
+                fullShroomClassString.replace(oldTag, newTag);
+            } else { $(shroomNameID).addClass(newTag); }
+        }
+    }
 
 
     
@@ -234,6 +281,7 @@ $(document).ready(function(){
     let searchTagsStringSet = "";
     let completeSearchString = "";
     
+    /* Search Bar */
     $("#searchbar").change(function() {
         let inputTag = $("#searchbar").val();
 
@@ -266,29 +314,44 @@ $(document).ready(function(){
         searchBarString = inputTag;
         modCompleteSearchString();
     });
+    $(".inputSelect").change(function() { modCompleteSearchString(); });
     
+    /* Search Tags */
+    /* 
     let searchDropdownsIDs = ["#searchEdibility", "#searchTree", "#searchColor", "#searchGeo", "#searchSeason"];
     let searchDropdowns = ["", "", "", "", ""];
-    for (let i=0; i<searchDropdownsIDs.length; i++) {
-        $(searchDropdownsIDs[i]).change(function() {
-            searchDropdowns[i] = $("#searchAdvanced .inputSelect:nth-child(" + (i+1) + ") option:selected").val()
-            searchTagsStringSet = searchDropdowns.join();
-            modCompleteSearchString();
-        });
-    }
 
-
-    // Example: modCompleteSearchString( "oak", 1, "poisonousoak")
     function modCompleteSearchString(){
+        searchTagsStringSet = searchDropdowns.join();
         completeSearchString = searchBarString.toLowerCase() + "," + searchTagsStringSet.toLowerCase();
 
-        if(completeSearchString.includes("")){
-            //
-        } else {
-            //
+        for (let i=0; i < $(".fungiGridElement").length; i++) { //for all entries
+            let hiddenTagTally = [0,0,0,0,0];
+            let currentTag = $(".fungiGridElement:nth-of-type("+(i+1)+")").attr("class") + "";
+            $(".fungiGridElement:nth-of-type("+(i+1)+")").addClass("hidden");
+
+            for (let j=0; j<searchDropdownsIDs.length; j++) {
+                $(searchDropdownsIDs[j]).change(function() {
+                    searchDropdowns[j] = $("#searchAdvanced .inputSelect:nth-child(" + (j+1) + ") option:selected").val()
+
+                    if (currentTag.includes(searchDropdowns[j])) { hiddenTagTally[j] += 0; } 
+                    else { hiddenTagTally[j] += 1; }
+
+                    // console.log(currentTag + ": " + hiddenTagTally[j]);
+                    console.log( hiddenTagTally);
+                });
+            }
+
+            let hiddenTagTallyTotal = hiddenTagTally.reduce(function(a, b){return a + b;})
+            
+            if(hiddenTagTallyTotal == 0) {
+                $(".fungiGridElement:nth-of-type("+(i+1)+")").removeClass("hidden");
+            }
+            // console.log( hiddenTagTally);
         }
-        console.log(completeSearchString)
     }
+    */
+
 
     // Open Popup --------------------------------------------------------------------
     $("#terms").click(function() { 
