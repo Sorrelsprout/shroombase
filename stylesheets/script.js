@@ -245,10 +245,17 @@ $(document).ready(function(){
             const TAGOBJECTS = [shroom[0].edibility, shroom[0].treelationship, shroom[0].color, shroom[6].region, shroom[4].fruitseason];
             let NEWTAGOBJECTS = ["","","","",""];
 
-            for (let i=0; i<TAGPREFIX.length; i++) {
-                NEWTAGOBJECTS[i] = TAGOBJECTS[i] + "";
-                setFungiClasses(fungiID, TAGPREFIX[i], NEWTAGOBJECTS[i].toLowerCase().replaceAll(' ', '')); 
-            }
+            // for (let i=0; i<TAGPREFIX.length; i++) {
+            //     NEWTAGOBJECTS[i] = TAGOBJECTS[i] + "";
+            //     setFungiClasses(fungiID, TAGPREFIX[i], NEWTAGOBJECTS[i].toLowerCase().replaceAll(' ', '')); 
+            // }
+
+            $("#fungiGrid").children().each(function(location){
+                for (let i=0; i<TAGPREFIX.length; i++) {
+                    NEWTAGOBJECTS[i] = TAGOBJECTS[i] + "";
+                    setFungiClasses(fungiID, TAGPREFIX[i], NEWTAGOBJECTS[i].toLowerCase().replaceAll(' ', '')); 
+                }
+            });
         });
     }
     
@@ -257,7 +264,8 @@ $(document).ready(function(){
             let shroomNameID = "#" + shroomName;
             let fullShroomClass = $(shroomNameID).attr('class');
             let fullShroomClassString = fullShroomClass + "";
-            let newTag = tagPrefix + "_" + tagSuffix;
+            // let newTag = tagPrefix + "_" + tagSuffix;
+            let newTag = "_" + tagSuffix;
 
             if(fullShroomClassString.indexOf(tagPrefix) >= 0){
                 let oldTag = "";
@@ -278,8 +286,6 @@ $(document).ready(function(){
     // Search ------------------------------------------------------------------------
     $("#badsearch").addClass("hidden");
     let searchBarString = "";
-    let searchTagsStringSet = "";
-    let completeSearchString = "";
     
     /* Search Bar */
     $("#searchbar").change(function() {
@@ -312,45 +318,54 @@ $(document).ready(function(){
             }
         }
         searchBarString = inputTag;
-        modCompleteSearchString();
     });
-    $(".inputSelect").change(function() { modCompleteSearchString(); });
     
-    /* Search Tags */
-    /* 
-    let searchDropdownsIDs = ["#searchEdibility", "#searchTree", "#searchColor", "#searchGeo", "#searchSeason"];
-    let searchDropdowns = ["", "", "", "", ""];
+    $(".inputSelect").change(function() {
+        let specimens = [];
+        for(let i=0; i<$(".fungiGridElement").length; i++) {
+            const SPECIMENTAGS = $(".fungiGridElement:nth-child("+(i+1)+")").attr("class");
+            specimens.push(SPECIMENTAGS)
+        }
+        updateHiddenFungi(specimens);
+    });
 
-    function modCompleteSearchString(){
-        searchTagsStringSet = searchDropdowns.join();
-        completeSearchString = searchBarString.toLowerCase() + "," + searchTagsStringSet.toLowerCase();
+    /* S E A R C H   T A G S  ------------------------------------------------------------------------*/
 
-        for (let i=0; i < $(".fungiGridElement").length; i++) { //for all entries
-            let hiddenTagTally = [0,0,0,0,0];
-            let currentTag = $(".fungiGridElement:nth-of-type("+(i+1)+")").attr("class") + "";
-            $(".fungiGridElement:nth-of-type("+(i+1)+")").addClass("hidden");
+    let searchTagIDs = ["#searchEdibility", "#searchTree", "#searchColor", "#searchGeo", "#searchSeason"];
+    let specimenTags = [];
 
-            for (let j=0; j<searchDropdownsIDs.length; j++) {
-                $(searchDropdownsIDs[j]).change(function() {
-                    searchDropdowns[j] = $("#searchAdvanced .inputSelect:nth-child(" + (j+1) + ") option:selected").val()
+    function updateHiddenFungi(specimens) {
+        let currentlySelectedTags = []
+        for(let i=0; i < $(".inputSelect").length; i++) {
+            currentlySelectedTags.push( $(".inputSelect:nth-child(" + (i+1) + ") option:selected").text() )
+        }
 
-                    if (currentTag.includes(searchDropdowns[j])) { hiddenTagTally[j] += 0; } 
-                    else { hiddenTagTally[j] += 1; }
+        let specimenTagTracker = []
+        for(let i=0; i < $(".fungiGridElement").length; i++) {
+            let specimenTagCounter = 0;
+            for(let j=0; j < $(".inputSelect").length; j++) {
+                let currentSpecimenTags = specimens[i];
+                let currentlySelectedTagsSimplified = currentlySelectedTags[j].toLowerCase().replaceAll(' ', '');
 
-                    // console.log(currentTag + ": " + hiddenTagTally[j]);
-                    console.log( hiddenTagTally);
-                });
+                if((currentSpecimenTags.indexOf(currentlySelectedTagsSimplified) >= 0)) {
+                    specimenTagCounter += 0;
+                } else if (currentlySelectedTagsSimplified == "all") {
+                    // Do Nothing
+                } else {
+                    specimenTagCounter+= 1;
+                }
             }
+            specimenTagTracker.push(specimenTagCounter);
+        }
 
-            let hiddenTagTallyTotal = hiddenTagTally.reduce(function(a, b){return a + b;})
-            
-            if(hiddenTagTallyTotal == 0) {
-                $(".fungiGridElement:nth-of-type("+(i+1)+")").removeClass("hidden");
+        for(let i=0; i < $(".fungiGridElement").length; i++) {
+            if(specimenTagTracker[i] > 0){
+                $(".fungiGridElement:nth-child("+(i+1)+")").addClass("hiddenTag")
+            } else {
+                $(".fungiGridElement:nth-child("+(i+1)+")").removeClass("hiddenTag")
             }
-            // console.log( hiddenTagTally);
         }
     }
-    */
 
 
     // Open Popup --------------------------------------------------------------------
