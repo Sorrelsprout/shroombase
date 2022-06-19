@@ -312,9 +312,14 @@ $(document).ready(function(){
             }
         }
         searchBarString = inputTag;
-        modCompleteSearchString();
     });
-    $(".inputSelect").change(function() { modCompleteSearchString(); });
+    
+    $(".inputSelect").change(function() {
+        for(let i=0; i<$(".fungiGridElement").length; i++) {
+            const FUNGIFAMILY = $(".fungiGridElement:nth-child("+(i+1)+")").attr("class");
+            console.log(FUNGIFAMILY)
+        }
+    });
     
     /* Search Tags */
     /* 
