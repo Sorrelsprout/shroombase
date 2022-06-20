@@ -11,10 +11,10 @@
     flex-flow: row wrap;
 }
 
-.searchContainer input, .searchContainer .inputSelect select {
+.searchContainer input, .searchContainer .inputSelect select, #searchAdvancedToggle {
     border: none;
     margin: 0.5rem 0rem;
-    padding: 0.25rem 0.5rem;
+    padding: 0.25rem 0.15rem;
     font-family: 'Alegreya Sans', sans-serif;
 }
 
@@ -33,20 +33,67 @@
 }
 
 #search {
-    margin: calc( var(--navHeight) + 2rem) auto 1rem auto;
+    margin: calc( var(--navHeight) + 2rem) auto 0 auto;
 }
+
+#search input {
+    padding: 0.25rem 0.5rem;
+}
+
+/* #search input::placeholder {
+    color: #ccc;
+} */
 
 #searchAdvanced {
-    margin: 4rem auto 0 auto;
+    margin: 0 auto;
+    display: flex;
+    max-width: 900px;
 }
 
-#searchAdvanced::before {
-    content: "Advanced Search";
+#searchAdvanced div {
+    height: 0%;
+    margin-top: 0rem;
+    margin-bottom: -5rem;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+#searchAdvanced.showAdvanced div { 
+    height: 100%; 
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    opacity: 1;
+}
+
+#searchAdvancedToggle {
     display: block;
-    position: absolute;
-    top: -2rem;
-    width: 100%;
-    text-align: center;
+    position: relative;
+    font-size: 0.85em;
+    background: var(--SelectionBG);
+    margin: 0.5rem 0rem 0.5rem 1rem;
+    padding: 0.35rem 0.75rem 0.15rem 0.75rem;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+#searchAdvancedToggle:hover {
+    background: #fff;
+}
+
+#searchAdvanced .inputSelect {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 25%;
+}
+
+#searchAdvanced .inputSelect label {
+    flex: 0.8;
+}
+
+#searchAdvanced .inputSelect select {
+    flex: 1.2;
+    cursor: pointer;
 }
 
 /* #searchAdvanced::after {

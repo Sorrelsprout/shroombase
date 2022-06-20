@@ -34,12 +34,15 @@
 
 <!-- S E A R C H --------------------------------------------------------------------------------------------------------->
         
-        <div id="search" class="searchContainer"><input id="searchbar" type="text" name="search" placeholder="Find some fungi..."></div>
+        <div id="search" class="searchContainer">
+            <input id="searchbar" type="text" name="search" placeholder="Find some fungi...">
+            <span id="searchAdvancedToggle">Advanced Search</span>
+        </div>
 
         <div id="searchAdvanced" class="searchContainer">
             <div> <!-- Selections -->
                 <span class="inputSelect">
-                    <label for="searchEdibility" onkeyup="searchEdibility()">Edibility:</label>
+                    <label for="searchEdibility">Edibility:</label>
                     <select name="searchEdibility" id="searchEdibility">
                         <option value="">All</option>
                         <option value="edible">Edible</option>
@@ -48,7 +51,16 @@
                     </select>
                 </span>
                 <span class="inputSelect">
-                    <label for="searchTree" onkeyup="searchTree()">Related Tree:</label>
+                    <label for="searchType">Type:</label>
+                    <select name="searchType" id="searchType">
+                        <option value="">All</option>
+                        <option value="mycorrhizal">Mycorrhizal</option>
+                        <option value="parasitic">Parasitic</option>
+                        <option value="saprotrophic">Saprotropic</option>
+                    </select>
+                </span>
+                <span class="inputSelect">
+                    <label for="searchTree">Related Tree:</label>
                     <select name="searchTree" id="searchTree">
                         <option value="">All</option>
                         <option value="oak">Oak</option>
@@ -57,7 +69,7 @@
                     </select>
                 </span>
                 <span class="inputSelect">
-                    <label for="searchColor" onkeyup="searchColor()">Color:</label>
+                    <label for="searchColor">Color:</label>
                     <select name="searchColor" id="searchColor">
                         <option value="">All</option>
                         <option value="pink">Pink</option>
@@ -75,7 +87,7 @@
                     </select>
                 </span>
                 <span class="inputSelect">
-                    <label for="searchGeo" onkeyup="searchGeo()">Region:</label>
+                    <label for="searchGeo">Region:</label>
                     <select name="searchGeo" id="searchGeo">
                         <option value="">All</option>
                         <option value="northamerica">North America</option>
@@ -94,7 +106,7 @@
                     </select>
                 </span>
                 <span class="inputSelect">
-                    <label for="searchSeason" onkeyup="searchSeason()">Season:</label>
+                    <label for="searchSeason">Season:</label>
                     <select name="searchSeason" id="searchSeason">
                         <option value="">All</option>
                         <option value="spring">Spring</option>
