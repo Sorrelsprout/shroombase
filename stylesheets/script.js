@@ -238,6 +238,7 @@ $(document).ready(function(){
         setPullup();
     });
 
+    /* Tags: For new tags, update TAGPREFIX, TAGOBJECTS, and NEWTAGOBJECTS */
     for(let i=0; i<$(".fungiGridElement").length; i++) {
         const FUNGIID = $(".fungiGridElement:nth-child("+(i+1)+")").attr("id");
         const FUNGIFAMILY = $(".fungiGridElement:nth-child("+(i+1)+")").attr("class").replace(' fungiGridElement', '');
@@ -247,9 +248,9 @@ $(document).ready(function(){
             let shroom = Object.values(json);
             let fungiID = shroom[1].genus.toLowerCase()+"-"+shroom[1].species.toLowerCase();
 
-            const TAGPREFIX = ["edibility", "treelationship", "color", "region", "fruitseason"];
-            const TAGOBJECTS = [shroom[0].edibility, shroom[0].treelationship, shroom[0].color, shroom[6].region, shroom[4].fruitseason];
-            let NEWTAGOBJECTS = ["","","","",""];
+            const TAGPREFIX = ["edibility", "type", "treelationship", "color", "region", "fruitseason"];
+            const TAGOBJECTS = [shroom[0].edibility, shroom[0].type, shroom[0].treelationship, shroom[0].color, shroom[6].region, shroom[4].fruitseason];
+            let NEWTAGOBJECTS = ["","","","","",""];
 
             $("#fungiGrid").children().each(function(location){
                 for (let i=0; i<TAGPREFIX.length; i++) {
@@ -401,4 +402,12 @@ $(document).ready(function(){
     $("#pullupToggle").click(function() { hidePullup() });
     $("#logo").click(function() { hidePullup() });
     function hidePullup(){ $("#pullup").removeClass("show"); }
+
+
+
+/* T O G G L E   A D V A N C E D   S E A R C H --------------------------------------------------- */
+    $("#searchAdvancedToggle").click(function() { 
+        $("#searchAdvanced").toggleClass("showAdvanced");
+        console.log("aaa")
+    });
 })
