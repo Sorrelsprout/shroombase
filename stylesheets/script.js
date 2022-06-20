@@ -25,14 +25,16 @@ $(document).ready(function(){
 
 
 
-    // Hero Fix ----------------------------------------------------------------------
+/* H E R O  -------------------------------------------------------------------------------------- */
+
     let conHeight = $("#pullup .hero").height();
     let imgHeight = $("#pullup .hero img").height();
     let gap = (imgHeight - conHeight) / 2;
     $("#pullup .hero img").css("top", -gap);
+    
 
 
-    // Setup Fungi Grid  -------------------------------------------------------------
+/* S E T U P   F U N G I   G R I D --------------------------------------------------------------- */
     
     $("#fungiGrid").children().each(function(location){
         let fungusID = $(this).attr("id");
@@ -52,8 +54,10 @@ $(document).ready(function(){
         $(this).append(fungusDESC);
      });
    
+     
 
-    // Pullup ------------------------------------------------------------------------
+/* P U L L U P  ---------------------------------------------------------------------------------- */
+
     $("#fungiGrid > div").click(function() { 
         /* Get Project ID */
         const PROJECTINDEX = $(this).index();
@@ -84,8 +88,10 @@ $(document).ready(function(){
         const PROJECTDESC = "./fungi/template.html";
         $("#pullupContent .fullDescription").load(PROJECTDESC); 
 
-        // Fungi Database Setup ------------------------------------------------------------------------
-        // const PROJECTDESC = "fungi/" + (FUNGIFAMILY) + "/" + (FUNGIID) + ".html";
+
+
+/* F U N G I   D A T A B A S E   S E T U P ------------------------------------------------------- */
+
         const JSONURL = "./fungi/" + (FUNGIFAMILY) + "/" + (FUNGIID) + ".json";
         $.getJSON(JSONURL, function(json) { 
             let shroom = Object.values(json);
@@ -245,11 +251,6 @@ $(document).ready(function(){
             const TAGOBJECTS = [shroom[0].edibility, shroom[0].treelationship, shroom[0].color, shroom[6].region, shroom[4].fruitseason];
             let NEWTAGOBJECTS = ["","","","",""];
 
-            // for (let i=0; i<TAGPREFIX.length; i++) {
-            //     NEWTAGOBJECTS[i] = TAGOBJECTS[i] + "";
-            //     setFungiClasses(fungiID, TAGPREFIX[i], NEWTAGOBJECTS[i].toLowerCase().replaceAll(' ', '')); 
-            // }
-
             $("#fungiGrid").children().each(function(location){
                 for (let i=0; i<TAGPREFIX.length; i++) {
                     NEWTAGOBJECTS[i] = TAGOBJECTS[i] + "";
@@ -264,8 +265,7 @@ $(document).ready(function(){
             let shroomNameID = "#" + shroomName;
             let fullShroomClass = $(shroomNameID).attr('class');
             let fullShroomClassString = fullShroomClass + "";
-            // let newTag = tagPrefix + "_" + tagSuffix;
-            let newTag = "_" + tagSuffix;
+            let newTag = tagSuffix;
 
             if(fullShroomClassString.indexOf(tagPrefix) >= 0){
                 let oldTag = "";
@@ -282,8 +282,8 @@ $(document).ready(function(){
     }
 
 
-    
-    // Search ------------------------------------------------------------------------
+
+/* S E A R C H   B A R  -------------------------------------------------------------------------- */
     $("#badsearch").addClass("hidden");
     let searchBarString = "";
     
@@ -329,10 +329,7 @@ $(document).ready(function(){
         updateHiddenFungi(specimens);
     });
 
-    /* S E A R C H   T A G S  ------------------------------------------------------------------------*/
-
-    let searchTagIDs = ["#searchEdibility", "#searchTree", "#searchColor", "#searchGeo", "#searchSeason"];
-    let specimenTags = [];
+/* S E A R C H   T A G S  ------------------------------------------------------------------------ */
 
     function updateHiddenFungi(specimens) {
         let currentlySelectedTags = []
@@ -349,8 +346,7 @@ $(document).ready(function(){
 
                 if((currentSpecimenTags.indexOf(currentlySelectedTagsSimplified) >= 0)) {
                     specimenTagCounter += 0;
-                } else if (currentlySelectedTagsSimplified == "all") {
-                    // Do Nothing
+                } else if (currentlySelectedTagsSimplified == "all") { // Do Nothing
                 } else {
                     specimenTagCounter+= 1;
                 }
@@ -368,7 +364,9 @@ $(document).ready(function(){
     }
 
 
-    // Open Popup --------------------------------------------------------------------
+
+/* O P E N   P O P U P  -------------------------------------------------------------------------- */
+
     $("#terms").click(function() { 
         $("#pullupContent .fullDescription").load("pages/terms.html"); 
         $("#pullupContent .hero").css({ 
@@ -402,7 +400,5 @@ $(document).ready(function(){
 
     $("#pullupToggle").click(function() { hidePullup() });
     $("#logo").click(function() { hidePullup() });
-    function hidePullup(){
-        $("#pullup").removeClass("show");
-    }
+    function hidePullup(){ $("#pullup").removeClass("show"); }
 })
