@@ -57,6 +57,7 @@
     overflow: hidden;
     opacity: 0;
     transition: all 0.3s ease-out;
+    pointer-events: none;
 }
 
 #searchAdvanced.showAdvanced div { 
@@ -64,6 +65,7 @@
     margin-top: 2rem;
     margin-bottom: 0rem;
     opacity: 1;
+    pointer-events: auto;
 }
 
 #searchAdvancedToggle {
