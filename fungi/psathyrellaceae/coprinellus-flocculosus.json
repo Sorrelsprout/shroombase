@@ -1,0 +1,159 @@
+{
+    "tags": {
+        "edibility":"Edible",
+        "treelationship":[""],
+        "color":["grey", "tan"],
+        "type":"Type of Fungus"
+    },
+
+    "nomenclature":{
+        "division":"Basidiomycota",
+        "class":"Agaricomycetes",
+        "order":"Agaricales",
+        "family":"Psathyrellaceae",
+        "genus":"Coprinellus",
+        "species":"flocculosus",
+        "variation":"",
+        "aliases":"Flocculose Inkcap",
+        "displayalias":"Flocculose Inkcap"
+    },
+
+    "distinguishing":{
+        "coverimg":"",
+        "abundancy":"Abundancy",
+        "smell":"Smell",
+        "tidbits":"Other tidbits to note"
+    },
+
+    "characteristics": {
+        "cap":{
+            "img":"./images/psathyrellaceae/coprinellus-flocculosus/cap.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "underside":{
+            "img":"./images/psathyrellaceae/coprinellus-flocculosus/underside.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "side":{
+            "img":"./images/psathyrellaceae/coprinellus-flocculosus/side.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "halved":{
+            "img":"./images/templates/halved.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "stem":{
+            "img":"./images/psathyrellaceae/coprinellus-flocculosus/stem.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "sporeprint":{
+            "img":"./images/templates/sporeprint.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "mycelium":{
+            "img":"./images/psathyrellaceae/coprinellus-flocculosus/mycelium.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "habitat":{
+            "img":"./images/psathyrellaceae/coprinellus-flocculosus/habitat.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bruising":{
+            "img":"./images/templates/bruising.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "koh":{
+            "img":"./images/templates/koh.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "latex":{
+            "img":"./images/templates/latex.jpg",
+            "caption":"",
+            "desc":"Secretes black ink."
+        },
+        "bioluminescence":{
+            "img":"./images/templates/bioluminescence.jpg",
+            "caption":"",
+            "desc":""
+        }
+    },
+
+
+    "lifestages":{
+        "fruitseason":"",
+        "images":{
+            "fruiting":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "egg":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "eruption":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "button":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "mature":{
+                "img":"./images/psathyrellaceae/coprinellus-flocculosus/lifestages-mature.jpg",
+                "caption":"",
+                "desc":"Mature specimen starting to wrinkle"
+            },
+            "old":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            }
+        }
+    },
+
+    "significance":{
+        "scientific":{
+            "scientific":"",
+            "environmental":"",
+            "genetic":""
+        },
+        "cultural":{
+            "cultural":"",
+            "medicinal":"",
+            "funfacts":""
+        },
+        "cullinary":{
+            "cullinary":"Edible but poisonous when consumed with alcohol.",
+            "taste":"",
+            "recipelist":["",""]
+        }
+    },
+
+    "geography":{
+        "region":["North America"],
+        "fruitlocation":"",
+        "coordinates":[""]
+    },
+
+    "lookalikes":{
+        "names":[],
+        "images":[],
+        "caption":[],
+        "desc":[],
+        "edibility":[]
+    }
+}
