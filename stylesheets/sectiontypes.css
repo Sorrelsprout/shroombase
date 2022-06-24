@@ -45,9 +45,8 @@
 #lookalikeGrid.characteristicsGrid div p { margin-bottom: 0; }
 
 #lookalikeGrid.characteristicsGrid figcaption {
-    margin: 0.5rem auto -0.5rem auto;
-    opacity: 0.5;
-    font-size: 0.5;
+    position: relative;
+    margin: 0.5rem auto -1.5rem auto;
 }
 
 @media (min-width: 1024px){

@@ -7,14 +7,14 @@
     },
 
     "nomenclature":{
-        "division":"Division",
-        "class":"Class",
-        "order":"Order",
-        "family":"Family",
+        "division":"Basidiomycota",
+        "class":"Agaricomycetes",
+        "order":"Agaricales",
+        "family":"Amanitaceae",
         "genus":"Amanita",
         "species":"Muscaria",
-        "variation":"",
-        "aliases":"Aliases",
+        "variation":"Flavivolvata",
+        "aliases":"Fly Agaric, American Fly Agaric",
         "displayalias":"Fly Agaric"
     },
 
@@ -28,8 +28,8 @@
     "characteristics": {
         "cap":{
             "img":"./images/templates/cap.jpg",
-            "caption":"caption",
-            "desc":"desc"
+            "caption":"",
+            "desc":"Has white warts, the remnants of the egg."
         },
         "underside":{
             "img":"./images/templates/underside.jpg",
@@ -37,8 +37,8 @@
             "desc":""
         },
         "side":{
-            "img":"./images/templates/side.jpg",
-            "caption":"",
+            "img":"https://upload.wikimedia.org/wikipedia/commons/e/ed/Amanita_muscaria_subsp._flavivolvata_694020.jpg",
+            "caption":"This image was created by user Ron Pastorino (Ronpast) at Mushroom Observer, a source for mycological images. CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
             "desc":""
         },
         "halved":{
@@ -49,7 +49,7 @@
         "stem":{
             "img":"./images/templates/stem.jpg",
             "caption":"",
-            "desc":""
+            "desc":"Stalk is generally smooth and white. Has ring in the middle."
         },
         "sporeprint":{
             "img":"./images/templates/sporeprint.jpg",
@@ -127,18 +127,18 @@
 
     "significance":{
         "scientific":{
-            "scientific":"",
+            "scientific":"Muscimol",
             "environmental":"",
             "genetic":""
         },
         "cultural":{
-            "cultural":"",
-            "medicinal":"",
+            "cultural":"Mario mushroom",
+            "medicinal":"Reindeer",
             "funfacts":""
         },
         "cullinary":{
-            "cullinary":"",
-            "taste":"",
+            "cullinary":"Warning",
+            "taste":"When all red has been boiled out, rubbery.",
             "recipelist":["",""]
         }
     },
@@ -157,7 +157,7 @@
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Russula_emetica_117475.jpg/500px-Russula_emetica_117475.jpg"
         ],
         "caption":[
-            "Image from <a href='https://commons.wikimedia.org/wiki/Category:Russula_emetica#/media/File:Russula_emetica_117475.jpg'>Wikimedia Commons</a>."
+            "Image from <a href='https://commons.wikimedia.org/wiki/Category:Russula_emetica#/media/File:Russula_emetica_117475.jpg' target='_blank'>Wikimedia Commons</a>."
         ],
         "desc":[
             "Similar to A. muscaria due to red cap and white stalk. Lacking in white spots on cap, and unlike A. muscaria, has no ring on the stem."

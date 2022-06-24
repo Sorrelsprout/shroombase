@@ -270,8 +270,16 @@
     border-radius: 0.25rem;
 }
 
-#pullup figcaption {
-    font-size: 0.9em;
+#pullup .characteristicsGrid figure {
+    position: relative;
+}
+
+#pullup .characteristicsGrid figcaption{
+    padding-top: 0.5rem;
+    margin-bottom: -1.5rem;
+    width: 100%;
+    opacity: 0.5;
+    font-size: 0.85em;
     font-style: italic;
     text-align: center;
 }
