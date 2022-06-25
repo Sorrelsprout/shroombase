@@ -1,33 +1,33 @@
 {
     "tags": {
         "edibility":"Edible",
-        "treelationship":["Relationship to Tree"],
+        "treelationship":["Conifers", "Eucalyptus","Oak", "Willow", "Sweet Chestnut", "Yew"],
         "color":[""],
-        "type":"Type of Fungus"
+        "type":"Parasitic"
     },
 
     "nomenclature":{
-        "division":"Division",
-        "class":"Class",
-        "order":"Order",
-        "family":"Family",
+        "division":"Basidiomycota",
+        "class":"Agaricomycetes",
+        "order":"Polyporales",
+        "family":"Fomitopsidaceae",
         "genus":"Laetiporus",
         "species":"Sulphureus",
-        "variation":"Var",
-        "aliases":"Aliases",
+        "variation":"",
+        "aliases":"Chicken fungus, Chicken mushroom, Chicken of the woods, Sulfur shelf",
         "displayalias":"Chicken of the Woods"
     },
 
     "distinguishing":{
         "coverimg":"",
-        "abundancy":"Abundancy",
-        "smell":"Smell",
-        "tidbits":"Other tidbits to note"
+        "abundancy":"",
+        "smell":"",
+        "tidbits":"Chicken of the Woods is a shelf mushroom polypore."
     },
 
     "characteristics": {
         "cap":{
-            "img":"./images/templates/cap.jpg",
+            "img":"./images/fomitopsidaceae/laetiporus-sulphureus/cap.jpg",
             "caption":"",
             "desc":""
         },
@@ -42,7 +42,7 @@
             "desc":""
         },
         "halved":{
-            "img":"./images/templates/halved.jpg",
+            "img":"./images/fomitopsidaceae/laetiporus-sulphureus/halved.jpg",
             "caption":"",
             "desc":""
         },

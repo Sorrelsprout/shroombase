@@ -48,7 +48,12 @@
     background: #fff;
     border-radius: 0.25rem;
     margin: 1%;
+    padding: 1rem;
     width: 48%;
+}
+
+#lookalikeGrid.characteristicsGrid div h3 {
+    text-align: center;
 }
 
 #lookalikeGrid.characteristicsGrid div p { margin-bottom: 0; }
