@@ -2,7 +2,7 @@
     "tags": {
         "edibility":"Edible",
         "treelationship":["Conifers", "Eucalyptus","Oak", "Willow", "Sweet Chestnut", "Yew"],
-        "color":[""],
+        "color":["orange", "yellow"],
         "type":"Parasitic"
     },
 
