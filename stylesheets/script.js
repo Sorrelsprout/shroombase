@@ -412,7 +412,10 @@ function preloadPullup(JSONURL) {
 
     $("#pullupToggle").click(function() { hidePullup() });
     $("#logo").click(function() { hidePullup() });
-    function hidePullup(){ $("#pullup").removeClass("show"); }
+    function hidePullup(){ 
+        $("#pullup").removeClass("show"); 
+        $("#pullup").animate({ scrollTop: 0 }, 100);
+    }
 
 
 
