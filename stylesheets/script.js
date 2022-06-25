@@ -56,6 +56,154 @@ $(document).ready(function(){
    
      
 
+/* I N I T I A L   P U L L U P  ------------------------------------------------------------------ */
+
+preloadPullup("./fungi/template.json");
+function preloadPullup(JSONURL) {
+    $.getJSON(JSONURL, function(json) { 
+        let shroom = Object.values(json);
+        
+        /* Tags */
+        $("#tags-poisonousEdible").html(shroom[0].edibility);
+        $("#tags-poisonousEdible").removeClass().addClass(shroom[0].edibility);
+        if (shroom[0].edibility == "") { $("#tags-poisonousEdible").css({"display":"none"}) }
+
+        arrayResponse("#tags-treeRelation", shroom[0].treelationship);
+
+        $("#tags-type").html(shroom[0].type);
+        $("#tags-type").removeClass().addClass(shroom[0].type);
+        if (shroom[0].type == "") { $("#tags-type").css({"display":"none"}) }
+        
+        /* Division */
+        $("#nomenclature-division").html(shroom[1].division);
+        $("#nomenclature-class").html(shroom[1].class);
+        $("#nomenclature-order").html(shroom[1].order);
+        $("#nomenclature-family").html(shroom[1].family);
+        $("#nomenclature-genus").html(shroom[1].genus);
+        $("#nomenclature-species").html(shroom[1].species);
+        $("#nomenclature-variety").html(shroom[1].variation);
+        $("#nomenclature-aliases").html(shroom[1].aliases);
+        // $("#nomenclature-displayalias").html(shroom[1].displayalias);
+        
+        /* Distinguishing Features */
+        // $("#distinguishing-coverimg").attr("src", shroom[2].coverimg);
+        $("#distinguishing-abundancy").html(shroom[2].abundancy);
+        $("#distinguishing-smell").html(shroom[2].smell);
+        $("#distinguishing-tidbits").html(shroom[2].tidbits);
+        
+        /* Caracteristics */
+        $("#characteristics-cap-img").attr("src", shroom[3].cap.img);
+        $("#characteristics-cap-caption").html(shroom[3].cap.caption);
+        $("#characteristics-cap-desc").html(shroom[3].cap.desc);
+        $("#characteristics-underside-img").attr("src", shroom[3].underside.img);
+        $("#characteristics-underside-caption").html(shroom[3].underside.caption);
+        $("#characteristics-underside-desc").html(shroom[3].underside.desc);
+        $("#characteristics-side-img").attr("src", shroom[3].side.img);
+        $("#characteristics-side-caption").html(shroom[3].side.caption);
+        $("#characteristics-side-desc").html(shroom[3].side.desc);
+        $("#characteristics-halved-img").attr("src", shroom[3].halved.img);
+        $("#characteristics-halved-caption").html(shroom[3].halved.caption);
+        $("#characteristics-halved-desc").html(shroom[3].halved.desc);
+        $("#characteristics-stem-img").attr("src", shroom[3].stem.img);
+        $("#characteristics-stem-caption").html(shroom[3].stem.caption);
+        $("#characteristics-stem-desc").html(shroom[3].stem.desc);
+        $("#characteristics-sporeprint-img").attr("src", shroom[3].sporeprint.img);
+        $("#characteristics-sporeprint-caption").html(shroom[3].sporeprint.caption);
+        $("#characteristics-sporeprint-desc").html(shroom[3].sporeprint.desc);
+        $("#characteristics-mycelium-img").attr("src", shroom[3].mycelium.img);
+        $("#characteristics-mycelium-caption").html(shroom[3].mycelium.caption);
+        $("#characteristics-mycelium-desc").html(shroom[3].mycelium.desc);
+        $("#characteristics-habitat-img").attr("src", shroom[3].habitat.img);
+        $("#characteristics-habitat-caption").html(shroom[3].habitat.caption);
+        $("#characteristics-habitat-desc").html(shroom[3].habitat.desc);
+        $("#characteristics-bruising-img").attr("src", shroom[3].bruising.img);
+        $("#characteristics-bruising-caption").html(shroom[3].bruising.caption);
+        $("#characteristics-bruising-desc").html(shroom[3].bruising.desc);
+        $("#characteristics-koh-img").attr("src", shroom[3].koh.img);
+        $("#characteristics-koh-caption").html(shroom[3].koh.caption);
+        $("#characteristics-koh-desc").html(shroom[3].koh.desc);
+        $("#characteristics-latex-img").attr("src", shroom[3].latex.img);
+        $("#characteristics-latex-caption").html(shroom[3].latex.caption);
+        $("#characteristics-latex-desc").html(shroom[3].latex.desc);
+        $("#characteristics-bioluminescence-img").attr("src", shroom[3].bioluminescence.img);
+        $("#characteristics-bioluminescence-caption").html(shroom[3].bioluminescence.caption);
+        $("#characteristics-bioluminescence-desc").html(shroom[3].bioluminescence.desc);
+        
+        /* Fruit Season */
+        arrayResponse("#lifestages-fruitseason", shroom[4].fruitseason);
+        let lifestages_img = [ shroom[4].images.fruiting.img, shroom[4].images.egg.img, shroom[4].images.eruption.img, shroom[4].images.button.img, shroom[4].images.mature.img, shroom[4].images.old.img ]
+        let lifestages_desc = [ shroom[4].images.fruiting.desc, shroom[4].images.egg.desc, shroom[4].images.eruption.desc, shroom[4].images.button.desc, shroom[4].images.mature.desc, shroom[4].images.old.desc ]
+        let lifestagesContent = "";
+        for (let i=0; i<lifestages_img.length; i++) {
+            const CURRENTIMG = lifestages_img[i];
+            const CURRENTDESC = lifestages_desc[i];
+            let currentlifestagesContent = "";
+            if ( CURRENTIMG != "" ) {
+                if (CURRENTDESC != "") {
+                    currentlifestagesContent = "<label class='click-zoom'><figure><input type='checkbox'><img alt='lifeStage' src='"+ CURRENTIMG +"' loading='lazy'><figcaption>"+ CURRENTDESC +"</figcaption></figure></label>";
+                } else {
+                    currentlifestagesContent = "<label class='click-zoom'><figure><input type='checkbox'><img alt='lifeStage' src='"+ CURRENTIMG +"' loading='lazy'></figure></label>";
+                }
+            } else {
+                if (lifestages_desc[i] != "") {
+                    currentlifestagesContent = "<label class='click-zoom'><figure><input type='checkbox'><img alt='lifeStage' src='https://images.unsplash.com/photo-1454425064867-5ba516caf601?w=1000&h=1000&fit=crop&crop=focalpoint&fp-z=1.4&fp-x=0.45&fp-y=0.42' loading='lazy'><figcaption>Placeholder image. "+ CURRENTDESC +"</figcaption></figure></label>";
+                } else { currentlifestagesContent = ""; }
+            } lifestagesContent += currentlifestagesContent;
+        }
+        if (lifestagesContent == "") { lifestagesContent = "<p>No Lifecycle Images</p>"; }
+        $("#lifestages-images").html(lifestagesContent);
+        
+        /* Significance */
+        $("#significance-scientific").html(shroom[5].scientific.scientific);
+        $("#significance-environmental").html(shroom[5].scientific.environmental);
+        $("#significance-genetic").html(shroom[5].scientific.genetic);
+
+        $("#significance-cultural").html(shroom[5].cultural.cultural);
+        $("#significance-medicinal").html(shroom[5].cultural.medicinal);
+        $("#significance-facts").html(shroom[5].cultural.facts);
+
+        $("#significance-cullinary").html(shroom[5].cullinary.cullinary);
+        $("#significance-taste").html(shroom[5].cullinary.taste);
+        $("#significance-recipes").html(shroom[5].cullinary.recipelist);
+        
+        /* Geography */
+        // $("#geography-region").html(shroom[6].region);
+        $("#geography-fruitLocation").html(shroom[6].fruitlocation);
+        // $("#geography-coordinates").html(shroom[6].coordinates);
+        
+        /* Lookalikes */
+        let lookalikeContent = "";
+        if (shroom[7].names.length == 0) { $("#lookalikes").css({"display":"none"}); }
+        else {
+            for (let i=0; i<shroom[7].names.length; i++) {
+                let edibilityIcon = "";
+                if ( shroom[7].edibility[i] == "poisonous") { edibilityIcon = "☠️ " + shroom[7].names[i] + " is not edible" }
+                else if ( shroom[7].edibility[i] == "edible")  { edibilityIcon = "🍴" + shroom[7].names[i] + " is edible" }
+                lookalikeContent += "<div title='" + edibilityIcon + "'><figure>\
+                    <img src='" + shroom[7].images[i] + "' alt='lookalike' loading='lazy'>\
+                    <figcaption>"+ shroom[7].caption[i] +"<figcaption></figure>\
+                    <h3 class=" + shroom[7].edibility[i] + ">" + shroom[7].names[i] + "</h3>\
+                    <p>" + shroom[7].desc[i] + "</p>\
+                </div>"
+            }
+            $("#lookalikes").css({"display":"block"});
+            $("#lookalikeGrid").html(lookalikeContent);
+        }
+
+        function arrayResponse(tagName, arrayToList) {
+            if ( arrayToList.length > 0 ) {
+                let basetags = "";
+                for (let i=0; i<arrayToList.length; i++) { 
+                    basetags += "<li>" + arrayToList[i] + "</li>";
+                }
+                $(tagName).html(basetags); 
+            } else {
+                $(tagName).css({"display":"none"});
+            }
+        }
+    });
+}
+
 /* P U L L U P  ---------------------------------------------------------------------------------- */
 
     $("#fungiGrid > div").click(function() { 
@@ -93,148 +241,7 @@ $(document).ready(function(){
 /* F U N G I   D A T A B A S E   S E T U P ------------------------------------------------------- */
 
         const JSONURL = "./fungi/" + (FUNGIFAMILY) + "/" + (FUNGIID) + ".json";
-        $.getJSON(JSONURL, function(json) { 
-            let shroom = Object.values(json);
-            
-            /* Tags */
-            $("#tags-poisonousEdible").html(shroom[0].edibility);
-            $("#tags-poisonousEdible").removeClass().addClass(shroom[0].edibility);
-            if (shroom[0].edibility == "") { $("#tags-poisonousEdible").css({"display":"none"}) }
-
-            arrayResponse("#tags-treeRelation", shroom[0].treelationship);
-
-            $("#tags-type").html(shroom[0].type);
-            $("#tags-type").removeClass().addClass(shroom[0].type);
-            if (shroom[0].type == "") { $("#tags-type").css({"display":"none"}) }
-            
-            /* Division */
-            $("#nomenclature-division").html(shroom[1].division);
-            $("#nomenclature-class").html(shroom[1].class);
-            $("#nomenclature-order").html(shroom[1].order);
-            $("#nomenclature-family").html(shroom[1].family);
-            $("#nomenclature-genus").html(shroom[1].genus);
-            $("#nomenclature-species").html(shroom[1].species);
-            $("#nomenclature-variety").html(shroom[1].variation);
-            $("#nomenclature-aliases").html(shroom[1].aliases);
-            // $("#nomenclature-displayalias").html(shroom[1].displayalias);
-            
-            /* Distinguishing Features */
-            // $("#distinguishing-coverimg").attr("src", shroom[2].coverimg);
-            $("#distinguishing-abundancy").html(shroom[2].abundancy);
-            $("#distinguishing-smell").html(shroom[2].smell);
-            $("#distinguishing-tidbits").html(shroom[2].tidbits);
-            
-            /* Caracteristics */
-            $("#characteristics-cap-img").attr("src", shroom[3].cap.img);
-            $("#characteristics-cap-caption").html(shroom[3].cap.caption);
-            $("#characteristics-cap-desc").html(shroom[3].cap.desc);
-            $("#characteristics-underside-img").attr("src", shroom[3].underside.img);
-            $("#characteristics-underside-caption").html(shroom[3].underside.caption);
-            $("#characteristics-underside-desc").html(shroom[3].underside.desc);
-            $("#characteristics-side-img").attr("src", shroom[3].side.img);
-            $("#characteristics-side-caption").html(shroom[3].side.caption);
-            $("#characteristics-side-desc").html(shroom[3].side.desc);
-            $("#characteristics-halved-img").attr("src", shroom[3].halved.img);
-            $("#characteristics-halved-caption").html(shroom[3].halved.caption);
-            $("#characteristics-halved-desc").html(shroom[3].halved.desc);
-            $("#characteristics-stem-img").attr("src", shroom[3].stem.img);
-            $("#characteristics-stem-caption").html(shroom[3].stem.caption);
-            $("#characteristics-stem-desc").html(shroom[3].stem.desc);
-            $("#characteristics-sporeprint-img").attr("src", shroom[3].sporeprint.img);
-            $("#characteristics-sporeprint-caption").html(shroom[3].sporeprint.caption);
-            $("#characteristics-sporeprint-desc").html(shroom[3].sporeprint.desc);
-            $("#characteristics-mycelium-img").attr("src", shroom[3].mycelium.img);
-            $("#characteristics-mycelium-caption").html(shroom[3].mycelium.caption);
-            $("#characteristics-mycelium-desc").html(shroom[3].mycelium.desc);
-            $("#characteristics-habitat-img").attr("src", shroom[3].habitat.img);
-            $("#characteristics-habitat-caption").html(shroom[3].habitat.caption);
-            $("#characteristics-habitat-desc").html(shroom[3].habitat.desc);
-            $("#characteristics-bruising-img").attr("src", shroom[3].bruising.img);
-            $("#characteristics-bruising-caption").html(shroom[3].bruising.caption);
-            $("#characteristics-bruising-desc").html(shroom[3].bruising.desc);
-            $("#characteristics-koh-img").attr("src", shroom[3].koh.img);
-            $("#characteristics-koh-caption").html(shroom[3].koh.caption);
-            $("#characteristics-koh-desc").html(shroom[3].koh.desc);
-            $("#characteristics-latex-img").attr("src", shroom[3].latex.img);
-            $("#characteristics-latex-caption").html(shroom[3].latex.caption);
-            $("#characteristics-latex-desc").html(shroom[3].latex.desc);
-            $("#characteristics-bioluminescence-img").attr("src", shroom[3].bioluminescence.img);
-            $("#characteristics-bioluminescence-caption").html(shroom[3].bioluminescence.caption);
-            $("#characteristics-bioluminescence-desc").html(shroom[3].bioluminescence.desc);
-            
-            /* Fruit Season */
-            arrayResponse("#lifestages-fruitseason", shroom[4].fruitseason);
-            let lifestages_img = [ shroom[4].images.fruiting.img, shroom[4].images.egg.img, shroom[4].images.eruption.img, shroom[4].images.button.img, shroom[4].images.mature.img, shroom[4].images.old.img ]
-            let lifestages_desc = [ shroom[4].images.fruiting.desc, shroom[4].images.egg.desc, shroom[4].images.eruption.desc, shroom[4].images.button.desc, shroom[4].images.mature.desc, shroom[4].images.old.desc ]
-            let lifestagesContent = "";
-            for (let i=0; i<lifestages_img.length; i++) {
-                const CURRENTIMG = lifestages_img[i];
-                const CURRENTDESC = lifestages_desc[i];
-                let currentlifestagesContent = "";
-                if ( CURRENTIMG != "" ) {
-                    if (CURRENTDESC != "") {
-                        currentlifestagesContent = "<label class='click-zoom'><figure><input type='checkbox'><img alt='lifeStage' src='"+ CURRENTIMG +"' loading='lazy'><figcaption>"+ CURRENTDESC +"</figcaption></figure></label>";
-                    } else {
-                        currentlifestagesContent = "<label class='click-zoom'><figure><input type='checkbox'><img alt='lifeStage' src='"+ CURRENTIMG +"' loading='lazy'></figure></label>";
-                    }
-                } else {
-                    if (lifestages_desc[i] != "") {
-                        currentlifestagesContent = "<label class='click-zoom'><figure><input type='checkbox'><img alt='lifeStage' src='https://images.unsplash.com/photo-1454425064867-5ba516caf601?w=1000&h=1000&fit=crop&crop=focalpoint&fp-z=1.4&fp-x=0.45&fp-y=0.42' loading='lazy'><figcaption>Placeholder image. "+ CURRENTDESC +"</figcaption></figure></label>";
-                    } else { currentlifestagesContent = ""; }
-                } lifestagesContent += currentlifestagesContent;
-            }
-            if (lifestagesContent == "") { lifestagesContent = "<p>No Lifecycle Images</p>"; }
-            $("#lifestages-images").html(lifestagesContent);
-            
-            /* Significance */
-            $("#significance-scientific").html(shroom[5].scientific.scientific);
-            $("#significance-environmental").html(shroom[5].scientific.environmental);
-            $("#significance-genetic").html(shroom[5].scientific.genetic);
-
-            $("#significance-cultural").html(shroom[5].cultural.cultural);
-            $("#significance-medicinal").html(shroom[5].cultural.medicinal);
-            $("#significance-facts").html(shroom[5].cultural.facts);
-
-            $("#significance-cullinary").html(shroom[5].cullinary.cullinary);
-            $("#significance-taste").html(shroom[5].cullinary.taste);
-            $("#significance-recipes").html(shroom[5].cullinary.recipelist);
-            
-            /* Geography */
-            // $("#geography-region").html(shroom[6].region);
-            $("#geography-fruitLocation").html(shroom[6].fruitlocation);
-            // $("#geography-coordinates").html(shroom[6].coordinates);
-            
-            /* Lookalikes */
-            let lookalikeContent = "";
-            if (shroom[7].names.length == 0) { $("#lookalikes").css({"display":"none"}); }
-            else {
-                for (let i=0; i<shroom[7].names.length; i++) {
-                    let edibilityIcon = "";
-                    if ( shroom[7].edibility[i] == "poisonous") { edibilityIcon = "☠️ " + shroom[7].names[i] + " is not edible" }
-                    else if ( shroom[7].edibility[i] == "edible")  { edibilityIcon = "🍴" + shroom[7].names[i] + " is edible" }
-                    lookalikeContent += "<div title='" + edibilityIcon + "'><figure>\
-                        <img src='" + shroom[7].images[i] + "' alt='lookalike' loading='lazy'>\
-                        <figcaption>"+ shroom[7].caption[i] +"<figcaption></figure>\
-                        <h3 class=" + shroom[7].edibility[i] + ">" + shroom[7].names[i] + "</h3>\
-                        <p>" + shroom[7].desc[i] + "</p>\
-                    </div>"
-                }
-                $("#lookalikes").css({"display":"block"});
-                $("#lookalikeGrid").html(lookalikeContent);
-            }
-
-            function arrayResponse(tagName, arrayToList) {
-                if ( arrayToList.length > 0 ) {
-                    let basetags = "";
-                    for (let i=0; i<arrayToList.length; i++) { 
-                        basetags += "<li>" + arrayToList[i] + "</li>";
-                    }
-                    $(tagName).html(basetags); 
-                } else {
-                    $(tagName).css({"display":"none"});
-                }
-            }
-        });
+        preloadPullup(JSONURL);
         setPullup();
     });
 
