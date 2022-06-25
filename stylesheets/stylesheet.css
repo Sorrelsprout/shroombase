@@ -80,6 +80,15 @@ nav .socials {
   cursor: pointer;
 }
 
+#mushroomsFungiTitle {
+  position: relative;
+  display: block;
+  width: 80%;
+  top: 6rem;
+  margin: 2rem auto 1rem auto;
+  filter: brightness(0.65) sepia(15%);
+}
+
 /* Project Grid ---------------------------------------------------------------*/
 
 #fungiGrid {

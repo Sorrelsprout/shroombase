@@ -1,7 +1,7 @@
 {
     "tags": {
         "edibility":"Edible",
-        "treelationship":["Conifers", "Eucalyptus","Oak", "Willow", "Sweet Chestnut", "Yew"],
+        "treelationship":["Conifers", "Eucalyptus","Oak", "Willow", "Sweet Chestnut", "Sycamore", "Yew"],
         "color":["orange", "yellow"],
         "type":"Parasitic"
     },
@@ -32,13 +32,13 @@
             "desc":""
         },
         "underside":{
-            "img":"./images/templates/underside.jpg",
-            "caption":"",
+            "img":"https://upload.wikimedia.org/wikipedia/commons/d/da/2013_09_08o_P%C5%99%C3%ADrodn%C3%AD_park_Baba.JPG",
+            "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:2013_09_08o_P%C5%99%C3%ADrodn%C3%AD_park_Baba.JPG' target='_blank'>Wikimedia Commons</a>.",
             "desc":""
         },
         "side":{
-            "img":"./images/templates/side.jpg",
-            "caption":"",
+            "img":"https://upload.wikimedia.org/wikipedia/commons/c/ca/Laetiporus_sulphureus.jpg",
+            "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Laetiporus_sulphureus.jpg' target='_blank'>Wikimedia Commons</a>.",
             "desc":""
         },
         "halved":{
@@ -62,9 +62,9 @@
             "desc":""
         },
         "habitat":{
-            "img":"./images/templates/habitat.jpg",
-            "caption":"",
-            "desc":""
+            "img":"https://upload.wikimedia.org/wikipedia/commons/0/09/Chicken_of_the_Woods_Polyporus_sulphureus_%2822453067603%29.jpg",
+            "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Chicken_of_the_Woods_Polyporus_sulphureus_(22453067603).jpg' target='_blank'>Wikimedia Commons</a>.",
+            "desc":"Grows on the trunks of hardwood and deciduous trees."
         },
         "bruising":{
             "img":"./images/templates/bruising.jpg",
@@ -137,7 +137,7 @@
             "funfacts":""
         },
         "cullinary":{
-            "cullinary":"",
+            "cullinary":"Avoid specimens when found on Eucalyptus, Conifers, and Yew trees, which contain toxic alkaloids that can be absorbed by the mushroom. Specimens growing on hardwoods shoud be generally avoided to prevent gastrointestinal distress.",
             "taste":"",
             "recipelist":["",""]
         }
@@ -150,10 +150,20 @@
     },
 
     "lookalikes":{
-        "names":[],
-        "images":[],
-        "caption":[],
-        "desc":[],
-        "edibility":[]
+        "names":[
+            "Laetiporus cincinnatus"
+        ],
+        "images":[
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Laetiporus_sulphureus15366.JPG/1599px-Laetiporus_sulphureus15366.JPG"
+        ],
+        "caption":[
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Laetiporus_sulphureus15366.JPG' target='_blank'>Wikimedia Commons</a>."
+        ],
+        "desc":[
+            "Also called &#8220;Chicken of the Woods&#8221; except it grows at the base of trees and is more pastel-colored than L. sulphureus."
+        ],
+        "edibility":[
+            "edible"
+        ]
     }
 }

@@ -8,6 +8,12 @@ $(document).ready(function(){
             $("body").removeClass("mobile");
             $(".mobileMenu").css({ "transition": "none" })
         }
+
+        if ($(window).width() < 768) {
+            $("#mushroomsFungiTitle").attr("src", "./images/about/mushroomsfungi-mobile.png");
+        } else {
+            $("#mushroomsFungiTitle").attr("src", "./images/about/mushroomsfungi.png");
+        }
     }
 
     $(".triplebar").click(function() {
@@ -382,7 +388,7 @@ function preloadPullup(JSONURL) {
     $("#terms").click(function() { 
         $("#pullupContent .fullDescription").load("pages/terms.html"); 
         $("#pullupContent .hero").css({ 
-            "background": "url(./images/about/banner-about.jpg)", 
+            "background": "url(https://images.unsplash.com/photo-1570161387493-1ad88c522eba?w=2000&h=1200&fit=crop&fp-y=0.420)", 
             "background-position":"50% 50%",
             "background-size":"cover",
             "background-repeat":"no-repeat" 
