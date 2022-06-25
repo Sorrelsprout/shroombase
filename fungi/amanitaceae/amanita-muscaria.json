@@ -28,7 +28,7 @@
     "characteristics": {
         "cap":{
             "img":"./images/amanitaceae/amanita-muscaria/cap.jpg",
-            "caption":"",
+            "caption":"Found in Scotts Valley, CA, in December",
             "desc":"Has white warts, the remnants of the egg."
         },
         "underside":{
@@ -38,7 +38,7 @@
         },
         "side":{
             "img":"./images/amanitaceae/amanita-muscaria/side.jpg",
-            "caption":"",
+            "caption":"Found in Scotts Valley, CA, in December",
             "desc":""
         },
         "halved":{
@@ -63,7 +63,7 @@
         },
         "habitat":{
             "img":"./images/amanitaceae/amanita-muscaria/habitat.jpg",
-            "caption":"",
+            "caption":"Found in Scotts Valley, CA, in December",
             "desc":"A. Muscaria is mycorrhizol."
         },
         "bruising":{
@@ -109,13 +109,13 @@
             },
             "button":{
                 "img":"./images/amanitaceae/amanita-muscaria/lifestages-button.jpg",
-                "caption":"button",
-                "desc":""
+                "caption":"Found in Scotts Valley, CA, in December",
+                "desc":"Button"
             },
             "mature":{
                 "img":"./images/amanitaceae/amanita-muscaria/lifestages-mature.jpg",
-                "caption":"mature",
-                "desc":""
+                "caption":"Found in Scotts Valley, CA, in December",
+                "desc":"Mature"
             },
             "old":{
                 "img":"",
