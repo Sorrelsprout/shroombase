@@ -1,7 +1,7 @@
 {
     "tags": {
         "edibility":"Edible",
-        "treelationship":[""],
+        "treelationship":[],
         "color":["grey", "tan"],
         "type":"Type of Fungus"
     },

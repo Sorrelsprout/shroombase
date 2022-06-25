@@ -173,13 +173,13 @@ $(document).ready(function(){
                 let currentlifestagesContent = "";
                 if ( CURRENTIMG != "" ) {
                     if (CURRENTDESC != "") {
-                        currentlifestagesContent = "<figure><img alt='lifeStage' src='"+ CURRENTIMG +"' loading='lazy'><figcaption>"+ CURRENTDESC +"</figcaption></figure>";
+                        currentlifestagesContent = "<label class='click-zoom'><figure><input type='checkbox'><img alt='lifeStage' src='"+ CURRENTIMG +"' loading='lazy'><figcaption>"+ CURRENTDESC +"</figcaption></figure></label>";
                     } else {
-                        currentlifestagesContent = "<figure><img alt='lifeStage' src='"+ CURRENTIMG +"' loading='lazy'></figure>";
+                        currentlifestagesContent = "<label class='click-zoom'><figure><input type='checkbox'><img alt='lifeStage' src='"+ CURRENTIMG +"' loading='lazy'></figure></label>";
                     }
                 } else {
                     if (lifestages_desc[i] != "") {
-                        currentlifestagesContent = "<figure><img alt='lifeStage' src='https://images.unsplash.com/photo-1454425064867-5ba516caf601?w=1000&h=1000&fit=crop&crop=focalpoint&fp-z=1.4&fp-x=0.45&fp-y=0.42' loading='lazy'><figcaption>Placeholder image. "+ CURRENTDESC +"</figcaption></figure>";
+                        currentlifestagesContent = "<label class='click-zoom'><figure><input type='checkbox'><img alt='lifeStage' src='https://images.unsplash.com/photo-1454425064867-5ba516caf601?w=1000&h=1000&fit=crop&crop=focalpoint&fp-z=1.4&fp-x=0.45&fp-y=0.42' loading='lazy'><figcaption>Placeholder image. "+ CURRENTDESC +"</figcaption></figure></label>";
                     } else { currentlifestagesContent = ""; }
                 } lifestagesContent += currentlifestagesContent;
             }
