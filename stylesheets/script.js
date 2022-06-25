@@ -58,7 +58,11 @@ $(document).ready(function(){
 
 /* I N I T I A L   P U L L U P  ------------------------------------------------------------------ */
 
+/* Preload some content */
+$("#pullupContent .hero h1").html("Template");
+$("#pullupContent .fullDescription").load("./fungi/template.html");
 preloadPullup("./fungi/template.json");
+
 function preloadPullup(JSONURL) {
     $.getJSON(JSONURL, function(json) { 
         let shroom = Object.values(json);
