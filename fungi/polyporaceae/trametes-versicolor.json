@@ -27,17 +27,17 @@
 
     "characteristics": {
         "cap":{
-            "img":"./images/templates/cap.jpg",
+            "img":"./images/polyporaceae/trametes-versicolor/top.jpg",
             "caption":"",
             "desc":""
         },
         "underside":{
-            "img":"./images/templates/underside.jpg",
+            "img":"./images/polyporaceae/trametes-versicolor/underside.jpg",
             "caption":"",
             "desc":""
         },
         "side":{
-            "img":"./images/templates/side.jpg",
+            "img":"./images/polyporaceae/trametes-versicolor/side.jpg",
             "caption":"",
             "desc":""
         },
@@ -62,9 +62,9 @@
             "desc":""
         },
         "habitat":{
-            "img":"./images/templates/habitat.jpg",
+            "img":"./images/polyporaceae/trametes-versicolor/habitat.jpg",
             "caption":"",
-            "desc":""
+            "desc":"Turkey tails grow on rotting wood."
         },
         "bruising":{
             "img":"./images/templates/bruising.jpg",

@@ -27,6 +27,7 @@ body {
   color: var(--TextColor);
   background: var(--BGColor);
   font-size: 17px;
+  cursor: url('../images/about/cursor.png'), auto;	
 }
 
 #main {
