@@ -1,9 +1,9 @@
 {
     "tags": {
         "edibility":"Medicinal",
-        "treelationship":["Relationship to Tree"],
-        "color":[""],
-        "type":"Type of Fungus"
+        "treelationship":["Conifer", "Deciduous"],
+        "color":["striped"],
+        "type":"Saprotrophic"
     },
 
     "nomenclature":{
@@ -13,8 +13,8 @@
         "family":"Family",
         "genus":"Trametes",
         "species":"Versicolor",
-        "variation":"Var",
-        "aliases":"Aliases",
+        "variation":"",
+        "aliases":"Many-zoned polypore, Turkey tail, Turkey tail fungus",
         "displayalias":"Turkey Tail"
     },
 
@@ -133,27 +133,52 @@
         },
         "cultural":{
             "cultural":"",
-            "medicinal":"",
+            "medicinal":"Herbal",
             "funfacts":""
         },
         "cullinary":{
-            "cullinary":"",
+            "cullinary":"Teas",
             "taste":"",
             "recipelist":["",""]
         }
     },
 
     "geography":{
-        "region":"",
+        "region":["Central Asia", "East Asia", "Europe", "North America", "Scandinavia"],
         "fruitlocation":"",
         "coordinates":[""]
     },
 
     "lookalikes":{
-        "names":[],
-        "images":[],
-        "caption":[],
-        "desc":[],
-        "edibility":[]
+        "names":[
+            "Stereum hirsutum",
+            "Stereum ostrea",
+            "Trametes betulina",
+            "Trametes hirsuta"
+        ],
+        "images":[
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Stereum_hirsutum_113278463.jpg/1600px-Stereum_hirsutum_113278463.jpg?",
+            "https://upload.wikimedia.org/wikipedia/commons/e/e2/Stereum_ostrea_67176334.jpg?",
+            "https://upload.wikimedia.org/wikipedia/commons/4/49/Lenzites_betulina.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/5/5c/Trametes_hirsuta_74151441.jpg"
+        ],
+        "caption":[
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Stereum_hirsutum_113278463.jpg' target='_blank'>Wikimedia Commons</a>.",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Stereum_ostrea_67176334.jpg' target='_blank'>Wikimedia Commons</a>.",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Lenzites_betulina.jpg' target='_blank'>Wikimedia Commons</a>.",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Trametes_hirsuta_74151441.jpg' target='_blank'>Wikimedia Commons</a>."
+        ],
+        "desc":[
+            "Also known as <strong>False turkey-tail</strong>, or <strong>Hairy curtain crust</strong>.",
+            "Also known as <strong>False turkey-tail</strong>, or <strong>Golden curtain crust</strong>.",
+            "Also known as <strong>Birch mazegill</strong>, or <strong>Gilled polypore</strong>.",
+            "Also known as the <strong>Hairy Bracket</strong>."
+        ],
+        "edibility":[
+            "",
+            "",
+            "",
+            ""
+        ]
     }
 }

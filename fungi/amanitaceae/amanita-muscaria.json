@@ -2,7 +2,7 @@
     "tags": {
         "edibility":"Poisonous",
         "treelationship":["Beech", "Birch", "Cedar", "Fir", "Oak", "Pine", "Spruce"],
-        "color":["red", "orange"],
+        "color":["red", "orange", "spotted"],
         "type":"Mycorrhizal"
     },
 
@@ -20,14 +20,14 @@
 
     "distinguishing":{
         "coverimg":"./images/amanitaceae/amanita-muscaria/amanitamuscaria.jpg",
-        "abundancy":"Abundancy",
-        "smell":"Smell",
-        "tidbits":"Other tidbits to note"
+        "abundancy":"",
+        "smell":"",
+        "tidbits":""
     },
 
     "characteristics": {
         "cap":{
-            "img":"./images/templates/cap.jpg",
+            "img":"./images/amanitaceae/amanita-muscaria/cap.jpg",
             "caption":"",
             "desc":"Has white warts, the remnants of the egg."
         },
@@ -37,8 +37,8 @@
             "desc":""
         },
         "side":{
-            "img":"https://upload.wikimedia.org/wikipedia/commons/e/ed/Amanita_muscaria_subsp._flavivolvata_694020.jpg",
-            "caption":"This image was created by user Ron Pastorino (Ronpast) at Mushroom Observer, a source for mycological images. CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+            "img":"./images/amanitaceae/amanita-muscaria/side.jpg",
+            "caption":"",
             "desc":""
         },
         "halved":{
@@ -62,7 +62,7 @@
             "desc":""
         },
         "habitat":{
-            "img":"./images/templates/habitat.jpg",
+            "img":"./images/amanitaceae/amanita-muscaria/habitat.jpg",
             "caption":"",
             "desc":"A. Muscaria is mycorrhizol."
         },
@@ -108,13 +108,13 @@
                 "desc":""
             },
             "button":{
-                "img":"",
-                "caption":"",
+                "img":"./images/amanitaceae/amanita-muscaria/lifestages-button.jpg",
+                "caption":"button",
                 "desc":""
             },
             "mature":{
-                "img":"",
-                "caption":"",
+                "img":"./images/amanitaceae/amanita-muscaria/lifestages-mature.jpg",
+                "caption":"mature",
                 "desc":""
             },
             "old":{
