@@ -1,9 +1,9 @@
 {
     "tags": {
-        "edibility":"Edible",
+        "edibility":"",
         "treelationship":[],
         "color":["grey", "tan"],
-        "type":"Type of Fungus"
+        "type":"Saprotrophic"
     },
 
     "nomenclature":{
