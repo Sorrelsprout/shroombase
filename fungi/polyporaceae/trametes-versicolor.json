@@ -29,17 +29,17 @@
     "characteristics": {
         "cap":{
             "img":"./images/polyporaceae/trametes-versicolor/top.jpg",
-            "caption":"",
+            "caption":"Found in Corvallis, OR, in April 2022",
             "desc":""
         },
         "underside":{
             "img":"./images/polyporaceae/trametes-versicolor/underside.jpg",
-            "caption":"",
+            "caption":"Found in Los Gatos, CA, in February 2022",
             "desc":""
         },
         "side":{
             "img":"./images/polyporaceae/trametes-versicolor/side.jpg",
-            "caption":"",
+            "caption":"Found in Corvallis, OR, in April 2022",
             "desc":""
         },
         "halved":{
@@ -64,7 +64,7 @@
         },
         "habitat":{
             "img":"./images/polyporaceae/trametes-versicolor/habitat.jpg",
-            "caption":"",
+            "caption":"Found in Santa Cruz, CA, in May 2022",
             "desc":"Turkey tails grow on rotting wood."
         },
         "bruising":{
