@@ -8,11 +8,17 @@
     justify-content: center;
 }
 
-.fungiTags li {
+.fungiTags li, #lifestages-fruitseason li {
     padding: 0.25rem 0.75rem;
     margin: 0 0.5rem 1rem 0.5rem;
     background: var(--SelectionBG);
     font-size: 0.85em;
+}
+
+#lifestages-fruitseason { 
+    display: inline-flex;
+    flex-wrap:wrap;
+    list-style-type: none !important;
 }
 
 #tags-poisonousEdible.poisonous,

@@ -8,21 +8,24 @@
 <!-- D I S T I N G U I S H I N G   C H A R A C T E R I S T I C S ----------->
 <div id="distinguishingCharacteristics">
     <h2>Characteristics</h2>
-    <ul>
-        <li><strong>Division:</strong> <span id="nomenclature-division"></span></li>
-        <li><strong>Class:</strong> <span id="nomenclature-class"></span></li>
-        <li><strong>Order:</strong> <span id="nomenclature-order"></span></li>
-        <li><strong>Family:</strong> <span id="nomenclature-family"></span></li>
-        <li><strong>Genus:</strong> <span id="nomenclature-genus"></span></li>
-        <li><strong>Species:</strong> <span id="nomenclature-species"></span></li>
-        <li><strong>Variety:</strong> <span id="nomenclature-variety"></span></li>
-        <li><strong>Aliases:</strong> <span id="nomenclature-aliases"></span></li>
-    </ul>
-    <ul>
-        <li><strong>Abundancy:</strong> <span id="distinguishing-abundancy"></span></li>
-        <li><strong>Smell:</strong> <span id="distinguishing-smell"></span></li>
-    </ul>
-    <p id="distinguishing-tidbits">Other tidbits to note.</p>
+    <div class="column">
+        <ul>
+            <li id="nomenclature-division-container"><strong>Division:</strong> <span id="nomenclature-division"></span></li>
+            <li id="nomenclature-class-container"><strong>Class:</strong> <span id="nomenclature-class"></span></li>
+            <li id="nomenclature-order-container"><strong>Order:</strong> <span id="nomenclature-order"></span></li>
+            <li id="nomenclature-family-container"><strong>Family:</strong> <span id="nomenclature-family"></span></li>
+            <li id="nomenclature-genus-container"><strong>Genus:</strong> <span id="nomenclature-genus"></span></li>
+            <li id="nomenclature-species-container"><strong>Species:</strong> <span id="nomenclature-species"></span></li>
+            <li id="nomenclature-variation-container"><strong>Variety:</strong> <span id="nomenclature-variation"></span></li>
+            <li id="nomenclature-aliases-container"><strong>Aliases:</strong> <span id="nomenclature-aliases"></span></li>
+        </ul>
+        <ul>
+            <li id="distinguishing-abundancy-container"><strong>Abundancy:</strong> <span id="distinguishing-abundancy"></span></li>
+            <li id="distinguishing-smell-container"><strong>Smell:</strong> <span id="distinguishing-smell"></span></li>
+            <li id="distinguishing-size-container"><strong>Size:</strong> <span id="distinguishing-size"></span></li>
+            <li id="distinguishing-tidbits-container"><strong>Other tidbits to note:</strong> <span id="distinguishing-tidbits"></span></li>
+        </ul>
+    </div>
 
     <div class="characteristicsGrid">
         <label class="click-zoom">
@@ -146,34 +149,25 @@
 <!-- S I G N I F I C A N C E ------------------------------------------------>
 <div id="significance">
     <h2>Significance</h2>
-    <div id="significance3Col">
-        <div>
-            <h3>Scientific</h3>
-            <p id="significance-scientific">-</p>
-            <h4>Environmental Importance</h4>
-            <p id="significance-environmental">-</p>
-            <h4>Gene Sequence</h4>
-            <p id="significance-gene">-</p>
+    <div id="significance3Col" class="column">
+        <div><h3>Scientific</h3>
+            <span id="significance-scientific-container"><p id="significance-scientific">-</p></span>
+            <span id="significance-environmental-container"><h4>Environmental Importance</h4><p id="significance-environmental">-</p></span>
+            <span id="significance-gene-container"><h4>Gene Sequence</h4><p id="significance-gene">-</p></span>
         </div>
-        <div>
-            <h3>Cultural</h3>
-            <p id="significance-cultural">-</p>
-            <h4>Medicinal</h4>
-            <p id="significance-medicinal">-</p>
-            <h4>Fun Facts</h4>
-            <p id="significance-facts">-</p>
+        <div><h3>Cultural</h3>
+            <span id="significance-cultural-container"><p id="significance-cultural">-</p></span>
+            <span id="significance-medicinal-container"><h4>Medicinal</h4><p id="significance-medicinal">-</p></span>
+            <span id="significance-facts-container"><h4>Fun Facts</h4><p id="significance-facts">-</p></span>
         </div>
-        <div>
-            <h3>Cullinary</h3>
-            <p id="significance-cullinary">-</p>
-            <h4>Taste</h4>
-            <p id="significance-taste">salty, sweet, sour, bitter, umami?</p>
-            <h4>Recipes</h4>
-            <ul id="significance-recipes">
+        <div><h3>Cullinary</h3>
+            <span id="significance-cullinary-container"><p id="significance-cullinary">-</p></span>
+            <span id="significance-taste-container"><h4>Taste</h4><p id="significance-taste">salty, sweet, sour, bitter, umami?</p></span>
+            <span id="significance-recipes-container"><h4>Recipes</h4><ul id="significance-recipes">
                 <li>-</li>
                 <li>-</li>
                 <li>-</li>
-            </ul>
+            </ul></span>
         </div>
     </div>
 </div>
