@@ -177,26 +177,44 @@ function preloadPullup(JSONURL) {
         $("#lifestages-images").html(lifestagesContent);
         
         /* Significance */
+        let significanceCounter = 0;
+        let scientificCounter = 0;
         $("#significance-scientific").html(shroom[5].scientific.scientific);
-        if (shroom[5].scientific.scientific == "") { $("#significance-scientific-container").css({"display":"none"}) }
+        if (shroom[5].scientific.scientific == "") { $("#significance-scientific-container").css({"display":"none"}); scientificCounter++; }
         $("#significance-environmental").html(shroom[5].scientific.environmental);
-        if (shroom[5].scientific.environmental == "") { $("#significance-environmental-container").css({"display":"none"}) }
+        if (shroom[5].scientific.environmental == "") { $("#significance-environmental-container").css({"display":"none"}); scientificCounter++; }
         $("#significance-gene").html(shroom[5].scientific.genetic);
-        if (shroom[5].scientific.genetic == "") { $("#significance-gene-container").css({"display":"none"}) }
+        if (shroom[5].scientific.genetic == "") { $("#significance-gene-container").css({"display":"none"}); scientificCounter++; }
+        if (scientificCounter == 3) {
+            $("#scientific-container").css({"display":"none"});
+            significanceCounter++;
+        }
 
+        let culturalCounter = 0;
         $("#significance-cultural").html(shroom[5].cultural.cultural);
-        if (shroom[5].cultural.cultural == "") { $("#significance-cultural-container").css({"display":"none"}) }
+        if (shroom[5].cultural.cultural == "") { $("#significance-cultural-container").css({"display":"none"}); culturalCounter++; }
         $("#significance-medicinal").html(shroom[5].cultural.medicinal);
-        if (shroom[5].cultural.medicinal == "") { $("#significance-medicinal-container").css({"display":"none"}) }
-        $("#significance-facts").html(shroom[5].cultural.facts);
-        if (shroom[5].cultural.facts == "") { $("#significance-facts-container").css({"display":"none"}) }
+        if (shroom[5].cultural.medicinal == "") { $("#significance-medicinal-container").css({"display":"none"}); culturalCounter++; }
+        $("#significance-facts").html(shroom[5].cultural.funfacts);
+        if (shroom[5].cultural.funfacts == "") { $("#significance-facts-container").css({"display":"none"}); culturalCounter++; }
+        if (culturalCounter == 3) {
+            $("#cultural-container").css({"display":"none"});
+            significanceCounter++;
+        }
 
+        let cullinaryCounter = 0;
         $("#significance-cullinary").html(shroom[5].cullinary.cullinary);
-        if (shroom[5].cullinary.cullinary == "") { $("#significance-cullinary-container").css({"display":"none"}) }
+        if (shroom[5].cullinary.cullinary == "") { $("#significance-cullinary-container").css({"display":"none"}); cullinaryCounter++; }
         $("#significance-taste").html(shroom[5].cullinary.taste);
-        if (shroom[5].cullinary.taste == "") { $("#significance-taste-container").css({"display":"none"}) }
+        if (shroom[5].cullinary.taste == "") { $("#significance-taste-container").css({"display":"none"}); cullinaryCounter++; }
         arrayResponse("#significance-recipes", shroom[5].cullinary.recipelist);
-        if (shroom[5].cullinary.recipelist == "") { $("#significance-recipes-container").css({"display":"none"}) }
+        if (shroom[5].cullinary.recipelist == "") { $("#significance-recipes-container").css({"display":"none"}); cullinaryCounter++; }
+        if (cullinaryCounter == 3) {
+            $("#cullinary-container").css({"display":"none"});
+            significanceCounter++;
+        }
+
+        if(significanceCounter == 3) { $("#significance").css({"display":"none"}); }
         
         /* Geography */
         // $("#geography-region").html(shroom[6].region);

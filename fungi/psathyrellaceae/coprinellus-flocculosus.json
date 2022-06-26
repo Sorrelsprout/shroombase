@@ -29,17 +29,17 @@
     "characteristics": {
         "cap":{
             "img":"./images/psathyrellaceae/coprinellus-flocculosus/cap.jpg",
-            "caption":"",
+            "caption":"Found in Sunnyvale, CA, in June 2022",
             "desc":""
         },
         "underside":{
             "img":"./images/psathyrellaceae/coprinellus-flocculosus/underside.jpg",
-            "caption":"",
+            "caption":"Found in Sunnyvale, CA, in June 2022",
             "desc":""
         },
         "side":{
             "img":"./images/psathyrellaceae/coprinellus-flocculosus/side.jpg",
-            "caption":"",
+            "caption":"Found in Sunnyvale, CA, in June 2022",
             "desc":""
         },
         "halved":{
@@ -49,7 +49,7 @@
         },
         "stem":{
             "img":"./images/psathyrellaceae/coprinellus-flocculosus/stem.jpg",
-            "caption":"",
+            "caption":"Found in Sunnyvale, CA, in June 2022",
             "desc":""
         },
         "sporeprint":{
@@ -59,12 +59,12 @@
         },
         "mycelium":{
             "img":"./images/psathyrellaceae/coprinellus-flocculosus/mycelium.jpg",
-            "caption":"",
+            "caption":"Found in Sunnyvale, CA, in June 2022",
             "desc":""
         },
         "habitat":{
             "img":"./images/psathyrellaceae/coprinellus-flocculosus/habitat.jpg",
-            "caption":"",
+            "caption":"Found in Sunnyvale, CA, in June 2022",
             "desc":""
         },
         "bruising":{
@@ -115,12 +115,12 @@
             },
             "mature":{
                 "img":"./images/psathyrellaceae/coprinellus-flocculosus/lifestages-mature.jpg",
-                "caption":"",
+                "caption":"Found in Sunnyvale, CA, in June 2022",
                 "desc":"Mature specimen starting to wrinkle"
             },
             "old":{
                 "img":"./images/psathyrellaceae/coprinellus-flocculosus/lifestages-old.jpg",
-                "caption":"",
+                "caption":"Found in Sunnyvale, CA, in June 2022",
                 "desc":"Two dried and old specimens"
             }
         }
@@ -140,7 +140,7 @@
         "cullinary":{
             "cullinary":"Edible but poisonous when consumed with alcohol.",
             "taste":"",
-            "recipelist":["",""]
+            "recipelist":[]
         }
     },
 
