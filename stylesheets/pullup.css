@@ -250,6 +250,7 @@
 #pullup h2 {
     border-top: 1px solid var(--BorderColor);
     margin-top: 3rem;
+    margin-bottom: 1rem;
     padding: 3rem 0 1rem 0;
     font-size: 1.35em;
     text-align: center;

@@ -139,21 +139,51 @@ function preloadPullup(JSONURL) {
         $("#characteristics-habitat-img").attr("src", shroom[3].habitat.img);
         $("#characteristics-habitat-caption").html(shroom[3].habitat.caption);
         $("#characteristics-habitat-desc").html(shroom[3].habitat.desc);
+
+        let specialCharacteristicsCounter = 0;
+        let bruisingCounter = 0;
         $("#characteristics-bruising-img").attr("src", shroom[3].bruising.img);
+        if (shroom[3].bruising.img == "" || shroom[3].bruising.img == "./images/templates/bruising.jpg") { bruisingCounter++; }
         $("#characteristics-bruising-caption").html(shroom[3].bruising.caption);
+        if (shroom[3].bruising.caption == "") { bruisingCounter++; }
         $("#characteristics-bruising-desc").html(shroom[3].bruising.desc);
+        if (shroom[3].bruising.desc == "") { bruisingCounter++; }
+        if (bruisingCounter == 3) { $("#bruising-container").css({"display":"none"}); specialCharacteristicsCounter++; }
+
+        let kohCounter = 0;
         $("#characteristics-koh-img").attr("src", shroom[3].koh.img);
+        if (shroom[3].koh.img == "" || shroom[3].koh.img == "./images/templates/koh.jpg") { kohCounter++; }
         $("#characteristics-koh-caption").html(shroom[3].koh.caption);
+        if (shroom[3].koh.caption == "") { kohCounter++; }
         $("#characteristics-koh-desc").html(shroom[3].koh.desc);
+        if (shroom[3].koh.desc == "") { kohCounter++; }
+        if (kohCounter == 3) { $("#koh-container").css({"display":"none"}); specialCharacteristicsCounter++; }
+
+        let latexCounter = 0;
         $("#characteristics-latex-img").attr("src", shroom[3].latex.img);
+        if (shroom[3].latex.img == "" || shroom[3].latex.img == "./images/templates/latex.jpg") { latexCounter++; }
         $("#characteristics-latex-caption").html(shroom[3].latex.caption);
+        if (shroom[3].latex.caption == "") { latexCounter++; }
         $("#characteristics-latex-desc").html(shroom[3].latex.desc);
+        if (shroom[3].latex.desc == "") { latexCounter++; }
+        if (latexCounter == 3) { $("#latex-container").css({"display":"none"}); specialCharacteristicsCounter++; }
+
+        let bioluminescenceCounter = 0;
         $("#characteristics-bioluminescence-img").attr("src", shroom[3].bioluminescence.img);
+        if (shroom[3].bioluminescence.img == "" || shroom[3].bioluminescence.img == "./images/templates/bioluminescence.jpg") { bioluminescenceCounter++; }
         $("#characteristics-bioluminescence-caption").html(shroom[3].bioluminescence.caption);
+        if (shroom[3].bioluminescence.caption == "") { bioluminescenceCounter++; }
         $("#characteristics-bioluminescence-desc").html(shroom[3].bioluminescence.desc);
+        if (shroom[3].bioluminescence.desc == "") { bioluminescenceCounter++; }
+        if (bioluminescenceCounter == 3) { $("#bioluminescence-container").css({"display":"none"}); specialCharacteristicsCounter++; }
+
+        if (specialCharacteristicsCounter == 4) { $("#specialCharacteristics").css({"display":"none"}); }
         
         /* Fruit Season */
+        let lifeStagesCounter = 0;
         arrayResponse("#lifestages-fruitseason", shroom[4].fruitseason);
+        if (shroom[4].fruitseason == "") { $("#lifestages-fruitseason-container").css({"display":"none"}); lifeStagesCounter++; }
+
         let lifestages_img = [ shroom[4].images.fruiting.img, shroom[4].images.egg.img, shroom[4].images.eruption.img, shroom[4].images.button.img, shroom[4].images.mature.img, shroom[4].images.old.img ]
         let lifestages_desc = [ shroom[4].images.fruiting.desc, shroom[4].images.egg.desc, shroom[4].images.eruption.desc, shroom[4].images.button.desc, shroom[4].images.mature.desc, shroom[4].images.old.desc ]
         let lifestagesContent = "";
@@ -173,8 +203,10 @@ function preloadPullup(JSONURL) {
                 } else { currentlifestagesContent = ""; }
             } lifestagesContent += currentlifestagesContent;
         }
-        if (lifestagesContent == "") { $("#lifestages-images").css({"display":"none"}); }
+        if (lifestagesContent == "") { $("#lifestages-images").css({"display":"none"}); lifeStagesCounter++; }
         $("#lifestages-images").html(lifestagesContent);
+        
+        if (lifeStagesCounter == 2) { $("#lifeStages").css({"display":"none"}); }
         
         /* Significance */
         let significanceCounter = 0;
@@ -217,9 +249,14 @@ function preloadPullup(JSONURL) {
         if(significanceCounter == 3) { $("#significance").css({"display":"none"}); }
         
         /* Geography */
+        let geographyCounter = 0;
         // $("#geography-region").html(shroom[6].region);
         $("#geography-fruitLocation").html(shroom[6].fruitlocation);
+        if (shroom[6].fruitlocation == "") { $("#geography-fruitLocation").css({"display":"none"}); geographyCounter++; }
         // $("#geography-coordinates").html(shroom[6].coordinates);
+        if( geographyCounter == 1 ) {
+            $("#geography").css({"display":"none"});
+        }
         
         /* Lookalikes */
         let lookalikeContent = "";

@@ -140,7 +140,7 @@
         "cullinary":{
             "cullinary":"Avoid specimens when found on Eucalyptus, Conifers, and Yew trees, which contain toxic alkaloids that can be absorbed by the mushroom. Specimens growing on hardwoods shoud be generally avoided to prevent gastrointestinal distress.",
             "taste":"",
-            "recipelist":["",""]
+            "recipelist":[]
         }
     },
 
