@@ -1,7 +1,7 @@
 {
     "tags": {
         "edibility":"Edible",
-        "treelationship":["Conifers", "Eucalyptus","Oak", "Willow", "Sweet Chestnut", "Sycamore", "Yew"],
+        "treelationship":["Beech", "Conifers", "Chestnut", "Eucalyptus", "Oak", "Willow", "Sycamore", "Yew"],
         "color":["orange", "yellow"],
         "type":"Parasitic"
     },
@@ -14,7 +14,7 @@
         "genus":"Laetiporus",
         "species":"Sulphureus",
         "variation":"",
-        "aliases":"Chicken fungus, Chicken mushroom, Chicken of the woods, Sulfur shelf",
+        "aliases":"Chicken fungus, Chicken mushroom, Chicken of the woods, Spring chicken, Sulfur shelf",
         "displayalias":"Chicken of the Woods"
     },
 
@@ -22,19 +22,20 @@
         "coverimg":"",
         "abundancy":"",
         "smell":"",
-        "tidbits":"Chicken of the Woods is a shelf mushroom polypore."
+        "size":"Usually palm-sized",
+        "tidbits":"Shelf mushroom polypore."
     },
 
     "characteristics": {
         "cap":{
             "img":"./images/fomitopsidaceae/laetiporus-sulphureus/cap.jpg",
             "caption":"",
-            "desc":""
+            "desc":"The inner parts are bright orange, and the outer parts are bright yellow. Sometimes the entire specimen is yellow on top. Very vibrant coloration."
         },
         "underside":{
             "img":"https://upload.wikimedia.org/wikipedia/commons/d/da/2013_09_08o_P%C5%99%C3%ADrodn%C3%AD_park_Baba.JPG",
             "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:2013_09_08o_P%C5%99%C3%ADrodn%C3%AD_park_Baba.JPG' target='_blank'>Wikimedia Commons</a>.",
-            "desc":""
+            "desc":"Tiny pores are found on the underside."
         },
         "side":{
             "img":"https://upload.wikimedia.org/wikipedia/commons/c/ca/Laetiporus_sulphureus.jpg",
@@ -44,7 +45,7 @@
         "halved":{
             "img":"./images/fomitopsidaceae/laetiporus-sulphureus/halved.jpg",
             "caption":"",
-            "desc":""
+            "desc":"Blooms are rounded shelves, some have denser wave-like patterns."
         },
         "stem":{
             "img":"./images/templates/stem.jpg",
@@ -54,7 +55,7 @@
         "sporeprint":{
             "img":"./images/templates/sporeprint.jpg",
             "caption":"",
-            "desc":""
+            "desc":"White spore print. Once spores can be seen, mushrooms are too old to eat."
         },
         "mycelium":{
             "img":"./images/templates/mycelium.jpg",
@@ -64,7 +65,7 @@
         "habitat":{
             "img":"https://upload.wikimedia.org/wikipedia/commons/0/09/Chicken_of_the_Woods_Polyporus_sulphureus_%2822453067603%29.jpg",
             "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Chicken_of_the_Woods_Polyporus_sulphureus_(22453067603).jpg' target='_blank'>Wikimedia Commons</a>.",
-            "desc":"Grows on the trunks of hardwood and deciduous trees."
+            "desc":"Grows on the trunks of hardwood and deciduous trees. Mostly found growing on Oaks. Can grow in dense stacks."
         },
         "bruising":{
             "img":"./images/templates/bruising.jpg",
@@ -90,7 +91,7 @@
 
 
     "lifestages":{
-        "fruitseason":"",
+        "fruitseason":["Spring", "Summer", "Fall"],
         "images":{
             "fruiting":{
                 "img":"",
@@ -144,8 +145,8 @@
     },
 
     "geography":{
-        "region":"",
-        "fruitlocation":"",
+        "region":["North America"],
+        "fruitlocation":"Common East of the Rocky Mountains in North America.",
         "coordinates":[""]
     },
 
