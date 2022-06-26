@@ -183,6 +183,9 @@ function preloadPullup(JSONURL) {
         let lifeStagesCounter = 0;
         arrayResponse("#lifestages-fruitseason", shroom[4].fruitseason);
         if (shroom[4].fruitseason == "") { $("#lifestages-fruitseason-container").css({"display":"none"}); lifeStagesCounter++; }
+        
+        $("#lifestages-lifespan").html(shroom[4].lifespan);
+        if (shroom[4].lifespan == "") { $("#lifestages-lifespan-container").css({"display":"none"}); lifeStagesCounter++; }
 
         let lifestages_img = [ shroom[4].images.fruiting.img, shroom[4].images.egg.img, shroom[4].images.eruption.img, shroom[4].images.button.img, shroom[4].images.mature.img, shroom[4].images.old.img ]
         let lifestages_desc = [ shroom[4].images.fruiting.desc, shroom[4].images.egg.desc, shroom[4].images.eruption.desc, shroom[4].images.button.desc, shroom[4].images.mature.desc, shroom[4].images.old.desc ]
@@ -206,7 +209,7 @@ function preloadPullup(JSONURL) {
         if (lifestagesContent == "") { $("#lifestages-images").css({"display":"none"}); lifeStagesCounter++; }
         $("#lifestages-images").html(lifestagesContent);
         
-        if (lifeStagesCounter == 2) { $("#lifeStages").css({"display":"none"}); }
+        if (lifeStagesCounter == 3) { $("#lifeStages").css({"display":"none"}); }
         
         /* Significance */
         let significanceCounter = 0;

@@ -92,6 +92,7 @@
 
     "lifestages":{
         "fruitseason":["Summer", "Fall", "Winter"],
+        "lifespan":"",
         "images":{
             "fruiting":{
                 "img":"",

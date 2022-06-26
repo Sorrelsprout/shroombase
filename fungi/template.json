@@ -89,9 +89,9 @@
         }
     },
 
-
     "lifestages":{
         "fruitseason":"",
+        "lifespan":"",
         "images":{
             "fruiting":{
                 "img":"",
@@ -140,7 +140,7 @@
         "cullinary":{
             "cullinary":"",
             "taste":"",
-            "recipelist":["",""]
+            "recipelist":[]
         }
     },
 

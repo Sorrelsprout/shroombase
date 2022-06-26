@@ -92,6 +92,7 @@
 
     "lifestages":{
         "fruitseason":"",
+        "lifespan":"",
         "images":{
             "fruiting":{
                 "img":"",
