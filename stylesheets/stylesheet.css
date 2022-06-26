@@ -87,6 +87,7 @@ nav .socials {
   width: 80%;
   top: 6rem;
   margin: 2rem auto 1rem auto;
+  padding: 0 0.25rem;
   filter: brightness(0.65) sepia(15%);
 }
 

@@ -9,7 +9,6 @@
     left: 0;
     width: 100%;
     height: calc(100vh - 6rem);
-    padding: 5rem 5rem 0rem 5rem;
     background: var(--BGColor);
     z-index: 1;
     overflow: scroll;
@@ -39,17 +38,6 @@
     opacity: 0.5;
 }
 
-#pullup .hero::before {
-    content:'';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #0006;
-}
-
 /* Pullup Hero -------------------------------------------------------------*/
 
 #pullup .hero {
@@ -63,14 +51,20 @@
     background: url(https://fungi.sorrelsprout.com/resources/heroes/hero.jpg) no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: center;
     justify-content: center;
 }
 
 #pullup .hero::before {
-    backdrop-filter: blur(3px);
+    content:'';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    background: #0006;
+    backdrop-filter: blur(3px);
 }
 
 #pullup .hero h1,
@@ -80,6 +74,27 @@
     z-index: 1;
     color: #fff;
     margin-bottom: 1rem;
+}
+
+#pullup {
+    width: 100%;
+    margin: 0;
+    background: var(--BGColor);
+}
+
+#pullup #pullupContent {
+    margin: 0;
+    /* padding: 5rem 5rem 0 5rem; */
+}
+
+#pullup .fullDescriptionWrapper {
+    z-index: 1;
+}
+
+#pullup .fullDescriptionWrapper {
+    background: var(--BGColor);
+    margin-top: 18rem;
+    width: 100%;
 }
 
 #pullup #pullupContent h1 {
@@ -142,7 +157,9 @@
 /* Pullup Description ------------------------------------------------------*/
 
 #pullup .fullDescription {
-    margin: 18rem auto 0 auto;
+    display: block;
+    margin: 0 auto !important;
+    padding: 3rem 2rem 0 2rem !important;
     max-width: var(--maxWidth);
     width: 100%;
 }
