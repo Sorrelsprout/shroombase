@@ -115,70 +115,37 @@ function preloadPullup(JSONURL) {
         $("#distinguishing-tidbits").html(shroom[2].tidbits);
         if (shroom[2].tidbits == "") { $("#distinguishing-tidbits-container").css({"display":"none"}) }
         
-        /* Caracteristics */
-        $("#characteristics-cap-img").attr("src", shroom[3].cap.img);
-        $("#characteristics-cap-caption").html(shroom[3].cap.caption);
-        $("#characteristics-cap-desc").html(shroom[3].cap.desc);
-        $("#characteristics-underside-img").attr("src", shroom[3].underside.img);
-        $("#characteristics-underside-caption").html(shroom[3].underside.caption);
-        $("#characteristics-underside-desc").html(shroom[3].underside.desc);
-        $("#characteristics-side-img").attr("src", shroom[3].side.img);
-        $("#characteristics-side-caption").html(shroom[3].side.caption);
-        $("#characteristics-side-desc").html(shroom[3].side.desc);
-        $("#characteristics-halved-img").attr("src", shroom[3].halved.img);
-        $("#characteristics-halved-caption").html(shroom[3].halved.caption);
-        $("#characteristics-halved-desc").html(shroom[3].halved.desc);
-        $("#characteristics-stem-img").attr("src", shroom[3].stem.img);
-        $("#characteristics-stem-caption").html(shroom[3].stem.caption);
-        $("#characteristics-stem-desc").html(shroom[3].stem.desc);
-        $("#characteristics-sporeprint-img").attr("src", shroom[3].sporeprint.img);
-        $("#characteristics-sporeprint-caption").html(shroom[3].sporeprint.caption);
-        $("#characteristics-sporeprint-desc").html(shroom[3].sporeprint.desc);
-        $("#characteristics-mycelium-img").attr("src", shroom[3].mycelium.img);
-        $("#characteristics-mycelium-caption").html(shroom[3].mycelium.caption);
-        $("#characteristics-mycelium-desc").html(shroom[3].mycelium.desc);
-        $("#characteristics-habitat-img").attr("src", shroom[3].habitat.img);
-        $("#characteristics-habitat-caption").html(shroom[3].habitat.caption);
-        $("#characteristics-habitat-desc").html(shroom[3].habitat.desc);
+        /* Characteristics */
+        const CHARACTERISTICS_SUBCATEGORY = ["cap", "underside", "side", "halved", "stem", "sporeprint", "mycelium", "habitat"];
+        const SPECIALHARACTERISTICS_SUBCATEGORY = ["bruising", "koh", "latex", "bioluminescence"];
 
-        let specialCharacteristicsCounter = 0;
-        let bruisingCounter = 0;
-        $("#characteristics-bruising-img").attr("src", shroom[3].bruising.img);
-        if (shroom[3].bruising.img == "" || shroom[3].bruising.img == "./images/templates/bruising.jpg") { bruisingCounter++; }
-        $("#characteristics-bruising-caption").html(shroom[3].bruising.caption);
-        if (shroom[3].bruising.caption == "") { bruisingCounter++; }
-        $("#characteristics-bruising-desc").html(shroom[3].bruising.desc);
-        if (shroom[3].bruising.desc == "") { bruisingCounter++; }
-        if (bruisingCounter == 3) { $("#bruising-container").css({"display":"none"}); specialCharacteristicsCounter++; }
+        characteristicsSetup(shroom[3], "#mainCharachteristics", CHARACTERISTICS_SUBCATEGORY);
+        characteristicsSetup(shroom[3], "#specialCharacteristics", SPECIALHARACTERISTICS_SUBCATEGORY);
 
-        let kohCounter = 0;
-        $("#characteristics-koh-img").attr("src", shroom[3].koh.img);
-        if (shroom[3].koh.img == "" || shroom[3].koh.img == "./images/templates/koh.jpg") { kohCounter++; }
-        $("#characteristics-koh-caption").html(shroom[3].koh.caption);
-        if (shroom[3].koh.caption == "") { kohCounter++; }
-        $("#characteristics-koh-desc").html(shroom[3].koh.desc);
-        if (shroom[3].koh.desc == "") { kohCounter++; }
-        if (kohCounter == 3) { $("#koh-container").css({"display":"none"}); specialCharacteristicsCounter++; }
+        function characteristicsSetup( JSONcategory, overallContainerID, subcategory ){
+            let overallContainer = 0;
 
-        let latexCounter = 0;
-        $("#characteristics-latex-img").attr("src", shroom[3].latex.img);
-        if (shroom[3].latex.img == "" || shroom[3].latex.img == "./images/templates/latex.jpg") { latexCounter++; }
-        $("#characteristics-latex-caption").html(shroom[3].latex.caption);
-        if (shroom[3].latex.caption == "") { latexCounter++; }
-        $("#characteristics-latex-desc").html(shroom[3].latex.desc);
-        if (shroom[3].latex.desc == "") { latexCounter++; }
-        if (latexCounter == 3) { $("#latex-container").css({"display":"none"}); specialCharacteristicsCounter++; }
+            for (let i=0; i<subcategory.length; i++) {
+                let counter = 0;
 
-        let bioluminescenceCounter = 0;
-        $("#characteristics-bioluminescence-img").attr("src", shroom[3].bioluminescence.img);
-        if (shroom[3].bioluminescence.img == "" || shroom[3].bioluminescence.img == "./images/templates/bioluminescence.jpg") { bioluminescenceCounter++; }
-        $("#characteristics-bioluminescence-caption").html(shroom[3].bioluminescence.caption);
-        if (shroom[3].bioluminescence.caption == "") { bioluminescenceCounter++; }
-        $("#characteristics-bioluminescence-desc").html(shroom[3].bioluminescence.desc);
-        if (shroom[3].bioluminescence.desc == "") { bioluminescenceCounter++; }
-        if (bioluminescenceCounter == 3) { $("#bioluminescence-container").css({"display":"none"}); specialCharacteristicsCounter++; }
+                const CIMG = JSONcategory[subcategory[i]].img;
+                const CCAPTION = JSONcategory[subcategory[i]].caption;
+                const CDESC = JSONcategory[subcategory[i]].desc;
+    
+                const PLACEHOLDERIMG = "./images/templates/" + subcategory[i] + ".jpg"
+                const TAGIMG = "#characteristics-" + subcategory[i] + "-img";
+                const TAGCAPTION = "#characteristics-" + subcategory[i] + "-caption";
+                const TAGDESC = "#characteristics-" + subcategory[i] + "-desc";
+    
+                $(TAGIMG).attr("src", CIMG); if (CIMG == "" || CIMG == PLACEHOLDERIMG) { counter++; }
+                $(TAGCAPTION).html(CCAPTION); if (CCAPTION == "") { counter++; }
+                $(TAGDESC).html(CDESC); if (CDESC == "") { counter++; }
 
-        if (specialCharacteristicsCounter == 4) { $("#specialCharacteristics").css({"display":"none"}); }
+                const CONTAINERNAME = "#" + subcategory[i] + "-container";
+                if (counter == 3) { $(CONTAINERNAME).css({"display":"none"}); overallContainer++; }
+            }
+            if (overallContainer == subcategory.length) { $(overallContainerID).css({"display":"none"}); }
+        }
         
         /* Fruit Season */
         let lifeStagesCounter = 0;
