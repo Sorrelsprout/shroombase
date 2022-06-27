@@ -261,7 +261,7 @@
     background: var(--BGColor);
 }
 
-/* #pullup h2:first-of-type {
+/* #pullup h2:first-child {
     border-top: none;
     margin-top: 0;
     padding-top: 2rem;
@@ -291,6 +291,11 @@
 #pullup a {
     font-weight: 600;
     border-bottom: 1px solid var(--TextColor);
+}
+
+#pullup a:not([href]) {
+    color: #cb6248;
+    border-bottom: 1px solid #cb6248;
 }
 
 #pullup strong {

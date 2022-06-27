@@ -56,7 +56,7 @@ nav {
 
 nav a {
  text-transform: uppercase;
- margin: 0.5rem 0.5rem 0.5rem 0;
+ margin: 0.5rem 1.25rem 0.5rem 0;
  letter-spacing: 1.1px;
 }
 
@@ -69,6 +69,10 @@ nav > span {
 nav > span:last-child {
   display: flex;
   justify-content: flex-end;
+}
+
+nav > span:last-child a:last-child {
+  margin: 0.5rem 0;
 }
 
 nav .socials {
@@ -84,9 +88,10 @@ nav .socials {
 #mushroomsFungiTitle {
   position: relative;
   display: block;
-  width: 80%;
+  width: 85%;
   top: 6rem;
   margin: 2rem auto 1rem auto;
+  max-width: var(--navWidth);
   filter: brightness(0.65) sepia(15%);
 }
 

@@ -465,31 +465,56 @@ function preloadPullup(JSONURL) {
 
 /* O P E N   P O P U P  -------------------------------------------------------------------------- */
 
-    $("#terms").click(function() { 
-        $("#pullupContent .fullDescription").load("pages/terms.html"); 
-        $("#pullupContent .hero").css({ 
-            "background": "url(https://images.unsplash.com/photo-1570161387493-1ad88c522eba?w=2000&h=1200&fit=crop&fp-y=0.420)", 
-            "background-position":"50% 50%",
-            "background-size":"cover",
-            "background-repeat":"no-repeat" 
-        });
-        $("#pullupContent .hero h1").html("Terms to Know"); /* Project Name Setup */
-        $("#pullupContent .hero p").html("");
-        setPullup(); /* Project Content Setup */
-    });
+    const PAGENAMES = [
+        "definitions", 
+        "about",
+        "communities",
+        "forage",
+        "grow",
+        "cullinary",
+        "learn"
+    ];
+    const PAGEHEROES = [
+        "https://images.unsplash.com/photo-1570161387493-1ad88c522eba?w=2000&h=1200&fit=crop&fp-y=0.420",
+        "./images/about/banner-about.jpg",
+        "./images/about/banner-about.jpg",
+        "./images/about/banner-about.jpg",
+        "./images/about/banner-about.jpg",
+        "./images/about/banner-about.jpg",
+        "./images/about/banner-about.jpg"
+    ];
+    const PAGETITLES = [
+        "Definitions to Know",
+        "About Shroombase",
+        "Communities",
+        "Foraging",
+        "Growing",
+        "Cullinary",
+        "Learning"
+    ];
+    const PAGESUBTITLES = ["", "", "", "", "", "", ""]
 
-    $("#about").click(function() { 
-        $("#pullupContent .fullDescription").load("pages/about.html"); 
-        $("#pullupContent .hero").css({ 
-            "background": "url(./images/about/banner-about.jpg)", 
-            "background-position":"50% 50%",
-            "background-size":"cover",
-            "background-repeat":"no-repeat" 
-        });
-        $("#pullupContent .hero h1").html("About Shroombase"); /* Project Name Setup */
-        $("#pullupContent .hero p").html("");
-        setPullup(); /* Project Content Setup */
-    });
+    swapPages();
+    function swapPages() {
+        for(let i=0; i < PAGENAMES.length; i++) {
+            const PAGEID = "#" + PAGENAMES[i];
+            const PAGEHTML = "pages/" + PAGENAMES[i] + ".html";
+            const PAGEHERO = "url(" + PAGEHEROES[i] + ")";
+            $(PAGEID).click(function() { 
+                $("#pullupContent .fullDescription").load(PAGEHTML); 
+                $("#pullupContent .hero").css({ 
+                    "background": PAGEHERO, 
+                    "background-position":"50% 50%",
+                    "background-size":"cover",
+                    "background-repeat":"no-repeat" 
+                });
+                $("#pullupContent .hero h1").html(PAGETITLES[i]); /* Project Name Setup */
+                $("#pullupContent .hero p").html(PAGESUBTITLES[i]);
+                setPullup(); /* Project Content Setup */
+            });
+        }
+    }
+
 
     function setPullup() {
         $("#pullupContent").addClass("show");
