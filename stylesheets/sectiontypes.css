@@ -8,17 +8,17 @@
     justify-content: center;
 }
 
-.fungiTags li, #lifestages-fruitseason li {
+.fungiTags li {
     padding: 0.25rem 0.75rem;
-    margin: 0 0.5rem 1rem 0.5rem;
+    margin: 0.5rem;
     background: var(--SelectionBG);
     font-size: 0.85em;
+    list-style-type: none;
 }
 
-#lifestages-fruitseason { 
-    display: inline-flex;
-    flex-wrap:wrap;
-    list-style-type: none !important;
+#pullup .fungiTags ul {
+    margin: 0;
+    display: flex;
 }
 
 #tags-poisonousEdible.poisonous,
@@ -33,11 +33,35 @@
     background: #679450;
 }
 
+#tags-treelation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#tags-treelation-container strong { margin: 0 1rem 0 0; }
+#tags-treelation-container .fungiTags { margin: 0 !important; }
+
+@media (max-width: 600px){
+    #tags-treelation-container { flex-direction: column; }
+    #tags-treelation-container strong { margin: 0 0 1rem 0; }
+}
 
 /* L I F E S T A G E S ------------------------------------------------------- */
 
-/* To Add */
+#lifestages-fruitseason li {
+    padding: 0.25rem 0.75rem;
+    margin: 0 0.5rem 1rem 0.5rem;
+    background: var(--SelectionBG);
+    font-size: 0.85em;
+    list-style-type: none;
+}
+
+#lifestages-fruitseason { 
+    display: inline-flex;
+    flex-wrap:wrap;
+    list-style-type: none !important;
+}
 
 
 

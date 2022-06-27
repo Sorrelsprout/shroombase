@@ -1,9 +1,9 @@
 {
     "tags": {
-        "edibility":"Poisonous or Edible",
-        "treelationship":["Relationship to Tree"],
-        "color":[""],
-        "type":"Type of Fungus"
+        "edibility":"",
+        "treelationship":[],
+        "color":[],
+        "type":""
     },
 
     "nomenclature":{
@@ -13,15 +13,15 @@
         "family":"Family",
         "genus":"Genus",
         "species":"Species",
-        "variation":"Var",
+        "variation":"",
         "aliases":"Aliases",
         "displayalias":"Display Alias"
     },
 
     "distinguishing":{
         "coverimg":"",
-        "abundancy":"Abundancy",
-        "smell":"Smell",
+        "abundancy":"",
+        "smell":"",
         "size":"",
         "tidbits":"Other tidbits to note"
     },
@@ -29,63 +29,63 @@
     "characteristics": {
         "cap":{
             "img":"./images/templates/cap.jpg",
-            "caption":"",
-            "desc":""
+            "caption":" ",
+            "desc":" "
         },
         "underside":{
             "img":"./images/templates/underside.jpg",
-            "caption":"",
-            "desc":""
+            "caption":" ",
+            "desc":" "
         },
         "side":{
             "img":"./images/templates/side.jpg",
-            "caption":"",
-            "desc":""
+            "caption":" ",
+            "desc":" "
         },
         "halved":{
             "img":"./images/templates/halved.jpg",
-            "caption":"",
-            "desc":""
+            "caption":" ",
+            "desc":" "
         },
         "stem":{
             "img":"./images/templates/stem.jpg",
-            "caption":"",
-            "desc":""
+            "caption":" ",
+            "desc":" "
         },
         "sporeprint":{
             "img":"./images/templates/sporeprint.jpg",
-            "caption":"",
-            "desc":""
+            "caption":" ",
+            "desc":" "
         },
         "mycelium":{
             "img":"./images/templates/mycelium.jpg",
-            "caption":"",
-            "desc":""
+            "caption":" ",
+            "desc":" "
         },
         "habitat":{
             "img":"./images/templates/habitat.jpg",
-            "caption":"",
-            "desc":""
+            "caption":" ",
+            "desc":" "
         },
         "bruising":{
             "img":"./images/templates/bruising.jpg",
-            "caption":"",
-            "desc":""
+            "caption":" ",
+            "desc":" "
         },
         "koh":{
             "img":"./images/templates/koh.jpg",
-            "caption":"",
-            "desc":""
+            "caption":" ",
+            "desc":" "
         },
         "latex":{
             "img":"./images/templates/latex.jpg",
-            "caption":"",
-            "desc":""
+            "caption":" ",
+            "desc":" "
         },
         "bioluminescence":{
             "img":"./images/templates/bioluminescence.jpg",
-            "caption":"",
-            "desc":""
+            "caption":" ",
+            "desc":" "
         }
     },
 

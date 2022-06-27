@@ -3,7 +3,7 @@
         "edibility":"Edible",
         "treelationship":["Relationship to Tree"],
         "color":["orange","yellow"],
-        "type":"Type of Fungus"
+        "type":[]
     },
 
     "nomenclature":{

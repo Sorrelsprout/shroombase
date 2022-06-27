@@ -1,9 +1,9 @@
 {
     "tags": {
         "edibility":"Poisonous or Edible",
-        "treelationship":["Relationship to Tree"],
+        "treelationship":[],
         "color":[""],
-        "type":"Type of Fungus"
+        "type":[]
     },
 
     "nomenclature":{

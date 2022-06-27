@@ -66,20 +66,27 @@
                     <label for="searchTree">Related Tree:</label>
                     <select name="searchTree" id="searchTree">
                         <option value="">All</option>
-                        <option value="beech">Beech</option>
-                        <option value="birch">Birch</option>
-                        <option value="cedar">Cedar</option>
-                        <option value="chestnut">Chestnut</option>
-                        <option value="conifer">Conifer</option>
-                        <option value="douglasfir">Douglas Fir</option>
-                        <option value="eucalyptus">Eucalyptus</option>
-                        <option value="fir">Fir</option>
-                        <option value="oak">Oak</option>
-                        <option value="pine">Pine</option>
-                        <option value="spruce">Spruce</option>
-                        <option value="sycamore">Sycamore</option>
-                        <option value="willow">Willow</option>
-                        <option value="yew">Yew</option>
+                        <optgroup label="Conifer">
+                            <option value="cedar">Cedar</option>
+                            <option value="douglasfir">Douglas Fir</option>
+                            <option value="fir">Fir</option>
+                            <option value="oak">Oak</option>
+                            <option value="pine">Pine</option>
+                            <option value="spruce">Spruce</option>
+                            <option value="yew">Yew</option>
+                        </optgroup>
+                        <optgroup label="Deciduous">
+                            <option value="beech">Beech</option>
+                            <option value="birch">Birch</option>
+                            <option value="chestnut">Chestnut</option>
+                            <option value="maple">Maple</option>
+                            <option value="sycamore">Sycamore</option>
+                            <option value="willow">Willow</option>
+                        </optgroup>
+                        <optgroup label="Non-conifer Evergreen">
+                            <option value="bay">Bay</option>
+                            <option value="eucalyptus">Eucalyptus</option>
+                        </optgroup>
                     </select>
                 </span>
                 <span class="inputSelect">
@@ -144,6 +151,7 @@
         <div id="fungiGrid">
             <div class="amanitaceae" id="amanita-muscaria" title="Fly Agaric"></div>
 
+            <div class="fomitopsidaceae" id="fomitopsis-cajanderi" title="Rosy Conk"></div>
             <div class="fomitopsidaceae" id="laetiporus-sulphureus" title="Chicken of the Woods"></div>
             
             <div class="ganodermataceae" id="ganoderma-brownii" title="Ganoderma Brownii"></div>

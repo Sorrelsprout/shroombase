@@ -9,7 +9,7 @@
     left: 0;
     width: 100%;
     height: calc(100vh - 6rem);
-    padding: 5rem 5rem 0rem 5rem;
+    padding: 5rem 2rem 0rem 2rem;
     background: var(--BGColor);
     z-index: 1;
     overflow: scroll;
