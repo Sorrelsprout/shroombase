@@ -80,6 +80,12 @@
     background: #679450;
 }
 
+#tags-poisonousEdible.medicinal,
+#tags-poisonousEdible.Medicinal {
+    color: #fff;
+    background: #9e896c;
+}
+
 #tags-treelation-container {
     display: flex;
     align-items: center;
