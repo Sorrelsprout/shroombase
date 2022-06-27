@@ -66,7 +66,7 @@ $(document).ready(function(){
 
 /* Preload some content */
 $("#pullupContent .hero h1").html("Template");
-$("#pullupContent .fullDescription").load("./fungi/template.html");
+$("#pullupContent #fullDescription").load("./fungi/template.html");
 preloadPullup("./fungi/template.json");
 
 function preloadPullup(JSONURL) {
@@ -292,7 +292,7 @@ function preloadPullup(JSONURL) {
 
         /* Project Content Setup */
         const PROJECTDESC = "./fungi/template.html";
-        $("#pullupContent .fullDescription").load(PROJECTDESC); 
+        $("#pullupContent #fullDescription").load(PROJECTDESC); 
 
 
 
@@ -301,6 +301,9 @@ function preloadPullup(JSONURL) {
         const JSONURL = "./fungi/" + (FUNGIFAMILY) + "/" + (FUNGIID) + ".json";
         preloadPullup(JSONURL);
         setPullup();
+
+        
+        $("#pageH2Tags-container").removeClass("show");
     });
 
     /* Tags: For new tags, update TAGPREFIX, TAGOBJECTS, and NEWTAGOBJECTS */
@@ -469,7 +472,9 @@ function preloadPullup(JSONURL) {
             const PAGEHTML = "pages/" + PAGENAMES[i] + ".html";
             const PAGEHERO = "url(" + PAGEHEROES[i] + ")";
             $(PAGEID).click(function() { 
-                $("#pullupContent .fullDescription").load(PAGEHTML); 
+                $("#pullupContent #fullDescription").load(PAGEHTML, function(){
+                    updateH2Tags(PAGENAMES[i]);
+                }); 
                 $("#pullupContent .hero").css({ 
                     "background": PAGEHERO, 
                     "background-position":"50% 50%",
@@ -477,7 +482,7 @@ function preloadPullup(JSONURL) {
                     "background-repeat":"no-repeat" 
                 });
                 $("#pullupContent .hero h1").html(PAGETITLES[i]); /* Project Name Setup */
-                $("#pullupContent .hero p").html(PAGESUBTITLES[i]);
+                $("#pullupContent .hero p").html(PAGESUBTITLES[i]);                
                 setPullup(); /* Project Content Setup */
             });
         }
@@ -487,6 +492,7 @@ function preloadPullup(JSONURL) {
     function setPullup() {
         $("#pullupContent").addClass("show");
         $("#pullup").addClass("show"); 
+        $("#pageH2Tags-container").removeClass("show");
     }
 
     $("#pullupToggle").click(function() { hidePullup() });
@@ -497,10 +503,38 @@ function preloadPullup(JSONURL) {
     }
 
 
+    
+/* N A V   S U B P A G E   H 2   T A G S --------------------------------------------------------- */
+function updateH2Tags(pagename){
+    $("#pageH2Tags").empty();
+    let tags = [];
+    let renderedtags = "";
+    let H2ID = [];
+
+    $("#pullupContent #fullDescription h2").each(function(){
+        let H2TEXT = $(this).text();
+        H2ID.push( H2TEXT.replace(/ /g,'') );
+        $(this).attr("id", H2TEXT.replace(/ /g,'')); //Add ID to H2s
+        tags.push($(this).text());
+    })
+
+    for(i=0; i<tags.length; i++){
+        renderedtags +="<li><a href='#"+H2ID[i]+"'>"+tags[i]+"</a></li>";
+    }
+
+    console.log(pagename)
+
+    if((tags.length == 0) || (pagename == "about")) { 
+        $("#pageH2Tags-container").removeClass("show"); 
+    } 
+    else { 
+        $("#pageH2Tags-container").addClass("show"); 
+    }
+    $("#pageH2Tags").append(renderedtags);
+}
+
+
 
 /* T O G G L E   A D V A N C E D   S E A R C H --------------------------------------------------- */
-    $("#searchAdvancedToggle").click(function() { 
-        $("#searchAdvanced").toggleClass("showAdvanced");
-        console.log("aaa")
-    });
+    $("#searchAdvancedToggle").click(function() { $("#searchAdvanced").toggleClass("showAdvanced"); });
 })
