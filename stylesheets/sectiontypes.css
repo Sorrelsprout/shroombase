@@ -1,6 +1,53 @@
+/* H 2   T A G S   Q U I C K N A V ------------------------------------------- */
+
+#pageH2Tags-container {
+    display: none;
+    flex-wrap:wrap;
+    margin: 18rem auto -18rem auto !important;
+    max-width: var(--maxWidth);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#pageH2Tags-container.show { display: flex; }
+
+#pageH2Tags {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 0 !important;
+}
+
+#pageH2Tags li {
+    padding: 0.25rem 0.75rem;
+    margin: 0.5rem;
+    background: var(--SelectionBG);
+    font-size: 0.85em;
+    list-style-type: none;
+    transition: all 0.3s ease-out;
+}
+
+#pageH2Tags li:hover { background: #fff; }
+
+#pageH2Tags-container strong { 
+    display: block;
+    margin: 0 1rem; 
+}
+
+#pullup #pageH2Tags a { 
+    font-weight: 300;
+    border: none; 
+}
+
+@media (max-width: 768px){
+    #pageH2Tags-container { flex-direction: column; }
+    #pageH2Tags-container strong { margin: 1rem 0; }
+}
+
 /* T A G S ------------------------------------------------------------------- */
 
-.fungiTags {
+.fungiTags{
     display: flex;
     flex-wrap:wrap;
     list-style-type: none !important;

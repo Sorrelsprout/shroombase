@@ -189,7 +189,7 @@
 
 /* Pullup Description ------------------------------------------------------*/
 
-#pullup .fullDescription {
+#pullup #fullDescription {
     margin: 18rem auto 0 auto;
     max-width: var(--maxWidth);
     width: 100%;
@@ -197,7 +197,10 @@
 
 #pullup #pullupContent { display: none; }
 
-#pullup #pullupContent.show { display: flex; }
+#pullup #pullupContent.show { 
+    display: flex; 
+    flex-direction: column;
+}
 
 /* About -------------------------------------------------------------------*/
 
@@ -339,10 +342,7 @@
     z-index: 1;
 }
   
-#pullup .click-zoom img {
-    transition: transform 0.25s ease;
-    cursor: zoom-in;
-}
+#pullup .click-zoom img { cursor: zoom-in; }
   
 #pullup .click-zoom input[type=checkbox]:checked~img {
     position: fixed;
