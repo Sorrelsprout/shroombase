@@ -302,6 +302,12 @@
     font-weight: 600;
 }
 
+#pullup .warning {
+    color: #a88332;
+    text-align: center;
+    font-style: italic;
+}
+
 /* Pullup Image + Gallery ----------------------------------------------------*/
 
 #pullup .gallery { 
