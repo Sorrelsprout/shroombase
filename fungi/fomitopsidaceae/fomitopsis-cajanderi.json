@@ -1,0 +1,160 @@
+{
+    "tags": {
+        "edibility":"",
+        "treelationship":["Douglas Fir"],
+        "color":["pink", "brown"],
+        "type":["Saprotrophic", "Parasitic"]
+    },
+
+    "nomenclature":{
+        "division":"Basidiomycota",
+        "class":"Agaricomycetes",
+        "order":"Polyporales",
+        "family":"Fomitopsidaceae",
+        "genus":"Fomitopsis",
+        "species":"Cajanderi",
+        "variation":"",
+        "aliases":"Rhodofomes cajanderi, Rosy conk",
+        "displayalias":"Rosy Conk"
+    },
+
+    "distinguishing":{
+        "coverimg":"",
+        "abundancy":"",
+        "smell":"",
+        "size":"1&quot; - 4&quot;",
+        "tidbits":"Polyporus bracket fungus"
+    },
+
+    "characteristics": {
+        "cap":{
+            "img":"./images/fomitopsidaceae/fomitopsis-cajanderi/top.jpg",
+            "caption":"",
+            "desc":"Stiff, but slightly velvety on lighter portions."
+        },
+        "underside":{
+            "img":"./images/fomitopsidaceae/fomitopsis-cajanderi/underside.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "side":{
+            "img":"./images/fomitopsidaceae/fomitopsis-cajanderi/side.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "halved":{
+            "img":"./images/fomitopsidaceae/fomitopsis-cajanderi/halved.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "stem":{
+            "img":"./images/templates/stem.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "sporeprint":{
+            "img":"./images/templates/sporeprint.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "mycelium":{
+            "img":"./images/templates/mycelium.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "habitat":{
+            "img":"./images/fomitopsidaceae/fomitopsis-cajanderi/habitat.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bruising":{
+            "img":"./images/templates/bruising.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "koh":{
+            "img":"./images/templates/koh.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "latex":{
+            "img":"./images/templates/latex.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bioluminescence":{
+            "img":"./images/templates/bioluminescence.jpg",
+            "caption":"",
+            "desc":""
+        }
+    },
+
+    "lifestages":{
+        "fruitseason":"",
+        "lifespan":"",
+        "images":{
+            "fruiting":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "egg":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "eruption":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "button":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "mature":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "old":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            }
+        }
+    },
+
+    "significance":{
+        "scientific":{
+            "scientific":"",
+            "environmental":"",
+            "genetic":""
+        },
+        "cultural":{
+            "cultural":"",
+            "medicinal":"",
+            "funfacts":""
+        },
+        "cullinary":{
+            "cullinary":"",
+            "taste":"",
+            "recipelist":[]
+        }
+    },
+
+    "geography":{
+        "region":["North America"],
+        "fruitlocation":"Generally found in Western North America.",
+        "coordinates":[""]
+    },
+
+    "lookalikes":{
+        "names":[],
+        "images":[],
+        "caption":[],
+        "desc":[],
+        "edibility":[]
+    }
+}
