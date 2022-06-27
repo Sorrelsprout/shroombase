@@ -446,13 +446,13 @@ function preloadPullup(JSONURL) {
         "learn"
     ];
     const PAGEHEROES = [
-        "https://images.unsplash.com/photo-1570161387493-1ad88c522eba?w=2000&h=1200&fit=crop&fp-y=0.420",
+        "https://images.unsplash.com/photo-1583723708278-6fb1bd59d89b?w=2000",
         "./images/about/banner-about.jpg",
-        "./images/about/banner-about.jpg",
-        "./images/about/banner-about.jpg",
-        "./images/about/banner-about.jpg",
-        "./images/about/banner-about.jpg",
-        "./images/about/banner-about.jpg"
+        "https://images.unsplash.com/photo-1550824730-05ededc35e7a?w=2000&h=800&fit=crop&fp-y=0",
+        "https://images.unsplash.com/photo-1501169527804-c216a681aab8?w=2000",
+        "https://images.unsplash.com/photo-1615382596404-fbce9f0fdd6a?w=2000",
+        "https://images.unsplash.com/photo-1472024600210-31360ee97719?w=2000",
+        "https://images.unsplash.com/photo-1592321912449-636fc434fed1?w=2000"
     ];
     const PAGETITLES = [
         "Definitions to Know",
