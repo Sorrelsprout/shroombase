@@ -79,8 +79,9 @@ function preloadPullup(JSONURL) {
         if (shroom[0].edibility == "") { $("#tags-poisonousEdible").css({"display":"none"}) }
 
         arrayResponse("#tags-treeRelation", shroom[0].treelationship);
+        if (shroom[0].treelationship == "") { $("#tags-treelation-container").css({"display":"none"}) }
 
-        $("#tags-type").html(shroom[0].type);
+        arrayResponse("#tags-type", shroom[0].type);
         $("#tags-type").removeClass().addClass(shroom[0].type);
         if (shroom[0].type == "") { $("#tags-type").css({"display":"none"}) }
         

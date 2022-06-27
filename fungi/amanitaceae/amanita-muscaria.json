@@ -3,7 +3,7 @@
         "edibility":"Poisonous",
         "treelationship":["Beech", "Birch", "Cedar", "Fir", "Oak", "Pine", "Spruce"],
         "color":["red", "orange", "spotted"],
-        "type":"Mycorrhizal"
+        "type":["Mycorrhizal"]
     },
 
     "nomenclature":{

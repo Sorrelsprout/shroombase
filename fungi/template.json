@@ -1,9 +1,9 @@
 {
     "tags": {
-        "edibility":"Poisonous or Edible",
-        "treelationship":["Relationship to Tree"],
-        "color":[""],
-        "type":"Type of Fungus"
+        "edibility":"",
+        "treelationship":[],
+        "color":[],
+        "type":""
     },
 
     "nomenclature":{
@@ -13,15 +13,15 @@
         "family":"Family",
         "genus":"Genus",
         "species":"Species",
-        "variation":"Var",
+        "variation":"",
         "aliases":"Aliases",
         "displayalias":"Display Alias"
     },
 
     "distinguishing":{
         "coverimg":"",
-        "abundancy":"Abundancy",
-        "smell":"Smell",
+        "abundancy":"",
+        "smell":"",
         "size":"",
         "tidbits":"Other tidbits to note"
     },

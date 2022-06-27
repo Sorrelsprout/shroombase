@@ -1,9 +1,9 @@
 {
     "tags": {
         "edibility":"Edible",
-        "treelationship":["Beech", "Conifers", "Chestnut", "Eucalyptus", "Oak", "Willow", "Sycamore", "Yew"],
+        "treelationship":["Beech", "Chestnut", "Eucalyptus", "Oak", "Willow", "Sycamore", "Yew"],
         "color":["orange", "yellow"],
-        "type":"Parasitic"
+        "type":["Parasitic"]
     },
 
     "nomenclature":{

@@ -1,9 +1,9 @@
 {
     "tags": {
         "edibility":"Medicinal",
-        "treelationship":["Conifer", "Deciduous"],
+        "treelationship":[],
         "color":["striped"],
-        "type":"Saprotrophic"
+        "type":["Saprotrophic"]
     },
 
     "nomenclature":{

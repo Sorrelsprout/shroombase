@@ -3,7 +3,7 @@
         "edibility":"",
         "treelationship":[],
         "color":["grey", "tan"],
-        "type":"Saprotrophic"
+        "type":["Saprotrophic"]
     },
 
     "nomenclature":{
