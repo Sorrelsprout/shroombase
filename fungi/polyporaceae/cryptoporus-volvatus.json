@@ -1,0 +1,170 @@
+{
+    "tags": {
+        "edibility":"",
+        "treelationship":[],
+        "color":["tan"],
+        "type":["Saprotrophic"]
+    },
+
+    "nomenclature":{
+        "division":"Basidiomycota",
+        "class":"Agaricomycetes",
+        "order":"Polyporales",
+        "family":"Polyporaceae",
+        "genus":"Cryptoporus",
+        "species":"Volvatus",
+        "variation":"",
+        "aliases":"Veiled Polypore",
+        "displayalias":"Cryptoporus Volvatus"
+    },
+
+    "distinguishing":{
+        "coverimg":"",
+        "abundancy":"",
+        "smell":"",
+        "size":"",
+        "tidbits":"It's called the &lquo;Veiled Polypore&rquo; since its pores are covered by a protective veil. It has a symbiotic relationship with pine bark beetles."
+    },
+
+    "characteristics":{
+        "cap":{
+            "img":"./images/polyporaceae/cryptoporus-volvatus/top.jpg",
+            "caption":"Found in Yosemite National Park, CA, in May 2022",
+            "desc":"Smooth top, ranging from white to tan to orange in color."
+        },
+        "underside":{
+            "img":"./images/templates/underside.jpg",
+            "caption":"",
+            "desc":"Smooth bottom, with same consistency as top."
+        },
+        "side":{
+            "img":"./images/templates/side.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "halved":{
+            "img":"./images/polyporaceae/cryptoporus-volvatus/halved.jpg",
+            "caption":"Found in Yosemite National Park, CA, in May 2022",
+            "desc":"Slicing into C. volvatus is pretty easy. The texture is between rubbery and leathery, with a hollow interior."
+        },
+        "stem":{
+            "img":"./images/polyporaceae/cryptoporus-volvatus/attachment.jpg",
+            "caption":"Found in Yosemite National Park, CA, in May 2022",
+            "desc":"As much of a stem as polypores can have, this is what C. volvatus looks like where it connects to a tree."
+        },
+        "sporeprint":{
+            "img":"./images/templates/sporeprint.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "mycelium":{
+            "img":"./images/templates/mycelium.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "habitat":{
+            "img":"https://upload.wikimedia.org/wikipedia/commons/f/f4/Cryptoporus_volvatus_135066594.jpg",
+            "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Cryptoporus_volvatus_135066594.jpg' target='_blank'>Wikimedia Commons</a>, by Linzy L., <a title='Linzy L., CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons' href='https://commons.wikimedia.org/wiki/File:Cryptoporus_volvatus_135066594.jpg'>CC BY-SA 4.0</a>",
+            "desc":""
+        },
+        "bruising":{
+            "img":"./images/templates/bruising.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "koh":{
+            "img":"./images/templates/koh.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "latex":{
+            "img":"./images/templates/latex.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bioluminescence":{
+            "img":"./images/templates/bioluminescence.jpg",
+            "caption":"",
+            "desc":""
+        }
+    },
+
+    "lifestages":{
+        "fruitseason":"",
+        "lifespan":"",
+        "images":{
+            "spore":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "fruiting":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "egg":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "eruption":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "button":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "young":{
+                "img":"./images/polyporaceae/cryptoporus-volvatus/lifestages-young.jpg",
+                "caption":"Found in Yosemite National Park, CA, in May 2022",
+                "desc":"Young"
+            },
+            "mature":{
+                "img":"./images/polyporaceae/cryptoporus-volvatus/lifestages-mature.jpg",
+                "caption":"Found in Yosemite National Park, CA, in May 2022",
+                "desc":"Mature specimen. This one has some injuries."
+            },
+            "old":{
+                "img":"./images/polyporaceae/cryptoporus-volvatus/lifestages-old.jpg",
+                "caption":"Found in Yosemite National Park, CA, in May 2022",
+                "desc":"Old specimen. The surface has wrinkled."
+            }
+        }
+    },
+
+    "significance":{
+        "scientific":{
+            "scientific":"",
+            "environmental":"",
+            "genetic":""
+        },
+        "cultural":{
+            "cultural":"",
+            "medicinal":"",
+            "funfacts":""
+        },
+        "cullinary":{
+            "cullinary":"",
+            "taste":"",
+            "recipelist":[]
+        }
+    },
+
+    "geography":{
+        "region":[],
+        "fruitlocation":"",
+        "coordinates":[""]
+    },
+
+    "lookalikes":{
+        "names":[],
+        "images":[],
+        "caption":[],
+        "desc":[],
+        "edibility":[]
+    }
+}
