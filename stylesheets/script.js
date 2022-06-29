@@ -155,24 +155,28 @@ function preloadPullup(JSONURL) {
         $("#lifestages-lifespan").html(shroom[4].lifespan);
         if (shroom[4].lifespan == "") { $("#lifestages-lifespan-container").css({"display":"none"}); lifeStagesCounter++; }
 
-        let lifestages_img = [ shroom[4].images.fruiting.img, shroom[4].images.egg.img, shroom[4].images.eruption.img, shroom[4].images.button.img, shroom[4].images.mature.img, shroom[4].images.old.img ]
-        let lifestages_desc = [ shroom[4].images.fruiting.desc, shroom[4].images.egg.desc, shroom[4].images.eruption.desc, shroom[4].images.button.desc, shroom[4].images.mature.desc, shroom[4].images.old.desc ]
+        let lifestages_img = [ shroom[4].images.spore.img, shroom[4].images.fruiting.img, shroom[4].images.egg.img, shroom[4].images.eruption.img, shroom[4].images.button.img, shroom[4].images.mature.img, shroom[4].images.old.img ];
+
+        let lifestages_caption = [ shroom[4].images.spore.caption, shroom[4].images.fruiting.caption, shroom[4].images.egg.caption, shroom[4].images.eruption.caption, shroom[4].images.button.caption, shroom[4].images.mature.caption, shroom[4].images.old.caption ];
+
+        let lifestages_desc = [ shroom[4].images.spore.desc, shroom[4].images.fruiting.desc, shroom[4].images.egg.desc, shroom[4].images.eruption.desc, shroom[4].images.button.desc, shroom[4].images.mature.desc, shroom[4].images.old.desc ];
+
         let lifestagesContent = "";
         for (let i=0; i<lifestages_img.length; i++) {
             const CURRENTIMG = lifestages_img[i];
+            const CURRENTCAPTION = lifestages_caption[i];
             const CURRENTDESC = lifestages_desc[i];
-            let currentlifestagesContent = "";
-            if ( CURRENTIMG != "" ) {
-                if (CURRENTDESC != "") {
-                    currentlifestagesContent = "<label class='click-zoom'><figure><input type='checkbox'><img alt='lifeStage' src='"+ CURRENTIMG +"' loading='lazy'><figcaption>"+ CURRENTDESC +"</figcaption></figure></label>";
-                } else {
-                    currentlifestagesContent = "<label class='click-zoom'><figure><input type='checkbox'><img alt='lifeStage' src='"+ CURRENTIMG +"' loading='lazy'></figure></label>";
-                }
-            } else {
-                if (lifestages_desc[i] != "") {
-                    currentlifestagesContent = "<label class='click-zoom'><figure><input type='checkbox'><img alt='lifeStage' src='https://images.unsplash.com/photo-1454425064867-5ba516caf601?w=1000&h=1000&fit=crop&crop=focalpoint&fp-z=1.4&fp-x=0.45&fp-y=0.42' loading='lazy'><figcaption>Placeholder image. "+ CURRENTDESC +"</figcaption></figure></label>";
-                } else { currentlifestagesContent = ""; }
-            } lifestagesContent += currentlifestagesContent;
+
+            let innerContent = "";
+            let currentLifestageImgCounter = 0;
+            if ( CURRENTIMG != "" ) { innerContent += "<img alt='lifeStage' src='"+ CURRENTIMG +"' loading='lazy'>"; } 
+            else {
+                innerContent += "<img alt='lifeStage' src='https://images.unsplash.com/photo-1454425064867-5ba516caf601?w=1000&h=1000&fit=crop&crop=focalpoint&fp-z=1.4&fp-x=0.45&fp-y=0.42' loading='lazy'>";
+                currentLifestageImgCounter++;
+            }
+            if (CURRENTCAPTION != "") { innerContent += "<figcaption>"+ CURRENTCAPTION +"</figcaption>"; } 
+            if (CURRENTDESC != "") { innerContent += "</figure><p>"+ CURRENTDESC +"</p>"; }
+            if(currentLifestageImgCounter < 1) { lifestagesContent += ("<label class='click-zoom'><figure><input type='checkbox'>" + innerContent + "</label>"); }
         }
         if (lifestagesContent == "") { $("#lifestages-images").css({"display":"none"}); lifeStagesCounter++; }
         $("#lifestages-images").html(lifestagesContent);

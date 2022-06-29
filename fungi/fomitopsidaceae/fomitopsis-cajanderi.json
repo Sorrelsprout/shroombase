@@ -93,6 +93,11 @@
         "fruitseason":"",
         "lifespan":"",
         "images":{
+            "spore":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
             "fruiting":{
                 "img":"",
                 "caption":"",

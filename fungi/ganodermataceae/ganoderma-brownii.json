@@ -14,8 +14,8 @@
         "genus":"Ganoderma",
         "species":"Brownii",
         "variation":"",
-        "aliases":"",
-        "displayalias":"Ganoderma brownii"
+        "aliases":"Artist's Conk",
+        "displayalias":"Artist's Conk"
     },
 
     "distinguishing":{
@@ -23,7 +23,7 @@
         "abundancy":"",
         "smell":"",
         "size":"2&quot; - 25&quot;",
-        "tidbits":"Polypore mushroom"
+        "tidbits":"Polypore mushroom. It's part of the Appalantum (artist conk) group, which includes the more widespread G. appalantum."
     },
 
     "characteristics": {
@@ -35,7 +35,7 @@
         "underside":{
             "img":"./images/ganodermataceae/ganoderma-brownii/underside.jpg",
             "caption":"Found in Santa Cruz, CA, in May 2022",
-            "desc":"Pores are white, slightly velvety to the touch."
+            "desc":"Pores are slightly yellow, and slightly velvety to the touch."
         },
         "side":{
             "img":"./images/ganodermataceae/ganoderma-brownii/side.jpg",
@@ -93,6 +93,11 @@
         "fruitseason":"",
         "lifespan":"2+ years",
         "images":{
+            "spore":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
             "fruiting":{
                 "img":"",
                 "caption":"",
@@ -161,7 +166,7 @@
             "Image from <a href='https://commons.wikimedia.org/wiki/File:Ganoderma_applanatum_2010_G1.jpg' target='_blank'>Wikimedia Commons</a>."
         ],
         "desc":[
-            "Bracket fungi scientifically known as G. applanatum, which is found in Asia, Australia, Europe, and throughout North America. Grows on conifers and most hardwoods, and like G. brownii, have pores that stain brown with pressure. G. appalanatum has smaller spores than G. brownii. It is used in Chinese medicine."
+            "Bracket fungi scientifically known as G. applanatum, which is found in Asia, Australia, Europe, and throughout North America. Grows on conifers and most hardwoods, and like G. brownii, have pores that stain brown with pressure. G. appalanatum has smaller spores than G. brownii, and a pure white underside. It is used in Chinese medicine."
         ],
         "edibility":[
             "Medicinal"
