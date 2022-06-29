@@ -7,10 +7,10 @@
     },
 
     "nomenclature":{
-        "division":"Division",
-        "class":"Class",
-        "order":"Order",
-        "family":"Family",
+        "division":"Basidiomycota",
+        "class":"Agaricomycetes",
+        "order":"Polyporales",
+        "family":"Polyporaceae",
         "genus":"Trametes",
         "species":"Versicolor",
         "variation":"",

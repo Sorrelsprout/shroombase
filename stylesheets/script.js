@@ -78,6 +78,7 @@ function preloadPullup(JSONURL) {
         $("#tags-poisonousEdible").removeClass().addClass(shroom[0].edibility);
         if (shroom[0].edibility == "") { $("#tags-poisonousEdible").css({"display":"none"}) }
 
+        let treeCategories = []; //tree groups to be hidden in tags
         arrayResponse("#tags-treeRelation", shroom[0].treelationship);
         if (shroom[0].treelationship == "") { $("#tags-treelation-container").css({"display":"none"}) }
 
@@ -169,13 +170,22 @@ function preloadPullup(JSONURL) {
 
             let innerContent = "";
             let currentLifestageImgCounter = 0;
-            if ( CURRENTIMG != "" ) { innerContent += "<img alt='lifeStage' src='"+ CURRENTIMG +"' loading='lazy'>"; } 
+            if ( CURRENTIMG != "" ) {  
+                if (CURRENTCAPTION != "") { 
+                    innerContent += "<img alt='lifeStage' src='"+ CURRENTIMG +"' loading='lazy'><figcaption>"+ CURRENTCAPTION +"</figcaption></figure>"; 
+                } else {
+                    innerContent += "<img alt='lifeStage' src='"+ CURRENTIMG +"' loading='lazy'></figure>";
+                }
+            } 
             else {
-                innerContent += "<img alt='lifeStage' src='https://images.unsplash.com/photo-1454425064867-5ba516caf601?w=1000&h=1000&fit=crop&crop=focalpoint&fp-z=1.4&fp-x=0.45&fp-y=0.42' loading='lazy'>";
+                if (CURRENTCAPTION != "") { 
+                    innerContent += "<img alt='lifeStage' src='https://images.unsplash.com/photo-1454425064867-5ba516caf601?w=1000&h=1000&fit=crop&crop=focalpoint&fp-z=1.4&fp-x=0.45&fp-y=0.42' loading='lazy'><figcaption>"+ CURRENTCAPTION +"</figcaption></figure>"; 
+                } else {
+                    innerContent += "<img alt='lifeStage' src='https://images.unsplash.com/photo-1454425064867-5ba516caf601?w=1000&h=1000&fit=crop&crop=focalpoint&fp-z=1.4&fp-x=0.45&fp-y=0.42' loading='lazy'></figure>";
+                }
                 currentLifestageImgCounter++;
-            }
-            if (CURRENTCAPTION != "") { innerContent += "<figcaption>"+ CURRENTCAPTION +"</figcaption>"; } 
-            if (CURRENTDESC != "") { innerContent += "</figure><p>"+ CURRENTDESC +"</p>"; }
+            } 
+            if (CURRENTDESC != "") { innerContent += "<p>"+ CURRENTDESC +"</p>"; }
             if(currentLifestageImgCounter < 1) { lifestagesContent += ("<label class='click-zoom'><figure><input type='checkbox'>" + innerContent + "</label>"); }
         }
         if (lifestagesContent == "") { $("#lifestages-images").css({"display":"none"}); lifeStagesCounter++; }
@@ -252,7 +262,7 @@ function preloadPullup(JSONURL) {
             $("#lookalikeGrid").html(lookalikeContent);
         }
 
-        function arrayResponse(tagName, arrayToList) {
+        function arrayResponse(tagName, arrayToList, hidden) { // hidden will be compared to array items and will have the tag "hidden"
             if ( arrayToList.length > 0 ) {
                 let basetags = "";
                 for (let i=0; i<arrayToList.length; i++) { 
