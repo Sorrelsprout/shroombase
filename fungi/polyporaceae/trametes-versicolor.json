@@ -26,7 +26,7 @@
         "tidbits":"Other tidbits to note"
     },
 
-    "characteristics": {
+    "characteristics":{
         "cap":{
             "img":"./images/polyporaceae/trametes-versicolor/top.jpg",
             "caption":"Found in Corvallis, OR, in April 2022",
@@ -115,6 +115,11 @@
                 "desc":""
             },
             "button":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "young":{
                 "img":"",
                 "caption":"",
                 "desc":""

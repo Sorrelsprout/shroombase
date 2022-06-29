@@ -118,6 +118,11 @@
                 "caption":"",
                 "desc":""
             },
+            "young":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
             "mature":{
                 "img":"",
                 "caption":"",
@@ -166,7 +171,7 @@
             "Image from <a href='https://commons.wikimedia.org/wiki/File:Laetiporus_sulphureus15366.JPG' target='_blank'>Wikimedia Commons</a>."
         ],
         "desc":[
-            "Also called &#8220;Chicken of the Woods&#8221; except it grows at the base of trees and is more pastel-colored than L. sulphureus."
+            "Also called <strong>Chicken of the Woods</strong> except it grows at the base of trees and is more pastel-colored than L. sulphureus."
         ],
         "edibility":[
             "edible"

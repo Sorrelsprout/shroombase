@@ -311,6 +311,13 @@
     font-style: italic;
 }
 
+#pullup .btt {
+    cursor: pointer;
+    color: var(--LinkColor);
+    text-decoration: none;
+    border-bottom: none;
+}
+
 /* Pullup Image + Gallery ----------------------------------------------------*/
 
 #pullup .gallery { 
@@ -372,15 +379,8 @@
     text-align: center;
 }
 
-/* Gallery Grid */
-#pullup .gallery.col2 > img { max-width: 50%; object-fit: cover; }
-#pullup .gallery.col3 > img { max-width: 33.3%; object-fit: cover; }
-
-
 /* Queries -------------------------------------------------------------------*/
 
 @media (max-width: 600px){
-    #pullup { padding: 3.5rem 2.2rem 2rem 2.2rem; }
     #pullup .gallery { flex-direction: column; }
-    #pullup .gallery.col2 > img, #pullup .gallery.col3 > img { max-width: 100%; }
 }

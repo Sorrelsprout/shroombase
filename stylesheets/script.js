@@ -156,11 +156,11 @@ function preloadPullup(JSONURL) {
         $("#lifestages-lifespan").html(shroom[4].lifespan);
         if (shroom[4].lifespan == "") { $("#lifestages-lifespan-container").css({"display":"none"}); lifeStagesCounter++; }
 
-        let lifestages_img = [ shroom[4].images.spore.img, shroom[4].images.fruiting.img, shroom[4].images.egg.img, shroom[4].images.eruption.img, shroom[4].images.button.img, shroom[4].images.mature.img, shroom[4].images.old.img ];
+        let lifestages_img = [ shroom[4].images.spore.img, shroom[4].images.fruiting.img, shroom[4].images.egg.img, shroom[4].images.eruption.img, shroom[4].images.button.img, shroom[4].images.young.img, shroom[4].images.mature.img, shroom[4].images.old.img ];
 
-        let lifestages_caption = [ shroom[4].images.spore.caption, shroom[4].images.fruiting.caption, shroom[4].images.egg.caption, shroom[4].images.eruption.caption, shroom[4].images.button.caption, shroom[4].images.mature.caption, shroom[4].images.old.caption ];
+        let lifestages_caption = [ shroom[4].images.spore.caption, shroom[4].images.fruiting.caption, shroom[4].images.egg.caption, shroom[4].images.eruption.caption, shroom[4].images.button.caption, shroom[4].images.young.caption, shroom[4].images.mature.caption, shroom[4].images.old.caption ];
 
-        let lifestages_desc = [ shroom[4].images.spore.desc, shroom[4].images.fruiting.desc, shroom[4].images.egg.desc, shroom[4].images.eruption.desc, shroom[4].images.button.desc, shroom[4].images.mature.desc, shroom[4].images.old.desc ];
+        let lifestages_desc = [ shroom[4].images.spore.desc, shroom[4].images.fruiting.desc, shroom[4].images.egg.desc, shroom[4].images.eruption.desc, shroom[4].images.button.desc, shroom[4].images.young.desc, shroom[4].images.mature.desc, shroom[4].images.old.desc ];
 
         let lifestagesContent = "";
         for (let i=0; i<lifestages_img.length; i++) {
@@ -524,26 +524,15 @@ function updateH2Tags(pagename){
     let tags = [];
     let renderedtags = "";
     let H2ID = [];
-
     $("#pullupContent #fullDescription h2").each(function(){
         let H2TEXT = $(this).text();
         H2ID.push( H2TEXT.replace(/ /g,'') );
         $(this).attr("id", H2TEXT.replace(/ /g,'')); //Add ID to H2s
         tags.push($(this).text());
     })
-
-    for(i=0; i<tags.length; i++){
-        renderedtags +="<li><a href='#"+H2ID[i]+"'>"+tags[i]+"</a></li>";
-    }
-
-    console.log(pagename)
-
-    if((tags.length == 0) || (pagename == "about")) { 
-        $("#pageH2Tags-container").removeClass("show"); 
-    } 
-    else { 
-        $("#pageH2Tags-container").addClass("show"); 
-    }
+    for(i=0; i<tags.length; i++){ renderedtags +="<li><a href='#"+H2ID[i]+"'>"+tags[i]+"</a></li>"; }
+    if((tags.length == 0) || (pagename == "about")) { $("#pageH2Tags-container").removeClass("show"); } 
+    else { $("#pageH2Tags-container").addClass("show"); }
     $("#pageH2Tags").append(renderedtags);
 }
 
