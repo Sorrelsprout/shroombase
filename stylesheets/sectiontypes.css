@@ -102,6 +102,11 @@
 
 /* L I F E S T A G E S ------------------------------------------------------- */
 
+#lifestages-images {
+    display: flex;
+    flex-wrap: nowrap !important;
+}
+
 #lifestages-fruitseason li {
     padding: 0.25rem 0.75rem;
     margin: 0 0.5rem 1rem 0.5rem;
@@ -115,7 +120,6 @@
     flex-wrap:wrap;
     list-style-type: none !important;
 }
-
 
 
 /* L O O K A L I K E S ------------------------------------------------------- */

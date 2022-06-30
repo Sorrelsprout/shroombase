@@ -296,6 +296,11 @@
     border-bottom: 1px solid var(--TextColor);
 }
 
+#pullup figcaption a {
+    display: inline-block;
+    margin-bottom: 0.25rem;
+}
+
 #pullup a:not([href]) {
     color: #cb6248;
     border-bottom: 1px solid #cb6248;
