@@ -64,7 +64,7 @@
         },
         "habitat":{
             "img":"https://upload.wikimedia.org/wikipedia/commons/f/f4/Cryptoporus_volvatus_135066594.jpg",
-            "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Cryptoporus_volvatus_135066594.jpg' target='_blank'>Wikimedia Commons</a>, by Linzy L., <a title='Linzy L., CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons' href='https://commons.wikimedia.org/wiki/File:Cryptoporus_volvatus_135066594.jpg'>CC BY-SA 4.0</a>",
+            "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Cryptoporus_volvatus_135066594.jpg' target='_blank'>Wikimedia Commons</a>, by Linzy L., <a title='Linzy L., CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/4.0/legalcode'>CC BY-SA 4.0</a>",
             "desc":""
         },
         "bruising":{
