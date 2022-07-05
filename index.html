@@ -28,7 +28,7 @@
     <link href="stylesheets/stylesheet.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/7d54d2caeb.js" crossorigin="anonymous"></script>
-    <script src="stylesheets/script.js"></script>
+    <script src="scripts/script.js"></script>
 </head>
 
 <body>
@@ -82,6 +82,10 @@
                     <label for="searchTree">Related Tree:</label>
                     <select name="searchTree" id="searchTree">
                         <option value="">All</option>
+                        <optgroup label="General">
+                            <option value="coniferous" title="Cone-bearing Softwoods">Conifers</option>
+                            <option value="deciduous" title="Leaf-dropping Hardwoods">Deciduous</option>
+                        </optgroup>
                         <optgroup label="Conifer">
                             <option value="cedar">Cedar</option>
                             <option value="douglasfir">Douglas Fir</option>

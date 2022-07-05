@@ -86,6 +86,11 @@
             "img":"./images/templates/bioluminescence.jpg",
             "caption":"",
             "desc":""
+        },
+        "other":{
+            "img":"./images/templates/other.jpg",
+            "caption":"",
+            "desc":""
         }
     },
 

@@ -12,7 +12,7 @@
         "order":"Pezizales",
         "family":"Pezizaceae",
         "genus":"Peziza",
-        "species":"",
+        "species":"unidentified",
         "variation":"",
         "aliases":"",
         "displayalias":"Peziza"
@@ -84,6 +84,11 @@
         },
         "bioluminescence":{
             "img":"./images/templates/bioluminescence.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "other":{
+            "img":"./images/templates/other.jpg",
             "caption":"",
             "desc":""
         }

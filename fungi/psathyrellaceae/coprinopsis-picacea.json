@@ -133,6 +133,11 @@
                 "img":"",
                 "caption":"",
                 "desc":""
+            },
+            "other":{
+                "img":"./images/templates/other.jpg",
+                "caption":"",
+                "desc":""
             }
         }
     },

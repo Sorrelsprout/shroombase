@@ -1,4 +1,6 @@
 $(document).ready(function(){
+    $.getScript("./scripts/trees.js");
+    
     checkWidth();
     $(window).resize(function() { checkWidth(); })
     function checkWidth() {
@@ -118,7 +120,7 @@ function preloadPullup(JSONURL) {
         
         /* Characteristics */
         const CHARACTERISTICS_SUBCATEGORY = ["cap", "underside", "side", "halved", "stem", "sporeprint", "mycelium", "habitat"];
-        const SPECIALHARACTERISTICS_SUBCATEGORY = ["bruising", "koh", "latex", "bioluminescence"];
+        const SPECIALHARACTERISTICS_SUBCATEGORY = ["bruising", "koh", "latex", "bioluminescence", "other"];
 
         characteristicsSetup(shroom[3], "#mainCharachteristics", CHARACTERISTICS_SUBCATEGORY);
         characteristicsSetup(shroom[3], "#specialCharacteristics", SPECIALHARACTERISTICS_SUBCATEGORY);
