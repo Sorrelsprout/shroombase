@@ -1,6 +1,6 @@
-$.getScript("./scripts/trees.js");
-
 $(document).ready(function(){
+    $.getScript("./scripts/trees.js");
+    
     checkWidth();
     $(window).resize(function() { checkWidth(); })
     function checkWidth() {
