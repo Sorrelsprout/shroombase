@@ -1,7 +1,7 @@
 {
     "tags": {
         "edibility":"",
-        "treelationship":[],
+        "treelationship":["Conifers"],
         "color":["tan"],
         "type":["Saprotrophic"]
     },
@@ -160,7 +160,7 @@
     },
 
     "geography":{
-        "region":[],
+        "region":["North America"],
         "fruitlocation":"",
         "coordinates":[""]
     },
