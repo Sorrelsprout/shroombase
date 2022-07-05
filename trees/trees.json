@@ -1,0 +1,42 @@
+{
+    "pine": {
+        "name": "",
+        "scientificName": "",
+        "description": "",
+        "image": "",
+        "imageCaption": "",
+        "coneFruit": "",
+        "coneFruitCaption": "",
+        "leaf": "",
+        "leafCaption": "",
+        "wood": "",
+        "woodCaption": ""
+    },
+    "maple": {
+        "name": "",
+        "scientificName": "",
+        "description": "",
+        "image": "",
+        "imageCaption": "",
+        "coneFruit": "",
+        "coneFruitCaption": "",
+        "leaf": "https://images.unsplash.com/photo-1623039925595-bb30257f6717?w=1000&h=1000&fit=crop",
+        "leafCaption": "",
+        "wood": "",
+        "woodCaption": ""
+    },
+
+    "": {
+        "name": "",
+        "scientificName": "",
+        "description": "",
+        "image": "",
+        "imageCaption": "",
+        "coneFruit": "",
+        "coneFruitCaption": "",
+        "leaf": "",
+        "leafCaption": "",
+        "wood": "",
+        "woodCaption": ""
+    }
+}
