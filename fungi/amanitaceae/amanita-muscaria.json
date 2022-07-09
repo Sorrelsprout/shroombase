@@ -188,5 +188,9 @@
         "edibility":[
             "poisonous"
         ]
+    },
+
+    "relevantlinks":{
+        "linkslist":[]
     }
 }

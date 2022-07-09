@@ -187,5 +187,9 @@
         "edibility":[
             "Medicinal"
         ]
+    },
+
+    "relevantlinks":{
+        "linkslist":[]
     }
 }
