@@ -171,3 +171,15 @@
 #lookalikeGrid.characteristicsGrid .edible { 
     color: #679450;
 }
+
+/* R E L A V E N T   L I N K S ----------------------------------------------- */
+
+#relevantlinksList li { padding: 0; }
+
+#relevantlinksList li a {
+    display: block;
+    padding: 0.25rem 0.75rem;
+    border-bottom: none;
+}
+
+#relevantlinksList li:hover a { background: #fff; }

@@ -178,5 +178,9 @@
         "caption":[],
         "desc":[],
         "edibility":[]
+    },
+
+    "relevantlinks":{
+        "linkslist":[]
     }
 }

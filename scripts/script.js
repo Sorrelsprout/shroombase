@@ -270,6 +270,15 @@ function preloadPullup(JSONURL) {
             $("#lookalikeGrid").html(lookalikeContent);
         }
 
+        /* Relevant Links */
+        let relevantLinksCounter = 0;
+        arrayResponse("#relevantlinksList", shroom[8].linkslist);
+        if (shroom[8].linkslist == "") { $("#relevantlinksList").css({"display":"none"}); relevantLinksCounter++; }
+        if( relevantLinksCounter == 1 ) {
+            $("#relevantlinks").css({"display":"none"});
+        }
+
+        /* ArrayResponse */
         function arrayResponse(tagName, arrayToList, hidden) { // hidden will be compared to array items and will have the tag "hidden"
             if ( arrayToList.length > 0 ) {
                 let basetags = "";
