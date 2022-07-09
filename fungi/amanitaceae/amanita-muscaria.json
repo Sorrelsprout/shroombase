@@ -19,7 +19,7 @@
     },
 
     "distinguishing":{
-        "coverimg":"./images/amanitaceae/amanita-muscaria/amanitamuscaria.jpg",
+        "coverimg":"",
         "abundancy":"",
         "smell":"",
         "size":"",
@@ -135,6 +135,11 @@
                 "desc":"Mature"
             },
             "old":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "dead":{
                 "img":"",
                 "caption":"",
                 "desc":""

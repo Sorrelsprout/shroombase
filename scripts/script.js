@@ -52,7 +52,7 @@ $(document).ready(function(){
         let fungusIMGFileName = fungusID.replace('-', '');
         let fungusFamilyExtract = $(this).attr("class").replace(' fungiGridElement', '')
         fungusIMGFileName = "./images/" + fungusFamilyExtract + "/" + $(this).attr("id") + "/" + fungusIMGFileName + ".jpg";
-        let fungusIMGHTML = "<img src='" + fungusIMGFileName + "' alt='" + fungusTitle + "' loading='lazy'>";
+        let fungusIMGHTML = "<img id='distinguishing-coverimg-" + fungusID + "' src='" + fungusIMGFileName + "' alt='" + fungusTitle + "' loading='lazy'>";
 
         let scientificNameRestructured = fungusID.replace('-', ' ')
         scientificNameRestructured = scientificNameRestructured.charAt(0).toUpperCase() + scientificNameRestructured.slice(1)
@@ -108,7 +108,6 @@ function preloadPullup(JSONURL) {
         // $("#nomenclature-displayalias").html(shroom[1].displayalias);
         
         /* Distinguishing Features */
-        // $("#distinguishing-coverimg").attr("src", shroom[2].coverimg);
         $("#distinguishing-abundancy").html(shroom[2].abundancy);
         if (shroom[2].abundancy == "") { $("#distinguishing-abundancy-container").css({"display":"none"}) }
         $("#distinguishing-smell").html(shroom[2].smell);
@@ -158,11 +157,9 @@ function preloadPullup(JSONURL) {
         $("#lifestages-lifespan").html(shroom[4].lifespan);
         if (shroom[4].lifespan == "") { $("#lifestages-lifespan-container").css({"display":"none"}); lifeStagesCounter++; }
 
-        let lifestages_img = [ shroom[4].images.spore.img, shroom[4].images.fruiting.img, shroom[4].images.egg.img, shroom[4].images.eruption.img, shroom[4].images.button.img, shroom[4].images.young.img, shroom[4].images.mature.img, shroom[4].images.old.img ];
-
-        let lifestages_caption = [ shroom[4].images.spore.caption, shroom[4].images.fruiting.caption, shroom[4].images.egg.caption, shroom[4].images.eruption.caption, shroom[4].images.button.caption, shroom[4].images.young.caption, shroom[4].images.mature.caption, shroom[4].images.old.caption ];
-
-        let lifestages_desc = [ shroom[4].images.spore.desc, shroom[4].images.fruiting.desc, shroom[4].images.egg.desc, shroom[4].images.eruption.desc, shroom[4].images.button.desc, shroom[4].images.young.desc, shroom[4].images.mature.desc, shroom[4].images.old.desc ];
+        let lifestages_img = [ shroom[4].images.spore.img, shroom[4].images.fruiting.img, shroom[4].images.egg.img, shroom[4].images.eruption.img, shroom[4].images.button.img, shroom[4].images.young.img, shroom[4].images.mature.img, shroom[4].images.old.img, shroom[4].images.dead.img ];
+        let lifestages_caption = [ shroom[4].images.spore.caption, shroom[4].images.fruiting.caption, shroom[4].images.egg.caption, shroom[4].images.eruption.caption, shroom[4].images.button.caption, shroom[4].images.young.caption, shroom[4].images.mature.caption, shroom[4].images.old.caption, shroom[4].images.dead.caption ];
+        let lifestages_desc = [ shroom[4].images.spore.desc, shroom[4].images.fruiting.desc, shroom[4].images.egg.desc, shroom[4].images.eruption.desc, shroom[4].images.button.desc, shroom[4].images.young.desc, shroom[4].images.mature.desc, shroom[4].images.old.desc, shroom[4].images.dead.desc ];
 
         let lifestagesContent = "";
         for (let i=0; i<lifestages_img.length; i++) {
@@ -332,6 +329,11 @@ function preloadPullup(JSONURL) {
             let shroom = Object.values(json);
             let fungiID = shroom[1].genus.toLowerCase()+"-"+shroom[1].species.toLowerCase();
 
+            if (shroom[2].coverimg != "") { /* Override display image */
+                let newCoverImg = "#distinguishing-coverimg-" + shroom[1].genus.toLowerCase() + "-" + shroom[1].species.toLowerCase();
+                $(newCoverImg).attr("src", shroom[2].coverimg);
+                console.log(newCoverImg)
+            }
             const TAGPREFIX = ["edibility", "type", "treelationship", "color", "region", "fruitseason"];
             const TAGOBJECTS = [shroom[0].edibility, shroom[0].type, shroom[0].treelationship, shroom[0].color, shroom[6].region, shroom[4].fruitseason];
             let NEWTAGOBJECTS = ["","","","","",""];

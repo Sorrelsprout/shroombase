@@ -137,6 +137,11 @@
                 "img":"./images/pezizaceae/peziza-unidentified/lifestages-old.jpg",
                 "caption":"After 27 days",
                 "desc":""
+            },
+            "dead":{
+                "img":"",
+                "caption":"",
+                "desc":""
             }
         }
     },

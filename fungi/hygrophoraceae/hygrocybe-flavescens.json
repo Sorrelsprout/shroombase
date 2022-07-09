@@ -138,6 +138,11 @@
                 "img":"",
                 "caption":"",
                 "desc":""
+            },
+            "dead":{
+                "img":"",
+                "caption":"",
+                "desc":""
             }
         }
     },

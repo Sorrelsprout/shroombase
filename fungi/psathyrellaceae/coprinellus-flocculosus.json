@@ -138,6 +138,11 @@
                 "img":"./images/psathyrellaceae/coprinellus-flocculosus/lifestages-old.jpg",
                 "caption":"Found in Sunnyvale, CA, in March 2022",
                 "desc":"Two dried and old specimens"
+            },
+            "dead":{
+                "img":"",
+                "caption":"",
+                "desc":""
             }
         }
     },

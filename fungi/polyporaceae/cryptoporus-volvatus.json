@@ -137,6 +137,11 @@
                 "img":"./images/polyporaceae/cryptoporus-volvatus/lifestages-old.jpg",
                 "caption":"Found in Mountain View, CA, in July 2022",
                 "desc":"Old specimen. The surface has wrinkled."
+            },
+            "dead":{
+                "img":"",
+                "caption":"",
+                "desc":""
             }
         }
     },
