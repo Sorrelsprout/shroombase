@@ -97,6 +97,7 @@
     "lifestages":{
         "fruitseason":["Spring", "Summer", "Fall"],
         "lifespan":"",
+        "showTitles": true,
         "images":{
             "spore":{
                 "img":"",
@@ -134,6 +135,11 @@
                 "desc":""
             },
             "old":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "dead":{
                 "img":"",
                 "caption":"",
                 "desc":""

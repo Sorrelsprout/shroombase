@@ -98,6 +98,7 @@
     "lifestages":{
         "fruitseason":"",
         "lifespan":"",
+        "showTitles": true,
         "images":{
             "spore":{
                 "img":"",
@@ -135,6 +136,11 @@
                 "desc":""
             },
             "old":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "dead":{
                 "img":"",
                 "caption":"",
                 "desc":""

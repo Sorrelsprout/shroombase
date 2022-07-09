@@ -63,8 +63,8 @@
             "desc":""
         },
         "habitat":{
-            "img":"https://upload.wikimedia.org/wikipedia/commons/f/f4/Cryptoporus_volvatus_135066594.jpg",
-            "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Cryptoporus_volvatus_135066594.jpg' target='_blank'>Wikimedia Commons</a>, by Linzy L., <a title='Linzy L., CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/4.0/legalcode'>CC BY-SA 4.0</a>",
+            "img":"./images/polyporaceae/cryptoporus-volvatus/habitat.jpg",
+            "caption":"Found in Yosemite National Park, CA, in May 2022",
             "desc":""
         },
         "bruising":{
@@ -97,6 +97,7 @@
     "lifestages":{
         "fruitseason":"",
         "lifespan":"",
+        "showTitles": true,
         "images":{
             "spore":{
                 "img":"",
@@ -126,17 +127,22 @@
             "young":{
                 "img":"./images/polyporaceae/cryptoporus-volvatus/lifestages-young.jpg",
                 "caption":"Found in Yosemite National Park, CA, in May 2022",
-                "desc":"Young"
+                "desc":""
             },
             "mature":{
                 "img":"./images/polyporaceae/cryptoporus-volvatus/lifestages-mature.jpg",
                 "caption":"Found in Yosemite National Park, CA, in May 2022",
-                "desc":"Mature specimen. This one has some injuries."
+                "desc":"This one has some injuries."
             },
             "old":{
                 "img":"./images/polyporaceae/cryptoporus-volvatus/lifestages-old.jpg",
                 "caption":"Found in Mountain View, CA, in July 2022",
-                "desc":"Old specimen. The surface has wrinkled."
+                "desc":"The surface has wrinkled."
+            },
+            "dead":{
+                "img":"./images/polyporaceae/cryptoporus-volvatus/lifestages-dead.jpg",
+                "caption":"Found in Mountain View, CA, in July 2022",
+                "desc":"Has numerous holes from Pine Bark Beetles, and is super hard."
             }
         }
     },

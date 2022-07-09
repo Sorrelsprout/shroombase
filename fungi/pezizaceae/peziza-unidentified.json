@@ -97,6 +97,7 @@
     "lifestages":{
         "fruitseason":"",
         "lifespan":"This particular species seems to have around a month-long fruiting lifespan.",
+        "showTitles": false,
         "images":{
             "spore":{
                 "img":"",
@@ -136,6 +137,11 @@
             "old":{
                 "img":"./images/pezizaceae/peziza-unidentified/lifestages-old.jpg",
                 "caption":"After 27 days",
+                "desc":""
+            },
+            "dead":{
+                "img":"",
+                "caption":"",
                 "desc":""
             }
         }

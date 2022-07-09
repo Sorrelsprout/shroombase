@@ -97,6 +97,7 @@
     "lifestages":{
         "fruitseason":"",
         "lifespan":"2+ years",
+        "showTitles": true,
         "images":{
             "spore":{
                 "img":"",
@@ -121,7 +122,7 @@
             "button":{
                 "img":"./images/ganodermataceae/ganoderma-brownii/lifestages-button.jpg",
                 "caption":"Found in Santa Cruz, CA, in May 2022",
-                "desc":"Button"
+                "desc":""
             },
             "young":{
                 "img":"",
@@ -131,9 +132,14 @@
             "mature":{
                 "img":"./images/ganodermataceae/ganoderma-brownii/lifestages-mature.jpg",
                 "caption":"Found in Santa Cruz, CA, in May 2022",
-                "desc":"Mature"
+                "desc":""
             },
             "old":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "dead":{
                 "img":"",
                 "caption":"",
                 "desc":""

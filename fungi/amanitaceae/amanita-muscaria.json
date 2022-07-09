@@ -19,7 +19,7 @@
     },
 
     "distinguishing":{
-        "coverimg":"./images/amanitaceae/amanita-muscaria/amanitamuscaria.jpg",
+        "coverimg":"",
         "abundancy":"",
         "smell":"",
         "size":"",
@@ -98,6 +98,7 @@
     "lifestages":{
         "fruitseason":["Summer", "Fall", "Winter"],
         "lifespan":"",
+        "showTitles": true,
         "images":{
             "spore":{
                 "img":"",
@@ -122,7 +123,7 @@
             "button":{
                 "img":"./images/amanitaceae/amanita-muscaria/lifestages-button.jpg",
                 "caption":"Found in Scotts Valley, CA, in December 2021",
-                "desc":"Button"
+                "desc":""
             },
             "young":{
                 "img":"",
@@ -132,9 +133,14 @@
             "mature":{
                 "img":"./images/amanitaceae/amanita-muscaria/lifestages-mature.jpg",
                 "caption":"Found in Scotts Valley, CA, in December 2021",
-                "desc":"Mature"
+                "desc":""
             },
             "old":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "dead":{
                 "img":"",
                 "caption":"",
                 "desc":""
