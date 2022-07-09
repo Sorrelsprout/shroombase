@@ -95,7 +95,7 @@
     },
 
     "lifestages":{
-        "fruitseason":"",
+        "fruitseason":[],
         "lifespan":"",
         "showTitles": true,
         "images":{

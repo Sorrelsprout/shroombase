@@ -14,7 +14,7 @@
         "genus":"Conocybe",
         "species":"aurea",
         "variation":"",
-        "aliases":"Conocybe aurea var. hololeuca, Galera aurea",
+        "aliases":"Conocybe aurea var. hololeuca, Galera aurea, Golden conecap",
         "displayalias":"Golden Conecap"
     },
 
@@ -95,7 +95,7 @@
     },
 
     "lifestages":{
-        "fruitseason":"",
+        "fruitseason":["Summer"],
         "lifespan":"",
         "showTitles": true,
         "images":{

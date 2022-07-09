@@ -96,7 +96,7 @@
 
 
     "lifestages":{
-        "fruitseason":"",
+        "fruitseason":["Winter"],
         "lifespan":"",
         "showTitles": true,
         "images":{
