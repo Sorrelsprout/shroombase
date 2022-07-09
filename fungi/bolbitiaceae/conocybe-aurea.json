@@ -1,0 +1,181 @@
+{
+    "tags": {
+        "edibility":"",
+        "treelationship":[],
+        "color":["orange", "tan"],
+        "type":["Saprotrophic"]
+    },
+
+    "nomenclature":{
+        "division":"Basidiomycota",
+        "class":"Agaricomycetes",
+        "order":"Agaricales",
+        "family":"Bolbitiaceae",
+        "genus":"Conocybe",
+        "species":"aurea",
+        "variation":"",
+        "aliases":"Conocybe aurea var. hololeuca, Galera aurea",
+        "displayalias":"Golden Conecap"
+    },
+
+    "distinguishing":{
+        "coverimg":"",
+        "abundancy":"",
+        "smell":"Light and fresh",
+        "size":"Up to 5cm",
+        "tidbits":"<em>Aurea</em> means &ldquo;gold-colored&rdquo;."
+    },
+
+    "characteristics": {
+        "cap":{
+            "img":"./images/bolbitiaceae/conocybe-aurea/cap.jpg",
+            "caption":"Found in Sunnyvale, CA, in July 2022",
+            "desc":"Smooth cap. Top is deep golden, orangey-tan, or light umber in color."
+        },
+        "underside":{
+            "img":"./images/bolbitiaceae/conocybe-aurea/underside.jpg",
+            "caption":"Found in Sunnyvale, CA, in July 2022",
+            "desc":"Beige or light-tan gills."
+        },
+        "side":{
+            "img":"./images/bolbitiaceae/conocybe-aurea/side.jpg",
+            "caption":"Found in Sunnyvale, CA, in July 2022",
+            "desc":""
+        },
+        "halved":{
+            "img":"./images/bolbitiaceae/conocybe-aurea/halved.jpg",
+            "caption":"Found in Sunnyvale, CA, in July 2022",
+            "desc":"Stem is hollow until the cap."
+        },
+        "stem":{
+            "img":"./images/bolbitiaceae/conocybe-aurea/stem.jpg",
+            "caption":"Found in Sunnyvale, CA, in July 2022",
+            "desc":"Ridged grooves run vertically along the stem."
+        },
+        "sporeprint":{
+            "img":"./images/templates/sporeprint.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "mycelium":{
+            "img":"./images/bolbitiaceae/conocybe-aurea/mycelium.jpg",
+            "caption":"Found in Sunnyvale, CA, in July 2022",
+            "desc":""
+        },
+        "habitat":{
+            "img":"./images/bolbitiaceae/conocybe-aurea/habitat.jpg",
+            "caption":"Found in Sunnyvale, CA, in July 2022",
+            "desc":""
+        },
+        "bruising":{
+            "img":"./images/templates/bruising.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "koh":{
+            "img":"./images/templates/koh.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "latex":{
+            "img":"./images/templates/latex.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bioluminescence":{
+            "img":"./images/templates/bioluminescence.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "other":{
+            "img":"./images/templates/other.jpg",
+            "caption":"",
+            "desc":""
+        }
+    },
+
+    "lifestages":{
+        "fruitseason":"",
+        "lifespan":"",
+        "showTitles": true,
+        "images":{
+            "spore":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "fruiting":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "egg":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "eruption":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "button":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "young":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "mature":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "old":{
+                "img":"https://upload.wikimedia.org/wikipedia/commons/4/4b/Conocybe_aurea_%2832189445392%29.jpg",
+                "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Conocybe_aurea_(32189445392).jpg' target='_blank'>Wikimedia Commons</a>, by Dick Culbert, <a title='Dick Culbert, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by/2.0/legalcode'>CC BY 2.0</a>. In Gibsons, B.C., Canada.",
+                "desc":""
+            },
+            "dead":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            }
+        }
+    },
+
+    "significance":{
+        "scientific":{
+            "scientific":"",
+            "environmental":"",
+            "genetic":""
+        },
+        "cultural":{
+            "cultural":"",
+            "medicinal":"",
+            "funfacts":""
+        },
+        "cullinary":{
+            "cullinary":"",
+            "taste":"",
+            "recipelist":[]
+        }
+    },
+
+    "geography":{
+        "region":["North America"],
+        "fruitlocation":"",
+        "coordinates":[""]
+    },
+
+    "lookalikes":{
+        "names":[],
+        "images":[],
+        "caption":[],
+        "desc":[],
+        "edibility":[]
+    }
+}
