@@ -160,12 +160,14 @@ function preloadPullup(JSONURL) {
         let lifestages_img = [ shroom[4].images.spore.img, shroom[4].images.fruiting.img, shroom[4].images.egg.img, shroom[4].images.eruption.img, shroom[4].images.button.img, shroom[4].images.young.img, shroom[4].images.mature.img, shroom[4].images.old.img, shroom[4].images.dead.img ];
         let lifestages_caption = [ shroom[4].images.spore.caption, shroom[4].images.fruiting.caption, shroom[4].images.egg.caption, shroom[4].images.eruption.caption, shroom[4].images.button.caption, shroom[4].images.young.caption, shroom[4].images.mature.caption, shroom[4].images.old.caption, shroom[4].images.dead.caption ];
         let lifestages_desc = [ shroom[4].images.spore.desc, shroom[4].images.fruiting.desc, shroom[4].images.egg.desc, shroom[4].images.eruption.desc, shroom[4].images.button.desc, shroom[4].images.young.desc, shroom[4].images.mature.desc, shroom[4].images.old.desc, shroom[4].images.dead.desc ];
+        let lifestages_h3 = ["Spore", "Fruiting", "Egg", "Eruption", "Button", "Young", "Mature", "Old", "Dead"]
 
         let lifestagesContent = "";
         for (let i=0; i<lifestages_img.length; i++) {
             const CURRENTIMG = lifestages_img[i];
             const CURRENTCAPTION = lifestages_caption[i];
             const CURRENTDESC = lifestages_desc[i];
+            const CURRENTH3 = lifestages_h3[i];
 
             let innerContent = "";
             let currentLifestageImgCounter = 0;
@@ -184,8 +186,15 @@ function preloadPullup(JSONURL) {
                 }
                 currentLifestageImgCounter++;
             } 
-            if (CURRENTDESC != "") { innerContent += "<p>"+ CURRENTDESC +"</p>"; }
-            if(currentLifestageImgCounter < 1) { lifestagesContent += ("<label class='click-zoom'><figure><input type='checkbox'>" + innerContent + "</label>"); }
+            if(currentLifestageImgCounter < 1) { 
+                if(shroom[4].showTitles == true) {
+                    if (CURRENTDESC != "") { innerContent += "<h3>" + CURRENTH3 + "</h3><p>"+ CURRENTDESC +"</p>"; } 
+                    else { innerContent += "<h3>" + CURRENTH3 + "</h3>" }
+                } else {
+                    if (CURRENTDESC != "") { innerContent += "<p>"+ CURRENTDESC +"</p>"; } 
+                }
+                lifestagesContent += ("<label class='click-zoom'><figure><input type='checkbox'>" + innerContent + "</label>"); 
+            }
         }
         if (lifestagesContent == "") { $("#lifestages-images").css({"display":"none"}); lifeStagesCounter++; }
         $("#lifestages-images").html(lifestagesContent);

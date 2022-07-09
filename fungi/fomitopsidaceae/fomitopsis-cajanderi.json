@@ -97,6 +97,7 @@
     "lifestages":{
         "fruitseason":"",
         "lifespan":"",
+        "showTitles": true,
         "images":{
             "spore":{
                 "img":"",

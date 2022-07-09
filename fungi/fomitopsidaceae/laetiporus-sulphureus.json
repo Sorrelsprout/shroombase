@@ -97,6 +97,7 @@
     "lifestages":{
         "fruitseason":["Spring", "Summer", "Fall"],
         "lifespan":"",
+        "showTitles": true,
         "images":{
             "spore":{
                 "img":"",

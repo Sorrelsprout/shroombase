@@ -97,6 +97,7 @@
     "lifestages":{
         "fruitseason":"",
         "lifespan":"This particular species seems to have around a month-long fruiting lifespan.",
+        "showTitles": false,
         "images":{
             "spore":{
                 "img":"",
