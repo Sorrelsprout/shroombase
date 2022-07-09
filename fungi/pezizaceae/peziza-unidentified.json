@@ -95,7 +95,7 @@
     },
 
     "lifestages":{
-        "fruitseason":"",
+        "fruitseason":["Spring"],
         "lifespan":"This particular species seems to have around a month-long fruiting lifespan.",
         "showTitles": false,
         "images":{

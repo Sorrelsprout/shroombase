@@ -95,7 +95,7 @@
     },
 
     "lifestages":{
-        "fruitseason":"",
+        "fruitseason":["Spring", "Summer"],
         "lifespan":"2+ years",
         "showTitles": true,
         "images":{
