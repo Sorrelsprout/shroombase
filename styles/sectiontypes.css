@@ -195,11 +195,11 @@
     background: #ddd !important;
 }
 
-.hovercardTag:hover  {
+.hovercardTag:hover {
     background:#fff !important;
 }
 
-.hovercard{
+.hovercard {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -210,6 +210,11 @@
     align-items: center;
     z-index: 2;
     border-radius: var(--borderRadius);
+}
+
+.noFigures .hovercard {
+    left: calc(50% - 10rem);
+    width: 20rem !important;
 }
 
 .hovercard > div {

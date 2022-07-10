@@ -594,34 +594,73 @@ function updateH2Tags(pagename){
                         <p class='figcaption'>" + tree[TREEINDEX].scientificName + "</p>\
                         <p>" + tree[TREEINDEX].description + "</p>\
                         <div>\
-                            <figure class='" + treeClassTag + "_treeFigure'>\
-                                <img class='" + treeClassTag + "_treeImg' alt='" + treeClassTag + " tree' src='" + tree[TREEINDEX].tree_image + "' loading='lazy'>\
-                                <figcaption class='" + treeClassTag + "_treeCaption figcaption'>" + tree[TREEINDEX].tree_imageCaption + "</figcaption>\
+                            <figure class='treeFigure'>\
+                                <img class='treeImg' alt='" + treeClassTag + " tree' src='" + tree[TREEINDEX].tree_image + "' loading='lazy'>\
+                                <figcaption class='treeCaption figcaption'>" + tree[TREEINDEX].tree_imageCaption + "</figcaption>\
                                 <h3>Tree</h3>\
                             </figure>\
-                            <figure class='" + treeClassTag + "_woodFigure'>\
-                                <img class='" + treeClassTag + "_woodImg' alt='" + treeClassTag + " wood' src='" + tree[TREEINDEX].wood_image + "' loading='lazy'>\
-                                <figcaption class='" + treeClassTag + "_woodCaption figcaption'>" + tree[TREEINDEX].wood_imageCaption + "</figcaption>\
+                            <figure class='woodFigure'>\
+                                <img class='woodImg' alt='" + treeClassTag + " wood' src='" + tree[TREEINDEX].wood_image + "' loading='lazy'>\
+                                <figcaption class='woodCaption figcaption'>" + tree[TREEINDEX].wood_imageCaption + "</figcaption>\
                                 <h3>Wood</h3>\
                             </figure>\
-                            <figure class='" + treeClassTag + "_leafFigure'>\
-                                <img class='" + treeClassTag + "_leafImg' alt='" + treeClassTag + " leaf' src='" + tree[TREEINDEX].leaf_image + "' loading='lazy'>\
-                                <figcaption class='" + treeClassTag + "_leafCaption figcaption'>" + tree[TREEINDEX].leaf_imageCaption + "</figcaption>\
+                            <figure class='leafFigure'>\
+                                <img class='leafImg' alt='" + treeClassTag + " leaf' src='" + tree[TREEINDEX].leaf_image + "' loading='lazy'>\
+                                <figcaption class='leafCaption figcaption'>" + tree[TREEINDEX].leaf_imageCaption + "</figcaption>\
                                 <h3>Leaf</h3>\
                             </figure>\
-                            <figure class='" + treeClassTag + "_fruitSeedFigure'>\
-                                <img class='" + treeClassTag + "_fruitSeedImg' alt='" + treeClassTag + " fruit, cone, or seed' src='" + tree[TREEINDEX].fruitSeed_image + "' loading='lazy'>\
-                                <figcaption class='" + treeClassTag + "_fruitSeedCaption figcaption'>" + tree[TREEINDEX].fruitSeed_imageCaption + "</figcaption>\
+                            <figure class='fruitSeedFigure'>\
+                                <img class='fruitSeedImg' alt='" + treeClassTag + " fruit, cone, or seed' src='" + tree[TREEINDEX].fruitSeed_image + "' loading='lazy'>\
+                                <figcaption class='fruitSeedCaption figcaption'>" + tree[TREEINDEX].fruitSeed_imageCaption + "</figcaption>\
                                 <h3>Fruit or Seed</h3>\
                             </figure>\
-                            <figure class='" + treeClassTag + "_otherFigure'>\
-                                <img class='" + treeClassTag + "_otherImg' alt='" + treeClassTag + " other distinguishing characteristic' src='" + tree[TREEINDEX].other_image + "' loading='lazy'>\
-                                <figcaption class='" + treeClassTag + "_otherCaption figcaption'>" + tree[TREEINDEX].other_imageCaption + "</figcaption>\
+                            <figure class='otherFigure'>\
+                                <img class='otherImg' alt='" + treeClassTag + " other distinguishing characteristic' src='" + tree[TREEINDEX].other_image + "' loading='lazy'>\
+                                <figcaption class='otherCaption figcaption'>" + tree[TREEINDEX].other_imageCaption + "</figcaption>\
                                 <h3>Other Features</h3>\
                             </figure>\
                         </div>\
                     </div>"
                 );
+
+                let treeFields = ["tree", "wood", "leaf", "fruitSeed", "other"]
+                let figureClassCounter = 0;
+                // for (let j=0; j<treeFields.length; j++) {
+                //     const CURRENTTREEFIGURECLASS = treeClassTag + " ." + treeFields[j] + 'Figure';
+                // }
+                if(tree[TREEINDEX].tree_image == '') {
+                    const CURRENTTREEFIGURECLASS = treeClassTag + " ." + treeFields[0] + 'Figure';
+                    $(CURRENTTREEFIGURECLASS).css({"display":"none"});
+                    figureClassCounter++;
+                }
+
+                if(tree[TREEINDEX].wood_image == '') {
+                    const CURRENTTREEFIGURECLASS = treeClassTag + " ." + treeFields[1] + 'Figure';
+                    $(CURRENTTREEFIGURECLASS).css({"display":"none"});
+                    figureClassCounter++;
+                }
+
+                if(tree[TREEINDEX].leaf_image == '') {
+                    const CURRENTTREEFIGURECLASS = treeClassTag + " ." + treeFields[2] + 'Figure';
+                    $(CURRENTTREEFIGURECLASS).css({"display":"none"});
+                    figureClassCounter++;
+                }
+
+                if(tree[TREEINDEX].fruitSeed_image == '') {
+                    const CURRENTTREEFIGURECLASS = treeClassTag + " ." + treeFields[3] + 'Figure';
+                    $(CURRENTTREEFIGURECLASS).css({"display":"none"});
+                    figureClassCounter++;
+                }
+
+                if(tree[TREEINDEX].other_image == '') {
+                    const CURRENTTREEFIGURECLASS = treeClassTag + " ." + treeFields[4] + 'Figure';
+                    $(CURRENTTREEFIGURECLASS).css({"display":"none"});
+                    figureClassCounter++;
+                }
+                
+                if(figureClassCounter == 5) {
+                    $(treeClassTag).addClass("noFigures");
+                }
             }
         });
     }
