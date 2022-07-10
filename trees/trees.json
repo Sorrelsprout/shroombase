@@ -5,12 +5,14 @@
         "description":"Conifer tree or shrub.",
         "tree_image":"",
         "tree_imageCaption":"",
-        "coneSeed_image":"",
-        "coneSeed_imageCaption":"",
+        "wood_image":"",
+        "wood_imageCaption":"",
         "leaf_image":"",
         "leaf_imageCaption":"",
-        "wood_image":"",
-        "wood_imageCaption":""
+        "fruitSeed_image":"",
+        "fruitSeed_imageCaption":"",
+        "other_image":"",
+        "other_imageCaption":""
     },
     "maple": {
         "name":"Maple",
@@ -18,25 +20,45 @@
         "description":"",
         "tree_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/20151019Acer_palmatum.jpg/1600px-20151019Acer_palmatum.jpg?20151023183017",
         "tree_imageCaption":"Image from <a href='https://commons.wikimedia.org/wiki/File:20151019Acer_palmatum.jpg' target='_blank'>Wikimedia Commons</a>.",
-        "coneSeed_image":"https://upload.wikimedia.org/wikipedia/commons/d/db/Acer_rubrum_seed_keys.jpg",
-        "coneSeed_imageCaption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Acer_rubrum_seed_keys.jpg' target='_blank'>Wikimedia Commons</a>, by Dcrjsr, <a title='Dcrjsr, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/3.0/legalcode' target='_blank'>CC BY-SA 3.0</a>. In Washington, USA.",
+        "wood_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/20150308Acer_pseudoplatanus2.jpg/1600px-20150308Acer_pseudoplatanus2.jpg?20150310202309",
+        "wood_imageCaption":"Image from <a href='https://commons.wikimedia.org/wiki/File:20150308Acer_pseudoplatanus2.jpg' target='_blank'>Wikimedia Commons</a>.",
         "leaf_image":"https://images.unsplash.com/photo-1623039925595-bb30257f6717?w=1000&h=1000&fit=crop",
         "leaf_imageCaption":"",
-        "wood_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/20150308Acer_pseudoplatanus2.jpg/1600px-20150308Acer_pseudoplatanus2.jpg?20150310202309",
-        "wood_imageCaption":"Image from <a href='https://commons.wikimedia.org/wiki/File:20150308Acer_pseudoplatanus2.jpg' target='_blank'>Wikimedia Commons</a>."
+        "fruitSeed_image":"https://upload.wikimedia.org/wikipedia/commons/d/db/Acer_rubrum_seed_keys.jpg",
+        "fruitSeed_imageCaption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Acer_rubrum_seed_keys.jpg' target='_blank'>Wikimedia Commons</a>, by Dcrjsr, <a title='Dcrjsr, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/3.0/legalcode' target='_blank'>CC BY-SA 3.0</a>. In Washington, USA.",
+        "other_image":"",
+        "other_imageCaption":""
     },
 
-    "": {
+    "oak": {
+        "name":"Oak",
+        "scientificName":"Fagaceae Quercus",
+        "description":"",
+        "tree_image":"https://upload.wikimedia.org/wikipedia/commons/e/e2/20161005Quercus_robur1.jpg",
+        "tree_imageCaption":"Image by AnRo0002, from <a href='https://commons.wikimedia.org/wiki/File:Two_acorns_in_moss.jpg' target='_blank'>Wikimedia Commons</a>.",
+        "wood_image":"./trees/oak/wood.jpg",
+        "wood_imageCaption":"",
+        "leaf_image":"./trees/oak/leaf.jpg",
+        "leaf_imageCaption":"",
+        "fruitSeed_image":"https://upload.wikimedia.org/wikipedia/commons/1/17/Two_acorns_in_moss.jpg",
+        "fruitSeed_imageCaption":"Image by Paolo Neo, from <a href='https://commons.wikimedia.org/wiki/File:Two_acorns_in_moss.jpg' target='_blank'>Wikimedia Commons</a>.",
+        "other_image":"./oak/gall.jpg",
+        "other_imageCaption":""
+    },
+
+    "placeholder": {
         "name":"",
         "scientificName":"Family Genus",
         "description":"",
         "tree_image":"",
         "tree_imageCaption":"",
-        "coneSeed_image":"",
-        "coneSeed_imageCaption":"",
+        "wood_image":"",
+        "wood_imageCaption":"",
         "leaf_image":"",
         "leaf_imageCaption":"",
-        "wood_image":"",
-        "wood_imageCaption":""
+        "fruitSeed_image":"",
+        "fruitSeed_imageCaption":"",
+        "other_image":"",
+        "other_imageCaption":""
     }
 }
