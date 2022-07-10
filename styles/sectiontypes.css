@@ -83,25 +83,6 @@
     background: #9e896c;
 }
 
-#tags-treelation-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#tags-treeRelation .conifers,
-#tags-treeRelation .deciduous {
-    background: #fff;
-}
-
-#tags-treelation-container strong { margin: 0 1rem 0 0; }
-#tags-treelation-container .fungiTags { margin: 0 !important; }
-
-@media (max-width: 600px){
-    #tags-treelation-container { flex-direction: column; }
-    #tags-treelation-container strong { margin: 0 0 1rem 0; }
-}
-
 /* L I F E S T A G E S ------------------------------------------------------- */
 
 #lifestages-images {
@@ -135,7 +116,7 @@
 #lookalikeGrid.characteristicsGrid div {
     position: relative;
     background: #fff;
-    border-radius: 0.25rem;
+    border-radius: var(--borderRadius);
     margin: 1%;
     padding: 1rem;
     width: 48%;
@@ -174,6 +155,7 @@
     color: #679450;
 }
 
+
 /* R E L A V E N T   L I N K S ----------------------------------------------- */
 
 #relevantlinksList li { padding: 0; }
@@ -187,10 +169,102 @@
 #relevantlinksList li:hover a { background: #fff; }
 
 
+/* T R E E   H O V E R C A R D S --------------------------------------------- */
 
-
-
-
-.hovercardTag {
-    background: pink !important;
+#tags-treelation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+#tags-treeRelation .conifers,
+#tags-treeRelation .deciduous {
+    background: #fff;
+}
+
+#tags-treelation-container strong { margin: 0 1rem 0 0; }
+#tags-treelation-container .fungiTags { margin: 0 !important; }
+
+#tags-treelation-container .fungiTags li { 
+    background: #55423200 !important;
+    border: solid 1px var(--BorderColor);
+}
+
+@media (max-width: 600px){
+    #tags-treelation-container { flex-direction: column; }
+    #tags-treelation-container strong { margin: 0 0 1rem 0; }
+}
+
+#tags-treelation-container .fungiTags .hovercardTag {
+    position: relative;
+    background: var(--SelectionBG) !important;
+    border: none !important;
+}
+
+#tags-treelation-container .fungiTags .hovercardTag:hover {
+    background:#fff !important;
+}
+
+.hovercardTag:hover .hovercard {
+    display: flex;
+}
+
+.hovercard {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: calc(100% + 1rem);
+    left: calc(50% - 20rem);
+    background: #fff;
+    width: 40rem;
+    align-items: center;
+    z-index: 2;
+    border-radius: var(--borderRadius);
+}
+
+.noFigures .hovercard {
+    left: calc(50% - 10rem);
+    width: 20rem !important;
+}
+
+.hovercard > div {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.25rem 0.25rem 0 0.25rem;
+}
+
+.hovercard > div figure {
+    flex: none !important;
+    display: block;
+    padding: 0.25rem 0.25rem 0 0.25rem;
+    width: 33.3%;
+}
+
+.hovercard > h3 {
+    font-size: 1.8em !important;
+    margin: 2rem 0 -0.5rem 0 !important;
+}
+
+.hovercard > div figure h3 {
+    position: relative;
+    bottom: -1.8rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5rem !important;
+}
+
+.hovercard > div figure img {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+}
+
+.hovercard > div figure figcaption {
+    line-height: 1.5em;
+    margin-top: -0.8rem;
+    font-size: 0.65rem;
+}
+
