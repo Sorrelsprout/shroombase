@@ -1,9 +1,9 @@
 {
     "tags": {
         "edibility":"Edible",
-        "treelationship":["Beech", "Chestnut", "Eucalyptus", "Oak", "Willow", "Sycamore", "Yew"],
+        "treelationship":["Beech", "Chestnut", "Eucalyptus", "Oak", "Willow", "Sycamore", "Yew", "Conifers"],
         "color":["orange", "yellow"],
-        "type":["Parasitic"]
+        "type":["Parasitic", "Saprotrophic"]
     },
 
     "nomenclature":{
@@ -23,7 +23,7 @@
         "abundancy":"",
         "smell":"",
         "size":"Usually palm-sized",
-        "tidbits":"Shelf mushroom polypore."
+        "tidbits":"Shelf mushroom polypore. As a parasite, it causes brown heart rot in trees."
     },
 
     "characteristics": {

@@ -391,7 +391,7 @@
     position: relative;
 }
 
-#pullup .characteristicsGrid figcaption {
+#pullup .characteristicsGrid figcaption, .figcaption {
     padding-top: 0.5rem;
     margin-bottom: -1.5rem;
     width: 100%;

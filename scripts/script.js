@@ -77,7 +77,7 @@ function preloadPullup(JSONURL) {
         
         /* Tags */
         $("#tags-poisonousEdible").html(shroom[0].edibility);
-        $("#tags-poisonousEdible").removeClass().addClass(shroom[0].edibility);
+        $("#tags-poisonousEdible").removeClass().addClass(shroom[0].edibility.toLowerCase().replaceAll(' ', ''));
         if (shroom[0].edibility == "") { $("#tags-poisonousEdible").css({"display":"none"}) }
 
         let treeCategories = []; //tree groups to be hidden in tags
@@ -283,7 +283,8 @@ function preloadPullup(JSONURL) {
             if ( arrayToList.length > 0 ) {
                 let basetags = "";
                 for (let i=0; i<arrayToList.length; i++) { 
-                    basetags += "<li>" + arrayToList[i] + "</li>";
+                    let classTag = arrayToList[i].toLowerCase().replaceAll(' ', '')
+                    basetags += "<li class='" + classTag + "'>" + arrayToList[i] + "</li>";
                 }
                 $(tagName).html(basetags); 
             } else {

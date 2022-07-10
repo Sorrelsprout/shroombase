@@ -68,20 +68,17 @@
     display: flex;
 }
 
-#tags-poisonousEdible.poisonous,
-#tags-poisonousEdible.Poisonous {
+#tags-poisonousEdible.poisonous {
     color: #fff;
     background: #cb6248;
 }
 
-#tags-poisonousEdible.edible,
-#tags-poisonousEdible.Edible {
+#tags-poisonousEdible.edible {
     color: #fff;
     background: #679450;
 }
 
-#tags-poisonousEdible.medicinal,
-#tags-poisonousEdible.Medicinal {
+#tags-poisonousEdible.medicinal {
     color: #fff;
     background: #9e896c;
 }
@@ -90,6 +87,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#tags-treeRelation .conifers,
+#tags-treeRelation .deciduous {
+    background: #fff;
 }
 
 #tags-treelation-container strong { margin: 0 1rem 0 0; }
@@ -183,3 +185,12 @@
 }
 
 #relevantlinksList li:hover a { background: #fff; }
+
+
+
+
+
+
+.hovercardTag {
+    background: pink !important;
+}
