@@ -578,8 +578,18 @@ function updateH2Tags(pagename){
 
             for (let i=0; i<treetypes.length-1; i++) { // length-1 due to placeholder
                 let treeClassTag = "." + treetypes[i];
-                $(treeClassTag).hover( addTreeTags(tree[i].name) );
+                addTreeTags(tree[i].name);
                 $(treeClassTag).addClass("hovercardTag");
+                $(treeClassTag).click( function() {
+                    $(treeClassTag).toggleClass("clicked");
+                });
+                $(document).click(function(event) { 
+                    var $target = $(event.target);
+                    if(!$target.closest(treeClassTag).length && 
+                    $(treeClassTag).is(":visible")) {
+                      $(treeClassTag).removeClass("clicked");
+                    }        
+                });
             }
 
             function addTreeTags(treeName) {

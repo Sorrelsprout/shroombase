@@ -199,17 +199,14 @@
     position: relative;
     background: var(--SelectionBG) !important;
     border: none !important;
+    cursor: pointer;
 }
 
 #tags-treelation-container .fungiTags .hovercardTag:hover {
     background:#fff !important;
 }
 
-.hovercardTag:hover .hovercard {
-    display: flex;
-}
-
-.hovercard {
+.hovercardTag .hovercard {
     display: none;
     flex-direction: column;
     position: absolute;
@@ -220,6 +217,24 @@
     align-items: center;
     z-index: 2;
     border-radius: var(--borderRadius);
+}
+
+.hovercardTag.clicked .hovercard {
+    display: flex;
+}
+
+.hovercard::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: -2rem;
+    left: calc(50% - 0.65rem);
+    border-right: 0.65rem solid transparent;
+    border-top: 1rem solid transparent;
+    border-bottom: 1rem solid #fff;
+    border-left: 0.65rem solid transparent;
+    transition: all 0.3s ease-out;
 }
 
 .noFigures .hovercard {
