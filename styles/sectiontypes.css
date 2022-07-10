@@ -204,9 +204,9 @@
     flex-direction: column;
     position: absolute;
     top: calc(100% + 1rem);
-    left: calc(50% - 15rem);
+    left: calc(50% - 20rem);
     background: #fff;
-    width: 30rem;
+    width: 40rem;
     align-items: center;
     z-index: 2;
     border-radius: var(--borderRadius);
@@ -217,9 +217,39 @@
     flex: 1;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.25rem 0.25rem 0 0.25rem;
 }
 
 .hovercard > div figure {
-    padding: 0.5rem;
-    width: calc(50% - 1rem);
+    flex: none !important;
+    display: block;
+    padding: 0.25rem 0.25rem 0 0.25rem;
+    width: 33.3%;
 }
+
+.hovercard > h3 {
+    font-size: 1.8em !important;
+    margin: 2rem 0 -0.5rem 0 !important;
+}
+
+.hovercard > div figure h3 {
+    position: relative;
+    bottom: -1.8rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5rem !important;
+}
+
+.hovercard > div figure img {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+}
+
+.hovercard > div figure figcaption {
+    line-height: 1.5em;
+    margin-top: -0.8rem;
+    font-size: 0.65rem;
+}
+
