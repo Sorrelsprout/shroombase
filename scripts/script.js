@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    $.getScript("./scripts/trees.js");
-    
+    // $.getScript("./scripts/trees.js");
+
     checkWidth();
     $(window).resize(function() { checkWidth(); })
     function checkWidth() {
@@ -530,7 +530,7 @@ function preloadPullup(JSONURL) {
 
     function setPullup() {
         $("#pullupContent").addClass("show");
-        $("#pullup").addClass("show"); 
+        $("#pullup").addClass("show", loadTrees()); 
         $("#pageH2Tags-container").removeClass("show");
     }
 
@@ -565,4 +565,63 @@ function updateH2Tags(pagename){
 
 /* T O G G L E   A D V A N C E D   S E A R C H --------------------------------------------------- */
     $("#searchAdvancedToggle").click(function() { $("#searchAdvanced").toggleClass("showAdvanced"); });
+
+    
+
+/* T R E E S    C A R D S ------------------------------------------------------------------------ */
+    
+    function loadTrees() {
+        const JSONURL = "../trees/trees.json";
+        $.getJSON(JSONURL, function(json) { 
+            let tree = Object.values(json);
+            let treetypes = ["pine", "maple", "oak", "placeholder"];
+
+            for (let i=0; i<treetypes.length-1; i++) { // length-1 due to placeholder
+                let treeClassTag = "." + treetypes[i];
+                $(treeClassTag).hover( addTreeTags(tree[i].name) );
+                $(treeClassTag).addClass("hovercardTag");
+            }
+
+            function addTreeTags(treeName) {
+                let treeName_updated = treeName.toLowerCase().replace(' ', '');
+                let treeClassTag = "." + treeName_updated;
+
+                const TREEINDEX = jQuery.inArray( treeName_updated, treetypes );
+                $(treeClassTag).html(
+                    "<span>" + treeName + "</span>\
+                    <div class='" + treeClassTag + "_container hovercard'>\
+                        <div>\
+                            <figure class='" + treeClassTag + "_treeFigure'>\
+                                <img class='" + treeClassTag + "_treeImg' alt='" + treeClassTag + " tree' src='" + tree[TREEINDEX].tree_image + "' loading='lazy'>\
+                                <figcaption class='" + treeClassTag + "_treeCaption'>" + tree[TREEINDEX].tree_imageCaption + "</figcaption>\
+                            </figure>\
+                            <figure class='" + treeClassTag + "_woodFigure'>\
+                                <img class='" + treeClassTag + "_woodImg' alt='" + treeClassTag + " wood' src='" + tree[TREEINDEX].wood_image + "' loading='lazy'>\
+                                <figcaption class='" + treeClassTag + "_woodCaption'>" + tree[TREEINDEX].wood_imageCaption + "</figcaption>\
+                            </figure>\
+                            <figure class='" + treeClassTag + "_leafFigure'>\
+                                <img class='" + treeClassTag + "_leafImg' alt='" + treeClassTag + " leaf' src='" + tree[TREEINDEX].leaf_image + "' loading='lazy'>\
+                                <figcaption class='" + treeClassTag + "_leafCaption'>" + tree[TREEINDEX].leaf_imageCaption + "</figcaption>\
+                            </figure>\
+                            <figure class='" + treeClassTag + "_fruitSeedFigure'>\
+                                <img class='" + treeClassTag + "_fruitSeedImg' alt='" + treeClassTag + " fruit, cone, or seed' src='" + tree[TREEINDEX].fruitSeed_image + "' loading='lazy'>\
+                                <figcaption class='" + treeClassTag + "_fruitSeedCaption'>" + tree[TREEINDEX].fruitSeed_imageCaption + "</figcaption>\
+                            </figure>\
+                            <figure class='" + treeClassTag + "_otherFigure'>\
+                                <img class='" + treeClassTag + "_otherImg' alt='" + treeClassTag + " other distinguishing characteristic' src='" + tree[TREEINDEX].other_image + "' loading='lazy'>\
+                                <figcaption class='" + treeClassTag + "_otherCaption'>" + tree[TREEINDEX].other_imageCaption + "</figcaption>\
+                            </figure>\
+                        </div>\
+                        <h3>" + tree[TREEINDEX].name + "</h3>\
+                        <p class='figcaption'>" + tree[TREEINDEX].scientificName + "</p>\
+                        <p>" + tree[TREEINDEX].description + "</p>\
+                    </div>"
+                );
+            }
+        });
+    }
+
+
+
 })
+
