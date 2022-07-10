@@ -272,18 +272,20 @@ function preloadPullup(JSONURL) {
 
         /* Relevant Links */
         let relevantLinksCounter = 0;
-        arrayResponse("#relevantlinksList", shroom[8].linkslist);
+        arrayResponse("#relevantlinksList", shroom[8].linkslist, "external");
         if (shroom[8].linkslist == "") { $("#relevantlinksList").css({"display":"none"}); relevantLinksCounter++; }
         if( relevantLinksCounter == 1 ) {
             $("#relevantlinks").css({"display":"none"});
         }
 
         /* ArrayResponse */
-        function arrayResponse(tagName, arrayToList, hidden) { // hidden will be compared to array items and will have the tag "hidden"
+        function arrayResponse(tagName, arrayToList, customtag, hidden) { // hidden will be compared to array items and will have the tag "hidden"
             if ( arrayToList.length > 0 ) {
                 let basetags = "";
                 for (let i=0; i<arrayToList.length; i++) { 
-                    let classTag = arrayToList[i].toLowerCase().replaceAll(' ', '')
+                    let classTag = ""
+                    if(customtag) { classTag = customtag; } 
+                    else { classTag = arrayToList[i].toLowerCase().replaceAll(' ', '') }
                     basetags += "<li class='" + classTag + "'>" + arrayToList[i] + "</li>";
                 }
                 $(tagName).html(basetags); 
