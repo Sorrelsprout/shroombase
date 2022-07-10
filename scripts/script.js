@@ -623,44 +623,20 @@ function updateH2Tags(pagename){
                     </div>"
                 );
 
-                let treeFields = ["tree", "wood", "leaf", "fruitSeed", "other"]
+                let treeFields = ["tree", "wood", "leaf", "fruitSeed", "other"];
+                let treeJSONFields = [];
                 let figureClassCounter = 0;
-                // for (let j=0; j<treeFields.length; j++) {
-                //     const CURRENTTREEFIGURECLASS = treeClassTag + " ." + treeFields[j] + 'Figure';
-                // }
-                if(tree[TREEINDEX].tree_image == '') {
-                    const CURRENTTREEFIGURECLASS = treeClassTag + " ." + treeFields[0] + 'Figure';
-                    $(CURRENTTREEFIGURECLASS).css({"display":"none"});
-                    figureClassCounter++;
-                }
+                for (let j=0; j<treeFields.length; j++) {
+                    let treeFieldsToJSON = treeFields[j] + "_image";
+                    treeJSONFields.push(treeFieldsToJSON);
 
-                if(tree[TREEINDEX].wood_image == '') {
-                    const CURRENTTREEFIGURECLASS = treeClassTag + " ." + treeFields[1] + 'Figure';
-                    $(CURRENTTREEFIGURECLASS).css({"display":"none"});
-                    figureClassCounter++;
+                    if((tree[TREEINDEX][treeJSONFields[j]] == '')) {
+                        const CURRENTTREEFIGURECLASS = treeClassTag + " ." + treeFields[j] + 'Figure';
+                        $(CURRENTTREEFIGURECLASS).css({"display":"none"});
+                        figureClassCounter++;
+                    }
                 }
-
-                if(tree[TREEINDEX].leaf_image == '') {
-                    const CURRENTTREEFIGURECLASS = treeClassTag + " ." + treeFields[2] + 'Figure';
-                    $(CURRENTTREEFIGURECLASS).css({"display":"none"});
-                    figureClassCounter++;
-                }
-
-                if(tree[TREEINDEX].fruitSeed_image == '') {
-                    const CURRENTTREEFIGURECLASS = treeClassTag + " ." + treeFields[3] + 'Figure';
-                    $(CURRENTTREEFIGURECLASS).css({"display":"none"});
-                    figureClassCounter++;
-                }
-
-                if(tree[TREEINDEX].other_image == '') {
-                    const CURRENTTREEFIGURECLASS = treeClassTag + " ." + treeFields[4] + 'Figure';
-                    $(CURRENTTREEFIGURECLASS).css({"display":"none"});
-                    figureClassCounter++;
-                }
-                
-                if(figureClassCounter == 5) {
-                    $(treeClassTag).addClass("noFigures");
-                }
+                if(figureClassCounter == 5) { $(treeClassTag).addClass("noFigures"); }
             }
         });
     }
