@@ -580,9 +580,7 @@ function updateH2Tags(pagename){
                 let treeClassTag = "." + treetypes[i];
                 addTreeTags(tree[i].name);
                 $(treeClassTag).addClass("hovercardTag");
-                $(treeClassTag).click( function() {
-                    $(treeClassTag).toggleClass("clicked");
-                });
+                $(treeClassTag).click( function() { $(treeClassTag).toggleClass("clicked"); });
                 $(document).click(function(event) { 
                     var $target = $(event.target);
                     if(!$target.closest(treeClassTag).length && 
