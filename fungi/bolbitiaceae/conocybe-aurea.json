@@ -104,17 +104,17 @@
                 "caption":"",
                 "desc":""
             },
-            "fruiting":{
-                "img":"",
-                "caption":"",
-                "desc":""
-            },
             "egg":{
                 "img":"",
                 "caption":"",
                 "desc":""
             },
             "eruption":{
+                "img":"./images/bolbitiaceae/conocybe-aurea/lifestages-eruption.jpg",
+                "caption":"",
+                "desc":""
+            },
+            "pin":{
                 "img":"",
                 "caption":"",
                 "desc":""
@@ -140,7 +140,7 @@
                 "desc":""
             },
             "dead":{
-                "img":"",
+                "img":"./images/bolbitiaceae/conocybe-aurea/lifestages-dead.jpg",
                 "caption":"",
                 "desc":""
             }

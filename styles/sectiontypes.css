@@ -117,6 +117,7 @@
     position: relative;
     background: #fff;
     border-radius: var(--borderRadius);
+    box-shadow: var(--BoxShadowCards);
     margin: 1%;
     padding: 1rem;
     width: 48%;
@@ -147,13 +148,8 @@
     }
 }
 
-#lookalikeGrid.characteristicsGrid .poisonous {
-    color: #cb6248;
-}
-
-#lookalikeGrid.characteristicsGrid .edible { 
-    color: #679450;
-}
+#lookalikeGrid.characteristicsGrid .poisonous { color: #cb6248; }
+#lookalikeGrid.characteristicsGrid .edible {  color: #679450; }
 
 
 /* R E L A V E N T   L I N K S ----------------------------------------------- */
@@ -217,12 +213,11 @@
     align-items: center;
     z-index: 2;
     border-radius: var(--borderRadius);
+    box-shadow: var(--BoxShadowCards);
     cursor: url('../images/about/cursor.png'), auto;
 }
 
-.hovercardTag.clicked .hovercard {
-    display: flex;
-}
+.hovercardTag.clicked .hovercard { display: flex; }
 
 .hovercard::before {
     content: "";
@@ -249,13 +244,13 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0.25rem 0.25rem 0 0.25rem;
+    padding: 0 0.5rem 0.5rem 0.5rem;
 }
 
 .hovercard > div figure {
     flex: none !important;
     display: block;
-    padding: 0.25rem 0.25rem 0 0.25rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
     width: 33.3%;
 }
 
@@ -264,12 +259,12 @@
     margin: 2rem 0 -0.5rem 0 !important;
 }
 
+.hovercard > p { margin: 0 1rem; }
+
 .hovercard > div figure h3 {
     position: relative;
-    bottom: -1.8rem;
     width: 100%;
     text-align: center;
-    margin-bottom: 0.5rem !important;
 }
 
 .hovercard > div figure img {
@@ -281,6 +276,7 @@
 .hovercard > div figure figcaption {
     line-height: 1.5em;
     margin-top: -0.8rem;
+    margin-bottom: 0.25rem;
     font-size: 0.65rem;
 }
 

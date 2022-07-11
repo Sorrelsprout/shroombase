@@ -104,17 +104,17 @@
                 "caption":"",
                 "desc":""
             },
-            "fruiting":{
-                "img":"",
-                "caption":"",
-                "desc":""
-            },
             "egg":{
                 "img":"",
                 "caption":"",
                 "desc":""
             },
             "eruption":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "pin":{
                 "img":"",
                 "caption":"",
                 "desc":""

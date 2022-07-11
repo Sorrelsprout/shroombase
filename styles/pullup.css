@@ -352,7 +352,7 @@
 
 #pullup figure {
     max-width: 100%;
-    margin-bottom: 2.5rem;
+    /* margin-bottom: 2.5rem; */
     flex: 1;
 }
 
@@ -393,7 +393,7 @@
 
 #pullup .characteristicsGrid figcaption, .figcaption {
     padding-top: 0.5rem;
-    margin-bottom: -1.5rem;
+    margin-bottom: 0;
     width: 100%;
     opacity: 0.5;
     font-size: 0.85em;
