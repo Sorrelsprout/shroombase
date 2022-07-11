@@ -280,3 +280,16 @@
     font-size: 0.65rem;
 }
 
+@media (max-width: 600px){
+    .hovercardTag .hovercard {
+        position: fixed;
+        max-width: 100vw;
+        max-height: calc(100vh - var(--navHeight));
+        top: var(--navHeight);
+        left: 0;
+        overflow: scroll;
+    }
+    .hovercard > div figure {
+        width: 50%;
+    }
+}
