@@ -1,18 +1,18 @@
 {
-    "pine": {
-        "name":"Pine",
-        "scientificName":"Pinaceae Pinus",
-        "description":"Conifer tree or shrub.",
-        "tree_image":"",
-        "tree_imageCaption":"",
-        "wood_image":"",
-        "wood_imageCaption":"",
-        "leaf_image":"",
-        "leaf_imageCaption":"",
+    "fir": {
+        "name":"Fir",
+        "scientificName":"Pinaceae Abies",
+        "description":"",
+        "tree_image":"https://upload.wikimedia.org/wikipedia/commons/f/f0/Abies_sachalinensis%2C_Gora_Lopatina%2C_Sakhalin.jpg",
+        "tree_imageCaption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Abies_sachalinensis,_Gora_Lopatina,_Sakhalin.jpg' target='_blank'>Wikimedia Commons</a>, by Lupus-sapiens, <a title='Lupus-sapiens, CC0 1.0 &lt;https://creativecommons.org/publicdomain/zero/1.0/deed.en&gt;, via Wikimedia Commons' href='https://creativecommons.org/publicdomain/zero/1.0/legalcode' target='_blank'>CC0 1.0</a>. In Sakhalin, Russia",
+        "wood_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Abies_concolor_%28white_fir%29_1_%2827644805499%29.jpg/1600px-Abies_concolor_%28white_fir%29_1_%2827644805499%29.jpg",
+        "wood_imageCaption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Abies_concolor_(white_fir)_1_(27644805499).jpg' target='_blank'>Wikimedia Commons</a>, by James St. John, <a title='James St. John, CC BY-SA 2.0 &lt;https://creativecommons.org/licenses/by/2.0/deed.en&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by/2.0/legalcode' target='_blank'>CC BY-SA 2.0</a>. In Ohio, USA.",
+        "leaf_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Abies_alba_0107.jpg/1600px-Abies_alba_0107.jpg",
+        "leaf_imageCaption":"Image by Vassil, from <a href='https://commons.wikimedia.org/wiki/File:Abies_alba_0107.jpg' target='_blank'>Wikimedia Commons</a>",
         "flower_image":"",
         "flower_imageCaption":"",
-        "fruitSeed_image":"",
-        "fruitSeed_imageCaption":"",
+        "fruitSeed_image":"https://upload.wikimedia.org/wikipedia/commons/5/58/Picea_abies_%27Acrocona%27_-_Morris_Arboretum_-_DSC00454.JPG",
+        "fruitSeed_imageCaption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Picea_abies_%27Acrocona%27_-_Morris_Arboretum_-_DSC00454.JPG' target='_blank'>Wikimedia Commons</a>, by Daderot, <a title='Daderot, CC0 1.0 &lt;https://creativecommons.org/publicdomain/zero/1.0/deed.en&gt;, via Wikimedia Commons' href='https://creativecommons.org/publicdomain/zero/1.0/legalcode' target='_blank'>CC0 1.0</a>. In Philadelphia, Pennsylvania, USA",
         "other_image":"",
         "other_imageCaption":""
     },
@@ -33,13 +33,12 @@
         "other_image":"",
         "other_imageCaption":""
     },
-
     "oak": {
         "name":"Oak",
         "scientificName":"Fagaceae Quercus",
         "description":"Oak trees will sometimes have galls (shown on &ldquo;Other&rdquo;), which are abnormal growths on leaves and branches, and are caused by insects, mites, or fungi.",
         "tree_image":"https://upload.wikimedia.org/wikipedia/commons/e/e2/20161005Quercus_robur1.jpg",
-        "tree_imageCaption":"Image by AnRo0002, from <a href='https://commons.wikimedia.org/wiki/File:Two_acorns_in_moss.jpg' target='_blank'>Wikimedia Commons</a>.",
+        "tree_imageCaption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Two_acorns_in_moss.jpg' target='_blank'>Wikimedia Commons</a>, by AnRo0002, <a title='AnRo0002, CC0 1.0 &lt;https://creativecommons.org/publicdomain/zero/1.0/deed.en&gt;, via Wikimedia Commons' href='https://creativecommons.org/publicdomain/zero/1.0/legalcode' target='_blank'>CC0 1.0</a>",
         "wood_image":"./trees/oak/wood.jpg",
         "wood_imageCaption":"",
         "leaf_image":"./trees/oak/leaf.jpg",
@@ -47,9 +46,26 @@
         "flower_image":"",
         "flower_imageCaption":"",
         "fruitSeed_image":"https://upload.wikimedia.org/wikipedia/commons/1/17/Two_acorns_in_moss.jpg",
-        "fruitSeed_imageCaption":"Image by Paolo Neo, from <a href='https://commons.wikimedia.org/wiki/File:Two_acorns_in_moss.jpg' target='_blank'>Wikimedia Commons</a>.",
+        "fruitSeed_imageCaption":"Image by Paolo Neo, from <a href='https://commons.wikimedia.org/wiki/File:Two_acorns_in_moss.jpg' target='_blank'>Wikimedia Commons</a>",
         "other_image":"./trees/oak/gall.jpg",
         "other_imageCaption":"Found in Palo Alto, CA in July 2022"
+    },
+    "pine": {
+        "name":"Pine",
+        "scientificName":"Pinaceae Pinus",
+        "description":"Conifer tree or shrub.",
+        "tree_image":"https://upload.wikimedia.org/wikipedia/commons/8/8b/20130906Pinus1.jpg",
+        "tree_imageCaption":"Image from <a href='https://commons.wikimedia.org/wiki/File:20130906Pinus1.jpg' target='_blank'>Wikimedia Commons</a>, by AnRo0002, <a title='AnRo0002, CC0 1.0 &lt;https://creativecommons.org/publicdomain/zero/1.0/deed.en&gt;, via Wikimedia Commons' href='https://creativecommons.org/publicdomain/zero/1.0/legalcode' target='_blank'>CC0 1.0</a>",
+        "wood_image":"https://upload.wikimedia.org/wikipedia/commons/5/5c/Pinus_glabra_Bark.jpg",
+        "wood_imageCaption":"Image by Woodlot, from <a href='https://commons.wikimedia.org/wiki/File:Pinus_glabra_Bark.jpg' target='_blank'>Wikimedia Commons</a>",
+        "leaf_image":"https://upload.wikimedia.org/wikipedia/commons/5/59/Pinus-sylvestris-05-fws.jpg",
+        "leaf_imageCaption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Pinus-sylvestris-05-fws.jpg' target='_blank'>Wikimedia Commons</a>, by Francisco Welter-Schultes, <a title='Francisco Welter-Schultes, CC0 1.0 &lt;https://creativecommons.org/publicdomain/zero/1.0/deed.en&gt;, via Wikimedia Commons' href='https://creativecommons.org/publicdomain/zero/1.0/legalcode' target='_blank'>CC0 1.0</a>",
+        "flower_image":"",
+        "flower_imageCaption":"",
+        "fruitSeed_image":"https://upload.wikimedia.org/wikipedia/commons/d/d1/Pinus_canariensis.jpg",
+        "fruitSeed_imageCaption":"Image by Paul venter, from <a href='https://commons.wikimedia.org/wiki/File:Pinus_canariensis.jpg' target='_blank'>Wikimedia Commons</a>",
+        "other_image":"",
+        "other_imageCaption":""
     },
 
     "placeholder": {

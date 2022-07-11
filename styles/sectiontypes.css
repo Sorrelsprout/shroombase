@@ -289,7 +289,5 @@
         left: 0;
         overflow: scroll;
     }
-    .hovercard > div figure {
-        width: 50%;
-    }
+    .hovercard > div figure { width: 50%; }
 }
