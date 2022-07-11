@@ -518,6 +518,7 @@ function preloadPullup(JSONURL) {
         $("#pullupContent").addClass("show");
         $("#pullup").addClass("show", loadTrees()); 
         $("#pageH2Tags-container").removeClass("show");
+        $(".mobileMenu").removeClass("expanded");
     }
 
     $("#pullupToggle").click(function() { hidePullup() });
@@ -525,6 +526,7 @@ function preloadPullup(JSONURL) {
     function hidePullup(){ 
         $("#pullup").removeClass("show"); 
         $("#pullup").animate({ scrollTop: 0 }, 100);
+        $(".mobileMenu").removeClass("expanded");
     }
 
 
