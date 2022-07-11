@@ -157,7 +157,7 @@ function preloadPullup(JSONURL) {
         let lifestages_img = [ shroom[4].images.spore.img, shroom[4].images.egg.img, shroom[4].images.eruption.img, shroom[4].images.pin.img, shroom[4].images.button.img, shroom[4].images.young.img, shroom[4].images.mature.img, shroom[4].images.old.img, shroom[4].images.dead.img ];
         let lifestages_caption = [ shroom[4].images.spore.caption, shroom[4].images.egg.caption, shroom[4].images.eruption.caption, shroom[4].images.pin.caption, shroom[4].images.button.caption, shroom[4].images.young.caption, shroom[4].images.mature.caption, shroom[4].images.old.caption, shroom[4].images.dead.caption ];
         let lifestages_desc = [ shroom[4].images.spore.desc, shroom[4].images.egg.desc, shroom[4].images.eruption.desc, shroom[4].images.pin.desc, shroom[4].images.button.desc, shroom[4].images.young.desc, shroom[4].images.mature.desc, shroom[4].images.old.desc, shroom[4].images.dead.desc ];
-        let lifestages_h3 = ["Spore", "Fruiting", "Egg", "Eruption", "Button", "Young", "Mature", "Old", "Dead"]
+        let lifestages_h3 = ["Spore", "Egg", "Eruption", "Pin", "Button", "Young", "Mature", "Old", "Dead"]
 
         let lifestagesContent = "";
         for (let i=0; i<lifestages_img.length; i++) {
@@ -605,6 +605,11 @@ function preloadPullup(JSONURL) {
                                 <figcaption class='leafCaption figcaption'>" + tree[TREEINDEX].leaf_imageCaption + "</figcaption>\
                                 <h3>Leaf</h3>\
                             </figure>\
+                            <figure class='flowerFigure'>\
+                                <img class='flowerImg' alt='" + treeClassTag + " flower' src='" + tree[TREEINDEX].flower_image + "' loading='lazy'>\
+                                <figcaption class='flowerCaption figcaption'>" + tree[TREEINDEX].flower_imageCaption + "</figcaption>\
+                                <h3>Flower</h3>\
+                            </figure>\
                             <figure class='fruitSeedFigure'>\
                                 <img class='fruitSeedImg' alt='" + treeClassTag + " fruit, cone, or seed' src='" + tree[TREEINDEX].fruitSeed_image + "' loading='lazy'>\
                                 <figcaption class='fruitSeedCaption figcaption'>" + tree[TREEINDEX].fruitSeed_imageCaption + "</figcaption>\
@@ -619,7 +624,7 @@ function preloadPullup(JSONURL) {
                     </div>"
                 );
 
-                let treeFields = ["tree", "wood", "leaf", "fruitSeed", "other"];
+                let treeFields = ["tree", "wood", "leaf", "flower", "fruitSeed", "other"];
                 let treeJSONFields = [];
                 let figureClassCounter = 0;
                 for (let j=0; j<treeFields.length; j++) {
@@ -632,7 +637,7 @@ function preloadPullup(JSONURL) {
                         figureClassCounter++;
                     }
                 }
-                if(figureClassCounter == 5) { $(treeClassTag).addClass("noFigures"); }
+                if(figureClassCounter == 6) { $(treeClassTag).addClass("noFigures"); }
             }
         });
     }

@@ -43,8 +43,8 @@
             "desc":""
         },
         "halved":{
-            "img":"./images/templates/halved.jpg",
-            "caption":"",
+            "img":"https://upload.wikimedia.org/wikipedia/commons/f/fe/Coupe_transversale.JPG",
+            "caption":"Image by Agena.p, from <a href='https://commons.wikimedia.org/wiki/File:Coupe_transversale.JPG' target='_blank'>Wikimedia Commons</a>",
             "desc":""
         },
         "stem":{
@@ -53,8 +53,8 @@
             "desc":"Stalk is generally smooth and white. Has ring in the middle."
         },
         "sporeprint":{
-            "img":"./images/templates/sporeprint.jpg",
-            "caption":"",
+            "img":"./images/amanitaceae/amanita-muscaria/sporeprint.jpg",
+            "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Amanita_Muscaria_Spore_Print_(11378036753).jpg' target='_blank'>Wikimedia Commons</a>, by Daniel Neal, <a title='Daniel Neal, CC BY-SA 2.0 &lt;https://creativecommons.org/licenses/by/2.0/deed.en&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by/2.0/legalcode' target='_blank'>CC BY-SA 2.0</a>. In Sacramento, CA, USA",
             "desc":""
         },
         "mycelium":{
@@ -101,14 +101,14 @@
         "showTitles": true,
         "images":{
             "spore":{
-                "img":"",
-                "caption":"",
+                "img":"https://upload.wikimedia.org/wikipedia/commons/5/51/Amanita_muscaria_spores.jpg",
+                "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Amanita_muscaria_spores.jpg' target='_blank'>Wikimedia Commons</a>, by Madjack74, <a title='Madjack74, GNU Free Documentation License v1.2 &lt;https://en.wikipedia.org/wiki/GNU_Free_Documentation_License&gt;, via Wikimedia Commons' href='https://en.wikipedia.org/wiki/GNU_Free_Documentation_License' target='_blank'>GNU Free Documentation License v1.2</a>",
                 "desc":""
             },
             "egg":{
-                "img":"",
-                "caption":"",
-                "desc":""
+                "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Amanita_muscaria_veiled.jpg/1541px-Amanita_muscaria_veiled.jpg",
+                "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Amanita_muscaria_veiled.jpg' target='_blank'>Wikimedia Commons</a>, by Natr, <a title='Natr, CC0 1.0 &lt;https://creativecommons.org/publicdomain/zero/1.0/deed.en&gt;, via Wikimedia Commons' href='https://creativecommons.org/publicdomain/zero/1.0/legalcode' target='_blank'>CC0 1.0</a>",
+                "desc":"A very young specimen of an Amanita muscaria fruiting body with universal veil still intact growing out of littered forest soil, description from <a href='https://commons.wikimedia.org/wiki/File:Amanita_muscaria_veiled.jpg#fileinfotpl_desc' target='_blank'>Wiki Commons</a>."
             },
             "eruption":{
                 "img":"",
