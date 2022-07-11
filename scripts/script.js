@@ -11,11 +11,8 @@ $(document).ready(function(){
             $(".mobileMenu").css({ "transition": "none" })
         }
 
-        if ($(window).width() < 768) {
-            $("#mushroomsFungiTitle").attr("src", "./images/about/mushroomsfungi-mobile.png");
-        } else {
-            $("#mushroomsFungiTitle").attr("src", "./images/about/mushroomsfungi.png");
-        }
+        if ($(window).width() < 768) { $("#mushroomsFungiTitle").attr("src", "./images/about/mushroomsfungi-mobile.png"); } 
+        else { $("#mushroomsFungiTitle").attr("src", "./images/about/mushroomsfungi.png"); }
     }
 
     $(".triplebar").click(function() {
@@ -157,9 +154,9 @@ function preloadPullup(JSONURL) {
         $("#lifestages-lifespan").html(shroom[4].lifespan);
         if (shroom[4].lifespan == "") { $("#lifestages-lifespan-container").css({"display":"none"}); lifeStagesCounter++; }
 
-        let lifestages_img = [ shroom[4].images.spore.img, shroom[4].images.fruiting.img, shroom[4].images.egg.img, shroom[4].images.eruption.img, shroom[4].images.button.img, shroom[4].images.young.img, shroom[4].images.mature.img, shroom[4].images.old.img, shroom[4].images.dead.img ];
-        let lifestages_caption = [ shroom[4].images.spore.caption, shroom[4].images.fruiting.caption, shroom[4].images.egg.caption, shroom[4].images.eruption.caption, shroom[4].images.button.caption, shroom[4].images.young.caption, shroom[4].images.mature.caption, shroom[4].images.old.caption, shroom[4].images.dead.caption ];
-        let lifestages_desc = [ shroom[4].images.spore.desc, shroom[4].images.fruiting.desc, shroom[4].images.egg.desc, shroom[4].images.eruption.desc, shroom[4].images.button.desc, shroom[4].images.young.desc, shroom[4].images.mature.desc, shroom[4].images.old.desc, shroom[4].images.dead.desc ];
+        let lifestages_img = [ shroom[4].images.spore.img, shroom[4].images.egg.img, shroom[4].images.eruption.img, shroom[4].images.pin.img, shroom[4].images.button.img, shroom[4].images.young.img, shroom[4].images.mature.img, shroom[4].images.old.img, shroom[4].images.dead.img ];
+        let lifestages_caption = [ shroom[4].images.spore.caption, shroom[4].images.egg.caption, shroom[4].images.eruption.caption, shroom[4].images.pin.caption, shroom[4].images.button.caption, shroom[4].images.young.caption, shroom[4].images.mature.caption, shroom[4].images.old.caption, shroom[4].images.dead.caption ];
+        let lifestages_desc = [ shroom[4].images.spore.desc, shroom[4].images.egg.desc, shroom[4].images.eruption.desc, shroom[4].images.pin.desc, shroom[4].images.button.desc, shroom[4].images.young.desc, shroom[4].images.mature.desc, shroom[4].images.old.desc, shroom[4].images.dead.desc ];
         let lifestages_h3 = ["Spore", "Fruiting", "Egg", "Eruption", "Button", "Young", "Mature", "Old", "Dead"]
 
         let lifestagesContent = "";
@@ -335,8 +332,6 @@ function preloadPullup(JSONURL) {
         const JSONURL = "./fungi/" + (FUNGIFAMILY) + "/" + (FUNGIID) + ".json";
         preloadPullup(JSONURL);
         setPullup();
-
-        
         $("#pageH2Tags-container").removeClass("show");
     });
 
@@ -392,6 +387,7 @@ function preloadPullup(JSONURL) {
 
 
 /* S E A R C H   B A R  -------------------------------------------------------------------------- */
+
     $("#badsearch").addClass("hidden");
     let searchBarString = "";
     
@@ -412,11 +408,8 @@ function preloadPullup(JSONURL) {
                 matchTag = matchTag.toLowerCase();
                 let tagTest = inputTag.toLowerCase();
                 tagTest = tagTest.replace(/\s+/g, '');
-                if(matchTag.indexOf(tagTest) >= 0) { 
-                    $(trackedFungus).removeClass("hidden");
-                } else { 
-                    $(trackedFungus).addClass("hidden");
-                }
+                if(matchTag.indexOf(tagTest) >= 0) {  $(trackedFungus).removeClass("hidden"); } 
+                else { $(trackedFungus).addClass("hidden"); }
             }
             if(($("#fungiGrid > div").length) === $("#fungiGrid > div.hidden").length) { // When search term can't be found
                 $("#badsearch").removeClass("hidden");
@@ -452,22 +445,16 @@ function preloadPullup(JSONURL) {
                 let currentSpecimenTags = specimens[i];
                 let currentlySelectedTagsSimplified = currentlySelectedTags[j].toLowerCase().replaceAll(' ', '');
 
-                if((currentSpecimenTags.indexOf(currentlySelectedTagsSimplified) >= 0)) {
-                    specimenTagCounter += 0;
-                } else if (currentlySelectedTagsSimplified == "all") { // Do Nothing
-                } else {
-                    specimenTagCounter+= 1;
-                }
+                if((currentSpecimenTags.indexOf(currentlySelectedTagsSimplified) >= 0)) { specimenTagCounter += 0; } 
+                else if (currentlySelectedTagsSimplified == "all") { /* Do Nothing */ } 
+                else { specimenTagCounter+= 1; }
             }
             specimenTagTracker.push(specimenTagCounter);
         }
 
         for(let i=0; i < $(".fungiGridElement").length; i++) {
-            if(specimenTagTracker[i] > 0){
-                $(".fungiGridElement:nth-child("+(i+1)+")").addClass("hiddenTag")
-            } else {
-                $(".fungiGridElement:nth-child("+(i+1)+")").removeClass("hiddenTag")
-            }
+            if(specimenTagTracker[i] > 0){ $(".fungiGridElement:nth-child("+(i+1)+")").addClass("hiddenTag"); } 
+            else { $(".fungiGridElement:nth-child("+(i+1)+")").removeClass("hiddenTag"); }
         }
     }
 
@@ -527,7 +514,6 @@ function preloadPullup(JSONURL) {
         }
     }
 
-
     function setPullup() {
         $("#pullupContent").addClass("show");
         $("#pullup").addClass("show", loadTrees()); 
@@ -544,32 +530,34 @@ function preloadPullup(JSONURL) {
 
     
 /* N A V   S U B P A G E   H 2   T A G S --------------------------------------------------------- */
-function updateH2Tags(pagename){
-    $("#pageH2Tags").empty();
-    let tags = [];
-    let renderedtags = "";
-    let H2ID = [];
-    $("#pullupContent #fullDescription h2").each(function(){
-        let H2TEXT = $(this).text();
-        H2ID.push( H2TEXT.replace(/ /g,'') );
-        $(this).attr("id", H2TEXT.replace(/ /g,'')); //Add ID to H2s
-        tags.push($(this).text());
-    })
-    for(i=0; i<tags.length; i++){ renderedtags +="<li><a href='#"+H2ID[i]+"'>"+tags[i]+"</a></li>"; }
-    if((tags.length == 0) || (pagename == "about")) { $("#pageH2Tags-container").removeClass("show"); } 
-    else { $("#pageH2Tags-container").addClass("show"); }
-    $("#pageH2Tags").append(renderedtags);
-}
+
+    function updateH2Tags(pagename){
+        $("#pageH2Tags").empty();
+        let tags = [];
+        let renderedtags = "";
+        let H2ID = [];
+        $("#pullupContent #fullDescription h2").each(function(){
+            let H2TEXT = $(this).text();
+            H2ID.push( H2TEXT.replace(/ /g,'') );
+            $(this).attr("id", H2TEXT.replace(/ /g,'')); //Add ID to H2s
+            tags.push($(this).text());
+        })
+        for(i=0; i<tags.length; i++){ renderedtags +="<li><a href='#"+H2ID[i]+"'>"+tags[i]+"</a></li>"; }
+        if((tags.length == 0) || (pagename == "about")) { $("#pageH2Tags-container").removeClass("show"); } 
+        else { $("#pageH2Tags-container").addClass("show"); }
+        $("#pageH2Tags").append(renderedtags);
+    }
 
 
 
 /* T O G G L E   A D V A N C E D   S E A R C H --------------------------------------------------- */
+
     $("#searchAdvancedToggle").click(function() { $("#searchAdvanced").toggleClass("showAdvanced"); });
 
     
 
 /* T R E E S    C A R D S ------------------------------------------------------------------------ */
-    
+
     function loadTrees() {
         const JSONURL = "../trees/trees.json";
         $.getJSON(JSONURL, function(json) { 
@@ -648,8 +636,5 @@ function updateH2Tags(pagename){
             }
         });
     }
-
-
-
 })
 

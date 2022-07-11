@@ -104,17 +104,17 @@
                 "caption":"",
                 "desc":""
             },
-            "fruiting":{
+            "egg":{
                 "img":"./images/pezizaceae/peziza-unidentified/lifestages-button.jpg",
                 "caption":"Initially observed in Sunnyvale, CA.",
                 "desc":""
             },
-            "egg":{
+            "eruption":{
                 "img":"./images/pezizaceae/peziza-unidentified/lifestages-young.jpg",
                 "caption":"After 7 days",
                 "desc":""
             },
-            "eruption":{
+            "pin":{
                 "img":"./images/pezizaceae/peziza-unidentified/lifestages-young2.jpg",
                 "caption":"After 11 days",
                 "desc":""

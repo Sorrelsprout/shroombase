@@ -33,17 +33,17 @@
     "oak": {
         "name":"Oak",
         "scientificName":"Fagaceae Quercus",
-        "description":"",
+        "description":"Oak trees will sometimes have galls (shown on &ldquo;Other&rdquo;), which are abnormal growths on leaves and branches, and are caused by insects, mites, or fungi.",
         "tree_image":"https://upload.wikimedia.org/wikipedia/commons/e/e2/20161005Quercus_robur1.jpg",
         "tree_imageCaption":"Image by AnRo0002, from <a href='https://commons.wikimedia.org/wiki/File:Two_acorns_in_moss.jpg' target='_blank'>Wikimedia Commons</a>.",
         "wood_image":"./trees/oak/wood.jpg",
         "wood_imageCaption":"",
         "leaf_image":"./trees/oak/leaf.jpg",
-        "leaf_imageCaption":"",
+        "leaf_imageCaption":"Found in Palo Alto, CA in July 2022",
         "fruitSeed_image":"https://upload.wikimedia.org/wikipedia/commons/1/17/Two_acorns_in_moss.jpg",
         "fruitSeed_imageCaption":"Image by Paolo Neo, from <a href='https://commons.wikimedia.org/wiki/File:Two_acorns_in_moss.jpg' target='_blank'>Wikimedia Commons</a>.",
         "other_image":"./trees/oak/gall.jpg",
-        "other_imageCaption":""
+        "other_imageCaption":"Found in Palo Alto, CA in July 2022"
     },
 
     "placeholder": {
