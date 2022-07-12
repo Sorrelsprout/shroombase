@@ -100,8 +100,8 @@
         "showTitles": true,
         "images":{
             "spore":{
-                "img":"",
-                "caption":"",
+                "img":"./images/bolbitiaceae/conocybe-aurea/lifestages-spore.jpg",
+                "caption":"Found in Sunnyvale, CA, in July 2022",
                 "desc":""
             },
             "egg":{
@@ -111,7 +111,7 @@
             },
             "eruption":{
                 "img":"./images/bolbitiaceae/conocybe-aurea/lifestages-eruption.jpg",
-                "caption":"",
+                "caption":"Found in Sunnyvale, CA, in July 2022",
                 "desc":""
             },
             "pin":{
@@ -125,8 +125,8 @@
                 "desc":""
             },
             "young":{
-                "img":"",
-                "caption":"",
+                "img":"./images/bolbitiaceae/conocybe-aurea/lifestages-young.jpg",
+                "caption":"Found in Sunnyvale, CA, in July 2022",
                 "desc":""
             },
             "mature":{
@@ -141,7 +141,7 @@
             },
             "dead":{
                 "img":"./images/bolbitiaceae/conocybe-aurea/lifestages-dead.jpg",
-                "caption":"",
+                "caption":"Found in Sunnyvale, CA, in July 2022",
                 "desc":""
             }
         }
