@@ -564,7 +564,7 @@ function preloadPullup(JSONURL) {
         const JSONURL = "../trees/trees.json";
         $.getJSON(JSONURL, function(json) { 
             let tree = Object.values(json);
-            let treetypes = ["fir", "maple", "oak", "pine", "placeholder"];
+            let treetypes = ["birch", "cedar", "fir", "maple", "oak", "pine", "placeholder"];
 
             for (let i=0; i<treetypes.length-1; i++) { // length-1 due to placeholder
                 let treeClassTag = "." + treetypes[i];
