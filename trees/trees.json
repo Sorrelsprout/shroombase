@@ -1,4 +1,39 @@
 {
+    "Birch": {
+        "name":"Birch",
+        "scientificName":"Betulaceae Betula",
+        "description":"The photo with the caption &ldquo;Other&rdquo; shows loose seeds from the cone that a cedar dropped.",
+        "tree_image":"https://upload.wikimedia.org/wikipedia/commons/c/c7/20141026Betula_pendula1.jpg",
+        "tree_imageCaption":"Image from <a href='https://commons.wikimedia.org/wiki/File:20141026Betula_pendula1.jpg' target='_blank'>Wikimedia Commons</a>, by AnRo0002, <a title='AnRo0002, CC0 1.0 &lt;https://creativecommons.org/publicdomain/zero/1.0/deed.en&gt;, via Wikimedia Commons' href='https://creativecommons.org/publicdomain/zero/1.0/legalcode' target='_blank'>CC0 1.0</a>. In Saarbrücken, Germany",
+        "wood_image":"https://upload.wikimedia.org/wikipedia/commons/e/e5/Birch_trunk_with_bark_in_Norrkila.jpg",
+        "wood_imageCaption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Birch_trunk_with_bark_in_Norrkila.jpg' target='_blank'>Wikimedia Commons</a>, by W.carter, <a title='W.carter, CC0 1.0 &lt;https://creativecommons.org/publicdomain/zero/1.0/deed.en&gt;, via Wikimedia Commons' href='https://creativecommons.org/publicdomain/zero/1.0/legalcode' target='_blank'>CC0 1.0</a>. In Norrkila, Sweden",
+        "leaf_image":"https://upload.wikimedia.org/wikipedia/commons/8/87/Betula_%C3%97_sandbergii_iNat-10590946.jpg",
+        "leaf_imageCaption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Betula_%C3%97_sandbergii_iNat-10590946.jpg' target='_blank'>Wikimedia Commons</a>, by Reuven Martin, <a title='Reuven Martin, CC0 1.0 &lt;https://creativecommons.org/publicdomain/zero/1.0/deed.en&gt;, via Wikimedia Commons' href='https://creativecommons.org/publicdomain/zero/1.0/legalcode' target='_blank'>CC0 1.0</a>. In Ontario, Canada",
+        "flower_image":"",
+        "flower_imageCaption":"",
+        "fruitSeed_image":"https://upload.wikimedia.org/wikipedia/commons/1/1d/Betula_ver.jpg",
+        "fruitSeed_imageCaption":"Image by I.Sáček, senior, from <a href='https://commons.wikimedia.org/wiki/File:Betula_ver.jpg' target='_blank'>Wikimedia Commons</a>",
+        "other_image":"https://upload.wikimedia.org/wikipedia/commons/3/36/Betula_pendula_fruits.jpg",
+        "other_imageCaption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Betula_pendula_fruits.jpg' target='_blank'>Wikimedia Commons</a>, by Nefronus, <a title='Nefronus, CC0 1.0 &lt;https://creativecommons.org/publicdomain/zero/1.0/deed.en&gt;, via Wikimedia Commons' href='https://creativecommons.org/publicdomain/zero/1.0/legalcode' target='_blank'>CC0 1.0</a>"
+    },
+
+    "cedar": {
+        "name":"Cedar",
+        "scientificName":"Pinaceae Cedrus",
+        "description":"",
+        "tree_image":"https://upload.wikimedia.org/wikipedia/commons/5/59/Cedrus_atlantica_glauca_%28Rentilly%29.jpg",
+        "tree_imageCaption":"Image by Tangopaso, from <a href='https://commons.wikimedia.org/wiki/File:Cedrus_atlantica_glauca_(Rentilly).jpg' target='_blank'>Wikimedia Commons</a>",
+        "wood_image":"",
+        "wood_imageCaption":"",
+        "leaf_image":"",
+        "leaf_imageCaption":"",
+        "flower_image":"",
+        "flower_imageCaption":"",
+        "fruitSeed_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Cedrus_pollen_cones_%28Vaires%29_2.jpg/1600px-Cedrus_pollen_cones_%28Vaires%29_2.jpg",
+        "fruitSeed_imageCaption":"Image by Tangopaso, from <a href='https://commons.wikimedia.org/wiki/File:Cedrus_pollen_cones_(Vaires)_2.jpg' target='_blank'>Wikimedia Commons</a>",
+        "other_image":"",
+        "other_imageCaption":""
+    },
     "fir": {
         "name":"Fir",
         "scientificName":"Pinaceae Abies",
