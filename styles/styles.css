@@ -18,6 +18,8 @@
   --navWidth: 1196px;
   --borderRadius: 0.25rem;
   --BoxShadowCards: 0 0.25rem 0.5rem #3331;
+  --Transition: all 0.3s ease-out;
+  --TransitionFast: all 0.15s ease-out;
 }
 
 html {
@@ -235,7 +237,7 @@ em {
 
 a, #fungiGrid > div img, #fungiGrid > div .fungiDescription,
 #pullup, #pullupToggle {
-  transition: all 0.3s ease-out;
+  transition: var(--Transition);
 }
 
 body {

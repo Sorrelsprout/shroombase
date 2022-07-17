@@ -40,10 +40,6 @@
     padding: 0.25rem 0.5rem;
 }
 
-/* #search input::placeholder {
-    color: #ccc;
-} */
-
 #searchAdvanced {
     margin: 0 auto;
     display: flex;
@@ -56,7 +52,7 @@
     margin-bottom: -5rem;
     overflow: hidden;
     opacity: 0;
-    transition: all 0.3s ease-out;
+    transition: var(--Transition);
     pointer-events: none;
 }
 
@@ -72,12 +68,40 @@
     display: block;
     position: relative;
     font-size: 0.85em;
-    background: var(--SelectionBG);
+    background: var(--SelectionBGSolid);
     margin: 0.5rem 0rem 0.5rem 1rem;
     padding: 0.35rem 0.75rem;
     cursor: pointer;
-    transition: all 0.3s ease-out;
+    transition: var(--TransitionFast);
 }
+
+#searchAdvancedToggle.showAdvanced {
+    background: #fff;
+}
+
+#searchAdvancedToggle.showAdvanced::before {
+    right: -1.25rem;
+    border-radius: 0 var(--borderRadius) var(--borderRadius) 0;
+}
+
+#searchAdvancedToggle::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0rem;
+    width: 0.65rem;
+    height: calc(100% - 1rem);
+    border: 0.5rem solid #fff;
+    border-radius: 0;
+    background:
+        linear-gradient(45deg, #fff0 0%,#fff0 43%,var(--SelectionBGSolid) 45%,var(--SelectionBGSolid) 55%,#fff0 57%,#fff0 100%),
+        linear-gradient(135deg, #fff 0%, #fff 43%,var(--SelectionBGSolid) 45%,var(--SelectionBGSolid) 55%, #fff 57%, #fff 100%);
+    cursor: pointer;
+    z-index: -1;
+    transition: var(--Transition);
+}
+
 
 #searchAdvancedToggle:hover {
     background: #fff;
@@ -97,15 +121,6 @@
     flex: 1.2;
     cursor: pointer;
 }
-
-/* #searchAdvanced::after {
-    content: ">";
-    display: block;
-    position: absolute;
-    top: -2rem;
-    left: 3rem;
-    width: 100%;
-} */
 
 
 @media (max-width: 960px){

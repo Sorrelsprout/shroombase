@@ -336,6 +336,9 @@ function preloadPullup(JSONURL) {
     });
 
     /* Tags: For new tags, update TAGPREFIX, TAGOBJECTS, and NEWTAGOBJECTS */
+    
+    const TAGPREFIX = ["edibility", "type", "treelationship", "color", "region", "fruitseason"];
+    
     for(let i=0; i<$(".fungiGridElement").length; i++) {
         const FUNGIID = $(".fungiGridElement:nth-child("+(i+1)+")").attr("id");
         const FUNGIFAMILY = $(".fungiGridElement:nth-child("+(i+1)+")").attr("class").replace(' fungiGridElement', '');
@@ -350,7 +353,6 @@ function preloadPullup(JSONURL) {
                 $(newCoverImg).attr("src", shroom[2].coverimg);
                 console.log(newCoverImg)
             }
-            const TAGPREFIX = ["edibility", "type", "treelationship", "color", "region", "fruitseason"];
             const TAGOBJECTS = [shroom[0].edibility, shroom[0].type, shroom[0].treelationship, shroom[0].color, shroom[6].region, shroom[4].fruitseason];
             let NEWTAGOBJECTS = ["","","","","",""];
 
@@ -384,7 +386,24 @@ function preloadPullup(JSONURL) {
         }
     }
 
+/* T O G G L E   A D V A N C E D   S E A R C H --------------------------------------------------- */
 
+$("#searchAdvancedToggle").click(function() { 
+    $("#searchAdvanced").toggleClass("showAdvanced"); $("#searchAdvancedToggle").toggleClass("showAdvanced"); 
+    if(!$("#searchAdvanced").hasClass("showAdvanced")) {
+        $("#searchEdibility").val(""); // reset all fields to default
+        $("#searchType").val("");
+        $("#searchTree").val("");
+        $("#searchColor").val("");
+        $("#searchGeo").val("");
+        $("#searchEdibility").val("");
+        
+        for(let i=0; i < $(".fungiGridElement").length; i++) {
+            $(".fungiGridElement:nth-child("+(i+1)+")").removeClass("hiddenTag");
+        }
+    }
+    // console.log($(".inputSelect").val())
+});
 
 /* S E A R C H   B A R  -------------------------------------------------------------------------- */
 
@@ -457,8 +476,6 @@ function preloadPullup(JSONURL) {
             else { $(".fungiGridElement:nth-child("+(i+1)+")").removeClass("hiddenTag"); }
         }
     }
-
-
 
 /* O P E N   P O P U P  -------------------------------------------------------------------------- */
 
@@ -549,13 +566,6 @@ function preloadPullup(JSONURL) {
         else { $("#pageH2Tags-container").addClass("show"); }
         $("#pageH2Tags").append(renderedtags);
     }
-
-
-
-/* T O G G L E   A D V A N C E D   S E A R C H --------------------------------------------------- */
-
-    $("#searchAdvancedToggle").click(function() { $("#searchAdvanced").toggleClass("showAdvanced"); });
-
     
 
 /* T R E E S    C A R D S ------------------------------------------------------------------------ */
