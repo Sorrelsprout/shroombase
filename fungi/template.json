@@ -72,8 +72,18 @@
             "caption":"",
             "desc":""
         },
+        "feso4":{
+            "img":"./images/templates/assay.jpg",
+            "caption":"",
+            "desc":""
+        },
         "koh":{
-            "img":"./images/templates/koh.jpg",
+            "img":"./images/templates/assay.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "nh4oh":{
+            "img":"./images/templates/assay.jpg",
             "caption":"",
             "desc":""
         },
