@@ -35,7 +35,7 @@
         "underside":{
             "img":"./images/bolbitiaceae/conocybe-aurea/underside.jpg",
             "caption":"Found in Sunnyvale, CA, in July 2022",
-            "desc":"Beige or light-tan gills. Spore print is brown."
+            "desc":"Beige or light-tan gills. Once gills get old they become wavy at the edges."
         },
         "side":{
             "img":"./images/bolbitiaceae/conocybe-aurea/side.jpg",
@@ -55,7 +55,7 @@
         "sporeprint":{
             "img":"./images/templates/sporeprint.jpg",
             "caption":"",
-            "desc":""
+            "desc":"Spore print is brown."
         },
         "mycelium":{
             "img":"./images/bolbitiaceae/conocybe-aurea/mycelium.jpg",
