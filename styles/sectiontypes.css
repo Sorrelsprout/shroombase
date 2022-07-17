@@ -308,16 +308,25 @@
 }
 
 @media (max-width: 600px){
-    .hovercardTag .hovercard {
+    .hovercardTag .hovercard,
+    .hovercardTag.even .hovercard,
+    .hovercardTag.small .hovercard {
         position: fixed;
         max-width: 100vw;
+        width: 100vw;
         max-height: calc(100vh - var(--navHeight));
         top: var(--navHeight);
         left: 0;
         overflow: scroll;
         border-radius: 0 0 var(--borderRadius) var(--borderRadius);
     }
-    .hovercard > div figure { width: 50%; }
+
+    .hovercard > div figure,
+    .hovercardTag.even .hovercard > div figure,
+    .hovercardTag.small .hovercard > div figure { 
+        width: 50%; 
+    }
+    
     .hovercard::after {
         content: "";
         display: block;
