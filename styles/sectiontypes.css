@@ -199,7 +199,7 @@
     #tags-treelation-container strong { margin: 0 0 1rem 0; }
 }
 
-#tags-treelation-container .fungiTags .hovercardTag {
+#tags-treelation-container .fungiTags .detailcardTag {
     position: relative;
     background: var(--SelectionBG) !important;
     border: none !important;
@@ -207,11 +207,11 @@
     transition: var(--TransitionFast);
 }
 
-#tags-treelation-container .fungiTags .hovercardTag:hover {
+#tags-treelation-container .fungiTags .detailcardTag:hover {
     background:#fff !important;
 }
 
-.hovercardTag .hovercard {
+.detailcardTag .detailcard {
     display: none;
     flex-direction: column;
     position: absolute;
@@ -226,19 +226,19 @@
     cursor: url('../images/about/cursor.png'), auto;
 }
 
-.hovercardTag.even .hovercard {
+.detailcardTag.even .detailcard {
     width: 30rem;
     left: calc(50% - 15rem);
 }
 
-.hovercardTag.small .hovercard {
+.detailcardTag.small .detailcard {
     width: 20rem;
     left: calc(50% - 10rem);
 }
 
-.hovercardTag.clicked .hovercard { display: flex; }
+.detailcardTag.clicked .detailcard { display: flex; }
 
-.hovercard::before {
+.detailcard::before {
     content: "";
     width: 0px;
     height: 0px;
@@ -252,14 +252,14 @@
     transition: var(--Transition);
 }
 
-.hovercardTag.even .hovercard::before { left: calc(50% - 0.65rem); }
+.detailcardTag.even .detailcard::before { left: calc(50% - 0.65rem); }
 
-.noFigures .hovercard {
+.noFigures .detailcard {
     left: calc(50% - 10rem);
     width: 20rem !important;
 }
 
-.hovercard > div {
+.detailcard > div {
     display: flex;
     flex: 1;
     flex-direction: row;
@@ -269,38 +269,38 @@
     padding: 0 0.5rem 0.5rem 0.5rem;
 }
 
-.hovercard > div figure {
+.detailcard > div figure {
     flex: none !important;
     display: block;
     padding: 0.5rem 0.5rem 0 0.5rem;
     width: 33.3%;
 }
 
-.hovercardTag.even .hovercard > div figure { width: 50%; }
-.hovercardTag.small .hovercard > div figure { 
+.detailcardTag.even .detailcard > div figure { width: 50%; }
+.detailcardTag.small .detailcard > div figure { 
     width: 100%; 
 }
 
-.hovercard > h3 {
+.detailcard > h3 {
     font-size: 1.8em !important;
     margin: 2rem 0 -0.5rem 0 !important;
 }
 
-.hovercard > p { margin: 0 1rem; }
+.detailcard > p { margin: 0 1rem; }
 
-.hovercard > div figure h3 {
+.detailcard > div figure h3 {
     position: relative;
     width: 100%;
     text-align: center;
 }
 
-.hovercard > div figure img {
+.detailcard > div figure img {
     width: 100%;
     height: 12rem;
     object-fit: cover;
 }
 
-.hovercard > div figure figcaption {
+.detailcard > div figure figcaption {
     line-height: 1.5em;
     margin-top: -0.8rem;
     margin-bottom: 0.25rem;
@@ -308,17 +308,31 @@
 }
 
 @media (max-width: 600px){
-    .hovercardTag .hovercard {
+    .detailcardTag .detailcard,
+    .detailcardTag.even .detailcard,
+    .detailcardTag.small .detailcard {
         position: fixed;
         max-width: 100vw;
+        width: 100vw;
         max-height: calc(100vh - var(--navHeight));
         top: var(--navHeight);
         left: 0;
         overflow: scroll;
         border-radius: 0 0 var(--borderRadius) var(--borderRadius);
     }
-    .hovercard > div figure { width: 50%; }
-    .hovercard::after {
+
+    .detailcardTag.small.noFigures .detailcard{
+        min-width: calc(100% - 4rem);
+        margin: calc(50%) 2rem;
+    }
+
+    .detailcard > div figure,
+    .detailcardTag.even .detailcard > div figure,
+    .detailcardTag.small .detailcard > div figure { 
+        width: 50%; 
+    }
+    
+    .detailcard::after {
         content: "";
         display: block;
         position: absolute;

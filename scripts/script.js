@@ -579,7 +579,7 @@ $("#searchAdvancedToggle").click(function() {
             for (let i=0; i<treetypes.length-1; i++) { // length-1 due to placeholder
                 let treeClassTag = "." + treetypes[i];
                 addTreeTags(tree[i].name);
-                $(treeClassTag).addClass("hovercardTag");
+                $(treeClassTag).addClass("detailcardTag");
                 $(treeClassTag).click( function() { $(treeClassTag).toggleClass("clicked"); });
                 $(document).click(function(event) { 
                     var $target = $(event.target);
@@ -597,7 +597,7 @@ $("#searchAdvancedToggle").click(function() {
                 const TREEINDEX = jQuery.inArray( treeName_updated, treetypes );
                 $(treeClassTag).html(
                     "<span>" + treeName + "</span>\
-                    <div class='" + treeName_updated + "_container hovercard'>\
+                    <div class='" + treeName_updated + "_container detailcard'>\
                         <h3>" + tree[TREEINDEX].name + "</h3>\
                         <p class='figcaption'>" + tree[TREEINDEX].scientificName + "</p>\
                         <p>" + tree[TREEINDEX].description + "</p>\
