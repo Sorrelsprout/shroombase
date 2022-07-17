@@ -107,6 +107,12 @@
 
 #lifestages-fruitseason-container > strong { margin-right: 0.65rem; }
 
+/* R E L A V E N T   L I N K S ----------------------------------------------- */
+
+#significance #significance3Col h4 {
+    padding-top: 1rem;
+}
+
 /* L O O K A L I K E S ------------------------------------------------------- */
 
 #lookalikeGrid.characteristicsGrid {

@@ -150,17 +150,17 @@
 
     "significance":{
         "scientific":{
-            "scientific":"Muscimol",
+            "scientific":"Contains ibotenic acid, muscarine, muscazone, and muscimol. Read more on <a href='https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/amanita-muscaria' target='_blank'>ScienceDirect</a>.",
             "environmental":"",
             "genetic":""
         },
         "cultural":{
-            "cultural":"Mario mushroom",
-            "medicinal":"Reindeer",
-            "funfacts":""
+            "cultural":"According to <a href='https://bibliography.maps.org/resources/download/16354' target='_blank'>The Oldest Representations of Hallucinogenic Mushrooms in the World</a>, in the Easternmost areas of Siberia, in the Arctic Circle, petroglyphs portraying mushroom gatherers with what looks to be A. muscaria (due to their form and decoration) on their heads can be found (Samorini, p. 2). The referenced images are Figures 20 and 21 were originally published in 1971 from <a href='https://www.nps.gov/parkhistory/online_books/bela/chukotka.pdf'>Mysteries in the Rocks of Ancient Chukotka</a>, by N. N. Dikov (NPS 1999, pp. 20-21). <br><br>A. muscaria The Mega Mushroom from Super Mario Bros is also based off of A. muscaria. It is also the default emoji for the web 🍄",
+            "medicinal":"",
+            "funfacts":"Santa and &ldquo;flying&rdquo; reindeer"
         },
         "cullinary":{
-            "cullinary":"Warning",
+            "cullinary":"It is not advised to consume A. muscaria. It causes gastrointestinal stress, confusion, dizziness, and intoxication.",
             "taste":"When all red has been boiled out, rubbery.",
             "recipelist":[]
         }

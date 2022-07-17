@@ -34,12 +34,12 @@
         },
         "underside":{
             "img":"https://upload.wikimedia.org/wikipedia/commons/d/da/2013_09_08o_P%C5%99%C3%ADrodn%C3%AD_park_Baba.JPG",
-            "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:2013_09_08o_P%C5%99%C3%ADrodn%C3%AD_park_Baba.JPG' target='_blank'>Wikimedia Commons</a>.",
+            "caption":"Image by I.Sáček, senior, from <a href='https://commons.wikimedia.org/wiki/File:2013_09_08o_P%C5%99%C3%ADrodn%C3%AD_park_Baba.JPG' target='_blank'>Wikimedia Commons</a>.",
             "desc":"Tiny pores are found on the underside."
         },
         "side":{
             "img":"https://upload.wikimedia.org/wikipedia/commons/c/ca/Laetiporus_sulphureus.jpg",
-            "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Laetiporus_sulphureus.jpg' target='_blank'>Wikimedia Commons</a>.",
+            "caption":"Image by Algirdas, from <a href='https://commons.wikimedia.org/wiki/File:Laetiporus_sulphureus.jpg' target='_blank'>Wikimedia Commons</a>.",
             "desc":""
         },
         "halved":{
@@ -64,7 +64,7 @@
         },
         "habitat":{
             "img":"https://upload.wikimedia.org/wikipedia/commons/0/09/Chicken_of_the_Woods_Polyporus_sulphureus_%2822453067603%29.jpg",
-            "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Chicken_of_the_Woods_Polyporus_sulphureus_(22453067603).jpg' target='_blank'>Wikimedia Commons</a>.",
+            "caption":"Image by the National Park Service, from <a href='https://commons.wikimedia.org/wiki/File:Chicken_of_the_Woods_Polyporus_sulphureus_(22453067603).jpg' target='_blank'>Wikimedia Commons</a>.",
             "desc":"Grows on the trunks of hardwood and deciduous trees. Mostly found growing on Oaks. Can grow in dense stacks."
         },
         "bruising":{

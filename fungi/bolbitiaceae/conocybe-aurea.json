@@ -21,7 +21,7 @@
     "distinguishing":{
         "coverimg":"",
         "abundancy":"",
-        "smell":"Light and fresh",
+        "smell":"Light",
         "size":"Up to 5cm",
         "tidbits":"<em>Aurea</em> means &ldquo;gold-colored&rdquo;."
     },
@@ -73,9 +73,9 @@
             "desc":""
         },
         "koh":{
-            "img":"./images/templates/koh.jpg",
-            "caption":"",
-            "desc":""
+            "img":"./images/bolbitiaceae/conocybe-aurea/koh.jpg",
+            "caption":"Sampled in Sunnyvale, CA, in July 2022",
+            "desc":"Stem, gills, and outer cap were tested. Stem stained light purple, and outer cap stained a darker warm purple color. The gills stained the darkest, and had a very deep purple-brown color."
         },
         "latex":{
             "img":"./images/templates/latex.jpg",
