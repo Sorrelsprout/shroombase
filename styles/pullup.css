@@ -327,7 +327,7 @@
 
 #pullup .gallery { 
     display: flex; 
-    max-width: 100%; 
+    /* max-width: 100%;  */
 }
 
 #pullup .lazyloader {
