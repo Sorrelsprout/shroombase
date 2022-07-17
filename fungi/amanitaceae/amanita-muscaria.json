@@ -82,8 +82,8 @@
             "caption":"",
             "desc":""
         },
-        "nh4oh":{
-            "img":"./images/templates/nh4oh.jpg",
+        "nh3":{
+            "img":"./images/templates/nh3.jpg",
             "caption":"",
             "desc":""
         },
@@ -165,7 +165,7 @@
             "genetic":""
         },
         "cultural":{
-            "cultural":"According to <a href='https://bibliography.maps.org/resources/download/16354' target='_blank'>The Oldest Representations of Hallucinogenic Mushrooms in the World</a>, in the Easternmost areas of Siberia, in the Arctic Circle, petroglyphs dated back to the Neolithic period (last stage of the Stone Age) can be found portraying mushroom gatherers with what looks to be A. muscaria (hypothesized due to their form and decoration) on their heads (Samorini, p. 2). The referenced images are Figures 20 and 21 were originally published in 1971 from <a href='https://www.nps.gov/parkhistory/online_books/bela/chukotka.pdf'>Mysteries in the Rocks of Ancient Chukotka</a>, by N. N. Dikov (NPS 1999, pp. 20-21). <br><br>A. muscaria The Mega Mushroom from Super Mario Bros is also based off of A. muscaria. It is also the default emoji for the web 🍄",
+            "cultural":"According to <a href='https://bibliography.maps.org/resources/download/16354' target='_blank'>The Oldest Representations of Hallucinogenic Mushrooms in the World</a>, in the Easternmost areas of Siberia, in the Arctic Circle, petroglyphs dated back to the Neolithic period (last stage of the Stone Age) can be found portraying mushroom gatherers with what looks to be A. muscaria (hypothesized due to their form and decoration) on their heads (Samorini, p. 2). The referenced images are Figures 20 and 21 in <a href='https://www.nps.gov/parkhistory/online_books/bela/chukotka.pdf'>Mysteries in the Rocks of Ancient Chukotka</a> (NPS 1999, pp. 20-21), and were originally published in 1971 by N. N. Dikov. <br><br>A. muscaria The Mega Mushroom from Super Mario Bros is also based off of A. muscaria. It is also the default emoji for the web 🍄",
             "medicinal":"",
             "funfacts":"Santa and &ldquo;flying&rdquo; reindeer"
         },
