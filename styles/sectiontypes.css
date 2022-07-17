@@ -101,9 +101,11 @@
 #lifestages-fruitseason { 
     display: inline-flex;
     flex-wrap:wrap;
+    margin: 1rem -0.5rem 0rem -0.5rem;
     list-style-type: none !important;
 }
 
+#lifestages-fruitseason-container > strong { margin-right: 0.65rem; }
 
 /* L O O K A L I K E S ------------------------------------------------------- */
 
