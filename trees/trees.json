@@ -1,4 +1,21 @@
 {
+    "Beech": {
+        "name":"Beech",
+        "scientificName":"Fagaceae Fagus",
+        "description":"he photo with the caption &ldquo;Other&rdquo; shows loose seeds from the cone that a cedar dropped.",
+        "tree_image":"",
+        "tree_imageCaption":"",
+        "wood_image":"",
+        "wood_imageCaption":"",
+        "leaf_image":"https://upload.wikimedia.org/wikipedia/commons/e/e6/American_Beech.jpg",
+        "leaf_imageCaption":"Image by Kevinlyfellow, from <a href='https://commons.wikimedia.org/wiki/File:American_Beech.jpg' target='_blank'>Wikimedia Commons</a>",
+        "flower_image":"",
+        "flower_imageCaption":"",
+        "fruitSeed_image":"",
+        "fruitSeed_imageCaption":"",
+        "other_image":"",
+        "other_imageCaption":""
+    },
     "Birch": {
         "name":"Birch",
         "scientificName":"Betulaceae Betula",
@@ -99,6 +116,23 @@
         "flower_imageCaption":"",
         "fruitSeed_image":"https://upload.wikimedia.org/wikipedia/commons/d/d1/Pinus_canariensis.jpg",
         "fruitSeed_imageCaption":"Image by Paul venter, from <a href='https://commons.wikimedia.org/wiki/File:Pinus_canariensis.jpg' target='_blank'>Wikimedia Commons</a>",
+        "other_image":"",
+        "other_imageCaption":""
+    },
+    "Spruce": {
+        "name":"Spruce",
+        "scientificName":"Pinaceae Picea",
+        "description":"",
+        "tree_image":"",
+        "tree_imageCaption":"",
+        "wood_image":"",
+        "wood_imageCaption":"",
+        "leaf_image":"",
+        "leaf_imageCaption":"",
+        "flower_image":"",
+        "flower_imageCaption":"",
+        "fruitSeed_image":"",
+        "fruitSeed_imageCaption":"",
         "other_image":"",
         "other_imageCaption":""
     },

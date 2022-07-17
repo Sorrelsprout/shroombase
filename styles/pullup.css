@@ -95,20 +95,10 @@
 
 /* Pullup Contents ---------------------------------------------------------*/
 
-#distinguishingCharacteristics { }
-
-#specialCharacteristics { }
-
-#lifeStages { }
-
 #significance3Col { 
     display: flex; 
     flex-flow: row wrap;
 }
-
-#fungiGeography { }
-
-#lookalikes { }
 
 #pullup .characteristicsGrid {
     display: flex;
@@ -123,9 +113,7 @@
 }
 
 @media (max-width: 600px){
-    #pullup .characteristicsGrid label {
-        width: 100%;
-    }
+    #pullup .characteristicsGrid label { width: 100%; }
 }
 
 #pullup .characteristicsGrid label img {
@@ -306,9 +294,7 @@
     border-bottom: 1px solid #cb6248;
 }
 
-#pullup strong {
-    font-weight: 600;
-}
+#pullup strong { font-weight: 600; }
 
 #pullup .warning {
     color: #a88332;
@@ -325,10 +311,7 @@
 
 /* Pullup Image + Gallery ----------------------------------------------------*/
 
-#pullup .gallery { 
-    display: flex; 
-    /* max-width: 100%;  */
-}
+#pullup .gallery {  display: flex; }
 
 #pullup .lazyloader {
     width: 100%;
@@ -352,7 +335,6 @@
 
 #pullup figure {
     max-width: 100%;
-    /* margin-bottom: 2.5rem; */
     flex: 1;
 }
 
@@ -387,9 +369,7 @@
     cursor: zoom-out;
 }
 
-#pullup .characteristicsGrid figure {
-    position: relative;
-}
+#pullup .characteristicsGrid figure { position: relative; }
 
 #pullup .characteristicsGrid figcaption, .figcaption {
     padding-top: 0.5rem;

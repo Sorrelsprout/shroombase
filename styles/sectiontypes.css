@@ -177,7 +177,7 @@
 
 #tags-treeRelation .conifers,
 #tags-treeRelation .deciduous {
-    background: #fff;
+    background: #fff !important;
 }
 
 #tags-treelation-container strong { margin: 0 1rem 0 0; }
@@ -219,6 +219,16 @@
     cursor: url('../images/about/cursor.png'), auto;
 }
 
+.hovercardTag.even .hovercard {
+    width: 30rem;
+    left: calc(50% - 15rem);
+}
+
+.hovercardTag.small .hovercard {
+    width: 20rem;
+    left: calc(50% - 10rem);
+}
+
 .hovercardTag.clicked .hovercard { display: flex; }
 
 .hovercard::before {
@@ -235,6 +245,8 @@
     transition: all 0.3s ease-out;
 }
 
+.hovercardTag.even .hovercard::before { left: calc(50% - 0.65rem); }
+
 .noFigures .hovercard {
     left: calc(50% - 10rem);
     width: 20rem !important;
@@ -245,6 +257,7 @@
     flex: 1;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
     justify-content: center;
     padding: 0 0.5rem 0.5rem 0.5rem;
 }
@@ -254,6 +267,11 @@
     display: block;
     padding: 0.5rem 0.5rem 0 0.5rem;
     width: 33.3%;
+}
+
+.hovercardTag.even .hovercard > div figure { width: 50%; }
+.hovercardTag.small .hovercard > div figure { 
+    width: 100%; 
 }
 
 .hovercard > h3 {
@@ -290,6 +308,21 @@
         top: var(--navHeight);
         left: 0;
         overflow: scroll;
+        border-radius: 0 0 var(--borderRadius) var(--borderRadius);
     }
     .hovercard > div figure { width: 50%; }
+    .hovercard::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 0.75rem;
+        height: 0.75rem;
+        top: 1rem;
+        right: 1rem;
+        border-radius: var(--borderRadius);
+        background:
+            linear-gradient(45deg, #fff0 0%,#fff0 43%,var(--SelectionBGSolid) 45%,var(--SelectionBGSolid) 55%,#fff0 57%,#fff0 100%),
+            linear-gradient(135deg, #fff 0%, #fff 43%,var(--SelectionBGSolid) 45%,var(--SelectionBGSolid) 55%, #fff 57%, #fff 100%);
+        cursor: pointer;
+    }
 }
