@@ -564,7 +564,7 @@ function preloadPullup(JSONURL) {
         const JSONURL = "../trees/trees.json";
         $.getJSON(JSONURL, function(json) { 
             let tree = Object.values(json);
-            let treetypes = ["birch", "cedar", "fir", "maple", "oak", "pine", "placeholder"];
+            let treetypes = ["beech", "birch", "cedar", "fir", "maple", "oak", "pine", "spruce", "placeholder"];
 
             for (let i=0; i<treetypes.length-1; i++) { // length-1 due to placeholder
                 let treeClassTag = "." + treetypes[i];
@@ -587,7 +587,7 @@ function preloadPullup(JSONURL) {
                 const TREEINDEX = jQuery.inArray( treeName_updated, treetypes );
                 $(treeClassTag).html(
                     "<span>" + treeName + "</span>\
-                    <div class='" + treeClassTag + "_container hovercard'>\
+                    <div class='" + treeName_updated + "_container hovercard'>\
                         <h3>" + tree[TREEINDEX].name + "</h3>\
                         <p class='figcaption'>" + tree[TREEINDEX].scientificName + "</p>\
                         <p>" + tree[TREEINDEX].description + "</p>\
@@ -628,7 +628,7 @@ function preloadPullup(JSONURL) {
 
                 let treeFields = ["tree", "wood", "leaf", "flower", "fruitSeed", "other"];
                 let treeJSONFields = [];
-                let figureClassCounter = 0;
+                let numFiguresCounter = 0;
                 for (let j=0; j<treeFields.length; j++) {
                     let treeFieldsToJSON = treeFields[j] + "_image";
                     treeJSONFields.push(treeFieldsToJSON);
@@ -636,10 +636,13 @@ function preloadPullup(JSONURL) {
                     if((tree[TREEINDEX][treeJSONFields[j]] == '')) {
                         const CURRENTTREEFIGURECLASS = treeClassTag + " ." + treeFields[j] + 'Figure';
                         $(CURRENTTREEFIGURECLASS).css({"display":"none"});
-                        figureClassCounter++;
+                        numFiguresCounter++;
                     }
                 }
-                if(figureClassCounter == 6) { $(treeClassTag).addClass("noFigures"); }
+                if(numFiguresCounter >= 5) { $(treeClassTag).addClass("small"); }
+                if(numFiguresCounter == 6) { $(treeClassTag).addClass("noFigures"); }
+
+                if((numFiguresCounter % 2) == 0) { $(treeClassTag).addClass("even"); } //EVEN
             }
         });
     }
