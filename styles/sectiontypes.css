@@ -347,3 +347,49 @@
         cursor: pointer;
     }
 }
+
+
+
+/* I N A T U R A L   I S T W I D G E T --------------------------------------- */
+
+#iNaturalistWidget { 
+    position: relative;
+    width: 100%;
+    display: none; 
+    margin-top: 3rem;
+}
+
+#iNaturalistWidget.show { display: block; }
+@media (max-width: 600px){ #iNaturalistWidget.show { display: none; } }
+
+#iNaturalistWidget table {
+    display: flex;
+    justify-content: center;
+}
+
+#iNaturalistWidget tbody{ display: flex; }
+
+.inat-observation { position: relative; }
+
+.inat-observation:hover .inat-observation-body { display: block; }
+
+.inat-observation-image img { margin: 0 !important; }
+
+.inat-observation-body {
+    position: absolute;
+    display: none;
+    bottom: calc(100%);
+    background: #fff;
+    padding: 0.5rem;
+    margin: 0 -2rem 1rem -2rem;
+    font-size: 0.85em;
+    line-height: 1.2em;
+    border-radius: var(--borderRadius);
+    box-shadow: var(--BoxShadowCards);
+}
+
+.inat-observation-body a {
+    display: block;
+    border: none !important;
+    margin-bottom: 0.5rem;
+}

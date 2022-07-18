@@ -534,6 +534,7 @@ $("#searchAdvancedToggle").click(function() {
     function setPullup() {
         $("#pullupContent").addClass("show");
         $("#pullup").addClass("show", loadTrees()); 
+        $("#iNaturalistWidget").removeClass("show");
         $("#pageH2Tags-container").removeClass("show");
         $(".mobileMenu").removeClass("expanded");
     }
@@ -564,6 +565,10 @@ $("#searchAdvancedToggle").click(function() {
         for(i=0; i<tags.length; i++){ renderedtags +="<li><a href='#"+H2ID[i]+"'>"+tags[i]+"</a></li>"; }
         if((tags.length == 0) || (pagename == "about")) { $("#pageH2Tags-container").removeClass("show"); } 
         else { $("#pageH2Tags-container").addClass("show"); }
+
+        if(pagename == "about") { $("#iNaturalistWidget").addClass("show"); }  
+        else { $("#iNaturalistWidget").removeClass("show"); }
+        
         $("#pageH2Tags").append(renderedtags);
     }
     
