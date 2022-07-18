@@ -184,7 +184,7 @@
     "geography":{
         "region":["Central Asia", "East Asia", "Europe", "North America", "Scandinavia"],
         "fruitlocation":"",
-        "coordinates":[""]
+        "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=54134"
     },
 
     "lookalikes":{

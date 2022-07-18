@@ -183,7 +183,7 @@
     "geography":{
         "region":["North America"],
         "fruitlocation":"",
-        "coordinates":[""]
+        "mapURL":""
     },
 
     "lookalikes":{

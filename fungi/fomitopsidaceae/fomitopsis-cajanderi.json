@@ -183,7 +183,7 @@
     "geography":{
         "region":["North America"],
         "fruitlocation":"Generally found in Western North America.",
-        "coordinates":[""]
+        "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=764105"
     },
 
     "lookalikes":{
