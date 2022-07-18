@@ -183,7 +183,7 @@
     "geography":{
         "region":[],
         "fruitlocation":"",
-        "coordinates":[""]
+        "mapURL":""
     },
 
     "lookalikes":{

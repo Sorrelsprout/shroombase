@@ -183,7 +183,7 @@
     "geography":{
         "region":["North America"],
         "fruitlocation":"",
-        "coordinates":[""]
+        "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=499601"
     },
 
     "lookalikes":{

@@ -183,7 +183,7 @@
     "geography":{
         "region":["North America"],
         "fruitlocation":"Common East of the Rocky Mountains in North America.",
-        "coordinates":[""]
+        "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=53713"
     },
 
     "lookalikes":{

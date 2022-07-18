@@ -107,10 +107,20 @@
 
 #lifestages-fruitseason-container > strong { margin-right: 0.65rem; }
 
-/* R E L A V E N T   L I N K S ----------------------------------------------- */
+/* S I G N I F I C A N C E --------------------------------------------------- */
 
 #significance #significance3Col h4 {
     padding-top: 1rem;
+}
+
+/* G E O G R A P H Y --------------------------------------------------------- */
+
+#geography-mapURL {
+    display: block;
+    width: 100%;
+    min-height: 75vh;
+    -webkit-filter: sepia(100%) hue-rotate(90deg) saturate(400%);
+    filter: sepia(20%) hue-rotate(-0deg) saturate(80%);
 }
 
 /* L O O K A L I K E S ------------------------------------------------------- */

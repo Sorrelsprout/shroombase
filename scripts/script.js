@@ -243,8 +243,9 @@ function preloadPullup(JSONURL) {
         // $("#geography-region").html(shroom[6].region);
         $("#geography-fruitLocation").html(shroom[6].fruitlocation);
         if (shroom[6].fruitlocation == "") { $("#geography-fruitLocation").css({"display":"none"}); geographyCounter++; }
-        // $("#geography-coordinates").html(shroom[6].coordinates);
-        if( geographyCounter == 1 ) {
+        $("#geography-mapURL").attr("src", shroom[6].mapURL);
+        if (shroom[6].mapURL == "") { $("#geography-mapURL").css({"display":"none"}); geographyCounter++; }
+        if( geographyCounter == 2 ) {
             $("#geography").css({"display":"none"});
         }
         

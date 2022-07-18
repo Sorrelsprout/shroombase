@@ -184,7 +184,7 @@
     "geography":{
         "region":["North America"],
         "fruitlocation":"Found in the Americas along the west coast, from Alaska to Andean Colombia.",
-        "coordinates":[""]
+        "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=48715"
     },
 
     "lookalikes":{

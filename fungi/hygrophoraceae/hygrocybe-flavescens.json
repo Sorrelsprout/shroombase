@@ -184,7 +184,7 @@
     "geography":{
         "region":[],
         "fruitlocation":"",
-        "coordinates":[""]
+        "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=1134097"
     },
 
     "lookalikes":{
