@@ -72,6 +72,11 @@
             "caption":"Found in Santa Cruz, CA, in May 2022",
             "desc":"Bruises brown."
         },
+        "water":{
+            "img":"./images/templates/water.jpg",
+            "caption":"",
+            "desc":""
+        },
         "feso4":{
             "img":"./images/templates/feso4.jpg",
             "caption":"",
