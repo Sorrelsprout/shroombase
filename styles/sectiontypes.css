@@ -118,7 +118,7 @@
 #geography-mapURL {
     display: block;
     width: 100%;
-    min-height: 75vh;
+    min-height: 65vh;
     -webkit-filter: sepia(100%) hue-rotate(90deg) saturate(400%);
     filter: sepia(20%) hue-rotate(-0deg) saturate(80%);
 }
