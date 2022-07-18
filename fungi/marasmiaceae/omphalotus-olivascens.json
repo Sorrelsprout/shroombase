@@ -72,6 +72,11 @@
             "caption":"",
             "desc":""
         },
+        "water":{
+            "img":"./images/templates/water.jpg",
+            "caption":"",
+            "desc":""
+        },
         "feso4":{
             "img":"./images/templates/feso4.jpg",
             "caption":"",
