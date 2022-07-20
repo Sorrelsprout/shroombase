@@ -181,8 +181,8 @@
     },
 
     "geography":{
-        "region":["North America"],
-        "fruitlocation":"Common East of the Rocky Mountains in North America.",
+        "region":["North America", "South America", "Europe", "Russia", "South Africa"],
+        "fruitlocation":"Common East of the Rocky Mountains in North America, and throughout Europe. Sparser in Asia.",
         "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=53713"
     },
 
