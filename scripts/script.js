@@ -257,9 +257,14 @@ function preloadPullup(JSONURL) {
                 let edibilityIcon = "";
                 if ( shroom[7].edibility[i] == "poisonous") { edibilityIcon = "☠️ " + shroom[7].names[i] + " is not edible" }
                 else if ( shroom[7].edibility[i] == "edible")  { edibilityIcon = "🍴" + shroom[7].names[i] + " is edible" }
-                lookalikeContent += "<div title='" + edibilityIcon + "'><figure>\
-                    <img src='" + shroom[7].images[i] + "' alt='lookalike' loading='lazy'>\
-                    <figcaption>"+ shroom[7].caption[i] +"<figcaption></figure>\
+
+                let imagePresentContent = "";
+                if(shroom[7].images[i] != "") {
+                    imagePresentContent = "<img src='" + shroom[7].images[i] + "' alt='lookalike' loading='lazy'>\
+                    <figcaption>"+ shroom[7].caption[i] +"</figcaption>"
+                }
+                console.log(imagePresentContent)
+                lookalikeContent += "<div title='" + edibilityIcon + "'><figure>" + imagePresentContent + "</figure>\
                     <h3 class=" + shroom[7].edibility[i] + ">" + shroom[7].names[i] + "</h3>\
                     <p>" + shroom[7].desc[i] + "</p>\
                 </div>"

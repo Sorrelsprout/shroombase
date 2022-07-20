@@ -20,10 +20,10 @@
 
     "distinguishing":{
         "coverimg":"",
-        "abundancy":"Abundancy",
-        "smell":"Smell",
+        "abundancy":"",
+        "smell":"",
         "size":"",
-        "tidbits":"Other tidbits to note"
+        "tidbits":""
     },
 
     "characteristics":{
@@ -103,9 +103,9 @@
             "desc":""
         },
         "other":{
-            "img":"./images/templates/other.jpg",
-            "caption":"",
-            "desc":""
+            "img":"./images/polyporaceae/trametes-versicolor/slimemold.jpg",
+            "caption":"Found in Felton, CA, in November 2021",
+            "desc":"Yellow slime mold eating Turkey Tail"
         }
     },
 
