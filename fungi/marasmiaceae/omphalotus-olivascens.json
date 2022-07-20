@@ -1,45 +1,45 @@
 {
     "tags": {
         "edibility":"Poisonous",
-        "treelationship":["Relationship to Tree"],
-        "color":[""],
-        "type":[]
+        "treelationship":[],
+        "color":["orange", "yellow"],
+        "type":["Saprotrophic", "Parasitic"]
     },
 
     "nomenclature":{
         "division":"Division",
-        "class":"Class",
+        "class":"Agaricomycetes",
         "order":"Order",
         "family":"Family",
         "genus":"Omphalotus",
         "species":"Olivascens",
-        "variation":"Var",
-        "aliases":"Aliases",
+        "variation":"",
+        "aliases":"Western Jack-O'-Lantern",
         "displayalias":"Western Jack-O'-Lantern"
     },
 
     "distinguishing":{
         "coverimg":"",
-        "abundancy":"Abundancy",
-        "smell":"Smell",
+        "abundancy":"",
+        "smell":"",
         "size":"",
-        "tidbits":"Other tidbits to note"
+        "tidbits":"Can cause white rot in the trees when it's present as a parasite."
     },
 
     "characteristics": {
         "cap":{
-            "img":"./images/templates/cap.jpg",
+            "img":"./images/marasmiaceae/omphalotus-olivascens/cap.jpg",
             "caption":"",
             "desc":""
         },
         "underside":{
-            "img":"./images/templates/underside.jpg",
-            "caption":"",
-            "desc":""
+            "img":"./images/marasmiaceae/omphalotus-olivascens/underside.jpg",
+            "caption":"Sampled from Saratoga, CA, in January 2022",
+            "desc":"Has True Gills"
         },
         "side":{
-            "img":"./images/templates/side.jpg",
-            "caption":"",
+            "img":"./images/marasmiaceae/omphalotus-olivascens/side.jpg",
+            "caption":"Found in Coyote Lake Harvey Bear Ranch County Park, CA, in December 2021",
             "desc":""
         },
         "halved":{
@@ -48,8 +48,8 @@
             "desc":""
         },
         "stem":{
-            "img":"./images/templates/stem.jpg",
-            "caption":"",
+            "img":"./images/marasmiaceae/omphalotus-olivascens/stem.jpg",
+            "caption":"Found in Saratoga, CA, in January 2022",
             "desc":""
         },
         "sporeprint":{
@@ -63,9 +63,9 @@
             "desc":""
         },
         "habitat":{
-            "img":"./images/templates/habitat.jpg",
-            "caption":"",
-            "desc":""
+            "img":"./images/marasmiaceae/omphalotus-olivascens/habitat.jpg",
+            "caption":"Found in Saratoga, CA, in January 2022",
+            "desc":"Found growing out of the base of a tree."
         },
         "bruising":{
             "img":"./images/templates/bruising.jpg",
@@ -103,8 +103,8 @@
             "desc":""
         },
         "other":{
-            "img":"./images/templates/other.jpg",
-            "caption":"",
+            "img":"./images/marasmiaceae/omphalotus-olivascens/hue.jpg",
+            "caption":"Unsure if it's bruising, but the specimen can take on a purply hue.",
             "desc":""
         }
     },
@@ -177,25 +177,55 @@
         "cullinary":{
             "cullinary":"",
             "taste":"",
-            "recipelist":["",""]
+            "recipelist":[]
         }
     },
 
     "geography":{
-        "region":[],
-        "fruitlocation":"",
-        "mapURL":"https://www.inaturalist.org/observations?place_id=any&taxon_id=67752"
+        "region":["North America"],
+        "fruitlocation":"Native to California and Mexico",
+        "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=67752"
     },
 
     "lookalikes":{
-        "names":[],
-        "images":[],
-        "caption":[],
-        "desc":[],
-        "edibility":[]
+        "names":[
+            "Gymnopilus junonius",
+            "Omphalotus illudens",
+            "Omphalotus japonicus",
+            "Omphalotus olearius",
+            "Omphalotus nidiformis"
+        ],
+        "images":[
+            "",
+            "",
+            "",
+            "",
+            ""],
+        "caption":[
+            "",
+            "",
+            "",
+            "",
+            ""],
+        "desc":[
+            "Also called <strong>Gymnopilus spectabilis</strong>, <strong>Pholiota spectabilis v. junonia</strong>, or the <strong>Spectacular Rustgill</strong>.",
+            "Also called the <strong>Eastern Jack-O'-Lantern</strong>. Found in Eastern North America.",
+            "Also called <strong>Lampteromyces japonicus</strong> or <strong>Tsukiyotake</strong>.",
+            "Also called the <strong>North American Jack-O'-Lantern</strong>.",
+            "Also called the <strong>Ghost Fungus</strong>."
+        ],
+        "edibility":[
+            "inedible",
+            "poisonous",
+            "poisonous",
+            "poisonous",
+            "poisonous"
+        ]
     },
 
     "relevantlinks":{
-        "linkslist":[]
+        "linkslist":[
+            "<a href='https://en.wikipedia.org/wiki/Omphalotus_olivascens' target='_blank'>Wikipedia</a>"
+        ]
     }
 }
