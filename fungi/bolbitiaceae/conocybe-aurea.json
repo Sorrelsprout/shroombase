@@ -181,8 +181,8 @@
     },
 
     "geography":{
-        "region":["North America"],
-        "fruitlocation":"",
+        "region":["North America", "Europe", "Australia"],
+        "fruitlocation":"Sparse spottings in Europe and Australia, prominent on the West Coast of North America.",
         "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=499601"
     },
 

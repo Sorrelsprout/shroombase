@@ -182,7 +182,7 @@
     },
 
     "geography":{
-        "region":["North America"],
+        "region":["North America", "Central America", "South Africa", "Europe", "Scandinavia", "Russia", "Australia", "New Zealand"],
         "fruitlocation":"",
         "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=56316"
     },

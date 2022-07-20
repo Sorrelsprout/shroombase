@@ -182,8 +182,8 @@
     },
 
     "geography":{
-        "region":["Central Asia", "East Asia", "Europe", "North America", "Scandinavia"],
-        "fruitlocation":"",
+        "region":["North America", "Central America", "South America", "Europe", "Scandinavia", "Russia", "North Asia", "Central Asia", "South Asia", "East Asia", "West Asia", "North Africa", "South Africa", "Southeast Asia", "Pacific Islands", "Australia", "New Zealand"],
+        "fruitlocation":"worldwide Distribution, but most prominent in North America, Central America, Europe, and South Australia.",
         "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=54134"
     },
 

@@ -181,8 +181,8 @@
     },
 
     "geography":{
-        "region":["North America"],
-        "fruitlocation":"",
+        "region":["North America", "East Asia"],
+        "fruitlocation":"Found mostly in the East and West United States, as well as Japan and Korea. Sparse spottings in Northern Europe.",
         "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=118051"
     },
 

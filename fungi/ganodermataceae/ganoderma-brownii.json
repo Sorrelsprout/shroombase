@@ -181,7 +181,7 @@
     },
 
     "geography":{
-        "region":["North America"],
+        "region":["North America", "South America", "Europe", "South Africa"],
         "fruitlocation":"Restricted to the Pacific Northwest and mosrtly found in California's San Francisco Bay Area region.",
         "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=348812"
     },

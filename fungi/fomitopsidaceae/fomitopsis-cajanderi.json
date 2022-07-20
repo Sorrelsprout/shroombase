@@ -181,8 +181,8 @@
     },
 
     "geography":{
-        "region":["North America"],
-        "fruitlocation":"Generally found in Western North America.",
+        "region":["North America", "South America", "Europe", "Russia", "South Asia", "Pacific Islands", "Australia"],
+        "fruitlocation":"Generally found in Western North America, but most prominent in East and West United States.",
         "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=764105"
     },
 
