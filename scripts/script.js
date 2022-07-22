@@ -109,6 +109,8 @@ function preloadPullup(JSONURL) {
         if (shroom[2].abundancy == "") { $("#distinguishing-abundancy-container").css({"display":"none"}) }
         $("#distinguishing-smell").html(shroom[2].smell);
         if (shroom[2].smell == "") { $("#distinguishing-smell-container").css({"display":"none"}) }
+        $("#distinguishing-texture").html(shroom[2].texture);
+        if (shroom[2].texture == "") { $("#distinguishing-texture-container").css({"display":"none"}) }
         $("#distinguishing-size").html(shroom[2].size);
         if (shroom[2].size == "") { $("#distinguishing-size-container").css({"display":"none"}) }
         $("#distinguishing-tidbits").html(shroom[2].tidbits);
