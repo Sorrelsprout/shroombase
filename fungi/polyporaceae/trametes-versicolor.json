@@ -14,7 +14,7 @@
         "genus":"Trametes",
         "species":"Versicolor",
         "variation":"",
-        "aliases":"Many-zoned polypore, Turkey tail, Turkey tail fungus",
+        "aliases":"Kawaratake (roof-tile mushroom in Japanese), Many-zoned polypore, Turkey tail, Turkey tail fungus",
         "displayalias":"Turkey Tail"
     },
 
@@ -22,6 +22,7 @@
         "coverimg":"",
         "abundancy":"",
         "smell":"",
+        "texture":"Leathery when moist",
         "size":"",
         "tidbits":""
     },
@@ -30,7 +31,7 @@
         "cap":{
             "img":"./images/polyporaceae/trametes-versicolor/top.jpg",
             "caption":"Found in Corvallis, OR, in April 2022",
-            "desc":""
+            "desc":"Outer edge is lightest in color."
         },
         "underside":{
             "img":"./images/polyporaceae/trametes-versicolor/underside.jpg",
@@ -208,9 +209,9 @@
         ],
         "desc":[
             "Also known as <strong>False turkey-tail</strong>, or <strong>Hairy curtain crust</strong>.",
-            "Also known as <strong>False turkey-tail</strong>, or <strong>Golden curtain crust</strong>.",
+            "Also known as <strong>False turkey-tail</strong>, or <strong>Golden curtain crust</strong>. The underside is smooth and pale brown.",
             "Also known as <strong>Birch mazegill</strong>, <strong>Gilled polypore</strong>, or <strong>Lenzites betulina</strong>.",
-            "Also known as the <strong>Hairy Bracket</strong>."
+            "Also known as the <strong>Hairy Bracket</strong>. Coarser cap and more grey in color than T. versicolor."
         ],
         "edibility":[
             "",

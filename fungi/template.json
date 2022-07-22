@@ -22,8 +22,9 @@
         "coverimg":"",
         "abundancy":"",
         "smell":"",
+        "texture":"",
         "size":"",
-        "tidbits":"Other tidbits to note"
+        "tidbits":""
     },
 
     "characteristics": {
