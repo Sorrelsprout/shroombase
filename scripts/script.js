@@ -152,6 +152,7 @@ function preloadPullup(JSONURL) {
                     newContainerContents += "</div><h3>" + subcategory[i] + "</h3><p id='characteristics-" + subcategory[i] + "-desc'></p>";
                     $(CONTAINERNAME).html(newContainerContents).addClass("multiImg").removeClass("click-zoom"); // Replace container contents
 
+                    /* Toggling Multiple Images */
                     const PREVTOGGLE = CONTAINERNAME + " .multiImgContainer .prev";
                     const NEXTTOGGLE = CONTAINERNAME + " .multiImgContainer .next";
                     $(PREVTOGGLE).click(function() { navigatePhotos(CONTAINERNAME, -1); })
@@ -203,6 +204,7 @@ function preloadPullup(JSONURL) {
         let lifestages_h3 = ["Spore", "Egg", "Eruption", "Pin", "Button", "Young", "Mature", "Old", "Dead"]
 
         let lifestagesContent = "";
+        let numLifestagesImages = 0;
         for (let i=0; i<lifestages_img.length; i++) {
             const CURRENTIMG = lifestages_img[i];
             const CURRENTCAPTION = lifestages_caption[i];
@@ -217,6 +219,7 @@ function preloadPullup(JSONURL) {
                 } else {
                     innerContent += "<img alt='lifeStage' src='"+ CURRENTIMG +"' loading='lazy'></figure></label>";
                 }
+                numLifestagesImages++;
             } 
             else {
                 if (CURRENTCAPTION != "") { 
@@ -237,6 +240,7 @@ function preloadPullup(JSONURL) {
             }
         }
         if (lifestagesContent == "") { $("#lifestages-images").css({"display":"none"}); lifeStagesCounter++; }
+        if(numLifestagesImages > 3) { $("#lifestages-images").addClass("over3");}
         $("#lifestages-images").html(lifestagesContent);
         
         if (lifeStagesCounter == 3) { $("#lifeStages").css({"display":"none"}); }
@@ -384,7 +388,6 @@ function preloadPullup(JSONURL) {
     });
 
     /* Tags: For new tags, update TAGPREFIX, TAGOBJECTS, and NEWTAGOBJECTS */
-    
     const TAGPREFIX = ["edibility", "type", "treelationship", "color", "region", "fruitseason"];
     
     for(let i=0; i<$(".fungiGridElement").length; i++) {
@@ -449,7 +452,6 @@ $("#searchAdvancedToggle").click(function() {
             $(".fungiGridElement:nth-child("+(i+1)+")").removeClass("hiddenTag");
         }
     }
-    // console.log($(".inputSelect").val())
 });
 
 /* S E A R C H   B A R  -------------------------------------------------------------------------- */
