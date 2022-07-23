@@ -137,12 +137,44 @@ function preloadPullup(JSONURL) {
                 const TAGIMG = "#characteristics-" + subcategory[i] + "-img";
                 const TAGCAPTION = "#characteristics-" + subcategory[i] + "-caption";
                 const TAGDESC = "#characteristics-" + subcategory[i] + "-desc";
-    
-                $(TAGIMG).attr("src", CIMG); if (CIMG == "" || CIMG == PLACEHOLDERIMG) { counter++; }
-                $(TAGCAPTION).html(CCAPTION); if (CCAPTION == "") { counter++; }
-                $(TAGDESC).html(CDESC); if (CDESC == "") { counter++; }
-
                 const CONTAINERNAME = "#" + subcategory[i] + "-container";
+
+                if($.isArray(CIMG)) {
+                    let newContainerContents = "<div class='multiImgContainer'><span class='prev'></span><span class='next'></span>";
+                    for (let i=0; i<CIMG.length; i++) {
+                        let currentFigureClass = "";
+                        if(i == 0) { currentFigureClass = "current"}
+                        newContainerContents += "<label class='click-zoom " + currentFigureClass + "'><figure><input type='checkbox'>\
+                            <img src='" + CIMG[i] + "' alt='" + subcategory[i] + " image "+ i +"' class='characteristics-" + subcategory[i] + "-img' loading='lazy'>\
+                            <figcaption class='characteristics-" + subcategory[i] + "-caption'>" + CCAPTION[i] + "</figcaption>\
+                        </figure></label>"
+                    }
+                    newContainerContents += "</div><h3>" + subcategory[i] + "</h3><p id='characteristics-" + subcategory[i] + "-desc'></p>";
+                    $(CONTAINERNAME).html(newContainerContents).addClass("multiImg").removeClass("click-zoom"); // Replace container contents
+
+                    const PREVTARGET = CONTAINERNAME + " .multiImgContainer .prev";
+                    const NEXTTARGET = CONTAINERNAME + " .multiImgContainer .next";
+                    $(PREVTARGET).click(function() { navigatePhotos(CONTAINERNAME, -1); })
+                    $(NEXTTARGET).click(function() { navigatePhotos(CONTAINERNAME, 1); })
+                    function navigatePhotos(containerName, direction) {
+                        const CURRENTLABEL = containerName + " .multiImgContainer label";
+                        const MULTIIMGLENGTH = $(CURRENTLABEL).length;
+                        const CURRENTTARGET = containerName + " .multiImgContainer label.current";
+                        let index = $(CURRENTTARGET).index();
+                        console.log("MULTIIMGLENGTH: " + MULTIIMGLENGTH + ", Index: " + index)
+                        if (index > 2) { // Prev
+                            if (direction == -1) { $(CURRENTTARGET).removeClass("current").prev().addClass("current"); }
+                        }
+                        if (index < (MULTIIMGLENGTH + 1)) { // Next
+                            if (direction == 1) { $(CURRENTTARGET).removeClass("current").next().addClass("current"); }
+                        }
+                    }
+                } else {
+                    $(TAGIMG).attr("src", CIMG); if (CIMG == "" || CIMG == PLACEHOLDERIMG) { counter++; }
+                    $(TAGCAPTION).html(CCAPTION); if (CCAPTION == "") { counter++; }
+                }
+
+                $(TAGDESC).html(CDESC); if (CDESC == "") { counter++; }
                 if (counter == 3) { $(CONTAINERNAME).css({"display":"none"}); overallContainer++; }
             }
             if (overallContainer == subcategory.length) { $(overallContainerID).css({"display":"none"}); }
@@ -172,16 +204,16 @@ function preloadPullup(JSONURL) {
             let currentLifestageImgCounter = 0;
             if ( CURRENTIMG != "" ) {  
                 if (CURRENTCAPTION != "") { 
-                    innerContent += "<img alt='lifeStage' src='"+ CURRENTIMG +"' loading='lazy'><figcaption>"+ CURRENTCAPTION +"</figcaption></figure>"; 
+                    innerContent += "<img alt='lifeStage' src='"+ CURRENTIMG +"' loading='lazy'><figcaption>"+ CURRENTCAPTION +"</figcaption></figure></label>"; 
                 } else {
-                    innerContent += "<img alt='lifeStage' src='"+ CURRENTIMG +"' loading='lazy'></figure>";
+                    innerContent += "<img alt='lifeStage' src='"+ CURRENTIMG +"' loading='lazy'></figure></label>";
                 }
             } 
             else {
                 if (CURRENTCAPTION != "") { 
-                    innerContent += "<img alt='lifeStage' src='https://images.unsplash.com/photo-1454425064867-5ba516caf601?w=1000&h=1000&fit=crop&crop=focalpoint&fp-z=1.4&fp-x=0.45&fp-y=0.42' loading='lazy'><figcaption>"+ CURRENTCAPTION +"</figcaption></figure>"; 
+                    innerContent += "<img alt='lifeStage' src='https://images.unsplash.com/photo-1454425064867-5ba516caf601?w=1000&h=1000&fit=crop&crop=focalpoint&fp-z=1.4&fp-x=0.45&fp-y=0.42' loading='lazy'><figcaption>"+ CURRENTCAPTION +"</figcaption></figure></label>"; 
                 } else {
-                    innerContent += "<img alt='lifeStage' src='https://images.unsplash.com/photo-1454425064867-5ba516caf601?w=1000&h=1000&fit=crop&crop=focalpoint&fp-z=1.4&fp-x=0.45&fp-y=0.42' loading='lazy'></figure>";
+                    innerContent += "<img alt='lifeStage' src='https://images.unsplash.com/photo-1454425064867-5ba516caf601?w=1000&h=1000&fit=crop&crop=focalpoint&fp-z=1.4&fp-x=0.45&fp-y=0.42' loading='lazy'></figure></label>";
                 }
                 currentLifestageImgCounter++;
             } 
@@ -192,7 +224,7 @@ function preloadPullup(JSONURL) {
                 } else {
                     if (CURRENTDESC != "") { innerContent += "<p>"+ CURRENTDESC +"</p>"; } 
                 }
-                lifestagesContent += ("<label class='click-zoom'><figure><input type='checkbox'>" + innerContent + "</label>"); 
+                lifestagesContent += ("<div class='characteristicContainer'><label class='click-zoom'><figure><input type='checkbox'>"+ innerContent +"</div>"); 
             }
         }
         if (lifestagesContent == "") { $("#lifestages-images").css({"display":"none"}); lifeStagesCounter++; }
@@ -265,7 +297,6 @@ function preloadPullup(JSONURL) {
                     imagePresentContent = "<img src='" + shroom[7].images[i] + "' alt='lookalike' loading='lazy'>\
                     <figcaption>"+ shroom[7].caption[i] +"</figcaption>"
                 }
-                console.log(imagePresentContent)
                 lookalikeContent += "<div title='" + edibilityIcon + "'><figure>" + imagePresentContent + "</figure>\
                     <h3 class=" + shroom[7].edibility[i] + ">" + shroom[7].names[i] + "</h3>\
                     <p>" + shroom[7].desc[i] + "</p>\
@@ -359,7 +390,6 @@ function preloadPullup(JSONURL) {
             if (shroom[2].coverimg != "") { /* Override display image */
                 let newCoverImg = "#distinguishing-coverimg-" + shroom[1].genus.toLowerCase() + "-" + shroom[1].species.toLowerCase();
                 $(newCoverImg).attr("src", shroom[2].coverimg);
-                console.log(newCoverImg)
             }
             const TAGOBJECTS = [shroom[0].edibility, shroom[0].type, shroom[0].treelationship, shroom[0].color, shroom[6].region, shroom[4].fruitseason];
             let NEWTAGOBJECTS = ["","","","","",""];

@@ -29,8 +29,14 @@
 
     "characteristics": {
         "cap":{
-            "img":"./images/psathyrellaceae/coprinellus-flocculosus/cap.jpg",
-            "caption":"Found in Sunnyvale, CA, in June 2022",
+            "img":[
+                "./images/psathyrellaceae/coprinellus-flocculosus/cap.jpg",
+                "./images/psathyrellaceae/coprinellus-flocculosus/cap2.jpg"
+            ],
+            "caption":[
+                "Found in Sunnyvale, CA, in June 2022",
+                "Found in Sunnyvale, CA, in June 2022"
+            ],
             "desc":""
         },
         "underside":{

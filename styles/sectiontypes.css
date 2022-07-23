@@ -83,6 +83,40 @@
     background: #9e896c;
 }
 
+/* M U L T I   I M G   G A L L E R Y ----------------------------------------- */
+
+.multiImg {
+    position: relative;
+}
+
+.multiImgContainer .prev,
+.multiImgContainer .next {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0rem;
+    height: 0rem;
+    margin-top: calc(50% - 1rem);
+    top: 0;
+    left: 1.2rem;
+    border-top: 0.5rem solid #fff0;
+    border-left: 0.5rem solid #fff0;
+    border-right: 0.65rem solid #fff;
+    border-bottom: 0.5rem solid #fff0;
+    z-index: 1;
+    cursor: pointer !important;
+    filter: drop-shadow(0 0 0.25rem #0005);
+}
+
+.multiImgContainer .next {
+    left: auto;
+    right: 1.2rem;
+    transform: scaleX(-1)
+}
+
+.multiImg label { display: none; }
+.multiImg label.current { display: block; }
+
 /* L I F E S T A G E S ------------------------------------------------------- */
 
 #lifestages-images {

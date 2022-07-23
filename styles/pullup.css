@@ -107,22 +107,22 @@
     margin: 0 -1rem;
 }
 
-#pullup .characteristicsGrid label {
+#pullup .characteristicsGrid .characteristicContainer {
     width: 33.3%;
     padding: 1rem;
 }
 
 @media (max-width: 600px){
-    #pullup .characteristicsGrid label { width: 100%; }
+    #pullup .characteristicsGrid .characteristicContainer { width: 100%; }
 }
 
-#pullup .characteristicsGrid label img {
+#pullup .characteristicsGrid .characteristicContainer img {
     width: 100%;
     height: auto;
     margin-bottom: 0;
 }
 
-#pullup .characteristicsGrid label h3 {
+#pullup .characteristicsGrid .characteristicContainer h3 {
     text-align: center;
     margin-top: 1rem;
 }
