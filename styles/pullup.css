@@ -107,6 +107,10 @@
     margin: 0 -1rem;
 }
 
+@media (max-width: 600px){
+    #pullup .characteristicsGrid { flex-direction: column; }
+}
+
 #pullup .characteristicsGrid .characteristicContainer {
     width: 33.3%;
     padding: 1rem;
@@ -248,7 +252,7 @@
     position: sticky;
     top: -8rem;
     background: #fff;
-    z-index: 1;
+    z-index: 2;
     background: var(--BGColor);
 }
 
@@ -319,9 +323,7 @@
     border-bottom: none;
 }
 
-/* Pullup Image + Gallery ----------------------------------------------------*/
-
-#pullup .gallery {  display: flex; }
+/* Pullup Image ----------------------------------------------------------*/
 
 #pullup .lazyloader {
     width: 100%;
@@ -389,10 +391,4 @@
     font-size: 0.85em;
     font-style: italic;
     text-align: center;
-}
-
-/* Queries -------------------------------------------------------------------*/
-
-@media (max-width: 600px){
-    #pullup .gallery { flex-direction: column; }
 }

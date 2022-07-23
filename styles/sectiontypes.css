@@ -125,9 +125,17 @@
 
 /* L I F E S T A G E S ------------------------------------------------------- */
 
-#lifestages-images {
+#pullup #lifestages-images {
     display: flex;
-    flex-wrap: nowrap !important;
+    flex-wrap: nowrap;
+}
+
+#pullup #lifestages-images.over3 {
+    margin: 0rem -0.5rem;
+}
+
+#lifestages-images.characteristicsGrid.over3 .characteristicContainer {
+    padding: 0.5rem;
 }
 
 #lifestages-fruitseason li {
