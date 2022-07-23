@@ -114,6 +114,12 @@
     transform: scaleX(-1)
 }
 
+.multiImgContainer .prev.disabled,
+.multiImgContainer .next.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
 .multiImg label { display: none; }
 .multiImg label.current { display: block; }
 

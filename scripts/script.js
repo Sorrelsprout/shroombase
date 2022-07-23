@@ -140,33 +140,42 @@ function preloadPullup(JSONURL) {
                 const CONTAINERNAME = "#" + subcategory[i] + "-container";
 
                 if($.isArray(CIMG)) {
-                    let newContainerContents = "<div class='multiImgContainer'><span class='prev'></span><span class='next'></span>";
+                    let newContainerContents = "<div class='multiImgContainer'><span class='prev disabled'></span><span class='next'></span>";
                     for (let i=0; i<CIMG.length; i++) {
                         let currentFigureClass = "";
                         if(i == 0) { currentFigureClass = "current"}
                         newContainerContents += "<label class='click-zoom " + currentFigureClass + "'><figure><input type='checkbox'>\
-                            <img src='" + CIMG[i] + "' alt='" + subcategory[i] + " image "+ i +"' class='characteristics-" + subcategory[i] + "-img' loading='lazy'>\
+                            <img src='" + CIMG[i] + "' alt='" + subcategory[i] + " image "+ i +"' class='characteristics-" + subcategory[i] + "-img'>\
                             <figcaption class='characteristics-" + subcategory[i] + "-caption'>" + CCAPTION[i] + "</figcaption>\
                         </figure></label>"
                     }
                     newContainerContents += "</div><h3>" + subcategory[i] + "</h3><p id='characteristics-" + subcategory[i] + "-desc'></p>";
                     $(CONTAINERNAME).html(newContainerContents).addClass("multiImg").removeClass("click-zoom"); // Replace container contents
 
-                    const PREVTARGET = CONTAINERNAME + " .multiImgContainer .prev";
-                    const NEXTTARGET = CONTAINERNAME + " .multiImgContainer .next";
-                    $(PREVTARGET).click(function() { navigatePhotos(CONTAINERNAME, -1); })
-                    $(NEXTTARGET).click(function() { navigatePhotos(CONTAINERNAME, 1); })
+                    const PREVTOGGLE = CONTAINERNAME + " .multiImgContainer .prev";
+                    const NEXTTOGGLE = CONTAINERNAME + " .multiImgContainer .next";
+                    $(PREVTOGGLE).click(function() { navigatePhotos(CONTAINERNAME, -1); })
+                    $(NEXTTOGGLE).click(function() { navigatePhotos(CONTAINERNAME, 1); })
                     function navigatePhotos(containerName, direction) {
                         const CURRENTLABEL = containerName + " .multiImgContainer label";
                         const MULTIIMGLENGTH = $(CURRENTLABEL).length;
                         const CURRENTTARGET = containerName + " .multiImgContainer label.current";
                         let index = $(CURRENTTARGET).index();
-                        console.log("MULTIIMGLENGTH: " + MULTIIMGLENGTH + ", Index: " + index)
-                        if (index > 2) { // Prev
-                            if (direction == -1) { $(CURRENTTARGET).removeClass("current").prev().addClass("current"); }
+
+                        if ((index > 2) && (direction == -1)) { // Prev Assignment
+                            $(CURRENTTARGET).removeClass("current").prev().addClass("current"); 
                         }
-                        if (index < (MULTIIMGLENGTH + 1)) { // Next
-                            if (direction == 1) { $(CURRENTTARGET).removeClass("current").next().addClass("current"); }
+                        if ((index < (MULTIIMGLENGTH + 1)) && (direction == 1)) { // Next Assignment
+                            $(CURRENTTARGET).removeClass("current").next().addClass("current"); 
+                        }
+
+                        if ( index >= (MULTIIMGLENGTH) ) { // Prev Toggle
+                            if (direction == -1) { $(NEXTTOGGLE).removeClass("disabled"); } 
+                            else { $(NEXTTOGGLE).addClass("disabled"); }
+                        }
+                        if ( index <= 3 ) { // Next Toggle
+                            if (direction == 1) { $(PREVTOGGLE).removeClass("disabled"); } 
+                            else { $(PREVTOGGLE).addClass("disabled"); }
                         }
                     }
                 } else {
