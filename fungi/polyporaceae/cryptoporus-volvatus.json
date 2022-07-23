@@ -29,8 +29,14 @@
 
     "characteristics":{
         "cap":{
-            "img":"./images/polyporaceae/cryptoporus-volvatus/top.jpg",
-            "caption":"Found in Yosemite National Park, CA, in May 2022",
+            "img":[
+                "./images/polyporaceae/cryptoporus-volvatus/top.jpg",
+                "./images/polyporaceae/cryptoporus-volvatus/top2.jpg"
+            ],
+            "caption":[
+                "Found in Yosemite National Park, CA, in May 2022",
+                "Found in Yosemite National Park, CA, in May 2022"
+            ],
             "desc":"Smooth top, ranging from white to tan to light orange in color."
         },
         "underside":{
@@ -44,8 +50,16 @@
             "desc":""
         },
         "halved":{
-            "img":"./images/polyporaceae/cryptoporus-volvatus/halved.jpg",
-            "caption":"Old specimen found in Mountain View, CA, in July 2022",
+            "img":[
+                "./images/polyporaceae/cryptoporus-volvatus/halved.jpg",
+                "./images/polyporaceae/cryptoporus-volvatus/halved2.jpg",
+                "./images/polyporaceae/cryptoporus-volvatus/halved3.jpg"
+            ],
+            "caption":[
+                "Old specimen found in Mountain View, CA, in July 2022",
+                "Young specimen found in Yosemite National Park, CA, in May 2022",
+                "Young specimen found in Yosemite National Park, CA, in May 2022"
+            ],
             "desc":"Slicing into C. volvatus is pretty easy when young, and the texture is between rubbery and leathery, with a hollow inside. However, as C. volvatus gets older, it toughens and the shell gets hard. Slicing into it reveals a more prominent spore-producing interior."
         },
         "stem":{
@@ -64,8 +78,14 @@
             "desc":""
         },
         "habitat":{
-            "img":"./images/polyporaceae/cryptoporus-volvatus/habitat.jpg",
-            "caption":"Found in Yosemite National Park, CA, in May 2022",
+            "img":[
+                "./images/polyporaceae/cryptoporus-volvatus/habitat.jpg",
+                "./images/polyporaceae/cryptoporus-volvatus/habitat2.jpg"
+            ],
+            "caption":[
+                "Found at Shoreline Park in Mountain View, CA, in July 2022",
+                "Found in Yosemite National Park, CA, in May 2022"
+            ],
             "desc":""
         },
         "bruising":{

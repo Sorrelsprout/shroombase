@@ -140,7 +140,7 @@ function preloadPullup(JSONURL) {
                 const CONTAINERNAME = "#" + subcategory[i] + "-container";
 
                 if($.isArray(CIMG)) {
-                    let newContainerContents = "<div class='multiImgContainer'>";
+                    let newContainerContents = "<div class='multiImgContainer'><span class='prev'></span><span class='next'></span>";
                     for (let i=0; i<CIMG.length; i++) {
                         let currentFigureClass = "";
                         if(i == 0) { currentFigureClass = "current"}
@@ -151,9 +151,24 @@ function preloadPullup(JSONURL) {
                     }
                     newContainerContents += "</div><h3>" + subcategory[i] + "</h3><p id='characteristics-" + subcategory[i] + "-desc'></p>";
                     $(CONTAINERNAME).html(newContainerContents).addClass("multiImg").removeClass("click-zoom"); // Replace container contents
-                    // $(CONTAINERNAME).prepend("\
-                    //     <div class='multiImgToggle'></div>\
-                    // ")
+
+                    const PREVTARGET = CONTAINERNAME + " .multiImgContainer .prev";
+                    const NEXTTARGET = CONTAINERNAME + " .multiImgContainer .next";
+                    $(PREVTARGET).click(function() { navigatePhotos(CONTAINERNAME, -1); })
+                    $(NEXTTARGET).click(function() { navigatePhotos(CONTAINERNAME, 1); })
+                    function navigatePhotos(containerName, direction) {
+                        const CURRENTLABEL = containerName + " .multiImgContainer label";
+                        const MULTIIMGLENGTH = $(CURRENTLABEL).length;
+                        const CURRENTTARGET = containerName + " .multiImgContainer label.current";
+                        let index = $(CURRENTTARGET).index();
+                        console.log("MULTIIMGLENGTH: " + MULTIIMGLENGTH + ", Index: " + index)
+                        if (index > 2) { // Prev
+                            if (direction == -1) { $(CURRENTTARGET).removeClass("current").prev().addClass("current"); }
+                        }
+                        if (index < (MULTIIMGLENGTH + 1)) { // Next
+                            if (direction == 1) { $(CURRENTTARGET).removeClass("current").next().addClass("current"); }
+                        }
+                    }
                 } else {
                     $(TAGIMG).attr("src", CIMG); if (CIMG == "" || CIMG == PLACEHOLDERIMG) { counter++; }
                     $(TAGCAPTION).html(CCAPTION); if (CCAPTION == "") { counter++; }
