@@ -376,7 +376,7 @@
     border: 1rem solid var(--BGColor);
     border-top: 6rem solid var(--BGColor);
     background: var(--BGColor);
-    z-index: 2;
+    z-index: 3;
     object-fit: contain;
     cursor: zoom-out;
 }
