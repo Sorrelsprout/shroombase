@@ -83,6 +83,35 @@
     background: #9e896c;
 }
 
+/* M U L T I   I M G   G A L L E R Y ----------------------------------------- */
+
+.multiImgContainer {
+    position: relative;
+}
+
+.multiImgContainer::before,
+.multiImgContainer::after {
+    display: block;
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    margin-top: calc(50% - 1rem);
+    top: 0;
+    left: 0;
+    background: blue;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.multiImgContainer::before {
+    left: auto;
+    right: 0;
+    transform: scaleX(-1)
+}
+
+.multiImg label { display: none; }
+.multiImg label.current { display: block; }
+
 /* L I F E S T A G E S ------------------------------------------------------- */
 
 #lifestages-images {
