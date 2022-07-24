@@ -202,10 +202,10 @@
 
     "lookalikes":{
         "names":[
-            "Stereum hirsutum",
-            "Stereum ostrea",
-            "Trametes betulina",
-            "Trametes hirsuta"
+            "Hairy curtain crust",
+            "Golden curtain crust",
+            "Birch mazegill",
+            "Hairy Bracket"
         ],
         "images":[
             "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Stereum_hirsutum_113278463.jpg/1600px-Stereum_hirsutum_113278463.jpg?",
@@ -220,10 +220,10 @@
             "Image from <a href='https://commons.wikimedia.org/wiki/File:Trametes_hirsuta_74151441.jpg' target='_blank'>Wikimedia Commons</a>."
         ],
         "desc":[
-            "Also known as <strong>False turkey-tail</strong>, or <strong>Hairy curtain crust</strong>.",
-            "Also known as <strong>False turkey-tail</strong>, or <strong>Golden curtain crust</strong>. The underside is smooth and pale brown.",
-            "Also known as <strong>Birch mazegill</strong>, <strong>Gilled polypore</strong>, or <strong>Lenzites betulina</strong>.",
-            "Also known as the <strong>Hairy Bracket</strong>. Coarser cap and more grey in color than T. versicolor."
+            "Also known as the <strong>False turkey-tail</strong>. Scientifically named <strong>Stereum hirsutum</strong>.",
+            "Also known as the <strong>False turkey-tail</strong>. Scientifically named <strong>Stereum ostrea</strong>. The underside is smooth and pale brown.",
+            "Also known as the <strong>Gilled polypore</strong>, or <strong>Lenzites betulina</strong>. Scientifically named <strong>Trametes betulina</strong>",
+            "Scientifically named <strong>Trametes hirsuta</strong>. Coarser cap and more grey in color than T. versicolor."
         ],
         "edibility":[
             "",
