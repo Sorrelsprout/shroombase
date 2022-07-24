@@ -42,21 +42,29 @@
         "underside":{
             "img":[
                 "./images/agaricaceae/agaricus-bisporus/underside.jpg",
-                "./images/agaricaceae/agaricus-bisporus/underside2.jpg"
+                "./images/agaricaceae/agaricus-bisporus/underside2.jpg",
+                "./images/agaricaceae/agaricus-bisporus/underside3.jpg",
+                "./images/agaricaceae/agaricus-bisporus/underside4.jpg",
+                "./images/agaricaceae/agaricus-bisporus/underside5.jpg"
             ],
             "caption":[
-                "Brown specimen purchased at a Von's in Oakhurst, CA in May 2022",
-                "White button found in Mountain View, CA in December 2021"
+                "Brown specimen purchased in Sunnyvale, CA in July 2022",
+                "Closeup of brown specimen purchased in Sunnyvale, CA in July 2022",
+                "Closeup of brown specimen purchased at a Von's in Oakhurst, CA in May 2022",
+                "White button found in Mountain View, CA in December 2021",
+                "No stem, with veil still attached. Brown specimen purchased in Sunnyvale, CA in July 2022"
             ],
             "desc":""
         },
         "side":{
             "img":[
                 "./images/agaricaceae/agaricus-bisporus/side.jpg",
-                "./images/agaricaceae/agaricus-bisporus/side2.jpg"
+                "./images/agaricaceae/agaricus-bisporus/side2.jpg",
+                "./images/agaricaceae/agaricus-bisporus/side3.jpg"
             ],
             "caption":[
                 "White button found in Mountain View, CA in December 2021",
+                "Brown specimen purchased in Sunnyvale, CA in July 2022",
                 "Brown specimen purchased at a Von's in Oakhurst, CA in May 2022"
             ],
             "desc":""
@@ -67,8 +75,8 @@
             "desc":""
         },
         "stem":{
-            "img":"./images/templates/stem.jpg",
-            "caption":"",
+            "img":"./images/agaricaceae/agaricus-bisporus/stem.jpg",
+            "caption":"Brown specimen purchased in Sunnyvale, CA in July 2022",
             "desc":""
         },
         "sporeprint":{
