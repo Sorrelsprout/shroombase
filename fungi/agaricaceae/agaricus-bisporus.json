@@ -1,0 +1,241 @@
+{
+    "tags": {
+        "edibility":"Edible",
+        "treelationship":[],
+        "color":["white", "brown"],
+        "type":["Saprotrophic"]
+    },
+
+    "nomenclature":{
+        "division":"Basidiomycota",
+        "class":"Agaricomycetes",
+        "order":"Agaricales",
+        "family":"Agaricaceae",
+        "genus":"Agaricus",
+        "species":"Bisporus",
+        "variation":"",
+        "aliases":"<em>When white</em> &mdash; Button mushroom, Champignon, Chestnut mushroom, Common mushroom, Cultivated mushroom, Table mushroom, White Button, White mushroom.<br><em>When Brown</em> &mdash; Baby bella, Cremini, Crimini, Italian brown mushroom, Roman brown mushroom, Swiss brown mushroom.<br><em>When mature</em> &mdash; Portabella, Portabello, Portobello",
+        "displayalias":"White Button, Crimini, Portobello."
+    },
+
+    "distinguishing":{
+        "coverimg":"",
+        "abundancy":"",
+        "smell":"",
+        "texture":"",
+        "size":"When mature, 4-6&rdquo;",
+        "tidbits":"Cultivated worldwide and one of the most commonly eaten mushrooms. <em>Champignon</em> means &ldquo;mushroom&rdquo; in French."
+    },
+
+    "characteristics": {
+        "cap":{
+            "img":[
+                "./images/agaricaceae/agaricus-bisporus/cap.jpg",
+                "./images/agaricaceae/agaricus-bisporus/cap2.jpg"
+            ],
+            "caption":[
+                "White button found in Mountain View, CA in December 2021",
+                "Brown specimen purchased at a Von's in Oakhurst, CA in May 2022"
+            ],
+            "desc":""
+        },
+        "underside":{
+            "img":[
+                "./images/agaricaceae/agaricus-bisporus/underside.jpg",
+                "./images/agaricaceae/agaricus-bisporus/underside2.jpg"
+            ],
+            "caption":[
+                "Brown specimen purchased at a Von's in Oakhurst, CA in May 2022",
+                "White button found in Mountain View, CA in December 2021"
+            ],
+            "desc":""
+        },
+        "side":{
+            "img":[
+                "./images/agaricaceae/agaricus-bisporus/side.jpg",
+                "./images/agaricaceae/agaricus-bisporus/side2.jpg"
+            ],
+            "caption":[
+                "White button found in Mountain View, CA in December 2021",
+                "Brown specimen purchased at a Von's in Oakhurst, CA in May 2022"
+            ],
+            "desc":""
+        },
+        "halved":{
+            "img":"./images/templates/halved.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "stem":{
+            "img":"./images/templates/stem.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "sporeprint":{
+            "img":"./images/templates/sporeprint.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "mycelium":{
+            "img":"./images/templates/mycelium.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "habitat":{
+            "img":"./images/templates/habitat.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bruising":{
+            "img":"./images/templates/bruising.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "water":{
+            "img":"./images/templates/water.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "feso4":{
+            "img":"./images/templates/feso4.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "koh":{
+            "img":"./images/templates/koh.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "nh3":{
+            "img":"./images/templates/nh3.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "latex":{
+            "img":"./images/templates/latex.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bioluminescence":{
+            "img":"./images/templates/bioluminescence.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "other":{
+            "img":"./images/templates/other.jpg",
+            "caption":"",
+            "desc":""
+        }
+    },
+
+    "lifestages":{
+        "fruitseason":[],
+        "lifespan":"",
+        "showTitles": true,
+        "images":{
+            "spore":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "egg":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "eruption":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "pin":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "button":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "young":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "mature":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "old":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "dead":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            }
+        }
+    },
+
+    "significance":{
+        "scientific":{
+            "scientific":"",
+            "environmental":"",
+            "genetic":""
+        },
+        "cultural":{
+            "cultural":"",
+            "medicinal":"",
+            "funfacts":""
+        },
+        "cullinary":{
+            "cullinary":"",
+            "taste":"",
+            "recipelist":[]
+        }
+    },
+
+    "geography":{
+        "region":["North America", "Central America", "Europe", "South Asia", "Australia", "New Zealand"],
+        "fruitlocation":"Native to Europe and North American grasslands.",
+        "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=61395"
+    },
+
+    "lookalikes":{
+        "names":[
+            "Destroying Angel",
+            "Lead Poisoner",
+            "Yellow Stainer"
+        ],
+        "images":[
+            "",
+            "",
+            ""
+        ],
+        "caption":[
+            "",
+            "",
+            ""
+        ],
+        "desc":[
+            "General category of white amanita species.",
+            "Entoloma sinuatum",
+            "Agaricus xanthodermus"
+        ],
+        "edibility":[
+            "poisonous",
+            "poisonous",
+            "poisonous"
+        ]
+    },
+
+    "relevantlinks":{
+        "linkslist":[
+            "<a href='https://en.wikipedia.org/wiki/Destroying_angel' target='_blank'>Wikipedia</a>"
+        ]
+    }
+}
