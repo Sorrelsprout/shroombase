@@ -207,6 +207,7 @@
 
     "lookalikes":{
         "names":[
+            "Banded agaric",
             "Destroying Angel",
             "Lead Poisoner",
             "Yellow Stainer"
@@ -214,19 +215,23 @@
         "images":[
             "",
             "",
+            "",
             ""
         ],
         "caption":[
             "",
             "",
+            "",
             ""
         ],
         "desc":[
+            "Scientifically named <strong>Agaricus bitorquis</strong>. Also called the <strong>Spring agaric</strong>, and <strong>Torq</strong>.",
             "General category of white amanita species.",
-            "Entoloma sinuatum",
-            "Agaricus xanthodermus"
+            "Scientifically named <strong>Entoloma sinuatum</strong>.",
+            "Scientifically named <strong>Agaricus xanthodermus</strong>."
         ],
         "edibility":[
+            "edible",
             "poisonous",
             "poisonous",
             "poisonous"
