@@ -1,5 +1,5 @@
 {
-    "Beech": {
+    "beech": {
         "name":"Beech",
         "scientificName":"Fagaceae Fagus",
         "description":"",
@@ -16,7 +16,7 @@
         "other_image":"",
         "other_imageCaption":""
     },
-    "Birch": {
+    "birch": {
         "name":"Birch",
         "scientificName":"Betulaceae Betula",
         "description":"The photo with the caption &ldquo;Other&rdquo; shows loose seeds from the cone that a cedar dropped.",
@@ -33,7 +33,23 @@
         "other_image":"https://upload.wikimedia.org/wikipedia/commons/3/36/Betula_pendula_fruits.jpg",
         "other_imageCaption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Betula_pendula_fruits.jpg' target='_blank'>Wikimedia Commons</a>, by Nefronus, <a title='Nefronus, CC0 1.0 &lt;https://creativecommons.org/publicdomain/zero/1.0/deed.en&gt;, via Wikimedia Commons' href='https://creativecommons.org/publicdomain/zero/1.0/legalcode' target='_blank'>CC0 1.0</a>"
     },
-
+    "californiabaylaurel": {
+        "name":"California Bay Laurel",
+        "scientificName":"Lauraceae Umbellularia",
+        "description":"",
+        "tree_image":"",
+        "tree_imageCaption":"",
+        "wood_image":"",
+        "wood_imageCaption":"",
+        "leaf_image":"",
+        "leaf_imageCaption":"",
+        "flower_image":"",
+        "flower_imageCaption":"",
+        "fruitSeed_image":"",
+        "fruitSeed_imageCaption":"",
+        "other_image":"",
+        "other_imageCaption":""
+    },
     "cedar": {
         "name":"Cedar",
         "scientificName":"Pinaceae Cedrus",
@@ -119,7 +135,7 @@
         "other_image":"",
         "other_imageCaption":""
     },
-    "Spruce": {
+    "spruce": {
         "name":"Spruce",
         "scientificName":"Pinaceae Picea",
         "description":"",

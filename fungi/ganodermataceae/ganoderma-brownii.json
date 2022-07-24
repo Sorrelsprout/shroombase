@@ -1,7 +1,7 @@
 {
     "tags": {
         "edibility":"",
-        "treelationship":["Bay"],
+        "treelationship":["California Bay Laurel", "Deciduous"],
         "color":["white", "brown"],
         "type":["Parasitic"]
     },
@@ -206,6 +206,8 @@
     },
 
     "relevantlinks":{
-        "linkslist":[]
+        "linkslist":[
+            "<a href='https://www.mykoweb.com/CAF/species/Ganoderma_brownii.html' target='_blank'>Mykoweb</a>"
+        ]
     }
 }
