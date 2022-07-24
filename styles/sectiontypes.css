@@ -278,7 +278,7 @@
     background: #fff;
     width: 40rem;
     align-items: center;
-    z-index: 2;
+    z-index: 3;
     border-radius: var(--borderRadius);
     box-shadow: var(--BoxShadowCards);
     cursor: url('../images/about/cursor.png'), auto;
