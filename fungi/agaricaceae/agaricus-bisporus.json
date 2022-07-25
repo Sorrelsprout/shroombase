@@ -85,14 +85,14 @@
             "desc":""
         },
         "mycelium":{
-            "img":"./images/templates/mycelium.jpg",
-            "caption":"",
+            "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Mycelium_RH_%288%29.jpg/1600px-Mycelium_RH_%288%29.jpg",
+            "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Mycelium_RH_(8).jpg' target='_blank'>Wikimedia Commons</a>, by <a href='https://commons.wikimedia.org/wiki/User:Rob_Hille' target='_blank'>Rob Hille</a>, <a title='Rob Hille, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/3.0/legalcode' target='_blank'>CC BY-SA 3.0</a>. In December, 2011.",
             "desc":""
         },
         "habitat":{
             "img":"./images/templates/habitat.jpg",
             "caption":"",
-            "desc":""
+            "desc":"Found in grasslands."
         },
         "bruising":{
             "img":"./images/templates/bruising.jpg",
@@ -137,13 +137,13 @@
     },
 
     "lifestages":{
-        "fruitseason":[],
-        "lifespan":"",
+        "fruitseason":["Winter"],
+        "lifespan":"According to <a href='https://www.sciencedirect.com/science/article/abs/pii/S0953756208608084' target='_blank'>ScienceDirect</a>, A. bisporus has a lifespan of around 36 days, and begin to show age deterioration around day 18.",
         "showTitles": true,
         "images":{
             "spore":{
-                "img":"",
-                "caption":"",
+                "img":"https://upload.wikimedia.org/wikipedia/commons/c/cb/2014-02-12_Agaricus_bisporus_%28J.E._Lange%29_Imbach_403679.jpg",
+                "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:2014-02-12_Agaricus_bisporus_(J.E._Lange)_Imbach_403679.jpg' target='_blank'>Wikimedia Commons</a>, by <a href='https://mushroomobserver.org/observer/show_user/9' target='_blank'>Ron Pastorino (Ronpast)</a>, <a title='Ron Pastorino (Ronpast), CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/3.0/legalcode' target='_blank'>CC BY-SA 3.0</a>. In Washington, USA.",
                 "desc":""
             },
             "egg":{
@@ -248,6 +248,9 @@
 
     "relevantlinks":{
         "linkslist":[
+            "<a href='https://www.inaturalist.org/taxa/61395-Agaricus-bisporus' target='_blank'>iNaturalist</a>",
+            "<a href='https://www.mycobank.org/page/Name%20details%20page/name/Agaricus%20bisporus%20var.%20bisporus' target='_blank'>MYCOBANK</a>",
+            "<a href='https://www.mykoweb.com/CAF/species/Agaricus_bisporus.html' target='_blank'>MykoWeb</a>",
             "<a href='https://en.wikipedia.org/wiki/Destroying_angel' target='_blank'>Wikipedia</a>"
         ]
     }
