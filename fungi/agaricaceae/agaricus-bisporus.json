@@ -110,8 +110,14 @@
             "desc":""
         },
         "koh":{
-            "img":"./images/agaricaceae/agaricus-bisporus/koh.jpg",
-            "caption":"Sampled in Sunnyvale, CA, in July 2022",
+            "img":[
+                "./images/agaricaceae/agaricus-bisporus/koh.jpg",
+                "./images/agaricaceae/agaricus-bisporus/koh2.jpg"
+            ],
+            "caption":[
+                "Sampled in Sunnyvale, CA, in July 2022",
+                "Sampled in Sunnyvale, CA, in July 2022"
+            ],
             "desc":""
         },
         "nh3":{
