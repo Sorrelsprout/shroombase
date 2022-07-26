@@ -276,7 +276,7 @@ function preloadPullup(JSONURL) {
         if (shroom[5].cullinary.cullinary == "") { $("#significance-cullinary-container").css({"display":"none"}); cullinaryCounter++; }
         $("#significance-taste").html(shroom[5].cullinary.taste);
         if (shroom[5].cullinary.taste == "") { $("#significance-taste-container").css({"display":"none"}); cullinaryCounter++; }
-        arrayResponse("#significance-recipes", shroom[5].cullinary.recipelist);
+        arrayResponse("#significance-recipes", shroom[5].cullinary.recipelist, "recipe");
         if (shroom[5].cullinary.recipelist == "") { $("#significance-recipes-container").css({"display":"none"}); cullinaryCounter++; }
         if (cullinaryCounter == 3) {
             $("#cullinary-container").css({"display":"none"});

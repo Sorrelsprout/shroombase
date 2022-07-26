@@ -207,6 +207,8 @@
     },
 
     "relevantlinks":{
-        "linkslist":[]
+        "linkslist":[
+            "<a href='https://www.gbif.org/occurrence/search?q=Amanita%20muscaria' target='_blank'>GBIF</a>"
+        ]
     }
 }
