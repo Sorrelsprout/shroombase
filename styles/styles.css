@@ -124,6 +124,7 @@ nav .socials {
 }
 
 #fungiGrid > div img {
+  position: relative;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -131,8 +132,19 @@ nav .socials {
 
 #fungiGrid > div:hover img {
   opacity: 0.65;
-  filter: blur(3px);
   transform: scale(1.015);
+}
+
+#fungiGrid > .fungiGridElement:hover::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(3px);
+  z-index: 1;
 }
 
 .fungiDescription {
