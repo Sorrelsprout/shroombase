@@ -73,6 +73,21 @@
             "caption":"",
             "desc":""
         },
+        "latex":{
+            "img":"./images/templates/latex.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bioluminescence":{
+            "img":"./images/templates/bioluminescence.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "other":{
+            "img":"./images/marasmiaceae/omphalotus-olivascens/hue.jpg",
+            "caption":"Found in Saratoga, CA, in January 2022",
+            "desc":"Unsure if it's bruising, but the specimen can take on a purply hue."
+        },
         "water":{
             "img":"./images/templates/water.jpg",
             "caption":"",
@@ -92,21 +107,6 @@
             "img":"./images/templates/nh3.jpg",
             "caption":"",
             "desc":""
-        },
-        "latex":{
-            "img":"./images/templates/latex.jpg",
-            "caption":"",
-            "desc":""
-        },
-        "bioluminescence":{
-            "img":"./images/templates/bioluminescence.jpg",
-            "caption":"",
-            "desc":""
-        },
-        "other":{
-            "img":"./images/marasmiaceae/omphalotus-olivascens/hue.jpg",
-            "caption":"Found in Saratoga, CA, in January 2022",
-            "desc":"Unsure if it's bruising, but the specimen can take on a purply hue."
         }
     },
 
