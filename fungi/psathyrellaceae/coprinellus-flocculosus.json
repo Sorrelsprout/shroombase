@@ -79,6 +79,21 @@
             "caption":"",
             "desc":""
         },
+        "latex":{
+            "img":"./images/templates/latex.jpg",
+            "caption":"",
+            "desc":"Secretes black ink."
+        },
+        "bioluminescence":{
+            "img":"./images/templates/bioluminescence.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "other":{
+            "img":"./images/templates/other.jpg",
+            "caption":"",
+            "desc":""
+        },
         "water":{
             "img":"./images/templates/water.jpg",
             "caption":"",
@@ -96,21 +111,6 @@
         },
         "nh3":{
             "img":"./images/templates/nh3.jpg",
-            "caption":"",
-            "desc":""
-        },
-        "latex":{
-            "img":"./images/templates/latex.jpg",
-            "caption":"",
-            "desc":"Secretes black ink."
-        },
-        "bioluminescence":{
-            "img":"./images/templates/bioluminescence.jpg",
-            "caption":"",
-            "desc":""
-        },
-        "other":{
-            "img":"./images/templates/other.jpg",
             "caption":"",
             "desc":""
         }

@@ -93,6 +93,21 @@
             "caption":"",
             "desc":""
         },
+        "latex":{
+            "img":"./images/templates/latex.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bioluminescence":{
+            "img":"./images/templates/bioluminescence.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "other":{
+            "img":"./images/polyporaceae/cryptoporus-volvatus/beetles.jpg",
+            "caption":"Found in Mountain View, CA, in July 2022",
+            "desc":"Specimens were pulled directly from tree. The interior of these older specimens are riddled with holes from pine bark beetles."
+        },
         "water":{
             "img":"./images/templates/water.jpg",
             "caption":"",
@@ -112,21 +127,6 @@
             "img":"./images/templates/nh3.jpg",
             "caption":"",
             "desc":""
-        },
-        "latex":{
-            "img":"./images/templates/latex.jpg",
-            "caption":"",
-            "desc":""
-        },
-        "bioluminescence":{
-            "img":"./images/templates/bioluminescence.jpg",
-            "caption":"",
-            "desc":""
-        },
-        "other":{
-            "img":"./images/polyporaceae/cryptoporus-volvatus/beetles.jpg",
-            "caption":"Found in Mountain View, CA, in July 2022",
-            "desc":"Specimens were pulled directly from tree. The interior of these older specimens are riddled with holes from pine bark beetles."
         }
     },
 
