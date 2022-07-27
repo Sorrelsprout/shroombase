@@ -117,8 +117,8 @@ function preloadPullup(JSONURL) {
         if (shroom[2].tidbits == "") { $("#distinguishing-tidbits-container").css({"display":"none"}) }
         
         /* Characteristics */
-        const CHARACTERISTICS_SUBCATEGORY = ["cap", "underside", "side", "halved", "stem", "sporeprint", "mycelium", "habitat"];
-        const SPECIALHARACTERISTICS_SUBCATEGORY = ["bruising", "water", "feso4", "koh", "nh3", "latex", "bioluminescence", "other"];
+        const CHARACTERISTICS_SUBCATEGORY = ["cap", "underside", "side", "halved", "stem", "sporeprint", "mycelium", "habitat", "bruising", "latex", "bioluminescence", "other"];
+        const SPECIALHARACTERISTICS_SUBCATEGORY = ["water", "feso4", "koh", "nh3"];
 
         characteristicsSetup(shroom[3], "#mainCharachteristics", CHARACTERISTICS_SUBCATEGORY);
         characteristicsSetup(shroom[3], "#specialCharacteristics", SPECIALHARACTERISTICS_SUBCATEGORY);

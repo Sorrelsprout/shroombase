@@ -14,7 +14,7 @@
         "genus":"Agaricus",
         "species":"Bisporus",
         "variation":"",
-        "aliases":"<em>When white</em> &mdash; Button mushroom, Champignon, Chestnut mushroom, Common mushroom, Cultivated mushroom, Table mushroom, White Button, White mushroom.<br><em>When Brown</em> &mdash; Baby bella, Cremini, Crimini, Italian brown mushroom, Roman brown mushroom, Swiss brown mushroom.<br><em>When mature</em> &mdash; Portabella, Portabello, Portobello",
+        "aliases":"<em>When white (young)</em> &mdash; Button mushroom, Champignon, Chestnut mushroom, Common mushroom, Cultivated mushroom, Table mushroom, White Button, White mushroom.<br><em>When Brown (older)</em> &mdash; Baby bella, Cremini, Crimini, Italian brown mushroom, Roman brown mushroom, Swiss brown mushroom.<br><em>When mature</em> &mdash; Portabella, Portabello, Portobello",
         "displayalias":"White Button, Crimini, Portobello."
     },
 
@@ -23,7 +23,7 @@
         "abundancy":"",
         "smell":"",
         "texture":"",
-        "size":"When mature, 4-6&rdquo;",
+        "size":"When mature, cap is 4-6&rdquo;",
         "tidbits":"Cultivated worldwide and one of the most commonly eaten mushrooms. <em>Champignon</em> means &ldquo;mushroom&rdquo; in French."
     },
 
@@ -37,7 +37,7 @@
                 "White button found in Mountain View, CA in December 2021",
                 "Brown specimen purchased at a Von's in Oakhurst, CA in May 2022"
             ],
-            "desc":"Sometimes found with light scales on the surface. When young there are two color variations, white and brown. Soft and slightly velvety to the touch."
+            "desc":"Rounded and inrolled, but when mature becomes conves or flat. Sometimes found with light grey-tan scales on the surface. When young there are two color variations, white and brown. Soft but firm, and slightly velvety to the touch."
         },
         "underside":{
             "img":[
@@ -54,7 +54,7 @@
                 "White button found in Mountain View, CA in December 2021",
                 "No stem, with veil still attached. Brown specimen purchased in Sunnyvale, CA in July 2022"
             ],
-            "desc":"Gills are brown."
+            "desc":"The margin is rolled inwards a bit. Gills are pink when young, then darken to brown when mature. "
         },
         "side":{
             "img":[
@@ -70,19 +70,19 @@
             "desc":""
         },
         "halved":{
-            "img":"./images/templates/halved.jpg",
-            "caption":"",
+            "img":"./images/agaricaceae/agaricus-bisporus/halved.jpg",
+            "caption":"Brown specimen purchased in Sunnyvale, CA in July 2022",
             "desc":""
         },
         "stem":{
             "img":"./images/agaricaceae/agaricus-bisporus/stem.jpg",
             "caption":"Brown specimen purchased in Sunnyvale, CA in July 2022",
-            "desc":"Has a ring and on younger criminis, the partial veil is often still attached from stem to cap, which protects the gills and spores. However sometimes the ring will detach, and the stem will look segmented."
+            "desc":"Has a ring and on younger specimens, the thin partial veil is often still attached from stem to cap, which protects the gills and spores. However sometimes the ring will detach, and the stem will look segmented. Stem is equal throughout but can have a slightly larger base."
         },
         "sporeprint":{
             "img":"./images/templates/sporeprint.jpg",
             "caption":"",
-            "desc":"Difficult for store-purchased mushrooms to leave a print, but spore print is brown."
+            "desc":"Difficult for store-purchased mushrooms to leave a print, but spore print is chocolate-brown."
         },
         "mycelium":{
             "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Mycelium_RH_%288%29.jpg/1600px-Mycelium_RH_%288%29.jpg",
@@ -97,6 +97,21 @@
         "bruising":{
             "img":"./images/templates/bruising.jpg",
             "caption":"",
+            "desc":"According to <a href='https://botit.botany.wisc.edu/toms_fungi/apr2001.html' target='_blank'>Thomas J. Volk</a>, from the University of Wiscons in-La Crosse, it has also been called &ldquo;A. brunnescens&rdquo;, which refers to it bruising brown after oxidation."
+        },
+        "latex":{
+            "img":"./images/templates/latex.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bioluminescence":{
+            "img":"./images/templates/bioluminescence.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "other":{
+            "img":"./images/templates/other.jpg",
+            "caption":"",
             "desc":""
         },
         "water":{
@@ -105,8 +120,8 @@
             "desc":"Water had little effect on the stem, gills, or outer cap."
         },
         "feso4":{
-            "img":"./images/templates/feso4.jpg",
-            "caption":"",
+            "img":"./images/agaricaceae/agaricus-bisporus/feso4.jpg",
+            "caption":"Sampled in Sunnyvale, CA, in July 2022",
             "desc":"FeSO<sub>4</sub> caused the stem and cap to turn greyish. There was not a very prominent change in color after 3-5 minutes."
         },
         "koh":{
@@ -124,26 +139,11 @@
             "img":"./images/templates/nh3.jpg",
             "caption":"",
             "desc":""
-        },
-        "latex":{
-            "img":"./images/templates/latex.jpg",
-            "caption":"",
-            "desc":""
-        },
-        "bioluminescence":{
-            "img":"./images/templates/bioluminescence.jpg",
-            "caption":"",
-            "desc":""
-        },
-        "other":{
-            "img":"./images/templates/other.jpg",
-            "caption":"",
-            "desc":""
         }
     },
 
     "lifestages":{
-        "fruitseason":["Winter"],
+        "fruitseason":["Spring", "Fall", "Winter"],
         "lifespan":"According to <a href='https://www.sciencedirect.com/science/article/abs/pii/S0953756208608084' target='_blank'>ScienceDirect</a>, A. bisporus has a lifespan of around 36 days, and begin to show age deterioration around day 18.",
         "showTitles": true,
         "images":{
