@@ -208,7 +208,8 @@
 
     "relevantlinks":{
         "linkslist":[
-            "<a href='https://www.gbif.org/occurrence/search?q=Amanita%20muscaria' target='_blank'>GBIF</a>"
+            "<a href='https://www.gbif.org/occurrence/search?q=Amanita%20muscaria' target='_blank'>GBIF</a>",
+            "<a href='https://www.inaturalist.org/taxa/48715-Amanita-muscaria' target='_blank'>iNaturalist</a>"
         ]
     }
 }
