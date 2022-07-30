@@ -208,8 +208,16 @@
 
     "relevantlinks":{
         "linkslist":[
+            "<a href='https://biology.burke.washington.edu/herbarium/imagecollection/taxon.php?Taxon=Amanita%20muscaria' target='_blank'>Burke Herbarium</a>",
+            "<a href='https://gd.eppo.int/taxon/AMANMU' target='_blank'>EPPO</a>",
             "<a href='https://www.gbif.org/occurrence/search?q=Amanita%20muscaria' target='_blank'>GBIF</a>",
-            "<a href='https://www.inaturalist.org/taxa/48715-Amanita-muscaria' target='_blank'>iNaturalist</a>"
+            "<a href='https://globalfungi.com/?species=Amanita%20muscaria' target='_blank'>Global Fungi</a>",
+            "<a href='https://www.inaturalist.org/taxa/48715-Amanita-muscaria' target='_blank'>iNaturalist</a>",
+            "<a href='https://www.mycobank.org/page/Name%20details%20page/name/Amanita%20muscaria' target='_blank'>MYCOBANK</a>",
+            "<a href='https://www.mycoportal.org/portal/collections/list.php?db=all&taxa=Amanita%20muscaria' target='_blank'>MyCoPortal</a>",
+            "<a href='https://www.mykoweb.com/CAF/species/Amanita_muscaria.html' target='_blank'>MykoWeb</a>",
+            "<a href='http://www.speciesfungorum.org/Names/NamesRecord.asp?RecordID=161267' target='_blank'>Species Fungorum</a>",
+            "<a href='https://en.wikipedia.org/wiki/Amanita_muscaria' target='_blank'>Wikipedia</a>"
         ]
     }
 }

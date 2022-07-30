@@ -209,8 +209,13 @@
 
     "relevantlinks":{
         "linkslist":[
+            "<a href='https://biology.burke.washington.edu/herbarium/imagecollection/taxon.php?Taxon=Conocybe%20aurea' target='_blank'>Burke Herbarium</a>",
+            "<a href='https://www.gbif.org/occurrence/search?q=Conocybe%20aurea' target='_blank'>GBIF</a>",
+            "<a href='https://globalfungi.com/?species=Conocybe%20aurea' target='_blank'>Global Fungi</a>",
             "<a href='https://www.inaturalist.org/taxa/499601-Conocybe-aurea' target='_blank'>iNaturalist</a>",
             "<a href='https://www.mycobank.org/page/Name%20details%20page/field/Mycobank%20%23/328831' target='_blank'>MYCOBANK</a>",
+            "<a href='https://www.mycoportal.org/portal/collections/list.php?db=all&taxa=Conocybe%20aurea' target='_blank'>MyCoPortal</a>",
+            "<a href='http://www.speciesfungorum.org/Names/NamesRecord.asp?RecordID=531546' target='_blank'>Species Fungorum</a>",
             "<a href='https://en.wikipedia.org/wiki/Conocybe_aurea' target='_blank'>Wikipedia</a>"
         ]
     }
