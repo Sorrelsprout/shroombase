@@ -11,10 +11,10 @@
         "class":"Agaricomycetes",
         "order":"Polyporales",
         "family":"Fomitopsidaceae",
-        "genus":"Fomitopsis",
+        "genus":"Rhodofomes",
         "species":"Cajanderi",
         "variation":"",
-        "aliases":"Rhodofomes cajanderi, Rosy conk",
+        "aliases":"Fomitopsis cajanderi, Rosy conk",
         "displayalias":"Rosy Conk"
     },
 
@@ -24,27 +24,27 @@
         "smell":"",
         "texture":"",
         "size":"1&quot; - 4&quot;",
-        "tidbits":"Polyporus bracket fungus"
+        "tidbits":"Polyporus bracket fungus, it is a plant pathogen."
     },
 
     "characteristics": {
         "cap":{
-            "img":"./images/fomitopsidaceae/fomitopsis-cajanderi/top.jpg",
+            "img":"./images/fomitopsidaceae/rhodofomes-cajanderi/top.jpg",
             "caption":"Found in La Honda, CA, in February 2022",
             "desc":"Stiff, but slightly velvety on lighter portions."
         },
         "underside":{
-            "img":"./images/fomitopsidaceae/fomitopsis-cajanderi/underside.jpg",
+            "img":"./images/fomitopsidaceae/rhodofomes-cajanderi/underside.jpg",
             "caption":"",
             "desc":""
         },
         "side":{
-            "img":"./images/fomitopsidaceae/fomitopsis-cajanderi/side.jpg",
+            "img":"./images/fomitopsidaceae/rhodofomes-cajanderi/side.jpg",
             "caption":"Found in La Honda, CA, in February 2022",
             "desc":""
         },
         "halved":{
-            "img":"./images/fomitopsidaceae/fomitopsis-cajanderi/halved.jpg",
+            "img":"./images/fomitopsidaceae/rhodofomes-cajanderi/halved.jpg",
             "caption":"",
             "desc":""
         },
@@ -64,7 +64,7 @@
             "desc":""
         },
         "habitat":{
-            "img":"./images/fomitopsidaceae/fomitopsis-cajanderi/habitat.jpg",
+            "img":"./images/fomitopsidaceae/rhodofomes-cajanderi/habitat.jpg",
             "caption":"",
             "desc":""
         },
@@ -188,14 +188,37 @@
     },
 
     "lookalikes":{
-        "names":[],
-        "images":[],
-        "caption":[],
-        "desc":[],
-        "edibility":[]
+        "names":[
+            "Rose Bracket"
+        ],
+        "images":[
+            ""
+        ],
+        "caption":[
+            ""
+        ],
+        "desc":[
+            "Scientifically named <strong>Rhodofomes roseus</strong>. Unlike the Rosy Conk, the Rose Bracket is a detrivore."
+        ],
+        "edibility":[
+            ""
+        ]
     },
 
     "relevantlinks":{
-        "linkslist":[]
+        "linkslist":[
+            "<a href='https://biology.burke.washington.edu/herbarium/imagecollection/taxon.php?Taxon=Rhodofomes%20cajanderi' target='_blank'>Burke Herbarium</a>",
+            "<a href='https://gd.eppo.int/taxon/FOMIRO' target='_blank'>EPPO</a>",
+            "<a href='https://www.gbif.org/species/9739681' target='_blank'>GBIF</a>",
+            "<a href='https://globalfungi.com/?species=Fomitopsis%20cajanderi' target='_blank'>Global Fungi</a>",
+            "<a href='https://www.inaturalist.org/taxa/764105-Rhodofomes-cajanderi' target='_blank'>iNaturalist</a>",
+            "<a href='https://www.mushroomexpert.com/rhodofomes_roseus.html' target='_blank'>Mushroom Expert</a>",
+            "<a href='https://www.mycobank.org/page/Name%20details%20page/name/Rhodofomes%20cajanderi' target='_blank'>MYCOBANK</a>",
+            "<a href='https://www.mycoportal.org/portal/collections/list.php?db=all&taxa=Rhodofomes%20cajanderi' target='_blank'>MyCoPortal</a>",
+            "<a href='https://www.mykoweb.com/CAF/species/Rhodofomes_cajanderi.html' target='_blank'>MykoWeb</a>",
+            "<a href='https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=34475' target='_blank'>NCBI</a>",
+            "<a href='http://www.speciesfungorum.org/Names/NamesRecord.asp?RecordID=812657' target='_blank'>Species Fungorum</a>",
+            "<a href='https://en.wikipedia.org/wiki/Fomitopsis_cajanderi' target='_blank'>Wikipedia</a>"
+        ]
     }
 }
