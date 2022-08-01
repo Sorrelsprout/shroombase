@@ -177,7 +177,9 @@
         "cullinary":{
             "cullinary":"Avoid specimens when found on <strong>Eucalyptus</strong>, <strong>Conifers</strong>, and <strong>Yew trees</strong>, which contain toxic alkaloids that can be absorbed by the mushroom. Specimens growing on hardwoods shoud be generally avoided to prevent gastrointestinal distress. When removing specimen from tree, gently wiggle or slice it off at the base.",
             "taste":"",
-            "recipelist":[]
+            "recipelist":[
+                "<a href='https://foragerchef.com/chicken-fried-chicken-of-the-woods' target='_blank'>Chicken Fried Chicken of the Woods</a> - Forager Chef"
+            ]
         }
     },
 
