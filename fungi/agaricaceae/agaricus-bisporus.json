@@ -70,8 +70,14 @@
             "desc":""
         },
         "halved":{
-            "img":"./images/agaricaceae/agaricus-bisporus/halved.jpg",
-            "caption":"Brown specimen purchased in Sunnyvale, CA in July 2022",
+            "img":[
+                "./images/agaricaceae/agaricus-bisporus/halved.jpg",
+                "./images/agaricaceae/agaricus-bisporus/halved2.jpg"
+            ],
+            "caption":[
+                "White specimen purchased in Sunnyvale, CA in July 2022",
+                "Brown specimen purchased in Sunnyvale, CA in July 2022"
+            ],
             "desc":""
         },
         "stem":{
@@ -80,7 +86,7 @@
             "desc":"Has a ring and on younger specimens, the thin partial veil is often still attached from stem to cap, which protects the gills and spores. However sometimes the ring will detach, and the stem will look segmented. Stem is equal throughout but can have a slightly larger base."
         },
         "sporeprint":{
-            "img":"./images/templates/sporeprint.jpg",
+            "img":"./images/agaricaceae/agaricus-bisporus/sporeprint.jpg",
             "caption":"",
             "desc":"Difficult for store-purchased mushrooms to leave a print, but spore print is chocolate-brown."
         },
@@ -95,9 +101,9 @@
             "desc":"Found in grasslands."
         },
         "bruising":{
-            "img":"./images/templates/bruising.jpg",
-            "caption":"",
-            "desc":"According to <a href='https://botit.botany.wisc.edu/toms_fungi/apr2001.html' target='_blank'>Thomas J. Volk</a>, from the University of Wiscons in-La Crosse, it has also been called &ldquo;A. brunnescens&rdquo;, which refers to it bruising brown after oxidation."
+            "img":"./images/agaricaceae/agaricus-bisporus/bruising.jpg",
+            "caption":"White specimen lightly scarred, sampled in Sunnyvale, CA, in July 2022",
+            "desc":"According to <a href='https://botit.botany.wisc.edu/toms_fungi/apr2001.html' target='_blank'>Thomas J. Volk</a>, from the University of Wiscons in-La Crosse, it has also been called &ldquo;A. brunnescens&rdquo;, which refers to it bruising brown after oxidation. Scarring does not produce immediate color change, but after 10 minutes specimen bruises slightly tan."
         },
         "latex":{
             "img":"./images/templates/latex.jpg",
@@ -115,25 +121,39 @@
             "desc":""
         },
         "water":{
-            "img":"./images/agaricaceae/agaricus-bisporus/water.jpg",
-            "caption":"Sampled in Sunnyvale, CA, in July 2022",
-            "desc":"Water had little effect on the stem, gills, or outer cap."
+            "img":[
+                "./images/agaricaceae/agaricus-bisporus/water.jpg",
+                "./images/agaricaceae/agaricus-bisporus/water2.jpg"
+            ],
+            "caption":[
+                "White specimen sampled in Sunnyvale, CA, in July 2022",
+                "Brown specimen sampled in Sunnyvale, CA, in July 2022"
+            ],
+            "desc":"Some parts of the white stage of A. bisporus stained a bit darker with water after 5 minutes (stem). In general, water had little effect on the stem, gills, or outer cap."
         },
         "feso4":{
-            "img":"./images/agaricaceae/agaricus-bisporus/feso4.jpg",
-            "caption":"Sampled in Sunnyvale, CA, in July 2022",
-            "desc":"FeSO<sub>4</sub> caused the stem and cap to turn greyish. There was not a very prominent change in color after 3-5 minutes."
+            "img":[
+                "./images/agaricaceae/agaricus-bisporus/feso4.jpg",
+                "./images/agaricaceae/agaricus-bisporus/feso42.jpg"
+            ],
+            "caption":[
+                "White specimen sampled in Sunnyvale, CA, in July 2022",
+                "Brown specimen sampled in Sunnyvale, CA, in July 2022"
+            ],
+            "desc":"FeSO<sub>4</sub> caused the stem and cap to turn a medium greyish color. There was not a very prominent change in color after 3-5 minutes."
         },
         "koh":{
             "img":[
                 "./images/agaricaceae/agaricus-bisporus/koh.jpg",
-                "./images/agaricaceae/agaricus-bisporus/koh2.jpg"
+                "./images/agaricaceae/agaricus-bisporus/koh2.jpg",
+                "./images/agaricaceae/agaricus-bisporus/koh3.jpg"
             ],
             "caption":[
-                "Sampled in Sunnyvale, CA, in July 2022",
-                "Sampled in Sunnyvale, CA, in July 2022"
+                "White specimen sampled in Sunnyvale, CA, in July 2022",
+                "Brown specimen sampled in Sunnyvale, CA, in July 2022",
+                "Brown specimen sampled in Sunnyvale, CA, in July 2022"
             ],
-            "desc":"Specimen shriveled somewhat after contact with KOH (3-5 minutes). Brown color change on bottom half of the stem was most apparent, as well as on the sliced interior surface of the cap. Exterior cap stained slightly darker brown, and areas where mushroom skin was peeled back showed indentation where KOH liquid was exposed."
+            "desc":"Specimen shriveled somewhat after contact with KOH (3-5 minutes). Brown color change on bottom half of the stem was most apparent, as well as on the sliced interior surface of the cap. Exterior cap stained slightly darker tan in the white stage and a deeper brown in the brown specimen, and areas where mushroom skin was peeled back showed indentation where KOH liquid was exposed."
         },
         "nh3":{
             "img":"./images/templates/nh3.jpg",
@@ -210,7 +230,7 @@
             "cullinary":"<a href='https://www.cooksillustrated.com/features/8605-do-white-and-brown-mushrooms-taste-different' target='_blank'>Cooks Illustrated</a> mentions that criminis have a bolder taste than white mushrooms, being described as &ldquo;deeper and more complex&rdquo;.",
             "taste":"",
             "recipelist":[
-                "<a href='https://www.foodnetwork.com/recipes/rachael-ray/sauteed-crimini-mushrooms-recipe-1943279' target='_blank'>Sauteed Crimini Mushrooms</a> &mdash; The Food Network"
+                "<a href='https://www.foodnetwork.com/recipes/rachael-ray/sauteed-crimini-mushrooms-recipe-1943279' target='_blank'>Sauteed Crimini Mushrooms</a> - The Food Network"
             ]
         }
     },
