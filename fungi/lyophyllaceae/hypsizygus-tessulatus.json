@@ -42,7 +42,7 @@
             "caption":[
                 "Specimen purchased in Sunnyvale, CA in August 2022",
                 "Specimen purchased in Sunnyvale, CA in August 2022",
-                "Specimen purchased in Sunnyvale, CA in August 2022"
+                "Specimen purchased in Sunnyvale, CA in August 2022. Pin stage viewed under a microscope."
             ],
             "desc":""
         },
@@ -52,8 +52,8 @@
             "desc":""
         },
         "halved":{
-            "img":"./images/templates/halved.jpg",
-            "caption":"",
+            "img":"./images/lyophyllaceae/hypsizygus-tessulatus/halved.jpg",
+            "caption":"Specimen purchased in Sunnyvale, CA in August 2022",
             "desc":""
         },
         "stem":{
@@ -67,8 +67,8 @@
             "desc":""
         },
         "mycelium":{
-            "img":"./images/templates/mycelium.jpg",
-            "caption":"",
+            "img":"./images/lyophyllaceae/hypsizygus-tessulatus/mycelium.jpg",
+            "caption":"Specimen purchased in Sunnyvale, CA in August 2022",
             "desc":""
         },
         "habitat":{
