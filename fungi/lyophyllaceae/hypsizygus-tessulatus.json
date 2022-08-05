@@ -29,13 +29,21 @@
 
     "characteristics": {
         "cap":{
-            "img":"./images/templates/cap.jpg",
-            "caption":"",
+            "img":"./images/lyophyllaceae/hypsizygus-tessulatus/cap.jpg",
+            "caption":"Specimen purchased in Sunnyvale, CA in August 2022",
             "desc":""
         },
         "underside":{
-            "img":"./images/templates/underside.jpg",
-            "caption":"",
+            "img":[
+                "./images/lyophyllaceae/hypsizygus-tessulatus/underside.jpg",
+                "./images/lyophyllaceae/hypsizygus-tessulatus/underside2.jpg",
+                "./images/lyophyllaceae/hypsizygus-tessulatus/underside3.jpg"
+            ],
+            "caption":[
+                "Specimen purchased in Sunnyvale, CA in August 2022",
+                "Specimen purchased in Sunnyvale, CA in August 2022",
+                "Specimen purchased in Sunnyvale, CA in August 2022"
+            ],
             "desc":""
         },
         "side":{
@@ -49,8 +57,8 @@
             "desc":""
         },
         "stem":{
-            "img":"./images/templates/stem.jpg",
-            "caption":"",
+            "img":"./images/lyophyllaceae/hypsizygus-tessulatus/stem.jpg",
+            "caption":"Specimen purchased in Sunnyvale, CA in August 2022",
             "desc":""
         },
         "sporeprint":{
@@ -131,8 +139,8 @@
                 "desc":""
             },
             "pin":{
-                "img":"",
-                "caption":"",
+                "img":"./images/lyophyllaceae/hypsizygus-tessulatus/lifestages-pin.jpg",
+                "caption":"Specimen purchased in Sunnyvale, CA in August 2022",
                 "desc":""
             },
             "button":{
