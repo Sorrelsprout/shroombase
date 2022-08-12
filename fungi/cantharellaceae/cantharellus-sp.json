@@ -117,7 +117,7 @@
     },
 
     "lifestages":{
-        "fruitseason":["summer"],
+        "fruitseason":["Summer"],
         "lifespan":"",
         "showTitles": true,
         "images":{
