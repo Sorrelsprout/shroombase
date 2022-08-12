@@ -1,64 +1,62 @@
 {
     "tags": {
-        "edibility":"",
-        "treelationship":[],
-        "color":[],
-        "type":["Saprotrophic"]
+        "edibility":"Edible",
+        "treelationship":["Oak", "Deciduous"],
+        "color":["Yellow"],
+        "type":["Mycorrhizal"]
     },
 
     "nomenclature":{
         "division":"Basidiomycota",
         "class":"Agaricomycetes",
-        "order":"Agaricales",
-        "family":"Lyophyllaceae",
-        "genus":"Hypsizygus",
-        "species":"tessulatus",
-        "variation":"Bunashimeji",
-        "aliases":"Beech mushroom, Brown beech mushroom, Brown clamshell mushroom, Bunashimeji",
-        "displayalias":"Brown Beech Mushroom"
+        "order":"Cantharellales",
+        "family":"Cantharellaceae",
+        "genus":"Cantharellus",
+        "species":"sp",
+        "variation":"",
+        "aliases":"Chanterelle, Golden chanterelle",
+        "displayalias":"Chanterelle"
     },
 
     "distinguishing":{
         "coverimg":"",
         "abundancy":"",
         "smell":"",
-        "texture":"Slippery when wet.",
+        "texture":"",
         "size":"",
         "tidbits":""
     },
 
     "characteristics": {
         "cap":{
-            "img":"./images/lyophyllaceae/hypsizygus-tessulatus/cap.jpg",
-            "caption":"Specimen purchased in Sunnyvale, CA in August 2022",
+            "img":"./images/cantharellaceae/cantharellus-sp/cap.jpg",
+            "caption":"Specimen purchased at Eataly in San Jose, CA in August 2022",
             "desc":""
         },
         "underside":{
             "img":[
-                "./images/lyophyllaceae/hypsizygus-tessulatus/underside.jpg",
-                "./images/lyophyllaceae/hypsizygus-tessulatus/underside2.jpg",
-                "./images/lyophyllaceae/hypsizygus-tessulatus/underside3.jpg"
+                "./images/cantharellaceae/cantharellus-sp/underside.jpg",
+                "./images/cantharellaceae/cantharellus-sp/underside2.jpg"
             ],
             "caption":[
-                "Specimen purchased in Sunnyvale, CA in August 2022",
-                "Specimen purchased in Sunnyvale, CA in August 2022",
-                "Specimen purchased in Sunnyvale, CA in August 2022. Pin stage viewed under a microscope."
+                "Specimen purchased at Eataly in San Jose, CA in August 2022",
+                "Specimen purchased at Eataly in San Jose, CA in August 2022"
             ],
             "desc":""
         },
         "side":{
-            "img":"./images/templates/side.jpg",
-            "caption":"",
+            "img":"./images/cantharellaceae/cantharellus-sp/side.jpg",
+            "caption":"Specimen purchased at Eataly in San Jose, CA in August 2022",
             "desc":""
         },
         "halved":{
-            "img":"./images/lyophyllaceae/hypsizygus-tessulatus/halved.jpg",
-            "caption":"Specimen purchased in Sunnyvale, CA in August 2022",
-            "desc":""
+            "img":"./images/cantharellaceae/cantharellus-sp/halved.jpg",
+            "caption":"Specimen purchased at Eataly in San Jose, CA in August 2022",
+            "desc":"Interior is white or very very pale yellow."
         },
         "stem":{
-            "img":"./images/lyophyllaceae/hypsizygus-tessulatus/stem.jpg",
-            "caption":"Specimen purchased in Sunnyvale, CA in August 2022",
+            "img":"./images/cantharellaceae/cantharellus-sp/stem.jpg",
+            "caption":"Specimen purchased at Eataly in San Jose, CA in August 2022",
             "desc":""
         },
         "sporeprint":{
@@ -67,8 +65,8 @@
             "desc":""
         },
         "mycelium":{
-            "img":"./images/lyophyllaceae/hypsizygus-tessulatus/mycelium.jpg",
-            "caption":"Specimen purchased in Sunnyvale, CA in August 2022",
+            "img":"./images/templates/mycelium.jpg",
+            "caption":"",
             "desc":""
         },
         "habitat":{
@@ -97,18 +95,18 @@
             "desc":""
         },
         "water":{
-            "img":"./images/templates/water.jpg",
-            "caption":"",
+            "img":"./images/cantharellaceae/cantharellus-sp/water.jpg",
+            "caption":"Sampled in August 2022",
             "desc":""
         },
         "feso4":{
-            "img":"./images/templates/feso4.jpg",
-            "caption":"",
+            "img":"./images/cantharellaceae/cantharellus-sp/feso4.jpg",
+            "caption":"Sampled in August 2022",
             "desc":""
         },
         "koh":{
-            "img":"./images/templates/koh.jpg",
-            "caption":"",
+            "img":"./images/cantharellaceae/cantharellus-sp/koh.jpg",
+            "caption":"Sampled in August 2022",
             "desc":""
         },
         "nh3":{
@@ -119,7 +117,7 @@
     },
 
     "lifestages":{
-        "fruitseason":[],
+        "fruitseason":["summer"],
         "lifespan":"",
         "showTitles": true,
         "images":{
@@ -139,8 +137,8 @@
                 "desc":""
             },
             "pin":{
-                "img":"./images/lyophyllaceae/hypsizygus-tessulatus/lifestages-pin.jpg",
-                "caption":"Specimen purchased in Sunnyvale, CA in August 2022",
+                "img":"",
+                "caption":"",
                 "desc":""
             },
             "button":{
@@ -183,15 +181,15 @@
             "funfacts":""
         },
         "cullinary":{
-            "cullinary":"Cultivated in East Asia and Europe.",
-            "taste":"Slightly crunchy",
+            "cullinary":"",
+            "taste":"",
             "recipelist":[]
         }
     },
 
     "geography":{
-        "region":["North America", "Europe", "East Asia", "Australia"],
-        "fruitlocation":"Native to East Asia.",
+        "region":["Europe"],
+        "fruitlocation":"",
         "mapURL":""
     },
 
@@ -205,7 +203,7 @@
 
     "relevantlinks":{
         "linkslist":[
-            "<a href='https://www.mushroomexpert.com/hypsizygus_tessulatus.html' target='_blank'>Mushroom Expert</a>"
+            "<a href='https://en.wikipedia.org/wiki/Cantharellus' target='_blank'>Wikipedia</a>"
         ]
     }
 }

@@ -12,7 +12,7 @@
         "order":"Pezizales",
         "family":"Pezizaceae",
         "genus":"Peziza",
-        "species":"unidentified",
+        "species":"sp",
         "variation":"",
         "aliases":"",
         "displayalias":"Peziza"
@@ -29,7 +29,7 @@
 
     "characteristics": {
         "cap":{
-            "img":"./images/pezizaceae/peziza-unidentified/top.jpg",
+            "img":"./images/pezizaceae/peziza-sp/top.jpg",
             "caption":"Found in Sunnyvale, CA, in February 2022",
             "desc":""
         },
@@ -121,37 +121,37 @@
                 "desc":""
             },
             "egg":{
-                "img":"./images/pezizaceae/peziza-unidentified/lifestages-button.jpg",
+                "img":"./images/pezizaceae/peziza-sp/lifestages-button.jpg",
                 "caption":"Initially observed in Sunnyvale, CA.",
                 "desc":""
             },
             "eruption":{
-                "img":"./images/pezizaceae/peziza-unidentified/lifestages-young.jpg",
+                "img":"./images/pezizaceae/peziza-sp/lifestages-young.jpg",
                 "caption":"After 7 days",
                 "desc":""
             },
             "pin":{
-                "img":"./images/pezizaceae/peziza-unidentified/lifestages-young2.jpg",
+                "img":"./images/pezizaceae/peziza-sp/lifestages-young2.jpg",
                 "caption":"After 11 days",
                 "desc":""
             },
             "button":{
-                "img":"./images/pezizaceae/peziza-unidentified/lifestages-young3.jpg",
+                "img":"./images/pezizaceae/peziza-sp/lifestages-young3.jpg",
                 "caption":"After 12 days",
                 "desc":""
             },
             "young":{
-                "img":"./images/pezizaceae/peziza-unidentified/lifestages-mature.jpg",
+                "img":"./images/pezizaceae/peziza-sp/lifestages-mature.jpg",
                 "caption":"After 13 days",
                 "desc":""
             },
             "mature":{
-                "img":"./images/pezizaceae/peziza-unidentified/lifestages-mature2.jpg",
+                "img":"./images/pezizaceae/peziza-sp/lifestages-mature2.jpg",
                 "caption":"After 15 days",
                 "desc":""
             },
             "old":{
-                "img":"./images/pezizaceae/peziza-unidentified/lifestages-old.jpg",
+                "img":"./images/pezizaceae/peziza-sp/lifestages-old.jpg",
                 "caption":"After 27 days",
                 "desc":""
             },
