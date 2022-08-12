@@ -1,67 +1,61 @@
 {
     "tags": {
         "edibility":"Edible",
-        "treelationship":["Oak", "Deciduous"],
-        "color":["Yellow"],
-        "type":["Mycorrhizal"]
+        "treelationship":[],
+        "color":["Black"],
+        "type":["Mycorrhizal", "Saprotrophic"]
     },
 
     "nomenclature":{
-        "division":"Basidiomycota",
-        "class":"Agaricomycetes",
-        "order":"Cantharellales",
-        "family":"Cantharellaceae",
-        "genus":"Cantharellus",
+        "division":"Ascomycota",
+        "class":"Pezizomycetes",
+        "order":"Pezizales",
+        "family":"Morchellaceae",
+        "genus":"Morchella",
         "species":"sp",
         "variation":"",
-        "aliases":"Chanterelle, Golden chanterelle",
-        "displayalias":"Chanterelle"
+        "aliases":"Morel",
+        "displayalias":"Morel, True morel"
     },
 
     "distinguishing":{
         "coverimg":"",
         "abundancy":"",
         "smell":"",
-        "texture":"",
+        "texture":"Rubbery and spongy. Delicate and when dried for a while, crumbles.",
         "size":"",
-        "tidbits":""
+        "tidbits":"Very similar to M. esculenta. Depending on their life stage, morels can be saprobes or mycorrhizal."
     },
 
     "characteristics": {
         "cap":{
-            "img":"./images/cantharellaceae/cantharellus-sp/cap.jpg",
+            "img":"./images/morchellaceae/morchella-sp/cap.jpg",
             "caption":"Specimen purchased at Eataly in San Jose, CA in August 2022",
             "desc":""
         },
         "underside":{
-            "img":[
-                "./images/cantharellaceae/cantharellus-sp/underside.jpg",
-                "./images/cantharellaceae/cantharellus-sp/underside2.jpg"
-            ],
-            "caption":[
-                "Specimen purchased at Eataly in San Jose, CA in August 2022",
-                "Specimen purchased at Eataly in San Jose, CA in August 2022"
-            ],
+            "img":"./images/morchellaceae/morchella-sp/underside.jpg",
+            "caption":"Specimen purchased at Eataly in San Jose, CA in August 2022",
             "desc":""
         },
         "side":{
-            "img":"./images/cantharellaceae/cantharellus-sp/side.jpg",
-            "caption":"Specimen purchased at Eataly in San Jose, CA in August 2022",
+            "img":"./images/templates/side.jpg",
+            "caption":"",
             "desc":""
         },
         "halved":{
-            "img":"./images/cantharellaceae/cantharellus-sp/halved.jpg",
+            "img":"./images/morchellaceae/morchella-sp/halved.jpg",
             "caption":"Specimen purchased at Eataly in San Jose, CA in August 2022",
-            "desc":"Interior is white or very very pale yellow."
+            "desc":""
         },
         "stem":{
-            "img":"./images/cantharellaceae/cantharellus-sp/stem.jpg",
+            "img":"./images/morchellaceae/morchella-sp/stem.jpg",
             "caption":"Specimen purchased at Eataly in San Jose, CA in August 2022",
             "desc":""
         },
         "sporeprint":{
-            "img":"./images/templates/sporeprint.jpg",
-            "caption":"",
+            "img":"./images/morchellaceae/morchella-sp/sporeprint.jpg",
+            "caption":"Specimen purchased at Eataly in San Jose, CA in August 2022",
             "desc":""
         },
         "mycelium":{
@@ -95,18 +89,18 @@
             "desc":""
         },
         "water":{
-            "img":"./images/cantharellaceae/cantharellus-sp/water.jpg",
-            "caption":"Sampled in August 2022",
+            "img":"./images/templates/water.jpg",
+            "caption":"",
             "desc":""
         },
         "feso4":{
-            "img":"./images/cantharellaceae/cantharellus-sp/feso4.jpg",
-            "caption":"Sampled in August 2022",
+            "img":"./images/templates/feso4.jpg",
+            "caption":"",
             "desc":""
         },
         "koh":{
-            "img":"./images/cantharellaceae/cantharellus-sp/koh.jpg",
-            "caption":"Sampled in August 2022",
+            "img":"./images/templates/koh.jpg",
+            "caption":"",
             "desc":""
         },
         "nh3":{
@@ -117,7 +111,7 @@
     },
 
     "lifestages":{
-        "fruitseason":["summer"],
+        "fruitseason":[],
         "lifespan":"",
         "showTitles": true,
         "images":{
@@ -181,14 +175,14 @@
             "funfacts":""
         },
         "cullinary":{
-            "cullinary":"Choice edible mushroom.",
-            "taste":"Nutty flavor, a hint of pine nuts. Taste most apparent near middle/front of the tongue.",
+            "cullinary":"Ridges holds sauces well.",
+            "taste":"Rubbery and savory. Very flavorful, with taste most apparent at the back of the tongue.",
             "recipelist":[]
         }
     },
 
     "geography":{
-        "region":["Europe"],
+        "region":[],
         "fruitlocation":"",
         "mapURL":""
     },
@@ -202,8 +196,6 @@
     },
 
     "relevantlinks":{
-        "linkslist":[
-            "<a href='https://en.wikipedia.org/wiki/Cantharellus' target='_blank'>Wikipedia</a>"
-        ]
+        "linkslist":[]
     }
 }
