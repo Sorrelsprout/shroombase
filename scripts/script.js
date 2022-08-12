@@ -47,12 +47,15 @@ $(document).ready(function(){
         $(this).addClass("fungiGridElement");
 
         let fungusIMGFileName = fungusID.replace('-', '');
-        let fungusFamilyExtract = $(this).attr("class").replace(' fungiGridElement', '')
+        let fungusFamilyExtract = $(this).attr("class").replace(' fungiGridElement', '');
         fungusIMGFileName = "./images/" + fungusFamilyExtract + "/" + $(this).attr("id") + "/" + fungusIMGFileName + ".jpg";
         let fungusIMGHTML = "<img id='distinguishing-coverimg-" + fungusID + "' src='" + fungusIMGFileName + "' alt='" + fungusTitle + "' loading='lazy'>";
 
-        let scientificNameRestructured = fungusID.replace('-', ' ')
-        scientificNameRestructured = scientificNameRestructured.charAt(0).toUpperCase() + scientificNameRestructured.slice(1)
+        let scientificNameRestructured = fungusID.replace('-', ' ');
+        scientificNameRestructured = scientificNameRestructured.charAt(0).toUpperCase() + scientificNameRestructured.slice(1);
+        if(scientificNameRestructured.endsWith(" sp")) { // add a period to denote unidentified species
+            scientificNameRestructured += ".";
+        }
         let fungusDESC = "<div class='fungiDescription'><p>" + fungusTitle + "</p><p>" + scientificNameRestructured + "</p></div>";
 
         $(this).append(fungusIMGHTML);
@@ -97,7 +100,7 @@ function preloadPullup(JSONURL) {
         $("#nomenclature-genus").html(shroom[1].genus);
         if (shroom[1].genus == "") { $("#nomenclature-genus-container").css({"display":"none"}) }
         $("#nomenclature-species").html(shroom[1].species);
-        if (shroom[1].species == "") { $("#nomenclature-species-container").css({"display":"none"}) }
+        if ((shroom[1].species == "") || shroom[1].species == "sp") { $("#nomenclature-species-container").css({"display":"none"}) }
         $("#nomenclature-variation").html(shroom[1].variation);
         if (shroom[1].variation == "") { $("#nomenclature-variation-container").css({"display":"none"}) }
         $("#nomenclature-aliases").html(shroom[1].aliases);
