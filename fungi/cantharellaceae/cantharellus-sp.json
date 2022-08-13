@@ -117,7 +117,7 @@
     },
 
     "lifestages":{
-        "fruitseason":["summer"],
+        "fruitseason":["Summer"],
         "lifespan":"",
         "showTitles": true,
         "images":{
@@ -203,7 +203,7 @@
 
     "relevantlinks":{
         "linkslist":[
-            "<a href='https://en.wikipedia.org/wiki/Cantharellus' target='_blank'>Wikipedia</a>"
+            "<a href='https://en.wikipedia.org/wiki/Cantharellus' target='_blank' rel='noreferrer noopener'>Wikipedia</a>"
         ]
     }
 }

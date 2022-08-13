@@ -207,18 +207,18 @@
 
     "relevantlinks":{
         "linkslist":[
-            "<a href='https://biology.burke.washington.edu/herbarium/imagecollection/taxon.php?Taxon=Rhodofomes%20cajanderi' target='_blank'>Burke Herbarium</a>",
-            "<a href='https://gd.eppo.int/taxon/FOMIRO' target='_blank'>EPPO</a>",
-            "<a href='https://www.gbif.org/species/9739681' target='_blank'>GBIF</a>",
-            "<a href='https://globalfungi.com/?species=Fomitopsis%20cajanderi' target='_blank'>Global Fungi</a>",
-            "<a href='https://www.inaturalist.org/taxa/764105-Rhodofomes-cajanderi' target='_blank'>iNaturalist</a>",
-            "<a href='https://www.mushroomexpert.com/rhodofomes_roseus.html' target='_blank'>Mushroom Expert</a>",
-            "<a href='https://www.mycobank.org/page/Name%20details%20page/name/Rhodofomes%20cajanderi' target='_blank'>MYCOBANK</a>",
-            "<a href='https://www.mycoportal.org/portal/collections/list.php?db=all&taxa=Rhodofomes%20cajanderi' target='_blank'>MyCoPortal</a>",
-            "<a href='https://www.mykoweb.com/CAF/species/Rhodofomes_cajanderi.html' target='_blank'>MykoWeb</a>",
-            "<a href='https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=34475' target='_blank'>NCBI</a>",
-            "<a href='http://www.speciesfungorum.org/Names/NamesRecord.asp?RecordID=812657' target='_blank'>Species Fungorum</a>",
-            "<a href='https://en.wikipedia.org/wiki/Fomitopsis_cajanderi' target='_blank'>Wikipedia</a>"
+            "<a href='https://biology.burke.washington.edu/herbarium/imagecollection/taxon.php?Taxon=Rhodofomes%20cajanderi' target='_blank' rel='noreferrer noopener'>Burke Herbarium</a>",
+            "<a href='https://gd.eppo.int/taxon/FOMIRO' target='_blank' rel='noreferrer noopener'>EPPO</a>",
+            "<a href='https://www.gbif.org/species/9739681' target='_blank' rel='noreferrer noopener'>GBIF</a>",
+            "<a href='https://globalfungi.com/?species=Fomitopsis%20cajanderi' target='_blank' rel='noreferrer noopener'>Global Fungi</a>",
+            "<a href='https://www.inaturalist.org/taxa/764105-Rhodofomes-cajanderi' target='_blank' rel='noreferrer noopener'>iNaturalist</a>",
+            "<a href='https://www.mushroomexpert.com/rhodofomes_roseus.html' target='_blank' rel='noreferrer noopener'>Mushroom Expert</a>",
+            "<a href='https://www.mycobank.org/page/Name%20details%20page/name/Rhodofomes%20cajanderi' target='_blank' rel='noreferrer noopener'>MYCOBANK</a>",
+            "<a href='https://www.mycoportal.org/portal/collections/list.php?db=all&taxa=Rhodofomes%20cajanderi' target='_blank' rel='noreferrer noopener'>MyCoPortal</a>",
+            "<a href='https://www.mykoweb.com/CAF/species/Rhodofomes_cajanderi.html' target='_blank' rel='noreferrer noopener'>MykoWeb</a>",
+            "<a href='https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=34475' target='_blank' rel='noreferrer noopener'>NCBI</a>",
+            "<a href='http://www.speciesfungorum.org/Names/NamesRecord.asp?RecordID=812657' target='_blank' rel='noreferrer noopener'>Species Fungorum</a>",
+            "<a href='https://en.wikipedia.org/wiki/Fomitopsis_cajanderi' target='_blank' rel='noreferrer noopener'>Wikipedia</a>"
         ]
     }
 }
