@@ -195,7 +195,7 @@
             "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Ganoderma_applanatum_2010_G1.jpg/1600px-Ganoderma_applanatum_2010_G1.jpg"
         ],
         "caption":[
-            "Image from <a href='https://commons.wikimedia.org/wiki/File:Ganoderma_applanatum_2010_G1.jpg' target='_blank'>Wikimedia Commons</a>."
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Ganoderma_applanatum_2010_G1.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>."
         ],
         "desc":[
             "Scientifically named <strong>Ganoderma appalantum</strong>. Bracket fungi that is found in Asia, Australia, Europe, and throughout North America. Grows on conifers and most hardwoods, and like G. brownii, have pores that stain brown with pressure. G. appalanatum has smaller spores than G. brownii, and a pure white underside. It is used in Chinese medicine."
@@ -207,7 +207,7 @@
 
     "relevantlinks":{
         "linkslist":[
-            "<a href='https://www.mykoweb.com/CAF/species/Ganoderma_brownii.html' target='_blank'>MykoWeb</a>"
+            "<a href='https://www.mykoweb.com/CAF/species/Ganoderma_brownii.html' target='_blank' rel='noreferrer noopener'>MykoWeb</a>"
         ]
     }
 }

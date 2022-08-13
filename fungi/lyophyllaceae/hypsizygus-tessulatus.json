@@ -205,7 +205,7 @@
 
     "relevantlinks":{
         "linkslist":[
-            "<a href='https://www.mushroomexpert.com/hypsizygus_tessulatus.html' target='_blank'>Mushroom Expert</a>"
+            "<a href='https://www.mushroomexpert.com/hypsizygus_tessulatus.html' target='_blank' rel='noreferrer noopener'>Mushroom Expert</a>"
         ]
     }
 }

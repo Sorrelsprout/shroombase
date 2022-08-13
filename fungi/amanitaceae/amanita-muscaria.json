@@ -45,7 +45,7 @@
         },
         "halved":{
             "img":"https://upload.wikimedia.org/wikipedia/commons/f/fe/Coupe_transversale.JPG",
-            "caption":"Image by Agena.p, from <a href='https://commons.wikimedia.org/wiki/File:Coupe_transversale.JPG' target='_blank'>Wikimedia Commons</a>",
+            "caption":"Image by Agena.p, from <a href='https://commons.wikimedia.org/wiki/File:Coupe_transversale.JPG' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>",
             "desc":""
         },
         "stem":{
@@ -55,7 +55,7 @@
         },
         "sporeprint":{
             "img":"./images/amanitaceae/amanita-muscaria/sporeprint.jpg",
-            "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Amanita_Muscaria_Spore_Print_(11378036753).jpg' target='_blank'>Wikimedia Commons</a>, by Daniel Neal, <a title='Daniel Neal, CC BY-SA 2.0 &lt;https://creativecommons.org/licenses/by/2.0/deed.en&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by/2.0/legalcode' target='_blank'>CC BY-SA 2.0</a>. In Sacramento, CA, USA",
+            "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Amanita_Muscaria_Spore_Print_(11378036753).jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Daniel Neal, <a title='Daniel Neal, CC BY-SA 2.0 &lt;https://creativecommons.org/licenses/by/2.0/deed.en&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by/2.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 2.0</a>. In Sacramento, CA, USA",
             "desc":""
         },
         "mycelium":{
@@ -118,13 +118,13 @@
         "images":{
             "spore":{
                 "img":"https://upload.wikimedia.org/wikipedia/commons/5/51/Amanita_muscaria_spores.jpg",
-                "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Amanita_muscaria_spores.jpg' target='_blank'>Wikimedia Commons</a>, by Madjack74, <a title='Madjack74, GNU Free Documentation License v1.2 &lt;https://en.wikipedia.org/wiki/GNU_Free_Documentation_License&gt;, via Wikimedia Commons' href='https://en.wikipedia.org/wiki/GNU_Free_Documentation_License' target='_blank'>GNU Free Documentation License v1.2</a>",
+                "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Amanita_muscaria_spores.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Madjack74, <a title='Madjack74, GNU Free Documentation License v1.2 &lt;https://en.wikipedia.org/wiki/GNU_Free_Documentation_License&gt;, via Wikimedia Commons' href='https://en.wikipedia.org/wiki/GNU_Free_Documentation_License' target='_blank' rel='noreferrer noopener'>GNU Free Documentation License v1.2</a>",
                 "desc":""
             },
             "egg":{
                 "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Amanita_muscaria_veiled.jpg/1541px-Amanita_muscaria_veiled.jpg",
-                "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Amanita_muscaria_veiled.jpg' target='_blank'>Wikimedia Commons</a>, by Natr, <a title='Natr, CC0 1.0 &lt;https://creativecommons.org/publicdomain/zero/1.0/deed.en&gt;, via Wikimedia Commons' href='https://creativecommons.org/publicdomain/zero/1.0/legalcode' target='_blank'>CC0 1.0</a>",
-                "desc":"A very young specimen of an Amanita muscaria fruiting body with universal veil still intact growing out of littered forest soil, description from <a href='https://commons.wikimedia.org/wiki/File:Amanita_muscaria_veiled.jpg#fileinfotpl_desc' target='_blank'>Wiki Commons</a>."
+                "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Amanita_muscaria_veiled.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Natr, <a title='Natr, CC0 1.0 &lt;https://creativecommons.org/publicdomain/zero/1.0/deed.en&gt;, via Wikimedia Commons' href='https://creativecommons.org/publicdomain/zero/1.0/legalcode' target='_blank' rel='noreferrer noopener'>CC0 1.0</a>",
+                "desc":"A very young specimen of an Amanita muscaria fruiting body with universal veil still intact growing out of littered forest soil, description from <a href='https://commons.wikimedia.org/wiki/File:Amanita_muscaria_veiled.jpg#fileinfotpl_desc' target='_blank' rel='noreferrer noopener'>Wiki Commons</a>."
             },
             "eruption":{
                 "img":"",
@@ -166,18 +166,18 @@
 
     "significance":{
         "scientific":{
-            "scientific":"Contains ibotenic acid, muscarine, muscazone, and muscimol. Read more on <a href='https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/amanita-muscaria' target='_blank'>ScienceDirect</a>.",
+            "scientific":"Contains ibotenic acid, muscarine, muscazone, and muscimol. Read more on <a href='https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/amanita-muscaria' target='_blank' rel='noreferrer noopener'>ScienceDirect</a>.",
             "environmental":"",
             "genetic":""
         },
         "cultural":{
-            "cultural":"According to <a href='https://bibliography.maps.org/resources/download/16354' target='_blank'>The Oldest Representations of Hallucinogenic Mushrooms in the World</a>, in the Easternmost areas of Siberia, in the Arctic Circle, petroglyphs dated back to the Neolithic period (last stage of the Stone Age) can be found portraying mushroom gatherers with what looks to be A. muscaria (hypothesized due to their form and decoration) on their heads (Samorini, p. 2). The referenced images are Figures 20 and 21 in <a href='https://www.nps.gov/parkhistory/online_books/bela/chukotka.pdf'>Mysteries in the Rocks of Ancient Chukotka</a> (NPS 1999, pp. 20-21), and were originally published in 1971 by N. N. Dikov. <br><br>A. muscaria The Mega Mushroom from Super Mario Bros is also based off of A. muscaria. It is also the default emoji for the web 🍄",
+            "cultural":"According to <a href='https://bibliography.maps.org/resources/download/16354' target='_blank' rel='noreferrer noopener'>The Oldest Representations of Hallucinogenic Mushrooms in the World</a>, in the Easternmost areas of Siberia, in the Arctic Circle, petroglyphs dated back to the Neolithic period (last stage of the Stone Age) can be found portraying mushroom gatherers with what looks to be A. muscaria (hypothesized due to their form and decoration) on their heads (Samorini, p. 2). The referenced images are Figures 20 and 21 in <a href='https://www.nps.gov/parkhistory/online_books/bela/chukotka.pdf'>Mysteries in the Rocks of Ancient Chukotka</a> (NPS 1999, pp. 20-21), and were originally published in 1971 by N. N. Dikov. <br><br>A. muscaria The Mega Mushroom from Super Mario Bros is also based off of A. muscaria. It is also the default emoji for the web 🍄",
             "medicinal":"",
             "funfacts":"Santa and &ldquo;flying&rdquo; reindeer"
         },
         "cullinary":{
             "cullinary":"It is not advised to consume A. muscaria. It causes gastrointestinal stress, confusion, dizziness, and intoxication.",
-            "taste":"This <a href='https://www.youtube.com/watch?v=SYkUTkrlvYk' target='_blank'>YouTuber</a> states that when all the red has been boiled out, it is rubbery.",
+            "taste":"This <a href='https://www.youtube.com/watch?v=SYkUTkrlvYk' target='_blank' rel='noreferrer noopener'>YouTuber</a> states that when all the red has been boiled out, it is rubbery.",
             "recipelist":[]
         }
     },
@@ -196,7 +196,7 @@
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Russula_emetica_117475.jpg/500px-Russula_emetica_117475.jpg"
         ],
         "caption":[
-            "Image from <a href='https://commons.wikimedia.org/wiki/Category:Russula_emetica#/media/File:Russula_emetica_117475.jpg' target='_blank'>Wikimedia Commons</a>."
+            "Image from <a href='https://commons.wikimedia.org/wiki/Category:Russula_emetica#/media/File:Russula_emetica_117475.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>."
         ],
         "desc":[
             "Scientifically named <strong>Russula Emetica</strong>, it can cause vomiting. Similar to A. muscaria due to red cap and white stalk. Lacking in white spots on cap, and unlike A. muscaria, has no ring on the stem."
@@ -208,16 +208,16 @@
 
     "relevantlinks":{
         "linkslist":[
-            "<a href='https://biology.burke.washington.edu/herbarium/imagecollection/taxon.php?Taxon=Amanita%20muscaria' target='_blank'>Burke Herbarium</a>",
-            "<a href='https://gd.eppo.int/taxon/AMANMU' target='_blank'>EPPO</a>",
-            "<a href='https://www.gbif.org/species/8168319' target='_blank'>GBIF</a>",
-            "<a href='https://globalfungi.com/?species=Amanita%20muscaria' target='_blank'>Global Fungi</a>",
-            "<a href='https://www.inaturalist.org/taxa/48715-Amanita-muscaria' target='_blank'>iNaturalist</a>",
-            "<a href='https://www.mycobank.org/page/Name%20details%20page/name/Amanita%20muscaria' target='_blank'>MYCOBANK</a>",
-            "<a href='https://www.mycoportal.org/portal/collections/list.php?db=all&taxa=Amanita%20muscaria' target='_blank'>MyCoPortal</a>",
-            "<a href='https://www.mykoweb.com/CAF/species/Amanita_muscaria.html' target='_blank'>MykoWeb</a>",
-            "<a href='http://www.speciesfungorum.org/Names/NamesRecord.asp?RecordID=161267' target='_blank'>Species Fungorum</a>",
-            "<a href='https://en.wikipedia.org/wiki/Amanita_muscaria' target='_blank'>Wikipedia</a>"
+            "<a href='https://biology.burke.washington.edu/herbarium/imagecollection/taxon.php?Taxon=Amanita%20muscaria' target='_blank' rel='noreferrer noopener'>Burke Herbarium</a>",
+            "<a href='https://gd.eppo.int/taxon/AMANMU' target='_blank' rel='noreferrer noopener'>EPPO</a>",
+            "<a href='https://www.gbif.org/species/8168319' target='_blank' rel='noreferrer noopener'>GBIF</a>",
+            "<a href='https://globalfungi.com/?species=Amanita%20muscaria' target='_blank' rel='noreferrer noopener'>Global Fungi</a>",
+            "<a href='https://www.inaturalist.org/taxa/48715-Amanita-muscaria' target='_blank' rel='noreferrer noopener'>iNaturalist</a>",
+            "<a href='https://www.mycobank.org/page/Name%20details%20page/name/Amanita%20muscaria' target='_blank' rel='noreferrer noopener'>MYCOBANK</a>",
+            "<a href='https://www.mycoportal.org/portal/collections/list.php?db=all&taxa=Amanita%20muscaria' target='_blank' rel='noreferrer noopener'>MyCoPortal</a>",
+            "<a href='https://www.mykoweb.com/CAF/species/Amanita_muscaria.html' target='_blank' rel='noreferrer noopener'>MykoWeb</a>",
+            "<a href='http://www.speciesfungorum.org/Names/NamesRecord.asp?RecordID=161267' target='_blank' rel='noreferrer noopener'>Species Fungorum</a>",
+            "<a href='https://en.wikipedia.org/wiki/Amanita_muscaria' target='_blank' rel='noreferrer noopener'>Wikipedia</a>"
         ]
     }
 }

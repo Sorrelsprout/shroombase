@@ -214,10 +214,10 @@
             "https://upload.wikimedia.org/wikipedia/commons/5/5c/Trametes_hirsuta_74151441.jpg"
         ],
         "caption":[
-            "Image from <a href='https://commons.wikimedia.org/wiki/File:Stereum_hirsutum_113278463.jpg' target='_blank'>Wikimedia Commons</a>.",
-            "Image from <a href='https://commons.wikimedia.org/wiki/File:Stereum_ostrea_67176334.jpg' target='_blank'>Wikimedia Commons</a>.",
-            "Image from <a href='https://commons.wikimedia.org/wiki/File:Lenzites_betulina.jpg' target='_blank'>Wikimedia Commons</a>.",
-            "Image from <a href='https://commons.wikimedia.org/wiki/File:Trametes_hirsuta_74151441.jpg' target='_blank'>Wikimedia Commons</a>."
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Stereum_hirsutum_113278463.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>.",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Stereum_ostrea_67176334.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>.",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Lenzites_betulina.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>.",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Trametes_hirsuta_74151441.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>."
         ],
         "desc":[
             "Scientifically named <strong>Stereum hirsutum</strong>. One of a couple species to be called a <strong>False turkey-tail</strong>.",

@@ -92,7 +92,7 @@
         },
         "mycelium":{
             "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Mycelium_RH_%288%29.jpg/1600px-Mycelium_RH_%288%29.jpg",
-            "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Mycelium_RH_(8).jpg' target='_blank'>Wikimedia Commons</a>, by <a href='https://commons.wikimedia.org/wiki/User:Rob_Hille' target='_blank'>Rob Hille</a>, <a title='Rob Hille, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/3.0/legalcode' target='_blank'>CC BY-SA 3.0</a>. In December, 2011.",
+            "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Mycelium_RH_(8).jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by <a href='https://commons.wikimedia.org/wiki/User:Rob_Hille' target='_blank' rel='noreferrer noopener'>Rob Hille</a>, <a title='Rob Hille, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/3.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 3.0</a>. In December, 2011.",
             "desc":""
         },
         "habitat":{
@@ -118,7 +118,7 @@
         "other":{
             "img":"./images/agaricaceae/agaricus-bisporus/oxidation.jpg",
             "caption":"White specimen oxidation test before and after 2 days, sampled in Sunnyvale, CA, in August 2022",
-            "desc":"According to <a href='https://botit.botany.wisc.edu/toms_fungi/apr2001.html' target='_blank'>Thomas J. Volk</a>, from the University of Wiscons in-La Crosse, it has also been called &ldquo;A. brunnescens&rdquo;, which refers to it turning brown after oxidation. In this specimen the color change is most prominent in the lower part of the stem."
+            "desc":"According to <a href='https://botit.botany.wisc.edu/toms_fungi/apr2001.html' target='_blank rel='noreferrer noopener'>Thomas J. Volk</a>, from the University of Wiscons in-La Crosse, it has also been called &ldquo;A. brunnescens&rdquo;, which refers to it turning brown after oxidation. In this specimen the color change is most prominent in the lower part of the stem."
         },
         "water":{
             "img":[
@@ -164,12 +164,12 @@
 
     "lifestages":{
         "fruitseason":["Spring", "Fall", "Winter"],
-        "lifespan":"According to <a href='https://www.sciencedirect.com/science/article/abs/pii/S0953756208608084' target='_blank'>ScienceDirect</a>, A. bisporus has a lifespan of around 36 days, and begin to show age deterioration around day 18.",
+        "lifespan":"According to <a href='https://www.sciencedirect.com/science/article/abs/pii/S0953756208608084' target='_blank' rel='noreferrer noopener'>ScienceDirect</a>, A. bisporus has a lifespan of around 36 days, and begin to show age deterioration around day 18.",
         "showTitles": true,
         "images":{
             "spore":{
                 "img":"https://upload.wikimedia.org/wikipedia/commons/c/cb/2014-02-12_Agaricus_bisporus_%28J.E._Lange%29_Imbach_403679.jpg",
-                "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:2014-02-12_Agaricus_bisporus_(J.E._Lange)_Imbach_403679.jpg' target='_blank'>Wikimedia Commons</a>, by <a href='https://mushroomobserver.org/observer/show_user/9' target='_blank'>Ron Pastorino (Ronpast)</a>, <a title='Ron Pastorino (Ronpast), CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/3.0/legalcode' target='_blank'>CC BY-SA 3.0</a>. In Washington, USA.",
+                "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:2014-02-12_Agaricus_bisporus_(J.E._Lange)_Imbach_403679.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by <a href='https://mushroomobserver.org/observer/show_user/9' target='_blank' rel='noreferrer noopener'>Ron Pastorino (Ronpast)</a>, <a title='Ron Pastorino (Ronpast), CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/3.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 3.0</a>. In Washington, USA.",
                 "desc":""
             },
             "egg":{
@@ -219,18 +219,18 @@
         "scientific":{
             "scientific":"",
             "environmental":"",
-            "genetic":"On <a href='https://gold.jgi.doe.gov/projects?Project.Project+Name=Agaricus+bisporus' target='_blank'>GOLD (Genome Online Database)</a>."
+            "genetic":"On <a href='https://gold.jgi.doe.gov/projects?Project.Project+Name=Agaricus+bisporus' target='_blank' rel='noreferrer noopener'>GOLD (Genome Online Database)</a>."
         },
         "cultural":{
             "cultural":"",
             "medicinal":"",
-            "funfacts":"White button, Crimini, and Portobello mushrooms are the most consumed mushroom in the United States, with roughly 3lbs consumed per year, according to the <a href='https://www.ers.usda.gov/data-products/chart-gallery/gallery/chart-detail/?chartId=85803' target='_blank'>USDA</a>."
+            "funfacts":"White button, Crimini, and Portobello mushrooms are the most consumed mushroom in the United States, with roughly 3lbs consumed per year, according to the <a href='https://www.ers.usda.gov/data-products/chart-gallery/gallery/chart-detail/?chartId=85803' target='_blank' rel='noreferrer noopener'>USDA</a>."
         },
         "cullinary":{
-            "cullinary":"<a href='https://www.cooksillustrated.com/features/8605-do-white-and-brown-mushrooms-taste-different' target='_blank'>Cooks Illustrated</a> mentions that criminis have a bolder taste than white mushrooms, being described as &ldquo;deeper and more complex&rdquo;.",
+            "cullinary":"<a href='https://www.cooksillustrated.com/features/8605-do-white-and-brown-mushrooms-taste-different' target='_blank' rel='noreferrer noopener'>Cooks Illustrated</a> mentions that criminis have a bolder taste than white mushrooms, being described as &ldquo;deeper and more complex&rdquo;.",
             "taste":"",
             "recipelist":[
-                "<a href='https://www.foodnetwork.com/recipes/rachael-ray/sauteed-crimini-mushrooms-recipe-1943279' target='_blank'>Sauteed Crimini Mushrooms</a> - The Food Network"
+                "<a href='https://www.foodnetwork.com/recipes/rachael-ray/sauteed-crimini-mushrooms-recipe-1943279' target='_blank' rel='noreferrer noopener'>Sauteed Crimini Mushrooms</a> - The Food Network"
             ]
         }
     },
@@ -276,17 +276,17 @@
 
     "relevantlinks":{
         "linkslist":[
-            "<a href='https://biology.burke.washington.edu/herbarium/imagecollection/taxon.php?Taxon=Agaricus%20bisporus' target='_blank'>Burke Herbarium</a>",
-            "<a href='https://gd.eppo.int/taxon/AGARBI' target='_blank'>EPPO</a>",
-            "<a href='https://www.gbif.org/species/5243447' target='_blank'>GBIF</a>",
-            "<a href='https://globalfungi.com/?species=Agaricus%20bisporus' target='_blank'>Global Fungi</a>",
-            "<a href='https://www.inaturalist.org/taxa/61395-Agaricus-bisporus' target='_blank'>iNaturalist</a>",
-            "<a href='https://mushroomexpert.com/agaricus_bisporus.html' target='_blank'>Mushroom Expert</a>",
-            "<a href='https://www.mycobank.org/page/Name%20details%20page/name/Agaricus%20bisporus%20var.%20bisporus' target='_blank'>MYCOBANK</a>",
-            "<a href='https://www.mycoportal.org/portal/collections/list.php?db=all&taxa=Agaricus+bisporus&usethes=1&taxontype=2' target='_blank'>MyCoPortal</a>",
-            "<a href='https://www.mykoweb.com/CAF/species/Agaricus_bisporus.html' target='_blank'>MykoWeb</a>",
-            "<a href='http://www.speciesfungorum.org/Names/NamesRecord.asp?RecordID=531546' target='_blank'>Species Fungorum</a>",
-            "<a href='https://en.wikipedia.org/wiki/Agaricus_bisporus' target='_blank'>Wikipedia</a>"
+            "<a href='https://biology.burke.washington.edu/herbarium/imagecollection/taxon.php?Taxon=Agaricus%20bisporus' target='_blank' rel='noreferrer noopener'>Burke Herbarium</a>",
+            "<a href='https://gd.eppo.int/taxon/AGARBI' target='_blank' rel='noreferrer noopener'>EPPO</a>",
+            "<a href='https://www.gbif.org/species/5243447' target='_blank' rel='noreferrer noopener'>GBIF</a>",
+            "<a href='https://globalfungi.com/?species=Agaricus%20bisporus' target='_blank' rel='noreferrer noopener'>Global Fungi</a>",
+            "<a href='https://www.inaturalist.org/taxa/61395-Agaricus-bisporus' target='_blank' rel='noreferrer noopener'>iNaturalist</a>",
+            "<a href='https://mushroomexpert.com/agaricus_bisporus.html' target='_blank' rel='noreferrer noopener'>Mushroom Expert</a>",
+            "<a href='https://www.mycobank.org/page/Name%20details%20page/name/Agaricus%20bisporus%20var.%20bisporus' target='_blank' rel='noreferrer noopener'>MYCOBANK</a>",
+            "<a href='https://www.mycoportal.org/portal/collections/list.php?db=all&taxa=Agaricus+bisporus&usethes=1&taxontype=2' target='_blank' rel='noreferrer noopener'>MyCoPortal</a>",
+            "<a href='https://www.mykoweb.com/CAF/species/Agaricus_bisporus.html' target='_blank' rel='noreferrer noopener'>MykoWeb</a>",
+            "<a href='http://www.speciesfungorum.org/Names/NamesRecord.asp?RecordID=531546' target='_blank' rel='noreferrer noopener'>Species Fungorum</a>",
+            "<a href='https://en.wikipedia.org/wiki/Agaricus_bisporus' target='_blank' rel='noreferrer noopener'>Wikipedia</a>"
         ]
     }
 }

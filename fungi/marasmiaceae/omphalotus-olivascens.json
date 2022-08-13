@@ -206,8 +206,8 @@
             "",
             "",
             "",
-            "Image by danhartleybcn, from <a href='https://commons.wikimedia.org/wiki/File:Omphalotus_olearius_56212970.jpg' target='_blank'>Wikimedia Commons</a>",
-            "Image from <a href='https://commons.wikimedia.org/wiki/File:Omphalotus_nidiformis_Binnamittalong_2_email.jpg' target='_blank'>Wikimedia Commons</a>, by Cas Liber, <a title='Cas Liber, CC BY-SA 2.5 &lt;https://creativecommons.org/licenses/by-sa/2.5/&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/2.5/legalcode' target='_blank'>CC BY-SA 2.5</a>. In Binnamittalong reserve, Bexley NSW"],
+            "Image by danhartleybcn, from <a href='https://commons.wikimedia.org/wiki/File:Omphalotus_olearius_56212970.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Omphalotus_nidiformis_Binnamittalong_2_email.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Cas Liber, <a title='Cas Liber, CC BY-SA 2.5 &lt;https://creativecommons.org/licenses/by-sa/2.5/&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/2.5/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 2.5</a>. In Binnamittalong reserve, Bexley NSW"],
         "desc":[
             "Scientifically named <strong>Gymnopilus spectabilis</strong>. Also called <strong>Pholiota spectabilis v. junonia</strong>, or the <strong>Spectacular Rustgill</strong>.",
             "Scientifically named <strong>Omphalotus illudens</strong>. Found in Eastern North America.",
@@ -226,7 +226,7 @@
 
     "relevantlinks":{
         "linkslist":[
-            "<a href='https://en.wikipedia.org/wiki/Omphalotus_olivascens' target='_blank'>Wikipedia</a>"
+            "<a href='https://en.wikipedia.org/wiki/Omphalotus_olivascens' target='_blank' rel='noreferrer noopener'>Wikipedia</a>"
         ]
     }
 }

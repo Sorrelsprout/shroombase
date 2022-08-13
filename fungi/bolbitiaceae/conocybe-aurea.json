@@ -164,7 +164,7 @@
             },
             "old":{
                 "img":"https://upload.wikimedia.org/wikipedia/commons/4/4b/Conocybe_aurea_%2832189445392%29.jpg",
-                "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Conocybe_aurea_(32189445392).jpg' target='_blank'>Wikimedia Commons</a>, by Dick Culbert, <a title='Dick Culbert, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by/2.0/legalcode' target='_blank'>CC BY 2.0</a>. In Gibsons, B.C., Canada.",
+                "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Conocybe_aurea_(32189445392).jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Dick Culbert, <a title='Dick Culbert, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by/2.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY 2.0</a>. In Gibsons, B.C., Canada.",
                 "desc":""
             },
             "dead":{
@@ -209,14 +209,14 @@
 
     "relevantlinks":{
         "linkslist":[
-            "<a href='https://biology.burke.washington.edu/herbarium/imagecollection/taxon.php?Taxon=Conocybe%20aurea' target='_blank'>Burke Herbarium</a>",
-            "<a href='https://www.gbif.org/species/2529818' target='_blank'>GBIF</a>",
-            "<a href='https://globalfungi.com/?species=Conocybe%20aurea' target='_blank'>Global Fungi</a>",
-            "<a href='https://www.inaturalist.org/taxa/499601-Conocybe-aurea' target='_blank'>iNaturalist</a>",
-            "<a href='https://www.mycobank.org/page/Name%20details%20page/field/Mycobank%20%23/328831' target='_blank'>MYCOBANK</a>",
-            "<a href='https://www.mycoportal.org/portal/collections/list.php?db=all&taxa=Conocybe%20aurea' target='_blank'>MyCoPortal</a>",
-            "<a href='http://www.speciesfungorum.org/Names/NamesRecord.asp?RecordID=531546' target='_blank'>Species Fungorum</a>",
-            "<a href='https://en.wikipedia.org/wiki/Conocybe_aurea' target='_blank'>Wikipedia</a>"
+            "<a href='https://biology.burke.washington.edu/herbarium/imagecollection/taxon.php?Taxon=Conocybe%20aurea' target='_blank' rel='noreferrer noopener'>Burke Herbarium</a>",
+            "<a href='https://www.gbif.org/species/2529818' target='_blank' rel='noreferrer noopener'>GBIF</a>",
+            "<a href='https://globalfungi.com/?species=Conocybe%20aurea' target='_blank' rel='noreferrer noopener'>Global Fungi</a>",
+            "<a href='https://www.inaturalist.org/taxa/499601-Conocybe-aurea' target='_blank' rel='noreferrer noopener'>iNaturalist</a>",
+            "<a href='https://www.mycobank.org/page/Name%20details%20page/field/Mycobank%20%23/328831' target='_blank' rel='noreferrer noopener'>MYCOBANK</a>",
+            "<a href='https://www.mycoportal.org/portal/collections/list.php?db=all&taxa=Conocybe%20aurea' target='_blank' rel='noreferrer noopener'>MyCoPortal</a>",
+            "<a href='http://www.speciesfungorum.org/Names/NamesRecord.asp?RecordID=531546' target='_blank' rel='noreferrer noopener'>Species Fungorum</a>",
+            "<a href='https://en.wikipedia.org/wiki/Conocybe_aurea' target='_blank' rel='noreferrer noopener'>Wikipedia</a>"
         ]
     }
 }
