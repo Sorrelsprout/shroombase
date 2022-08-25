@@ -24,7 +24,7 @@
         "smell":"",
         "texture":"Rubbery and like dense foam when young, hard when older.",
         "size":"",
-        "tidbits":"It's called the “Veiled Polypore” since its pores are covered by a protective veil. It has a symbiotic relationship with pine bark beetles."
+        "tidbits":"It's called the “Veiled Polypore” since its pores are covered by a protective veil. It has a <strong>symbiotic relationship</strong> with pine bark beetles."
     },
 
     "characteristics":{
@@ -86,7 +86,7 @@
                 "Found at Shoreline Park in Mountain View, CA, in July 2022",
                 "Found in Yosemite National Park, CA, in May 2022"
             ],
-            "desc":""
+            "desc":"Found on tree trunks and branches."
         },
         "bruising":{
             "img":"./images/templates/bruising.jpg",
@@ -132,7 +132,7 @@
 
     "lifestages":{
         "fruitseason":["Spring", "Summer"],
-        "lifespan":"",
+        "lifespan":"Presence aligns with the increase of pine bark beetles from late Spring to early Fall.",
         "showTitles": true,
         "images":{
             "spore":{
