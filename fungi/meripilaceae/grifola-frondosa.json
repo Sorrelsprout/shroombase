@@ -1,0 +1,215 @@
+{
+    "tags": {
+        "edibility":"",
+        "treelationship":[],
+        "color":[],
+        "type":[]
+    },
+
+    "nomenclature":{
+        "division":"Basidiomycota",
+        "class":"Agaricomycetes",
+        "order":"Polyporales",
+        "family":"Meripilaceae",
+        "genus":"Grifola",
+        "species":"Frondosa",
+        "variation":"",
+        "aliases":"Dancing mushroom, Hen of the woods, Maitake, Ram's head, Sheep's head, 舞茸",
+        "displayalias":"Hen of the Woods"
+    },
+
+    "distinguishing":{
+        "coverimg":"",
+        "abundancy":"",
+        "smell":"",
+        "texture":"",
+        "size":"",
+        "tidbits":""
+    },
+
+    "characteristics": {
+        "cap":{
+            "img":"./images/meripilaceae/grifola-frondosa/top.jpg",
+            "caption":"Specimen purchased at Far West Fungi in San Francisco, CA in October 2022",
+            "desc":""
+        },
+        "underside":{
+            "img":[
+                "./images/meripilaceae/grifola-frondosa/underside.jpg",
+                "./images/meripilaceae/grifola-frondosa/underside2.jpg",
+                "./images/meripilaceae/grifola-frondosa/underside3.jpg"
+            ],
+            "caption":[
+                "Specimen purchased at Far West Fungi in San Francisco, CA in October 2022",
+                "Specimen purchased at Far West Fungi in San Francisco, CA in October 2022",
+                "Specimen purchased at Far West Fungi in San Francisco, CA in October 2022"
+            ],
+            "desc":""
+        },
+        "side":{
+            "img":[
+                "./images/meripilaceae/grifola-frondosa/side.jpg",
+                "./images/meripilaceae/grifola-frondosa/side2.jpg"
+            ],
+            "caption":[
+                "Specimen purchased at Far West Fungi in San Francisco, CA in October 2022",
+                "Specimen purchased at Far West Fungi in San Francisco, CA in October 2022"
+            ],
+            "desc":""
+        },
+        "halved":{
+            "img":"./images/meripilaceae/grifola-frondosa/halved.jpg",
+            "caption":"Specimen purchased at Far West Fungi in San Francisco, CA in October 2022",
+            "desc":""
+        },
+        "stem":{
+            "img":"./images/meripilaceae/grifola-frondosa/stem.jpg",
+            "caption":"Specimen purchased at Far West Fungi in San Francisco, CA in October 2022",
+            "desc":""
+        },
+        "sporeprint":{
+            "img":"./images/templates/sporeprint.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "mycelium":{
+            "img":"./images/templates/mycelium.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "habitat":{
+            "img":"./images/templates/habitat.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bruising":{
+            "img":"./images/templates/bruising.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "latex":{
+            "img":"./images/templates/latex.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bioluminescence":{
+            "img":"./images/templates/bioluminescence.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "other":{
+            "img":"./images/templates/other.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "water":{
+            "img":"./images/templates/water.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "feso4":{
+            "img":"./images/templates/feso4.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "koh":{
+            "img":"./images/templates/koh.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "nh3":{
+            "img":"./images/templates/nh3.jpg",
+            "caption":"",
+            "desc":""
+        }
+    },
+
+    "lifestages":{
+        "fruitseason":[],
+        "lifespan":"",
+        "showTitles": true,
+        "images":{
+            "spore":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "egg":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "eruption":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "pin":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "button":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "young":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "mature":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "old":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "dead":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            }
+        }
+    },
+
+    "significance":{
+        "scientific":{
+            "scientific":"",
+            "environmental":"",
+            "genetic":""
+        },
+        "cultural":{
+            "cultural":"",
+            "medicinal":"",
+            "funfacts":""
+        },
+        "cullinary":{
+            "cullinary":"",
+            "taste":"",
+            "recipelist":[]
+        }
+    },
+
+    "geography":{
+        "region":[],
+        "fruitlocation":"",
+        "mapURL":""
+    },
+
+    "lookalikes":{
+        "names":[],
+        "images":[],
+        "caption":[],
+        "desc":[],
+        "edibility":[]
+    },
+
+    "relevantlinks":{
+        "linkslist":[]
+    }
+}
