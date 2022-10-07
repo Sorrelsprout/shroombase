@@ -1,9 +1,9 @@
 {
     "tags": {
-        "edibility":"",
+        "edibility":"Edible",
         "treelationship":[],
         "color":[],
-        "type":[]
+        "type":["Parasitic"]
     },
 
     "nomenclature":{
