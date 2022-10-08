@@ -270,7 +270,6 @@ body {
 
 @media (min-width: 1200px){
   nav > span:first-child { margin-left: -0.5rem; }
-  nav > span:last-child { margin-right: -0.5rem; }
 }
 
 @media (max-width: 1200px){
