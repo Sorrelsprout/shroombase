@@ -2,7 +2,7 @@
     "tags": {
         "edibility":"Edible",
         "treelationship":[],
-        "color":[],
+        "color":["Tan"],
         "type":["Parasitic"]
     },
 
@@ -44,7 +44,7 @@
                 "Specimen purchased at Far West Fungi in San Francisco, CA in October 2022",
                 "Specimen purchased at Far West Fungi in San Francisco, CA in October 2022"
             ],
-            "desc":""
+            "desc":"Finely porous. Pores present all the way down from cap to the bottom of the stem."
         },
         "side":{
             "img":[
@@ -210,6 +210,8 @@
     },
 
     "relevantlinks":{
-        "linkslist":[]
+        "linkslist":[
+            "<a href='https://en.wikipedia.org/wiki/Grifola_frondosa' target='_blank' rel='noreferrer noopener'>Wikipedia</a>"
+        ]
     }
 }
