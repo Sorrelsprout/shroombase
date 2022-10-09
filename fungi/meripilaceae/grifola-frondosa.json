@@ -21,7 +21,7 @@
     "distinguishing":{
         "coverimg":"",
         "abundancy":"",
-        "smell":"",
+        "smell":"When raw, smells a little like boiled lima beans, with a hint of fishiness.",
         "texture":"",
         "size":"",
         "tidbits":""
@@ -186,11 +186,11 @@
         "cultural":{
             "cultural":"",
             "medicinal":"",
-            "funfacts":""
+            "funfacts":"In Japan, one of Maitake's nicknames is the &ldquo;Dancing mushroom&rdquo;, which came about because it was said that foragers would <a href='https://www.encyclopedia.com/medicine/encyclopedias-almanacs-transcripts-and-maps/maitake' target='_blank'>dance with happiness</a> upon finding it."
         },
         "cullinary":{
             "cullinary":"",
-            "taste":"",
+            "taste":"Mildly peppery with rougher texture. Slightly crunchy when boiled in soup.",
             "recipelist":[]
         }
     },
