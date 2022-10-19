@@ -140,8 +140,8 @@
         "showTitles": true,
         "images":{
             "spore":{
-                "img":"",
-                "caption":"",
+                "img":"https://upload.wikimedia.org/wikipedia/commons/c/c6/2011-11-13_Agaricus_xanthodermus_Genev_181973.jpg",
+                "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:2011-11-13_Agaricus_xanthodermus_Genev_181973.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Byrain, <a title='Byrain, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/3.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 3.0</a>. In Piacenza's Mountains, Italy.",
                 "desc":""
             },
             "egg":{
