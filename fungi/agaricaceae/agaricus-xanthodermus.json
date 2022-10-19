@@ -184,7 +184,7 @@
     "geography":{
         "region":[],
         "fruitlocation":"",
-        "mapURL":""
+        "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=118394"
     },
 
     "lookalikes":{
@@ -202,9 +202,9 @@
             "Destroying angel"
         ],
         "images":[
-            "",
-            "",
-            "",
+            "https://upload.wikimedia.org/wikipedia/commons/7/71/Agaricus_abruptibulbus.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/0/06/Agaricus_albolutescens_Zeller_707213.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/3/37/Ruhland%2C_Ortrander_Str.%2C_Festwiese%2C_Anis-Egerling%2C_Oberseite%2C_Seitenansicht_und_Unterseite%2C_Sommer%2C_01.jpg",
             "./images/agaricaceae/agaricus-bisporus/agaricusbisporus.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/6/60/Agaricus.bitorquis.nathan-2011-17-01.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/9/9f/Agaricus_californicus_2.jpg",
@@ -215,9 +215,9 @@
             "https://upload.wikimedia.org/wikipedia/commons/4/4a/Amanita_bisporigera_-_Eastern_North_American_Destroying_Angel.jpg"
         ],
         "caption":[
-            "",
-            "",
-            "",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Agaricus_abruptibulbus.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Patrick Harvey, <a title='Patrick Harvey, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/3.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 3.0</a>.",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Agaricus_albolutescens_Zeller_707213.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Ron Pastorino (Ronpast), <a title='Ron Pastorino (Ronpast), CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/3.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 3.0</a>. In Faude Park, San Anselmo, California, USA.",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Ruhland,_Ortrander_Str.,_Festwiese,_Anis-Egerling,_Oberseite,_Seitenansicht_und_Unterseite,_Sommer,_01.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Wilhelm Zimmerling PAR, <a title='Wilhelm Zimmerling PAR, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/4.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 4.0</a>. In Ruhland, Brandenburg, Germany.",
             "White button found in Mountain View, CA in December 2021",
             "Image from <a href='https://commons.wikimedia.org/wiki/File:Agaricus.bitorquis.nathan-2011-17-01.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Nathan Wilson, <a title='Nathan Wilson, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/3.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 3.0</a>. In Thousand Oaks, California, USA.",
             "Image from <a href='https://commons.wikimedia.org/wiki/File:Agaricus_californicus_2.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by pellaea, <a title='pellaea, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by/2.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY 2.0</a>. In Urban Pasadena, Los Angeles, California, USA.",
@@ -228,17 +228,17 @@
             "Image from <a href='https://commons.wikimedia.org/wiki/File:Amanita_bisporigera_-_Eastern_North_American_Destroying_Angel.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Jason Hollinger, <a title='Jason Hollinger, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by/2.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY 2.0</a>. In Southern Appalachians; Pisgah NF; Spivey Gap."
         ],
         "desc":[
-            "Scientifically named <strong>Agaricus abruptibulbus</strong>.",
-            "Scientifically named <strong>Agaricus albolutescens</strong>.",
-            "Scientifically named <strong>Agaricus arvensis</strong>.",
-            "Scientifically named <strong>Agaricus bisporus</strong>.",
-            "Scientifically named <strong>Agaricus bitorquis</strong>. Also called the <strong>Spring agaric</strong>, and <strong>Torq</strong>. Has two rings.",
-            "Scientifically named <strong>Agaricus californicus</strong>.",
-            "Scientifically named <strong>Agaricus campestris</strong>.",
-            "Scientifically named <strong>Agaricus hondensis</strong>.",
-            "Scientifically named <strong>Agaricus pilatianus</strong>. Rare and found in Europe.",
-            "Scientifically named <strong>Agaricus silvicola</strong>, and also commonly called the <strong>Woodland agaricus</strong>. European specimens are choice edibles, but North American specimens are said to cause allergic reactions. Has a drooping thin ring and dark spores.",
-            "Scientifically named <strong>Amanita bisporigera</strong>."
+            "Scientifically named <strong>Agaricus abruptibulbus</strong>. Bruises yellow.",
+            "Scientifically named <strong>Agaricus albolutescens</strong>. Bruises yellow.",
+            "Scientifically named <strong>Agaricus arvensis</strong>, and also commonly called <strong>Anisegerling</strong> in German. Bruises yellow.",
+            "Scientifically named <strong>Agaricus bisporus</strong>. Does not stain yellow, but turns tan when bruised after a few minutes, or when aged.",
+            "Scientifically named <strong>Agaricus bitorquis</strong>. Also called the <strong>Spring agaric</strong>, and <strong>Torq</strong>. Has two rings. Becomes yellow with age.",
+            "Scientifically named <strong>Agaricus californicus</strong>. Bruises yellow, but faint.",
+            "Scientifically named <strong>Agaricus campestris</strong>. Bruises reddish-brown.",
+            "Scientifically named <strong>Agaricus hondensis</strong>. Bruises faintly yellow then turns pink.",
+            "Scientifically named <strong>Agaricus pilatianus</strong>. Rare and found in Europe. Bruising status unknown.",
+            "Scientifically named <strong>Agaricus silvicola</strong>, and also commonly called the <strong>Woodland agaricus</strong>. European specimens are choice edibles, but North American specimens are said to cause allergic reactions. Has a drooping thin ring and dark spores. Bruises yellow-brown.",
+            "Scientifically named <strong>Amanita bisporigera</strong>. No color change when bruised."
         ],
         "edibility":[
             "edible",
