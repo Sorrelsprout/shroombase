@@ -1,0 +1,271 @@
+{
+    "tags": {
+        "edibility":"Poisonous",
+        "treelationship":[],
+        "color":["white"],
+        "type":["Saprotrophic"]
+    },
+
+    "nomenclature":{
+        "division":"Basidiomycota",
+        "class":"Agaricomycetes",
+        "order":"Agaricales",
+        "family":"Agaricaceae",
+        "genus":"Agaricus",
+        "species":"Xanthodermus",
+        "variation":"",
+        "aliases":"Agaricus xanthoderma, Yellow stainer, Yellow-staining mushroom",
+        "displayalias":"Yellow stainer"
+    },
+
+    "distinguishing":{
+        "coverimg":"",
+        "abundancy":"",
+        "smell":"",
+        "texture":"",
+        "size":"",
+        "tidbits":""
+    },
+
+    "characteristics": {
+        "cap":{
+            "img":"./images/templates/cap.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "underside":{
+            "img":"./images/templates/underside.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "side":{
+            "img":"./images/templates/side.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "halved":{
+            "img":"./images/templates/halved.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "stem":{
+            "img":"./images/templates/stem.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "sporeprint":{
+            "img":"./images/templates/sporeprint.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "mycelium":{
+            "img":"./images/templates/mycelium.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "habitat":{
+            "img":"./images/templates/habitat.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bruising":{
+            "img":"./images/templates/bruising.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "latex":{
+            "img":"./images/templates/latex.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bioluminescence":{
+            "img":"./images/templates/bioluminescence.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "other":{
+            "img":"./images/templates/other.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "water":{
+            "img":"./images/templates/water.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "feso4":{
+            "img":"./images/templates/feso4.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "koh":{
+            "img":"./images/templates/koh.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "nh3":{
+            "img":"./images/templates/nh3.jpg",
+            "caption":"",
+            "desc":""
+        }
+    },
+
+    "lifestages":{
+        "fruitseason":[],
+        "lifespan":"",
+        "showTitles": true,
+        "images":{
+            "spore":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "egg":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "eruption":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "pin":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "button":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "young":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "mature":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "old":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "dead":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            }
+        }
+    },
+
+    "significance":{
+        "scientific":{
+            "scientific":"",
+            "environmental":"",
+            "genetic":""
+        },
+        "cultural":{
+            "cultural":"",
+            "medicinal":"",
+            "funfacts":""
+        },
+        "cullinary":{
+            "cullinary":"",
+            "taste":"",
+            "recipelist":[]
+        }
+    },
+
+    "geography":{
+        "region":[],
+        "fruitlocation":"",
+        "mapURL":""
+    },
+
+    "lookalikes":{
+        "names":[
+            "Abruptly-bulbous agaricus",
+            "Agaricus albolutescens",
+            "Horse mushroom",
+            "White button",
+            "Banded agaric",
+            "California agaricus",
+            "Meadow mushroom",
+            "Felt-ringed agaricus",
+            "Agaricus pilatianus",
+            "Wood mushroom",
+            "Destroying angel"
+        ],
+        "images":[
+            "",
+            "",
+            "",
+            "./images/agaricaceae/agaricus-bisporus/agaricusbisporus.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/6/60/Agaricus.bitorquis.nathan-2011-17-01.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/9/9f/Agaricus_californicus_2.jpg",
+            "",
+            "",
+            "",
+            "https://upload.wikimedia.org/wikipedia/commons/f/f1/Agaricus_silvacola_%2824102224060%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/4/4a/Amanita_bisporigera_-_Eastern_North_American_Destroying_Angel.jpg"
+        ],
+        "caption":[
+            "",
+            "",
+            "",
+            "White button found in Mountain View, CA in December 2021",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Agaricus.bitorquis.nathan-2011-17-01.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Nathan Wilson, <a title='Nathan Wilson, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/3.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 3.0</a>. In Thousand Oaks, California, USA.",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Agaricus_californicus_2.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by pellaea, <a title='pellaea, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by/2.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY 2.0</a>. In Urban Pasadena, Los Angeles, California, USA.",
+            "",
+            "",
+            "",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Agaricus_silvacola_(24102224060).jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Dick Culbert, <a title='Dick Culbert, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by/2.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY 2.0</a>. In Gibsons, B.C., Canada.",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Amanita_bisporigera_-_Eastern_North_American_Destroying_Angel.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Jason Hollinger, <a title='Jason Hollinger, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by/2.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY 2.0</a>. In Southern Appalachians; Pisgah NF; Spivey Gap."
+        ],
+        "desc":[
+            "Scientifically named <strong>Agaricus abruptibulbus</strong>.",
+            "Scientifically named <strong>Agaricus albolutescens</strong>.",
+            "Scientifically named <strong>Agaricus arvensis</strong>.",
+            "Scientifically named <strong>Agaricus bisporus</strong>.",
+            "Scientifically named <strong>Agaricus bitorquis</strong>. Also called the <strong>Spring agaric</strong>, and <strong>Torq</strong>. Has two rings.",
+            "Scientifically named <strong>Agaricus californicus</strong>.",
+            "Scientifically named <strong>Agaricus campestris</strong>.",
+            "Scientifically named <strong>Agaricus hondensis</strong>.",
+            "Scientifically named <strong>Agaricus pilatianus</strong>. Rare and found in Europe.",
+            "Scientifically named <strong>Agaricus silvicola</strong>, and also commonly called the <strong>Woodland agaricus</strong>. European specimens are choice edibles, but North American specimens are said to cause allergic reactions. Has a drooping thin ring and dark spores.",
+            "Scientifically named <strong>Amanita bisporigera</strong>."
+        ],
+        "edibility":[
+            "edible",
+            "-",
+            "edible",
+            "edible",
+            "edible",
+            "poisonous",
+            "edible",
+            "poisonous",
+            "poisonous",
+            "-",
+            "poisonous"
+        ]
+    },
+
+    "relevantlinks":{
+        "linkslist":[
+            "<a href='https://biology.burke.washington.edu/herbarium/imagecollection/taxon.php?Taxon=Agaricus%20xanthodermus' target='_blank' rel='noreferrer noopener'>Burke Herbarium</a>",
+            "<a href='https://gd.eppo.int/taxon/AGARXA' target='_blank' rel='noreferrer noopener'>EPPO</a>",
+            "<a href='https://globalfungi.com/?species=Agaricus%20xanthodermus' target='_blank' rel='noreferrer noopener'>Global Fungi</a>",
+            "<a href='https://www.inaturalist.org/taxa/118394-Agaricus-xanthodermus' target='_blank' rel='noreferrer noopener'>iNaturalist</a>",
+            "<a href='https://www.mushroomexpert.com/agaricus_xanthodermus.html' target='_blank' rel='noreferrer noopener'>Mushroom Expert</a>",
+            "<a href='https://www.mycobank.org/page/Name%20details%20page/name/Agaricus%20xanthodermus' target='_blank' rel='noreferrer noopener'>MYCOBANK</a>",
+            "<a href='https://www.mycoportal.org/portal/collections/list.php?db=all&taxa=Agaricus+xanthodermus' target='_blank' rel='noreferrer noopener'>MyCoPortal</a>",
+            "<a href='https://www.mykoweb.com/CAF/species/Agaricus_xanthodermus.html' target='_blank' rel='noreferrer noopener'>MykoWeb</a>",
+            "<a href='http://www.speciesfungorum.org/Names/GSDSpecies.asp?RecordID=155072' target='_blank' rel='noreferrer noopener'>Species Fungorum</a>",
+            "<a href='https://en.wikipedia.org/wiki/Agaricus_xanthodermus' target='_blank' rel='noreferrer noopener'>Wikipedia</a>"]
+    }
+}
