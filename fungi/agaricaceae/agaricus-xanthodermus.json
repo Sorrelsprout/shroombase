@@ -1,0 +1,295 @@
+{
+    "tags": {
+        "edibility":"Poisonous",
+        "treelationship":[],
+        "color":["white"],
+        "type":["Saprotrophic"]
+    },
+
+    "nomenclature":{
+        "division":"Basidiomycota",
+        "class":"Agaricomycetes",
+        "order":"Agaricales",
+        "family":"Agaricaceae",
+        "genus":"Agaricus",
+        "species":"Xanthodermus",
+        "variation":"",
+        "aliases":"Agaricus xanthoderma, Yellow stainer, Yellow-staining mushroom",
+        "displayalias":"Yellow stainer"
+    },
+
+    "distinguishing":{
+        "coverimg":"",
+        "abundancy":"",
+        "smell":"",
+        "texture":"",
+        "size":"",
+        "tidbits":""
+    },
+
+    "characteristics": {
+        "cap":{
+            "img":"./images/agaricaceae/agaricus-xanthodermus/cap.jpg",
+            "caption":"Found in Sunnyvale, CA in October 2022",
+            "desc":""
+        },
+        "underside":{
+            "img":[
+                "./images/agaricaceae/agaricus-xanthodermus/underside1.jpg",
+                "./images/agaricaceae/agaricus-xanthodermus/underside2.jpg",
+                "./images/agaricaceae/agaricus-xanthodermus/underside3.jpg"
+            ],
+            "caption":[
+                "Found in Sunnyvale, CA in October 2022",
+                "Found in Sunnyvale, CA in October 2022",
+                "Found in Sunnyvale, CA in October 2022"
+            ],
+            "desc":""
+        },
+        "side":{
+            "img":"./images/agaricaceae/agaricus-xanthodermus/side.jpg",
+            "caption":"Found in Sunnyvale, CA in October 2022",
+            "desc":""
+        },
+        "halved":{
+            "img":[
+                "./images/agaricaceae/agaricus-xanthodermus/halved1.jpg",
+                "./images/agaricaceae/agaricus-xanthodermus/halved2.jpg",
+                "./images/agaricaceae/agaricus-xanthodermus/halved3.jpg",
+                "./images/agaricaceae/agaricus-xanthodermus/halved4.jpg"
+            ],
+            "caption":[
+                "Found in Sunnyvale, CA in October 2022",
+                "Found in Sunnyvale, CA in October 2022",
+                "Found in Sunnyvale, CA in October 2022",
+                "Found in Sunnyvale, CA in October 2022"
+            ],
+            "desc":""
+        },
+        "stem":{
+            "img":[
+                "./images/agaricaceae/agaricus-xanthodermus/stem1.jpg",
+                "./images/agaricaceae/agaricus-xanthodermus/stem2.jpg"
+            ],
+            "caption":[
+                "Found in Sunnyvale, CA in October 2022",
+                "Found in Sunnyvale, CA in October 2022"
+            ],
+            "desc":""
+        },
+        "sporeprint":{
+            "img":"./images/templates/sporeprint.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "mycelium":{
+            "img":"./images/agaricaceae/agaricus-xanthodermus/mycelium.jpg",
+            "caption":"Found in Sunnyvale, CA in October 2022",
+            "desc":""
+        },
+        "habitat":{
+            "img":"./images/agaricaceae/agaricus-xanthodermus/habitat.jpg",
+            "caption":"Found in Sunnyvale, CA in October 2022",
+            "desc":""
+        },
+        "bruising":{
+            "img":"./images/agaricaceae/agaricus-xanthodermus/bruising.jpg",
+            "caption":"Found in Sunnyvale, CA in October 2022",
+            "desc":""
+        },
+        "latex":{
+            "img":"./images/templates/latex.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bioluminescence":{
+            "img":"./images/templates/bioluminescence.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "other":{
+            "img":"./images/templates/other.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "water":{
+            "img":"./images/templates/water.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "feso4":{
+            "img":"./images/templates/feso4.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "koh":{
+            "img":"./images/templates/koh.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "nh3":{
+            "img":"./images/templates/nh3.jpg",
+            "caption":"",
+            "desc":""
+        }
+    },
+
+    "lifestages":{
+        "fruitseason":[],
+        "lifespan":"",
+        "showTitles": true,
+        "images":{
+            "spore":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "egg":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "eruption":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "pin":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "button":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "young":{
+                "img":"./images/agaricaceae/agaricus-xanthodermus/lifestages-young.jpg",
+                "caption":"Found in Sunnyvale, CA in October 2022",
+                "desc":""
+            },
+            "mature":{
+                "img":"./images/agaricaceae/agaricus-xanthodermus/lifestages-mature.jpg",
+                "caption":"Found in Sunnyvale, CA in October 2022",
+                "desc":""
+            },
+            "old":{
+                "img":"./images/agaricaceae/agaricus-xanthodermus/lifestages-old.jpg",
+                "caption":"Found in Sunnyvale, CA in October 2022",
+                "desc":""
+            },
+            "dead":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            }
+        }
+    },
+
+    "significance":{
+        "scientific":{
+            "scientific":"",
+            "environmental":"",
+            "genetic":""
+        },
+        "cultural":{
+            "cultural":"",
+            "medicinal":"",
+            "funfacts":""
+        },
+        "cullinary":{
+            "cullinary":"",
+            "taste":"",
+            "recipelist":[]
+        }
+    },
+
+    "geography":{
+        "region":[],
+        "fruitlocation":"",
+        "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=118394"
+    },
+
+    "lookalikes":{
+        "names":[
+            "Abruptly-bulbous agaricus",
+            "Agaricus albolutescens",
+            "Horse mushroom",
+            "White button",
+            "Banded agaric",
+            "California agaricus",
+            "Meadow mushroom",
+            "Felt-ringed agaricus",
+            "Agaricus pilatianus",
+            "Wood mushroom",
+            "Destroying angel"
+        ],
+        "images":[
+            "https://upload.wikimedia.org/wikipedia/commons/7/71/Agaricus_abruptibulbus.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/0/06/Agaricus_albolutescens_Zeller_707213.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/3/37/Ruhland%2C_Ortrander_Str.%2C_Festwiese%2C_Anis-Egerling%2C_Oberseite%2C_Seitenansicht_und_Unterseite%2C_Sommer%2C_01.jpg",
+            "./images/agaricaceae/agaricus-bisporus/agaricusbisporus.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/6/60/Agaricus.bitorquis.nathan-2011-17-01.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/9/9f/Agaricus_californicus_2.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/d/d7/Agaricus-campestris-michoacan.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/1/1f/Agaricus_hondensis_71317.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/c/c2/Agaricus_pilatianus_060825wa.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/f/f1/Agaricus_silvacola_%2824102224060%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/4/4a/Amanita_bisporigera_-_Eastern_North_American_Destroying_Angel.jpg"
+        ],
+        "caption":[
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Agaricus_abruptibulbus.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Patrick Harvey, <a title='Patrick Harvey, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/3.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 3.0</a>.",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Agaricus_albolutescens_Zeller_707213.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Ron Pastorino (Ronpast), <a title='Ron Pastorino (Ronpast), CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/3.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 3.0</a>. In Faude Park, San Anselmo, California, USA.",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Ruhland,_Ortrander_Str.,_Festwiese,_Anis-Egerling,_Oberseite,_Seitenansicht_und_Unterseite,_Sommer,_01.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Wilhelm Zimmerling PAR, <a title='Wilhelm Zimmerling PAR, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/4.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 4.0</a>. In Ruhland, Brandenburg, Germany.",
+            "White button found in Mountain View, CA in December 2021",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Agaricus.bitorquis.nathan-2011-17-01.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Nathan Wilson, <a title='Nathan Wilson, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/3.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 3.0</a>. In Thousand Oaks, California, USA.",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Agaricus_californicus_2.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by pellaea, <a title='pellaea, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by/2.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY 2.0</a>. In Urban Pasadena, Los Angeles, California, USA.",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Agaricus-campestris-michoacan.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Alan Rockefeller, <a title='Alan Rockefeller, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/4.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 4.0</a>. In Maravatio, Michoacan, Mexico.",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Agaricus_hondensis_71317.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Ron Pastorino (Ronpast), <a title='Ron Pastorino (Ronpast), CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/3.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 3.0</a>. In Tomales Bay State Park, Marin Co., California, USA.",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Agaricus_pilatianus_060825wa.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Strobilomyces, <a title='Strobilomyces, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/3.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 3.0</a>. In Massy, France.",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Agaricus_silvacola_(24102224060).jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Dick Culbert, <a title='Dick Culbert, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by/2.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY 2.0</a>. In Gibsons, B.C., Canada.",
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Amanita_bisporigera_-_Eastern_North_American_Destroying_Angel.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Jason Hollinger, <a title='Jason Hollinger, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by/2.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY 2.0</a>. In Southern Appalachians; Pisgah NF; Spivey Gap."
+        ],
+        "desc":[
+            "Scientifically named <strong>Agaricus abruptibulbus</strong>. Bruises yellow.",
+            "Scientifically named <strong>Agaricus albolutescens</strong>. Bruises yellow.",
+            "Scientifically named <strong>Agaricus arvensis</strong>, and also commonly called <strong>Anisegerling</strong> in German. Bruises yellow.",
+            "Scientifically named <strong>Agaricus bisporus</strong>. Does not stain yellow, but turns tan when bruised after a few minutes, or when aged.",
+            "Scientifically named <strong>Agaricus bitorquis</strong>. Also called the <strong>Spring agaric</strong>, and <strong>Torq</strong>. Has two rings. Becomes yellow with age.",
+            "Scientifically named <strong>Agaricus californicus</strong>. Bruises yellow, but faint.",
+            "Scientifically named <strong>Agaricus campestris</strong>. Bruises reddish-brown.",
+            "Scientifically named <strong>Agaricus hondensis</strong>. Bruises faintly yellow then turns pink.",
+            "Scientifically named <strong>Agaricus pilatianus</strong>. Rare and found in Europe. Bruising status unknown.",
+            "Scientifically named <strong>Agaricus silvicola</strong>, and also commonly called the <strong>Woodland agaricus</strong>. European specimens are choice edibles, but North American specimens are said to cause allergic reactions. Has a drooping thin ring and dark spores. Bruises yellow-brown.",
+            "Scientifically named <strong>Amanita bisporigera</strong>. No color change when bruised."
+        ],
+        "edibility":[
+            "edible",
+            "-",
+            "edible",
+            "edible",
+            "edible",
+            "poisonous",
+            "edible",
+            "poisonous",
+            "poisonous",
+            "-",
+            "poisonous"
+        ]
+    },
+
+    "relevantlinks":{
+        "linkslist":[
+            "<a href='https://biology.burke.washington.edu/herbarium/imagecollection/taxon.php?Taxon=Agaricus%20xanthodermus' target='_blank' rel='noreferrer noopener'>Burke Herbarium</a>",
+            "<a href='https://gd.eppo.int/taxon/AGARXA' target='_blank' rel='noreferrer noopener'>EPPO</a>",
+            "<a href='https://globalfungi.com/?species=Agaricus%20xanthodermus' target='_blank' rel='noreferrer noopener'>Global Fungi</a>",
+            "<a href='https://www.inaturalist.org/taxa/118394-Agaricus-xanthodermus' target='_blank' rel='noreferrer noopener'>iNaturalist</a>",
+            "<a href='https://www.mushroomexpert.com/agaricus_xanthodermus.html' target='_blank' rel='noreferrer noopener'>Mushroom Expert</a>",
+            "<a href='https://www.mycobank.org/page/Name%20details%20page/name/Agaricus%20xanthodermus' target='_blank' rel='noreferrer noopener'>MYCOBANK</a>",
+            "<a href='https://www.mycoportal.org/portal/collections/list.php?db=all&taxa=Agaricus+xanthodermus' target='_blank' rel='noreferrer noopener'>MyCoPortal</a>",
+            "<a href='https://www.mykoweb.com/CAF/species/Agaricus_xanthodermus.html' target='_blank' rel='noreferrer noopener'>MykoWeb</a>",
+            "<a href='http://www.speciesfungorum.org/Names/GSDSpecies.asp?RecordID=155072' target='_blank' rel='noreferrer noopener'>Species Fungorum</a>",
+            "<a href='https://en.wikipedia.org/wiki/Agaricus_xanthodermus' target='_blank' rel='noreferrer noopener'>Wikipedia</a>"]
+    }
+}
