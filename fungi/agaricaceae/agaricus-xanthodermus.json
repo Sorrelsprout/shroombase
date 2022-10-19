@@ -29,28 +29,52 @@
 
     "characteristics": {
         "cap":{
-            "img":"./images/templates/cap.jpg",
-            "caption":"",
+            "img":"./images/agaricaceae/agaricus-xanthodermus/cap.jpg",
+            "caption":"Found in Sunnyvale, CA in October 2022",
             "desc":""
         },
         "underside":{
-            "img":"./images/templates/underside.jpg",
-            "caption":"",
+            "img":[
+                "./images/agaricaceae/agaricus-xanthodermus/underside1.jpg",
+                "./images/agaricaceae/agaricus-xanthodermus/underside2.jpg",
+                "./images/agaricaceae/agaricus-xanthodermus/underside3.jpg"
+            ],
+            "caption":[
+                "Found in Sunnyvale, CA in October 2022",
+                "Found in Sunnyvale, CA in October 2022",
+                "Found in Sunnyvale, CA in October 2022"
+            ],
             "desc":""
         },
         "side":{
-            "img":"./images/templates/side.jpg",
+            "img":"./images/agaricaceae/agaricus-xanthodermus/side.jpg",
             "caption":"",
             "desc":""
         },
         "halved":{
-            "img":"./images/templates/halved.jpg",
-            "caption":"",
+            "img":[
+                "./images/agaricaceae/agaricus-xanthodermus/halved1.jpg",
+                "./images/agaricaceae/agaricus-xanthodermus/halved2.jpg",
+                "./images/agaricaceae/agaricus-xanthodermus/halved3.jpg",
+                "./images/agaricaceae/agaricus-xanthodermus/halved4.jpg"
+            ],
+            "caption":[
+                "Found in Sunnyvale, CA in October 2022",
+                "Found in Sunnyvale, CA in October 2022",
+                "Found in Sunnyvale, CA in October 2022",
+                "Found in Sunnyvale, CA in October 2022"
+            ],
             "desc":""
         },
         "stem":{
-            "img":"./images/templates/stem.jpg",
-            "caption":"",
+            "img":[
+                "./images/agaricaceae/agaricus-xanthodermus/stem1.jpg",
+                "./images/agaricaceae/agaricus-xanthodermus/stem2.jpg"
+            ],
+            "caption":[
+                "Found in Sunnyvale, CA in October 2022",
+                "Found in Sunnyvale, CA in October 2022"
+            ],
             "desc":""
         },
         "sporeprint":{
@@ -59,18 +83,18 @@
             "desc":""
         },
         "mycelium":{
-            "img":"./images/templates/mycelium.jpg",
-            "caption":"",
+            "img":"./images/agaricaceae/agaricus-xanthodermus/mycelium.jpg",
+            "caption":"Found in Sunnyvale, CA in October 2022",
             "desc":""
         },
         "habitat":{
-            "img":"./images/templates/habitat.jpg",
-            "caption":"",
+            "img":"./images/agaricaceae/agaricus-xanthodermus/habitat.jpg",
+            "caption":"Found in Sunnyvale, CA in October 2022",
             "desc":""
         },
         "bruising":{
-            "img":"./images/templates/bruising.jpg",
-            "caption":"",
+            "img":"./images/agaricaceae/agaricus-xanthodermus/bruising.jpg",
+            "caption":"Found in Sunnyvale, CA in October 2022",
             "desc":""
         },
         "latex":{
@@ -141,18 +165,18 @@
                 "desc":""
             },
             "young":{
-                "img":"",
-                "caption":"",
+                "img":"./images/agaricaceae/agaricus-xanthodermus/lifestages-young.jpg",
+                "caption":"Found in Sunnyvale, CA in October 2022",
                 "desc":""
             },
             "mature":{
-                "img":"",
-                "caption":"",
+                "img":"./images/agaricaceae/agaricus-xanthodermus/lifestages-mature.jpg",
+                "caption":"Found in Sunnyvale, CA in October 2022",
                 "desc":""
             },
             "old":{
-                "img":"",
-                "caption":"",
+                "img":"./images/agaricaceae/agaricus-xanthodermus/lifestages-old.jpg",
+                "caption":"Found in Sunnyvale, CA in October 2022",
                 "desc":""
             },
             "dead":{
