@@ -66,7 +66,7 @@
                 "Found in Sunnyvale, CA in October 2022",
                 "Found in Sunnyvale, CA in October 2022"
             ],
-            "desc":""
+            "desc":"In youn"
         },
         "stem":{
             "img":[
@@ -123,17 +123,17 @@
         "water":{
             "img":"./images/agaricaceae/agaricus-xanthodermus/water.jpg",
             "caption":"Sampled in Sunnyvale, CA in October 2022",
-            "desc":""
+            "desc":"No change except for slight greying on stem, which could be a lighting issue."
         },
         "feso4":{
             "img":"./images/agaricaceae/agaricus-xanthodermus/feso4.jpg",
             "caption":"Sampled in Sunnyvale, CA in October 2022",
-            "desc":""
+            "desc":"Exposed area turned slightly grey-greenish, but no prominent color change."
         },
         "koh":{
             "img":"./images/agaricaceae/agaricus-xanthodermus/koh.jpg",
             "caption":"Sampled in Sunnyvale, CA in October 2022",
-            "desc":""
+            "desc":"Specimen stains yellow immediately upon contact with KOH. On the gills the color change becomes almost orange after a few minutes."
         },
         "nh3":{
             "img":"./images/templates/nh3.jpg",
