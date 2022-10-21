@@ -31,7 +31,7 @@
         "cap":{
             "img":"./images/agaricaceae/agaricus-xanthodermus/cap.jpg",
             "caption":"Found in Sunnyvale, CA in October 2022",
-            "desc":""
+            "desc":"Cap is generally smooth and white, with a blush of tan and yellow in some disturbed surfaces. Some fine cracks may appear with age."
         },
         "underside":{
             "img":[
@@ -44,7 +44,7 @@
                 "Found in Sunnyvale, CA in October 2022",
                 "Found in Sunnyvale, CA in October 2022",
                 "Found in Sunnyvale, CA in October 2022",
-                "Found in Sunnyvale, CA in October 2022. One day after mushroom was picked and after sporeprint was taken."
+                "Found in Sunnyvale, CA in October 2022. One day after being picked and after sporeprint was taken."
             ],
             "desc":"Gills are initially pink, turns medium grey-brown brown as spores drop."
         },
@@ -66,7 +66,7 @@
                 "Found in Sunnyvale, CA in October 2022",
                 "Found in Sunnyvale, CA in October 2022"
             ],
-            "desc":"In youn"
+            "desc":"The bottom of the inside of the stem is pale yellow when sliced in half. In younger specimens, the ring is still attached to both the cap and the stem."
         },
         "stem":{
             "img":[
@@ -77,12 +77,12 @@
                 "Found in Sunnyvale, CA in October 2022",
                 "Found in Sunnyvale, CA in October 2022"
             ],
-            "desc":""
+            "desc":"The base of the stem has a bulbous appearance."
         },
         "sporeprint":{
             "img":"./images/agaricaceae/agaricus-xanthodermus/sporeprint.jpg",
             "caption":"Sampled in Sunnyvale, CA in October 2022",
-            "desc":"Medium-brown spore print."
+            "desc":"Medium-brown spore print, warm in color."
         },
         "mycelium":{
             "img":"./images/agaricaceae/agaricus-xanthodermus/mycelium.jpg",
@@ -92,7 +92,7 @@
         "habitat":{
             "img":"./images/agaricaceae/agaricus-xanthodermus/habitat.jpg",
             "caption":"Found in Sunnyvale, CA in October 2022",
-            "desc":""
+            "desc":"Found growing in dirt and Redwood tree litter."
         },
         "bruising":{
             "img":[
@@ -101,7 +101,7 @@
             ],
             "caption":[
                 "Found in Sunnyvale, CA in October 2022",
-                "Found in Sunnyvale, CA in October 2022. One day after mushroom was picked."
+                "Found in Sunnyvale, CA in October 2022. One day after being picked."
             ],
             "desc":"Bruises yellow on damage. After a day, the damaged area changes to a medium-dark brown color."
         },
