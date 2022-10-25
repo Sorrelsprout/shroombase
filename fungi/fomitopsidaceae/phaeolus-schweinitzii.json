@@ -29,13 +29,25 @@
 
     "characteristics": {
         "cap":{
-            "img":"./images/fomitopsidaceae/phaeolus-schweinitzii/top.jpg",
-            "caption":"Found in Portola State Park, CA, in October 2022",
+            "img":[
+                "./images/fomitopsidaceae/phaeolus-schweinitzii/top1.jpg",
+                "./images/fomitopsidaceae/phaeolus-schweinitzii/top2.jpg"
+            ],
+            "caption":[
+                "Found in Portola State Park, CA, in October 2022",
+                "Found in Sunnyvale, CA, in October 2022"
+            ],
             "desc":""
         },
         "underside":{
-            "img":"./images/fomitopsidaceae/phaeolus-schweinitzii/underside.jpg",
-            "caption":"Found in Portola State Park, CA, in October 2022",
+            "img":[
+                "./images/fomitopsidaceae/phaeolus-schweinitzii/underside1.jpg",
+                "./images/fomitopsidaceae/phaeolus-schweinitzii/underside2.jpg"
+            ],
+            "caption":[
+                "Found in Portola State Park, CA, in October 2022",
+                "Found in Sunnyvale, CA, in October 2022"
+            ],
             "desc":""
         },
         "side":{
@@ -47,6 +59,7 @@
             "caption":[
                 "Found in Portola State Park, CA, in October 2022",
                 "Found in Portola State Park, CA, in October 2022. Close-up.",
+                "Found in Sunnyvale, CA, in October 2022. Close-up.",
                 "Found in Portola State Park, CA, in October 2022. Close-up."
             ],
             "desc":""
@@ -72,13 +85,19 @@
             "desc":""
         },
         "habitat":{
-            "img":"./images/fomitopsidaceae/phaeolus-schweinitzii/habitat.jpg",
-            "caption":"Found in Portola State Park, CA, in October 2022",
+            "img":[
+                "./images/fomitopsidaceae/phaeolus-schweinitzii/habitat1.jpg",
+                "./images/fomitopsidaceae/phaeolus-schweinitzii/habitat2.jpg"
+            ],
+            "caption":[
+                "Found in Portola State Park, CA, in October 2022",
+                "Found in Sunnyvale, CA, in October 2022"
+            ],
             "desc":""
         },
         "bruising":{
-            "img":"./images/templates/bruising.jpg",
-            "caption":"",
+            "img":"./images/fomitopsidaceae/phaeolus-schweinitzii/bruising.jpg",
+            "caption":"Sampled in October 2022",
             "desc":""
         },
         "latex":{
