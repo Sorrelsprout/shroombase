@@ -30,12 +30,12 @@
     "characteristics": {
         "cap":{
             "img":"./images/fomitopsidaceae/phaeolus-schweinitzii/top.jpg",
-            "caption":"",
+            "caption":"Found in Portola State Park, CA, in October 2022",
             "desc":""
         },
         "underside":{
             "img":"./images/fomitopsidaceae/phaeolus-schweinitzii/underside.jpg",
-            "caption":"",
+            "caption":"Found in Portola State Park, CA, in October 2022",
             "desc":""
         },
         "side":{
@@ -45,15 +45,15 @@
                 "./images/fomitopsidaceae/phaeolus-schweinitzii/side3.jpg"
             ],
             "caption":[
-                "",
-                "",
-                ""
+                "Found in Portola State Park, CA, in October 2022",
+                "Found in Portola State Park, CA, in October 2022. Close-up.",
+                "Found in Portola State Park, CA, in October 2022. Close-up."
             ],
             "desc":""
         },
         "halved":{
             "img":"./images/fomitopsidaceae/phaeolus-schweinitzii/halved.jpg",
-            "caption":"",
+            "caption":"Found in Portola State Park, CA, in October 2022",
             "desc":""
         },
         "stem":{
@@ -73,7 +73,7 @@
         },
         "habitat":{
             "img":"./images/fomitopsidaceae/phaeolus-schweinitzii/habitat.jpg",
-            "caption":"",
+            "caption":"Found in Portola State Park, CA, in October 2022",
             "desc":""
         },
         "bruising":{
