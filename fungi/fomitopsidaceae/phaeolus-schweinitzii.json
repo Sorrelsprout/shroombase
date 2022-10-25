@@ -3,19 +3,19 @@
         "edibility":"",
         "treelationship":[],
         "color":[],
-        "type":["Saprotrophic"]
+        "type":[]
     },
 
     "nomenclature":{
         "division":"Basidiomycota",
         "class":"Agaricomycetes",
-        "order":"Agaricales",
-        "family":"Pleurotaceae",
-        "genus":"Pleurotus",
-        "species":"sp",
+        "order":"Polyporales",
+        "family":"Fomitopsidaceae",
+        "genus":"Phaeolus",
+        "species":"Schweinitzii",
         "variation":"",
-        "aliases":"Oyster mushroom",
-        "displayalias":"Oyster mushroom"
+        "aliases":"Dyer's mazegill, Dyer's polypore, Pine dye polypore, Velvet-top fungus",
+        "displayalias":"Dyer's Polypore"
     },
 
     "distinguishing":{
@@ -29,48 +29,75 @@
 
     "characteristics": {
         "cap":{
-            "img":"./images/pleurotaceae/pleurotus-sp/top.jpg",
-            "caption":"Found in Portola State Park, CA, in October 2022",
+            "img":[
+                "./images/fomitopsidaceae/phaeolus-schweinitzii/top1.jpg",
+                "./images/fomitopsidaceae/phaeolus-schweinitzii/top2.jpg"
+            ],
+            "caption":[
+                "Found in Portola State Park, CA, in October 2022",
+                "Found in Sunnyvale, CA, in October 2022"
+            ],
             "desc":""
         },
         "underside":{
-            "img":"./images/pleurotaceae/pleurotus-sp/underside.jpg",
-            "caption":"Found in Portola State Park, CA, in October 2022",
+            "img":[
+                "./images/fomitopsidaceae/phaeolus-schweinitzii/underside1.jpg",
+                "./images/fomitopsidaceae/phaeolus-schweinitzii/underside2.jpg"
+            ],
+            "caption":[
+                "Found in Portola State Park, CA, in October 2022",
+                "Found in Sunnyvale, CA, in October 2022"
+            ],
             "desc":""
         },
         "side":{
-            "img":"./images/pleurotaceae/pleurotus-sp/side.jpg",
-            "caption":"Found in Portola State Park, CA, in October 2022",
+            "img":[
+                "./images/fomitopsidaceae/phaeolus-schweinitzii/side1.jpg",
+                "./images/fomitopsidaceae/phaeolus-schweinitzii/side2.jpg",
+                "./images/fomitopsidaceae/phaeolus-schweinitzii/side3.jpg"
+            ],
+            "caption":[
+                "Found in Portola State Park, CA, in October 2022",
+                "Found in Portola State Park, CA, in October 2022. Close-up.",
+                "Found in Sunnyvale, CA, in October 2022. Close-up.",
+                "Found in Portola State Park, CA, in October 2022. Close-up."
+            ],
             "desc":""
         },
         "halved":{
-            "img":"./images/pleurotaceae/pleurotus-sp/halved.jpg",
+            "img":"./images/fomitopsidaceae/phaeolus-schweinitzii/halved.jpg",
             "caption":"Found in Portola State Park, CA, in October 2022",
             "desc":""
         },
         "stem":{
-            "img":"./images/pleurotaceae/pleurotus-sp/stem.jpg",
-            "caption":"Found in Portola State Park, CA, in October 2022",
+            "img":"./images/templates/stem.jpg",
+            "caption":"",
             "desc":""
         },
         "sporeprint":{
-            "img":"./images/pleurotaceae/pleurotus-sp/sporeprint.jpg",
-            "caption":"Found in Portola State Park, CA, in October 2022",
+            "img":"./images/templates/sporeprint.jpg",
+            "caption":"",
             "desc":""
         },
         "mycelium":{
             "img":"./images/templates/mycelium.jpg",
-            "caption":"Found in Portola State Park, CA, in October 2022",
+            "caption":"",
             "desc":""
         },
         "habitat":{
-            "img":"./images/pleurotaceae/pleurotus-sp/habitat.jpg",
-            "caption":"Found in Portola State Park, CA, in October 2022",
+            "img":[
+                "./images/fomitopsidaceae/phaeolus-schweinitzii/habitat1.jpg",
+                "./images/fomitopsidaceae/phaeolus-schweinitzii/habitat2.jpg"
+            ],
+            "caption":[
+                "Found in Portola State Park, CA, in October 2022",
+                "Found in Sunnyvale, CA, in October 2022"
+            ],
             "desc":""
         },
         "bruising":{
-            "img":"./images/templates/bruising.jpg",
-            "caption":"",
+            "img":"./images/fomitopsidaceae/phaeolus-schweinitzii/bruising.jpg",
+            "caption":"Sampled in October 2022",
             "desc":""
         },
         "latex":{
@@ -89,18 +116,18 @@
             "desc":""
         },
         "water":{
-            "img":"./images/pleurotaceae/pleurotus-sp/water.jpg",
-            "caption":"Sampled in October 2022",
+            "img":"./images/templates/water.jpg",
+            "caption":"",
             "desc":""
         },
         "feso4":{
-            "img":"./images/pleurotaceae/pleurotus-sp/feso4.jpg",
-            "caption":"Sampled in October 2022",
+            "img":"./images/templates/feso4.jpg",
+            "caption":"",
             "desc":""
         },
         "koh":{
-            "img":"./images/pleurotaceae/pleurotus-sp/koh.jpg",
-            "caption":"Sampled in October 2022",
+            "img":"./images/templates/koh.jpg",
+            "caption":"",
             "desc":""
         },
         "nh3":{
@@ -111,7 +138,7 @@
     },
 
     "lifestages":{
-        "fruitseason":["Fall"],
+        "fruitseason":[],
         "lifespan":"",
         "showTitles": true,
         "images":{
@@ -166,7 +193,7 @@
     "significance":{
         "scientific":{
             "scientific":"",
-            "environmental":"Pollutant mycoremediation.",
+            "environmental":"",
             "genetic":""
         },
         "cultural":{
