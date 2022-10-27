@@ -2,7 +2,7 @@
     "tags": {
         "edibility":"",
         "treelationship":[],
-        "color":[],
+        "color":["orange", "tan", "brown"],
         "type":[]
     },
 
@@ -22,7 +22,7 @@
         "coverimg":"",
         "abundancy":"",
         "smell":"",
-        "texture":"",
+        "texture":"Moist and porous, like a rubbery sponge.",
         "size":"",
         "tidbits":""
     },
