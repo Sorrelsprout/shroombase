@@ -310,6 +310,10 @@
 
 #pullup strong { font-weight: 600; }
 
+#pullup .citations {
+    font-size: 0.75em;
+}
+
 #pullup .warning {
     color: #a88332;
     text-align: center;
