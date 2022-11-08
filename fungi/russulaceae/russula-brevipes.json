@@ -1,0 +1,294 @@
+{
+    "tags": {
+        "edibility":"Edible",
+        "treelationship":[],
+        "color":["white"],
+        "type":["Mycorrhizal"]
+    },
+
+    "nomenclature":{
+        "division":"Basidiomycota",
+        "class":"Agaricomycetes",
+        "order":"Russulales",
+        "family":"Russulaceae",
+        "genus":"Russula",
+        "species":"Brevipes",
+        "variation":"",
+        "aliases":"Short-stemmed russula, Stubby brittlegill",
+        "displayalias":"Stubby Brittlegill"
+    },
+
+    "distinguishing":{
+        "coverimg":"",
+        "abundancy":"",
+        "smell":"",
+        "texture":"",
+        "size":"",
+        "tidbits":"When parasitized by Hypomyces lactifluorum, an orange mold, it becomes a Lobster mushroom, which is a choice edible mushroom."
+    },
+
+    "characteristics": {
+        "cap":{
+            "img":"./images/russulaceae/russula-brevipes/cap.jpg",
+            "caption":"Found in La Honda, CA, in November 2022",
+            "desc":""
+        },
+        "underside":{
+            "img":[
+                "./images/russulaceae/russula-brevipes/underside1.jpg",
+                "./images/russulaceae/russula-brevipes/underside2.jpg"
+            ],
+            "caption":[
+                "Found in La Honda, CA, in November 2022",
+                "Found in La Honda, CA, in November 2022"
+            ],
+            "desc":[
+                "",
+                ""
+            ]
+        },
+        "side":{
+            "img":"./images/russulaceae/russula-brevipes/side.jpg",
+            "caption":"Found in La Honda, CA, in November 2022",
+            "desc":""
+        },
+        "halved":{
+            "img":"./images/russulaceae/russula-brevipes/halved.jpg",
+            "caption":"Sampled from La Honda, CA, in November 2022",
+            "desc":""
+        },
+        "stem":{
+            "img":"./images/russulaceae/russula-brevipes/stem.jpg",
+            "caption":"Found in La Honda, CA, in November 2022",
+            "desc":""
+        },
+        "sporeprint":{
+            "img":"./images/russulaceae/russula-brevipes/sporeprint.jpg",
+            "caption":"Sampled from La Honda, CA, in November 2022",
+            "desc":""
+        },
+        "mycelium":{
+            "img":"./images/templates/mycelium.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "habitat":{
+            "img":"./images/russulaceae/russula-brevipes/habitat.jpg",
+            "caption":"Found in La Honda, CA, in November 2022",
+            "desc":"Found growing through leaf litter. Found in a redwood and hardwood forest."
+        },
+        "bruising":{
+            "img":"./images/templates/bruising.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "latex":{
+            "img":"./images/templates/latex.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bioluminescence":{
+            "img":"./images/templates/bioluminescence.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "other":{
+            "img":"./images/templates/other.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "water":{
+            "img":"./images/templates/water.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "feso4":{
+            "img":"./images/templates/feso4.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "koh":{
+            "img":"./images/templates/koh.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "nh3":{
+            "img":"./images/templates/nh3.jpg",
+            "caption":"",
+            "desc":""
+        }
+    },
+
+    "lifestages":{
+        "fruitseason":[],
+        "lifespan":"",
+        "showTitles": true,
+        "images":{
+            "spore":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "egg":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "eruption":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "pin":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "button":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "young":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "mature":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "old":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "dead":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            }
+        }
+    },
+
+    "significance":{
+        "scientific":{
+            "scientific":"",
+            "environmental":"",
+            "genetic":""
+        },
+        "cultural":{
+            "cultural":"",
+            "medicinal":"",
+            "funfacts":""
+        },
+        "cullinary":{
+            "cullinary":"",
+            "taste":"",
+            "recipelist":[]
+        }
+    },
+
+    "geography":{
+        "region":[],
+        "fruitlocation":"",
+        "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=118179"
+    },
+
+    "lookalikes":{
+        "names":[
+            "Almond-scented Russula - Russula fragrantissima",
+            "Almond-scented Russula - Russula grata",
+            "Blue Band Brittlegill - Russula chloroides",
+            "Clay-Gilled Milkcap - Lactarius argillaceifolius",
+
+            "Fleecy Milkcap",
+            "Milk-White Brittlegill",
+
+            "Peppery Milkcap - Lactifluus piperatus",
+            "Russula angustispora",
+            "Russula cascadensis",
+            "Russula cerolens",
+            "Russula flavispora",
+            "Russula pallidospora",
+            "Russula vesicatoria"
+        ],
+        "images":[
+            "",
+            "",
+            "",
+            "",
+
+            "",
+            "",
+
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "caption":[
+            "",
+            "",
+            "",
+            "",
+
+            "",
+            "",
+
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "desc":[
+            "",
+            "",
+            "",
+            "",
+
+            "Scientifically named <strong>Lactarius vellereus</strong>. Found throughout Europe, but not present in North America. Very hot and peppery, treated as inedible.",
+            "Scientifically named <strong>Russula delica</strong>. Also called the <strong>Milk-white Russula</strong>. Edible but not very tasty. Commonly in Britain and Ireland, not present in North America.",
+
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "edibility":[
+            "",
+            "",
+            "",
+            "",
+
+            "-",
+            "edible",
+
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+
+    "relevantlinks":{
+        "linkslist":[
+            "<a href='https://www.inaturalist.org/taxa/118179-Russula-brevipes' target='_blank' rel='noreferrer noopener'>iNaturalist</a>",
+            "<a href='https://www.mushroomexpert.com/russula_brevipes.html' target='_blank' rel='noreferrer noopener'>Mushroom Expert</a>",
+            "<a href='https://en.wikipedia.org/wiki/Russula_brevipes' target='_blank' rel='noreferrer noopener'>Wikipedia</a>"
+        ]
+    }
+}

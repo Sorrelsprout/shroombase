@@ -1,8 +1,8 @@
 {
     "tags": {
-        "edibility":"",
+        "edibility":"Edible",
         "treelationship":[],
-        "color":[],
+        "color":["white"],
         "type":["Saprotrophic"]
     },
 
