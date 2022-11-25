@@ -123,7 +123,7 @@
     },
 
     "lifestages":{
-        "fruitseason":["Summer"],
+        "fruitseason":["Summer", "Fall", "Winter"],
         "lifespan":"",
         "showTitles": true,
         "images":{
