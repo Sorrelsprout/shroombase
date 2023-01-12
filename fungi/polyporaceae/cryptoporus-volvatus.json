@@ -34,19 +34,19 @@
                 "./images/polyporaceae/cryptoporus-volvatus/top2.jpg"
             ],
             "caption":[
-                "Found in Yosemite National Park, CA, in May 2022",
-                "Found in Yosemite National Park, CA, in May 2022"
+                "Found in Yosemite National Park, CA, in May",
+                "Found in Yosemite National Park, CA, in May"
             ],
             "desc":"Smooth top, ranging from white to tan to light orange in color."
         },
         "underside":{
             "img":"./images/polyporaceae/cryptoporus-volvatus/underside.jpg",
-            "caption":"Found in Mountain View, CA, in July 2022",
+            "caption":"Found in Mountain View, CA, in July",
             "desc":"Smooth bottom. Often with same texture as top, but the color can be lighter. Cracks may form as a result of the exterior hardening in older specimens."
         },
         "side":{
             "img":"./images/polyporaceae/cryptoporus-volvatus/side.jpg",
-            "caption":"Found in Mountain View, CA, in July 2022",
+            "caption":"Found in Mountain View, CA, in July",
             "desc":""
         },
         "halved":{
@@ -56,15 +56,15 @@
                 "./images/polyporaceae/cryptoporus-volvatus/halved3.jpg"
             ],
             "caption":[
-                "Old specimen found in Mountain View, CA, in July 2022",
-                "Young specimen found in Yosemite National Park, CA, in May 2022",
-                "Young specimen found in Yosemite National Park, CA, in May 2022"
+                "Old specimen found in Mountain View, CA, in July",
+                "Young specimen found in Yosemite National Park, CA, in May",
+                "Young specimen found in Yosemite National Park, CA, in May"
             ],
             "desc":"Slicing into C. volvatus is pretty easy when young, and the texture is between rubbery and leathery, with a hollow inside. However, as C. volvatus gets older, it toughens and the shell gets hard. Slicing into it reveals a more prominent spore-producing interior."
         },
         "stem":{
             "img":"./images/polyporaceae/cryptoporus-volvatus/attachment.jpg",
-            "caption":"Found in Yosemite National Park, CA, in May 2022",
+            "caption":"Found in Yosemite National Park, CA, in May",
             "desc":"As much of a stem as polypores can have, this is what C. volvatus looks like where it connects to a tree."
         },
         "sporeprint":{
@@ -83,8 +83,8 @@
                 "./images/polyporaceae/cryptoporus-volvatus/habitat2.jpg"
             ],
             "caption":[
-                "Found at Shoreline Park in Mountain View, CA, in July 2022",
-                "Found in Yosemite National Park, CA, in May 2022"
+                "Found at Shoreline Park in Mountain View, CA, in July",
+                "Found in Yosemite National Park, CA, in May"
             ],
             "desc":"Found on tree trunks and branches."
         },
@@ -105,7 +105,7 @@
         },
         "other":{
             "img":"./images/polyporaceae/cryptoporus-volvatus/beetles.jpg",
-            "caption":"Found in Mountain View, CA, in July 2022",
+            "caption":"Found in Mountain View, CA, in July",
             "desc":"Specimens were pulled directly from tree. The interior of these older specimens are riddled with holes from pine bark beetles."
         },
         "water":{
@@ -162,22 +162,22 @@
             },
             "young":{
                 "img":"./images/polyporaceae/cryptoporus-volvatus/lifestages-young.jpg",
-                "caption":"Found in Yosemite National Park, CA, in May 2022",
+                "caption":"Found in Yosemite National Park, CA, in May",
                 "desc":""
             },
             "mature":{
                 "img":"./images/polyporaceae/cryptoporus-volvatus/lifestages-mature.jpg",
-                "caption":"Found in Yosemite National Park, CA, in May 2022",
+                "caption":"Found in Yosemite National Park, CA, in May",
                 "desc":"This one has some injuries."
             },
             "old":{
                 "img":"./images/polyporaceae/cryptoporus-volvatus/lifestages-old.jpg",
-                "caption":"Found in Mountain View, CA, in July 2022",
+                "caption":"Found in Mountain View, CA, in July",
                 "desc":"The surface has wrinkled."
             },
             "dead":{
                 "img":"./images/polyporaceae/cryptoporus-volvatus/lifestages-dead.jpg",
-                "caption":"Found in Mountain View, CA, in July 2022",
+                "caption":"Found in Mountain View, CA, in July",
                 "desc":"Has numerous holes from Pine Bark Beetles, and is super hard."
             }
         }

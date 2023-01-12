@@ -30,12 +30,12 @@
     "characteristics": {
         "cap":{
             "img":"./images/morchellaceae/morchella-sp/cap.jpg",
-            "caption":"Specimen purchased at Eataly in San Jose, CA in August 2022",
+            "caption":"Specimen purchased at Eataly in San Jose, CA in August",
             "desc":"Many ridges and holes. The edges of the ridges are darker than the inner regions."
         },
         "underside":{
             "img":"./images/morchellaceae/morchella-sp/underside.jpg",
-            "caption":"Specimen purchased at Eataly in San Jose, CA in August 2022",
+            "caption":"Specimen purchased at Eataly in San Jose, CA in August",
             "desc":""
         },
         "side":{
@@ -45,17 +45,17 @@
         },
         "halved":{
             "img":"./images/morchellaceae/morchella-sp/halved.jpg",
-            "caption":"Specimen purchased at Eataly in San Jose, CA in August 2022",
+            "caption":"Specimen purchased at Eataly in San Jose, CA in August",
             "desc":"Hollow interior. Inside is bumpy with a slightly rough texture. Some portions look like there are lots of tiny white spots inside."
         },
         "stem":{
             "img":"./images/morchellaceae/morchella-sp/stem.jpg",
-            "caption":"Specimen purchased at Eataly in San Jose, CA in August 2022",
+            "caption":"Specimen purchased at Eataly in San Jose, CA in August",
             "desc":"Beige stem, similar to the texture of aged rubber but not as stiff. Brown and slight furfuraceous texture on certain parts."
         },
         "sporeprint":{
             "img":"./images/morchellaceae/morchella-sp/sporeprint.jpg",
-            "caption":"Specimen purchased at Eataly in San Jose, CA in August 2022",
+            "caption":"Specimen purchased at Eataly in San Jose, CA in August",
             "desc":"Yellowy-beige spore print."
         },
         "mycelium":{

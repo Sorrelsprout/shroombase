@@ -30,22 +30,22 @@
     "characteristics": {
         "cap":{
             "img":"./images/ganodermataceae/ganoderma-brownii/top.jpg",
-            "caption":"Found in Santa Cruz, CA, in May 2022",
+            "caption":"Found in Santa Cruz, CA, in May",
             "desc":"Stiff, dry, dense, and brown. The white underside can be seen bordering the top."
         },
         "underside":{
             "img":"./images/ganodermataceae/ganoderma-brownii/underside.jpg",
-            "caption":"Found in Santa Cruz, CA, in May 2022",
+            "caption":"Found in Santa Cruz, CA, in May",
             "desc":"Pores are slightly yellow, and slightly velvety to the touch."
         },
         "side":{
             "img":"./images/ganodermataceae/ganoderma-brownii/side.jpg",
-            "caption":"Found in Santa Cruz, CA, in May 2022",
+            "caption":"Found in Santa Cruz, CA, in May",
             "desc":""
         },
         "halved":{
             "img":"./images/ganodermataceae/ganoderma-brownii/halved.jpg",
-            "caption":"Found in Santa Cruz, CA, in May 2022",
+            "caption":"Found in Santa Cruz, CA, in May",
             "desc":"Hard to cut through, tought but light and dense."
         },
         "stem":{
@@ -65,12 +65,12 @@
         },
         "habitat":{
             "img":"./images/ganodermataceae/ganoderma-brownii/habitat.jpg",
-            "caption":"Found in Santa Cruz, CA, in May 2022",
+            "caption":"Found in Santa Cruz, CA, in May",
             "desc":"Found on hardwoods, particularly the California Bay Laurel. Found generally in the Pacific Northwest."
         },
         "bruising":{
             "img":"./images/ganodermataceae/ganoderma-brownii/bruising.jpg",
-            "caption":"Found in Santa Cruz, CA, in May 2022",
+            "caption":"Found in Santa Cruz, CA, in May",
             "desc":"Bruises brown."
         },
         "latex":{
@@ -137,7 +137,7 @@
             },
             "button":{
                 "img":"./images/ganodermataceae/ganoderma-brownii/lifestages-button.jpg",
-                "caption":"Found in Santa Cruz, CA, in May 2022",
+                "caption":"Found in Santa Cruz, CA, in May",
                 "desc":""
             },
             "young":{
@@ -147,7 +147,7 @@
             },
             "mature":{
                 "img":"./images/ganodermataceae/ganoderma-brownii/lifestages-mature.jpg",
-                "caption":"Found in Santa Cruz, CA, in May 2022",
+                "caption":"Found in Santa Cruz, CA, in May",
                 "desc":""
             },
             "old":{

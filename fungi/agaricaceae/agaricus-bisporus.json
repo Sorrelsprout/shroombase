@@ -34,8 +34,8 @@
                 "./images/agaricaceae/agaricus-bisporus/cap2.jpg"
             ],
             "caption":[
-                "White button found in Mountain View, CA in December 2021",
-                "Brown specimen purchased at a Von's in Oakhurst, CA in May 2022"
+                "White button found in Mountain View, CA in December",
+                "Brown specimen purchased at a Von's in Oakhurst, CA in May"
             ],
             "desc":"Rounded and inrolled, but when mature becomes conves or flat. Sometimes found with light grey-tan scales on the surface. When young there are two color variations, white and brown. Soft but firm, and slightly velvety to the touch."
         },
@@ -48,11 +48,11 @@
                 "./images/agaricaceae/agaricus-bisporus/underside5.jpg"
             ],
             "caption":[
-                "Brown specimen purchased in Sunnyvale, CA in July 2022",
-                "Closeup of brown specimen purchased in Sunnyvale, CA in July 2022",
-                "Closeup of brown specimen purchased at a Von's in Oakhurst, CA in May 2022",
-                "White button found in Mountain View, CA in December 2021",
-                "No stem, with veil still attached. Brown specimen purchased in Sunnyvale, CA in July 2022"
+                "Brown specimen purchased in Sunnyvale, CA in July",
+                "Closeup of brown specimen purchased in Sunnyvale, CA in July",
+                "Closeup of brown specimen purchased at a Von's in Oakhurst, CA in May",
+                "White button found in Mountain View, CA in December",
+                "No stem, with veil still attached. Brown specimen purchased in Sunnyvale, CA in July"
             ],
             "desc":"The margin is rolled inwards a bit. Gills are pink when young, then darken to brown when mature. "
         },
@@ -64,8 +64,8 @@
             ],
             "caption":[
                 "White button found in Mountain View, CA in December 2021",
-                "Brown specimen purchased in Sunnyvale, CA in July 2022",
-                "Brown specimen purchased at a Von's in Oakhurst, CA in May 2022"
+                "Brown specimen purchased in Sunnyvale, CA in July",
+                "Brown specimen purchased at a Von's in Oakhurst, CA in May"
             ],
             "desc":""
         },
@@ -75,14 +75,14 @@
                 "./images/agaricaceae/agaricus-bisporus/halved2.jpg"
             ],
             "caption":[
-                "White specimen purchased in Sunnyvale, CA in July 2022",
-                "Brown specimen purchased in Sunnyvale, CA in July 2022"
+                "White specimen purchased in Sunnyvale, CA in July",
+                "Brown specimen purchased in Sunnyvale, CA in July"
             ],
             "desc":""
         },
         "stem":{
             "img":"./images/agaricaceae/agaricus-bisporus/stem.jpg",
-            "caption":"Brown specimen purchased in Sunnyvale, CA in July 2022",
+            "caption":"Brown specimen purchased in Sunnyvale, CA in July",
             "desc":"Has a ring and on younger specimens, the thin partial veil is often still attached from stem to cap, which protects the gills and spores. However sometimes the ring will detach, and the stem will look segmented. Stem is equal throughout but can have a slightly larger base."
         },
         "sporeprint":{
@@ -102,7 +102,7 @@
         },
         "bruising":{
             "img":"./images/agaricaceae/agaricus-bisporus/bruising.jpg",
-            "caption":"White specimen lightly scarred, sampled in Sunnyvale, CA, in July 2022",
+            "caption":"White specimen lightly scarred, sampled in Sunnyvale, CA, in July",
             "desc":"Scarring does not produce immediate color change, but after 10 minutes specimen bruises slightly tan."
         },
         "latex":{
@@ -126,8 +126,8 @@
                 "./images/agaricaceae/agaricus-bisporus/water2.jpg"
             ],
             "caption":[
-                "White specimen sampled in July 2022",
-                "Brown specimen sampled in July 2022"
+                "White specimen sampled in July",
+                "Brown specimen sampled in July"
             ],
             "desc":"Some parts of the white stage of A. bisporus stained a bit darker with water after 5 minutes (stem). In general, water had little effect on the stem, gills, or outer cap."
         },
@@ -137,8 +137,8 @@
                 "./images/agaricaceae/agaricus-bisporus/feso42.jpg"
             ],
             "caption":[
-                "White specimen sampled in July 2022",
-                "Brown specimen sampled in July 2022"
+                "White specimen sampled in July",
+                "Brown specimen sampled in July"
             ],
             "desc":"FeSO<sub>4</sub> caused the stem and cap to turn a medium greyish color. There was not a very prominent change in color after 3-5 minutes."
         },
@@ -149,9 +149,9 @@
                 "./images/agaricaceae/agaricus-bisporus/koh3.jpg"
             ],
             "caption":[
-                "White specimen sampled in July 2022",
-                "Brown specimen sampled in July 2022",
-                "Brown specimen sampled in July 2022"
+                "White specimen sampled in July",
+                "Brown specimen sampled in July",
+                "Brown specimen sampled in July"
             ],
             "desc":"Specimen shriveled somewhat after contact with KOH (3-5 minutes). Brown color change on bottom half of the stem was most apparent, as well as on the sliced interior surface of the cap. Exterior cap stained slightly darker tan in the white stage and a deeper brown in the brown specimen, and areas where mushroom skin was peeled back showed indentation where KOH liquid was exposed."
         },

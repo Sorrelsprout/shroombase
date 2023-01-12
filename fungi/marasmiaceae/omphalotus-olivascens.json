@@ -35,7 +35,7 @@
         },
         "underside":{
             "img":"./images/marasmiaceae/omphalotus-olivascens/underside.jpg",
-            "caption":"Sampled from Saratoga, CA, in January 2022",
+            "caption":"Sampled from Saratoga, CA, in January",
             "desc":"Has True Gills"
         },
         "side":{
@@ -50,7 +50,7 @@
         },
         "stem":{
             "img":"./images/marasmiaceae/omphalotus-olivascens/stem.jpg",
-            "caption":"Found in Saratoga, CA, in January 2022",
+            "caption":"Found in Saratoga, CA, in January",
             "desc":""
         },
         "sporeprint":{
@@ -65,7 +65,7 @@
         },
         "habitat":{
             "img":"./images/marasmiaceae/omphalotus-olivascens/habitat.jpg",
-            "caption":"Found in Saratoga, CA, in January 2022",
+            "caption":"Found in Saratoga, CA, in January",
             "desc":"Found growing out of the base of a tree."
         },
         "bruising":{
@@ -85,7 +85,7 @@
         },
         "other":{
             "img":"./images/marasmiaceae/omphalotus-olivascens/hue.jpg",
-            "caption":"Found in Saratoga, CA, in January 2022",
+            "caption":"Found in Saratoga, CA, in January",
             "desc":"Unsure if it's bruising, but the specimen can take on a purply hue."
         },
         "water":{

@@ -30,7 +30,7 @@
     "characteristics": {
         "cap":{
             "img":"./images/galeropsidaceae/panaeolus-sp/cap.jpg",
-            "caption":"Found in Sunnyvale, CA, in October 2022",
+            "caption":"Found in Sunnyvale, CA, in October",
             "desc":""
         },
         "underside":{
@@ -39,29 +39,29 @@
                 "./images/galeropsidaceae/panaeolus-sp/underside2.jpg"
             ],
             "caption":[
-                "Found in Sunnyvale, CA, in October 2022",
-                "Found in Sunnyvale, CA, in October 2022"
+                "Found in Sunnyvale, CA, in October",
+                "Found in Sunnyvale, CA, in October"
             ],
             "desc":"Spotty-looking brown to dark-brown gills, darkens to black with age."
         },
         "side":{
             "img":"./images/galeropsidaceae/panaeolus-sp/side.jpg",
-            "caption":"Found in Sunnyvale, CA, in October 2022",
+            "caption":"Found in Sunnyvale, CA, in October",
             "desc":""
         },
         "halved":{
             "img":"./images/galeropsidaceae/panaeolus-sp/halved.jpg",
-            "caption":"Found in Sunnyvale, CA, in October 2022",
+            "caption":"Found in Sunnyvale, CA, in October",
             "desc":""
         },
         "stem":{
             "img":"./images/galeropsidaceae/panaeolus-sp/stem.jpg",
-            "caption":"Found in Sunnyvale, CA, in October 2022",
+            "caption":"Found in Sunnyvale, CA, in October",
             "desc":""
         },
         "sporeprint":{
             "img":"./images/galeropsidaceae/panaeolus-sp/sporeprint.jpg",
-            "caption":"Found in Sunnyvale, CA, in October 2022",
+            "caption":"Found in Sunnyvale, CA, in October",
             "desc":"Black spore print."
         },
         "mycelium":{
@@ -71,7 +71,7 @@
         },
         "habitat":{
             "img":"./images/galeropsidaceae/panaeolus-sp/habitat.jpg",
-            "caption":"Found in Sunnyvale, CA, in October 2022",
+            "caption":"Found in Sunnyvale, CA, in October",
             "desc":""
         },
         "bruising":{
@@ -106,7 +106,7 @@
         },
         "koh":{
             "img":"./images/galeropsidaceae/panaeolus-sp/koh.jpg",
-            "caption":"Sampled in October 2022",
+            "caption":"Sampled in October",
             "desc":""
         },
         "nh3":{
@@ -123,7 +123,7 @@
         "images":{
             "spore":{
                 "img":"./images/galeropsidaceae/panaeolus-sp/spores.jpg",
-                "caption":"Found in Sunnyvale, CA, in October 2022",
+                "caption":"Found in Sunnyvale, CA, in October",
                 "desc":""
             },
             "egg":{

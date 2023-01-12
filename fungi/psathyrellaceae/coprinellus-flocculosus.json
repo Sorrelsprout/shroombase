@@ -34,19 +34,19 @@
                 "./images/psathyrellaceae/coprinellus-flocculosus/cap2.jpg"
             ],
             "caption":[
-                "Found in Sunnyvale, CA, in June 2022",
-                "Found in Sunnyvale, CA, in June 2022"
+                "Found in Sunnyvale, CA, in June",
+                "Found in Sunnyvale, CA, in June"
             ],
             "desc":""
         },
         "underside":{
             "img":"./images/psathyrellaceae/coprinellus-flocculosus/underside.jpg",
-            "caption":"Found in Sunnyvale, CA, in June 2022",
+            "caption":"Found in Sunnyvale, CA, in June",
             "desc":""
         },
         "side":{
             "img":"./images/psathyrellaceae/coprinellus-flocculosus/side.jpg",
-            "caption":"Found in Sunnyvale, CA, in June 2022",
+            "caption":"Found in Sunnyvale, CA, in June",
             "desc":""
         },
         "halved":{
@@ -56,7 +56,7 @@
         },
         "stem":{
             "img":"./images/psathyrellaceae/coprinellus-flocculosus/stem.jpg",
-            "caption":"Found in Sunnyvale, CA, in June 2022",
+            "caption":"Found in Sunnyvale, CA, in June",
             "desc":""
         },
         "sporeprint":{
@@ -66,12 +66,12 @@
         },
         "mycelium":{
             "img":"./images/psathyrellaceae/coprinellus-flocculosus/mycelium.jpg",
-            "caption":"Found in Sunnyvale, CA, in June 2022",
+            "caption":"Found in Sunnyvale, CA, in June",
             "desc":""
         },
         "habitat":{
             "img":"./images/psathyrellaceae/coprinellus-flocculosus/habitat.jpg",
-            "caption":"Found in Sunnyvale, CA, in March 2022. This specimen was found amidst pea plants.",
+            "caption":"Found in Sunnyvale, CA, in March. This specimen was found amidst pea plants.",
             "desc":""
         },
         "bruising":{
@@ -154,12 +154,12 @@
             },
             "mature":{
                 "img":"./images/psathyrellaceae/coprinellus-flocculosus/lifestages-mature.jpg",
-                "caption":"Found in Sunnyvale, CA, in June 2022",
+                "caption":"Found in Sunnyvale, CA, in June",
                 "desc":"Starting to wrinkle"
             },
             "old":{
                 "img":"./images/psathyrellaceae/coprinellus-flocculosus/lifestages-old.jpg",
-                "caption":"Found in Sunnyvale, CA, in March 2022",
+                "caption":"Found in Sunnyvale, CA, in March",
                 "desc":"Two dried and old specimens"
             },
             "dead":{

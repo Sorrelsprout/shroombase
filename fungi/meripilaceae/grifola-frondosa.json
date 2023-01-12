@@ -30,7 +30,7 @@
     "characteristics": {
         "cap":{
             "img":"./images/meripilaceae/grifola-frondosa/top.jpg",
-            "caption":"Specimen purchased at Far West Fungi in San Francisco, CA in October 2022",
+            "caption":"Specimen purchased at Far West Fungi in San Francisco, CA in October",
             "desc":""
         },
         "underside":{
@@ -40,9 +40,9 @@
                 "./images/meripilaceae/grifola-frondosa/underside3.jpg"
             ],
             "caption":[
-                "Specimen purchased at Far West Fungi in San Francisco, CA in October 2022",
-                "Specimen purchased at Far West Fungi in San Francisco, CA in October 2022",
-                "Specimen purchased at Far West Fungi in San Francisco, CA in October 2022"
+                "Specimen purchased at Far West Fungi in San Francisco, CA in October",
+                "Specimen purchased at Far West Fungi in San Francisco, CA in October",
+                "Specimen purchased at Far West Fungi in San Francisco, CA in October"
             ],
             "desc":"Finely porous. Pores present all the way down from cap to the bottom of the stem."
         },
@@ -52,19 +52,19 @@
                 "./images/meripilaceae/grifola-frondosa/side2.jpg"
             ],
             "caption":[
-                "Specimen purchased at Far West Fungi in San Francisco, CA in October 2022",
-                "Specimen purchased at Far West Fungi in San Francisco, CA in October 2022"
+                "Specimen purchased at Far West Fungi in San Francisco, CA in October",
+                "Specimen purchased at Far West Fungi in San Francisco, CA in October"
             ],
             "desc":""
         },
         "halved":{
             "img":"./images/meripilaceae/grifola-frondosa/halved.jpg",
-            "caption":"Specimen purchased at Far West Fungi in San Francisco, CA in October 2022",
+            "caption":"Specimen purchased at Far West Fungi in San Francisco, CA in October",
             "desc":""
         },
         "stem":{
             "img":"./images/meripilaceae/grifola-frondosa/stem.jpg",
-            "caption":"Specimen purchased at Far West Fungi in San Francisco, CA in October 2022",
+            "caption":"Specimen purchased at Far West Fungi in San Francisco, CA in October",
             "desc":""
         },
         "sporeprint":{
@@ -74,7 +74,7 @@
         },
         "mycelium":{
             "img":"./images/meripilaceae/grifola-frondosa/mycelium.jpg",
-            "caption":"Specimen purchased at Far West Fungi in San Francisco, CA in October 2022",
+            "caption":"Specimen purchased at Far West Fungi in San Francisco, CA in October",
             "desc":""
         },
         "habitat":{

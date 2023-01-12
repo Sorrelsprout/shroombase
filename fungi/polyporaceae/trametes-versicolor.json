@@ -30,7 +30,7 @@
     "characteristics":{
         "cap":{
             "img":"./images/polyporaceae/trametes-versicolor/top.jpg",
-            "caption":"Found in Corvallis, OR, in April 2022",
+            "caption":"Found in Corvallis, OR, in April",
             "desc":"Outer edge is lightest in color."
         },
         "underside":{
@@ -39,8 +39,8 @@
                 "./images/polyporaceae/trametes-versicolor/underside2.jpg"
             ],
             "caption":[
-                "Found in Los Gatos, CA, in February 2022",
-                "Found in Los Gatos, CA, in February 2022"
+                "Found in Los Gatos, CA, in February",
+                "Found in Los Gatos, CA, in February"
             ],
             "desc":""
         },
@@ -50,8 +50,8 @@
                 "./images/polyporaceae/trametes-versicolor/side2.jpg"
             ],
             "caption":[
-                "Found in Corvallis, OR, in April 2022",
-                "Found in Santa Cruz, CA, in May 2022"
+                "Found in Corvallis, OR, in April",
+                "Found in Santa Cruz, CA, in May"
             ],
             "desc":""
         },
@@ -77,7 +77,7 @@
         },
         "habitat":{
             "img":"./images/polyporaceae/trametes-versicolor/habitat.jpg",
-            "caption":"Found in Santa Cruz, CA, in May 2022",
+            "caption":"Found in Santa Cruz, CA, in May",
             "desc":"Turkey tails grow on rotting wood."
         },
         "bruising":{
@@ -170,7 +170,7 @@
             },
             "dead":{
                 "img":"./images/polyporaceae/trametes-versicolor/lifestages-dead.jpg",
-                "caption":"Found in Portola Valley, CA, in August 2022. Another organism covers portions of the specimen.",
+                "caption":"Found in Portola Valley, CA, in August. Another organism covers portions of the specimen.",
                 "desc":"Crumbly and greyish, not much color."
             }
         }

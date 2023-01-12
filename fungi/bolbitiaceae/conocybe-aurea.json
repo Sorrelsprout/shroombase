@@ -30,7 +30,7 @@
     "characteristics": {
         "cap":{
             "img":"./images/bolbitiaceae/conocybe-aurea/cap.jpg",
-            "caption":"Found in Sunnyvale, CA, in July 2022",
+            "caption":"Found in Sunnyvale, CA, in July",
             "desc":"Smooth cap. Top is deep golden, orangey-tan, or light umber in color. When young, striations can be seen on the cap. Sometimes a lighter shade of the deep golden color can be seen at the top of the cap around 1/3 to 2/3 of the way down."
         },
         "underside":{
@@ -39,29 +39,29 @@
                 "./images/bolbitiaceae/conocybe-aurea/underside2.jpg"
             ],
             "caption":[
-                "Found in Sunnyvale, CA, in July 2022",
-                "Found in Sunnyvale, CA, in July 2022"
+                "Found in Sunnyvale, CA, in July",
+                "Found in Sunnyvale, CA, in July"
             ],
             "desc":"Beige or light-tan gills. Once gills get old they become wavy at the edges."
         },
         "side":{
             "img":"./images/bolbitiaceae/conocybe-aurea/side.jpg",
-            "caption":"Found in Sunnyvale, CA, in July 2022",
+            "caption":"Found in Sunnyvale, CA, in July",
             "desc":""
         },
         "halved":{
             "img":"./images/bolbitiaceae/conocybe-aurea/halved.jpg",
-            "caption":"Found in Sunnyvale, CA, in July 2022",
+            "caption":"Found in Sunnyvale, CA, in July",
             "desc":"Stem is hollow until the cap."
         },
         "stem":{
             "img":"./images/bolbitiaceae/conocybe-aurea/stem.jpg",
-            "caption":"Found in Sunnyvale, CA, in July 2022",
+            "caption":"Found in Sunnyvale, CA, in July",
             "desc":"Ridged grooves run vertically along the stem."
         },
         "sporeprint":{
             "img":"./images/bolbitiaceae/conocybe-aurea/sporeprint.jpg",
-            "caption":"Sampled in Sunnyvale, CA, in July 2022",
+            "caption":"Sampled in Sunnyvale, CA, in July",
             "desc":"Spore print is brown."
         },
         "mycelium":{
@@ -70,14 +70,14 @@
                 "./images/bolbitiaceae/conocybe-aurea/mycelium2.jpg"
             ],
             "caption":[
-                "Found in Sunnyvale, CA, in July 2022",
-                "Found in Sunnyvale, CA, in July 2022"
+                "Found in Sunnyvale, CA, in July",
+                "Found in Sunnyvale, CA, in July"
             ],
             "desc":""
         },
         "habitat":{
             "img":"./images/bolbitiaceae/conocybe-aurea/habitat.jpg",
-            "caption":"Found in Sunnyvale, CA, in July 2022",
+            "caption":"Found in Sunnyvale, CA, in July",
             "desc":""
         },
         "bruising":{
@@ -102,17 +102,17 @@
         },
         "water":{
             "img":"./images/bolbitiaceae/conocybe-aurea/water.jpg",
-            "caption":"Sampled in July 2022",
+            "caption":"Sampled in July",
             "desc":"Water had little effect on the stem, gills, or outer cap. The water made the stem split a bit further, and the gills darkened slightly, but no other changes could be seen."
         },
         "feso4":{
             "img":"./images/bolbitiaceae/conocybe-aurea/feso4.jpg",
-            "caption":"Sampled in July 2022",
+            "caption":"Sampled in July",
             "desc":"Stem, gills, and outer cap were tested and left to dry. The stem stained the darkest, a deep brown-grey color. For the cap, the stain intensity was not as much as KOH but as also brown-grey."
         },
         "koh":{
             "img":"./images/bolbitiaceae/conocybe-aurea/koh.jpg",
-            "caption":"Sampled in July 2022",
+            "caption":"Sampled in July",
             "desc":"Stem, gills, and outer cap were tested. Stem stained light purple, and outer cap stained a darker warm purple color. The gills stained the darkest, and had a very deep purple-brown color."
         },
         "nh3":{
@@ -129,7 +129,7 @@
         "images":{
             "spore":{
                 "img":"./images/bolbitiaceae/conocybe-aurea/lifestages-spore.jpg",
-                "caption":"Found in Sunnyvale, CA, in July 2022",
+                "caption":"Found in Sunnyvale, CA, in July",
                 "desc":""
             },
             "egg":{
@@ -139,7 +139,7 @@
             },
             "eruption":{
                 "img":"./images/bolbitiaceae/conocybe-aurea/lifestages-eruption.jpg",
-                "caption":"Found in Sunnyvale, CA, in July 2022",
+                "caption":"Found in Sunnyvale, CA, in July",
                 "desc":""
             },
             "pin":{
@@ -154,22 +154,22 @@
             },
             "young":{
                 "img":"./images/bolbitiaceae/conocybe-aurea/lifestages-young.jpg",
-                "caption":"Found in Sunnyvale, CA, in July 2022",
+                "caption":"Found in Sunnyvale, CA, in July",
                 "desc":""
             },
             "mature":{
                 "img":"./images/bolbitiaceae/conocybe-aurea/lifestages-mature.jpg",
-                "caption":"Found in Sunnyvale, CA, in July 2022",
+                "caption":"Found in Sunnyvale, CA, in July",
                 "desc":""
             },
             "old":{
                 "img":"./images/bolbitiaceae/conocybe-aurea/lifestages-old.jpg",
-                "caption":"Found in Sunnyvale, CA, in October 2022",
+                "caption":"Found in Sunnyvale, CA, in October",
                 "desc":""
             },
             "dead":{
                 "img":"./images/bolbitiaceae/conocybe-aurea/lifestages-dead.jpg",
-                "caption":"Found in Sunnyvale, CA, in July 2022",
+                "caption":"Found in Sunnyvale, CA, in July",
                 "desc":""
             }
         }

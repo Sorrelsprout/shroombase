@@ -30,32 +30,32 @@
     "characteristics": {
         "cap":{
             "img":"./images/pleurotaceae/pleurotus-sp/top.jpg",
-            "caption":"Found in Portola State Park, CA, in October 2022",
+            "caption":"Found in Portola State Park, CA, in October",
             "desc":""
         },
         "underside":{
             "img":"./images/pleurotaceae/pleurotus-sp/underside.jpg",
-            "caption":"Found in Portola State Park, CA, in October 2022",
+            "caption":"Found in Portola State Park, CA, in October",
             "desc":""
         },
         "side":{
             "img":"./images/pleurotaceae/pleurotus-sp/side.jpg",
-            "caption":"Found in Portola State Park, CA, in October 2022",
+            "caption":"Found in Portola State Park, CA, in October",
             "desc":""
         },
         "halved":{
             "img":"./images/pleurotaceae/pleurotus-sp/halved.jpg",
-            "caption":"Found in Portola State Park, CA, in October 2022",
+            "caption":"Found in Portola State Park, CA, in October",
             "desc":""
         },
         "stem":{
             "img":"./images/pleurotaceae/pleurotus-sp/stem.jpg",
-            "caption":"Found in Portola State Park, CA, in October 2022",
+            "caption":"Found in Portola State Park, CA, in October",
             "desc":""
         },
         "sporeprint":{
             "img":"./images/pleurotaceae/pleurotus-sp/sporeprint.jpg",
-            "caption":"Found in Portola State Park, CA, in October 2022",
+            "caption":"Found in Portola State Park, CA, in October",
             "desc":""
         },
         "mycelium":{
@@ -65,7 +65,7 @@
         },
         "habitat":{
             "img":"./images/pleurotaceae/pleurotus-sp/habitat.jpg",
-            "caption":"Found in Portola State Park, CA, in October 2022",
+            "caption":"Found in Portola State Park, CA, in October",
             "desc":""
         },
         "bruising":{
@@ -90,17 +90,17 @@
         },
         "water":{
             "img":"./images/pleurotaceae/pleurotus-sp/water.jpg",
-            "caption":"Sampled in October 2022",
+            "caption":"Sampled in October",
             "desc":""
         },
         "feso4":{
             "img":"./images/pleurotaceae/pleurotus-sp/feso4.jpg",
-            "caption":"Sampled in October 2022",
+            "caption":"Sampled in October",
             "desc":""
         },
         "koh":{
             "img":"./images/pleurotaceae/pleurotus-sp/koh.jpg",
-            "caption":"Sampled in October 2022",
+            "caption":"Sampled in October",
             "desc":""
         },
         "nh3":{

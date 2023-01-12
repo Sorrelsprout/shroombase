@@ -34,8 +34,8 @@
                 "./images/physalacriaceae/armillaria-mellea/cap2.jpg"
             ],
             "caption":[
-                "",
-                ""
+                "Found in Sunnyvale, CA in January",
+                "Found in Sunnyvale, CA in January"
             ],
             "desc":[
                 "",
@@ -44,7 +44,7 @@
         },
         "underside":{
             "img":"./images/physalacriaceae/armillaria-mellea/underside.jpg",
-            "caption":"",
+            "caption":"Found in Sunnyvale, CA in January",
             "desc":""
         },
         "side":{
@@ -53,8 +53,8 @@
                 "./images/physalacriaceae/armillaria-mellea/side2.jpg"
             ],
             "caption":[
-                "",
-                ""
+                "Found in Sunnyvale, CA in January",
+                "Found in Sunnyvale, CA in January"
             ],
             "desc":[
                 "",
@@ -68,22 +68,22 @@
         },
         "stem":{
             "img":"./images/physalacriaceae/armillaria-mellea/stem.jpg",
-            "caption":"",
+            "caption":"Found in Sunnyvale, CA in January",
             "desc":"Has ring."
         },
         "sporeprint":{
             "img":"./images/physalacriaceae/armillaria-mellea/sporeprint.jpg",
-            "caption":"",
+            "caption":"Found in Sunnyvale, CA in January",
             "desc":"White spore print."
         },
         "mycelium":{
             "img":"./images/physalacriaceae/armillaria-mellea/mycelium.jpg",
-            "caption":"",
+            "caption":"Found in Sunnyvale, CA in January",
             "desc":"Mycelium is said to be bioluminescent."
         },
         "habitat":{
             "img":"./images/physalacriaceae/armillaria-mellea/habitat.jpg",
-            "caption":"",
+            "caption":"Found in Sunnyvale, CA in January",
             "desc":""
         },
         "bruising":{
@@ -160,17 +160,17 @@
             },
             "young":{
                 "img":"./images/physalacriaceae/armillaria-mellea/lifestages-young.jpg",
-                "caption":"",
+                "caption":"Found in Sunnyvale, CA in January",
                 "desc":""
             },
             "mature":{
                 "img":"./images/physalacriaceae/armillaria-mellea/lifestages-mature.jpg",
-                "caption":"",
+                "caption":"Found in Sunnyvale, CA in January",
                 "desc":""
             },
             "old":{
                 "img":"./images/physalacriaceae/armillaria-mellea/lifestages-old.jpg",
-                "caption":"",
+                "caption":"Found in Sunnyvale, CA in January",
                 "desc":""
             },
             "dead":{
