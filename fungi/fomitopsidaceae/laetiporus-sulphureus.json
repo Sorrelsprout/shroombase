@@ -30,7 +30,7 @@
     "characteristics": {
         "cap":{
             "img":"./images/fomitopsidaceae/laetiporus-sulphureus/cap.jpg",
-            "caption":"Found in San Francisco, CA, in October 2021",
+            "caption":"Found in San Francisco, CA, in October",
             "desc":"The inner parts are bright orange, and the outer parts are bright yellow. Sometimes the entire specimen is yellow on top. Very vibrant coloration."
         },
         "underside":{
@@ -45,7 +45,7 @@
         },
         "halved":{
             "img":"./images/fomitopsidaceae/laetiporus-sulphureus/halved.jpg",
-            "caption":"Found in San Francisco, CA, in October 2021",
+            "caption":"Found in San Francisco, CA, in October",
             "desc":"Blooms are rounded shelves, some have denser wave-like patterns."
         },
         "stem":{

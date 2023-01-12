@@ -30,7 +30,7 @@
     "characteristics": {
         "cap":{
             "img":"./images/russulaceae/russula-brevipes/cap.jpg",
-            "caption":"Found in La Honda, CA, in November 2022",
+            "caption":"Found in La Honda, CA, in November",
             "desc":""
         },
         "underside":{
@@ -39,8 +39,8 @@
                 "./images/russulaceae/russula-brevipes/underside2.jpg"
             ],
             "caption":[
-                "Found in La Honda, CA, in November 2022",
-                "Found in La Honda, CA, in November 2022"
+                "Found in La Honda, CA, in November",
+                "Found in La Honda, CA, in November"
             ],
             "desc":[
                 "",
@@ -49,22 +49,22 @@
         },
         "side":{
             "img":"./images/russulaceae/russula-brevipes/side.jpg",
-            "caption":"Found in La Honda, CA, in November 2022",
+            "caption":"Found in La Honda, CA, in November",
             "desc":""
         },
         "halved":{
             "img":"./images/russulaceae/russula-brevipes/halved.jpg",
-            "caption":"Sampled from La Honda, CA, in November 2022",
+            "caption":"Sampled from La Honda, CA, in November",
             "desc":""
         },
         "stem":{
             "img":"./images/russulaceae/russula-brevipes/stem.jpg",
-            "caption":"Found in La Honda, CA, in November 2022",
+            "caption":"Found in La Honda, CA, in November",
             "desc":""
         },
         "sporeprint":{
             "img":"./images/russulaceae/russula-brevipes/sporeprint.jpg",
-            "caption":"Sampled from La Honda, CA, in November 2022",
+            "caption":"Sampled from La Honda, CA, in November",
             "desc":""
         },
         "mycelium":{
@@ -74,7 +74,7 @@
         },
         "habitat":{
             "img":"./images/russulaceae/russula-brevipes/habitat.jpg",
-            "caption":"Found in La Honda, CA, in November 2022",
+            "caption":"Found in La Honda, CA, in November",
             "desc":"Found growing through leaf litter. Found in a redwood and hardwood forest."
         },
         "bruising":{
