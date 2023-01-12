@@ -386,7 +386,10 @@ function preloadPullup(JSONURL) {
 
         const JSONURL = "./fungi/" + (FUNGIFAMILY) + "/" + (FUNGIID) + ".json";
         preloadPullup(JSONURL);
-        setPullup();
+
+        function delay(time) { return new Promise(resolve => setTimeout(resolve, time)); } //minor delay to load popup
+        delay(200).then(() => { setPullup(); });
+
         $("#pageH2Tags-container").removeClass("show");
     });
 

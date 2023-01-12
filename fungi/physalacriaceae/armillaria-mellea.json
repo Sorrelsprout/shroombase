@@ -1,0 +1,219 @@
+{
+    "tags": {
+        "edibility":"",
+        "treelationship":[],
+        "color":["tan", "brown"],
+        "type":["Parasitic"]
+    },
+
+    "nomenclature":{
+        "division":"Basidiomycota",
+        "class":"Agaricomycetes",
+        "order":"Agaricales",
+        "family":"Physalacriaceae",
+        "genus":"Armillaria",
+        "species":"Mellea",
+        "variation":"",
+        "aliases":"Honey fungus, Honey mushroom",
+        "displayalias":"Honey Mushroom"
+    },
+
+    "distinguishing":{
+        "coverimg":"",
+        "abundancy":"",
+        "smell":"",
+        "texture":"",
+        "size":"",
+        "tidbits":"Generally found growing in clusters."
+    },
+
+    "characteristics": {
+        "cap":{
+            "img":[
+                "./images/physalacriaceae/armillaria-mellea/cap1.jpg",
+                "./images/physalacriaceae/armillaria-mellea/cap2.jpg"
+            ],
+            "caption":[
+                "",
+                ""
+            ],
+            "desc":[
+                "",
+                ""
+            ]
+        },
+        "underside":{
+            "img":"./images/physalacriaceae/armillaria-mellea/underside.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "side":{
+            "img":[
+                "./images/physalacriaceae/armillaria-mellea/side1.jpg",
+                "./images/physalacriaceae/armillaria-mellea/side2.jpg"
+            ],
+            "caption":[
+                "",
+                ""
+            ],
+            "desc":[
+                "",
+                ""
+            ]
+        },
+        "halved":{
+            "img":"./images/templates/halved.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "stem":{
+            "img":"./images/physalacriaceae/armillaria-mellea/stem.jpg",
+            "caption":"",
+            "desc":"Has ring."
+        },
+        "sporeprint":{
+            "img":"./images/physalacriaceae/armillaria-mellea/sporeprint.jpg",
+            "caption":"",
+            "desc":"White spore print."
+        },
+        "mycelium":{
+            "img":"./images/physalacriaceae/armillaria-mellea/mycelium.jpg",
+            "caption":"",
+            "desc":"Mycelium is said to be bioluminescent."
+        },
+        "habitat":{
+            "img":"./images/physalacriaceae/armillaria-mellea/habitat.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bruising":{
+            "img":"./images/templates/bruising.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "latex":{
+            "img":"./images/templates/latex.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bioluminescence":{
+            "img":"./images/templates/bioluminescence.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "other":{
+            "img":"./images/templates/other.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "water":{
+            "img":"./images/templates/water.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "feso4":{
+            "img":"./images/templates/feso4.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "koh":{
+            "img":"./images/templates/koh.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "nh3":{
+            "img":"./images/templates/nh3.jpg",
+            "caption":"",
+            "desc":""
+        }
+    },
+
+    "lifestages":{
+        "fruitseason":["Winter"],
+        "lifespan":"",
+        "showTitles": true,
+        "images":{
+            "spore":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "egg":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "eruption":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "pin":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "button":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "young":{
+                "img":"./images/physalacriaceae/armillaria-mellea/lifestages-young.jpg",
+                "caption":"",
+                "desc":""
+            },
+            "mature":{
+                "img":"./images/physalacriaceae/armillaria-mellea/lifestages-mature.jpg",
+                "caption":"",
+                "desc":""
+            },
+            "old":{
+                "img":"./images/physalacriaceae/armillaria-mellea/lifestages-old.jpg",
+                "caption":"",
+                "desc":""
+            },
+            "dead":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            }
+        }
+    },
+
+    "significance":{
+        "scientific":{
+            "scientific":"",
+            "environmental":"",
+            "genetic":""
+        },
+        "cultural":{
+            "cultural":"",
+            "medicinal":"",
+            "funfacts":""
+        },
+        "cullinary":{
+            "cullinary":"A. mellea is edible for some people, but others can experience allergic reactions or gastrointestinal distress.",
+            "taste":"",
+            "recipelist":[]
+        }
+    },
+
+    "geography":{
+        "region":["North America"],
+        "fruitlocation":"",
+        "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=55950"
+    },
+
+    "lookalikes":{
+        "names":[],
+        "images":[],
+        "caption":[],
+        "desc":[],
+        "edibility":[]
+    },
+
+    "relevantlinks":{
+        "linkslist":[]
+    }
+}
