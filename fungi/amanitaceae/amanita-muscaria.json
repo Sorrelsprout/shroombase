@@ -29,8 +29,14 @@
 
     "characteristics": {
         "cap":{
-            "img":"./images/amanitaceae/amanita-muscaria/cap.jpg",
-            "caption":"Found in Scotts Valley, CA, in December",
+            "img":[
+                "./images/amanitaceae/amanita-muscaria/cap1.jpg",
+                "./images/amanitaceae/amanita-muscaria/cap2.jpg"
+            ],
+            "caption":[
+                "Found in Scotts Valley, CA, in December",
+                "Found in Scotts Valley, CA, in December"
+            ],
             "desc":"Has white warts, the remnants of the egg."
         },
         "underside":{
@@ -39,13 +45,27 @@
             "desc":""
         },
         "side":{
-            "img":"./images/amanitaceae/amanita-muscaria/side.jpg",
-            "caption":"Found in Scotts Valley, CA, in December",
+            "img":[
+                "./images/amanitaceae/amanita-muscaria/side1.jpg",
+                "./images/amanitaceae/amanita-muscaria/side2.jpg"
+            ],
+            "caption":[
+                "Found in Scotts Valley, CA, in December",
+                "Found in Scotts Valley, CA, in December"
+            ],
             "desc":""
         },
         "halved":{
-            "img":"https://upload.wikimedia.org/wikipedia/commons/f/fe/Coupe_transversale.JPG",
-            "caption":"Image by Agena.p, from <a href='https://commons.wikimedia.org/wiki/File:Coupe_transversale.JPG' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>",
+            "img":[
+                "./images/amanitaceae/amanita-muscaria/halved1.jpg",
+                "./images/amanitaceae/amanita-muscaria/halved2.jpg",
+                "https://upload.wikimedia.org/wikipedia/commons/f/fe/Coupe_transversale.JPG"
+            ],
+            "caption":[
+                "Found in Scotts Valley, CA, in December",
+                "Found in Scotts Valley, CA, in December",
+                "Image by Agena.p, from <a href='https://commons.wikimedia.org/wiki/File:Coupe_transversale.JPG' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>"
+            ],
             "desc":""
         },
         "stem":{
@@ -122,13 +142,13 @@
                 "desc":""
             },
             "egg":{
-                "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Amanita_muscaria_veiled.jpg/1541px-Amanita_muscaria_veiled.jpg",
-                "caption":"Image from <a href='https://commons.wikimedia.org/wiki/File:Amanita_muscaria_veiled.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Natr, <a title='Natr, CC0 1.0 &lt;https://creativecommons.org/publicdomain/zero/1.0/deed.en&gt;, via Wikimedia Commons' href='https://creativecommons.org/publicdomain/zero/1.0/legalcode' target='_blank' rel='noreferrer noopener'>CC0 1.0</a>",
-                "desc":"A very young specimen of an Amanita muscaria fruiting body with universal veil still intact growing out of littered forest soil, description from <a href='https://commons.wikimedia.org/wiki/File:Amanita_muscaria_veiled.jpg#fileinfotpl_desc' target='_blank' rel='noreferrer noopener'>Wiki Commons</a>."
-            },
-            "eruption":{
                 "img":"",
                 "caption":"",
+                "desc":""
+            },
+            "eruption":{
+                "img":"./images/amanitaceae/amanita-muscaria/lifestages-eruption.jpg",
+                "caption":"Found in Scotts Valley, CA, in December",
                 "desc":""
             },
             "pin":{
@@ -142,8 +162,8 @@
                 "desc":""
             },
             "young":{
-                "img":"",
-                "caption":"",
+                "img":"./images/amanitaceae/amanita-muscaria/lifestages-young.jpg",
+                "caption":"Found in Scotts Valley, CA, in December",
                 "desc":""
             },
             "mature":{

@@ -31,13 +31,16 @@
         "cap":{
             "img":[
                 "./images/physalacriaceae/armillaria-mellea/cap1.jpg",
-                "./images/physalacriaceae/armillaria-mellea/cap2.jpg"
+                "./images/physalacriaceae/armillaria-mellea/cap2.jpg",
+                "./images/physalacriaceae/armillaria-mellea/cap3.jpg"
             ],
             "caption":[
+                "Found in Sunnyvale, CA in January",
                 "Found in Sunnyvale, CA in January",
                 "Found in Sunnyvale, CA in January"
             ],
             "desc":[
+                "",
                 "",
                 ""
             ]
@@ -50,13 +53,16 @@
         "side":{
             "img":[
                 "./images/physalacriaceae/armillaria-mellea/side1.jpg",
-                "./images/physalacriaceae/armillaria-mellea/side2.jpg"
+                "./images/physalacriaceae/armillaria-mellea/side2.jpg",
+                "./images/physalacriaceae/armillaria-mellea/side3.jpg"
             ],
             "caption":[
+                "Found in Fremont, CA in January",
                 "Found in Sunnyvale, CA in January",
                 "Found in Sunnyvale, CA in January"
             ],
             "desc":[
+                "",
                 "",
                 ""
             ]
