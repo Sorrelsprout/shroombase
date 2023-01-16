@@ -29,9 +29,18 @@
 
     "characteristics": {
         "cap":{
-            "img":"./images/marasmiaceae/omphalotus-olivascens/cap.jpg",
-            "caption":"",
-            "desc":""
+            "img":[
+                "./images/marasmiaceae/omphalotus-olivascens/cap1.jpg",
+                "./images/marasmiaceae/omphalotus-olivascens/cap2.jpg"
+            ],
+            "caption":[
+                "Found from Saratoga, CA, in January",
+                "Found from Saratoga, CA, in January"
+            ],
+            "desc":[
+                "",
+                ""
+            ]
         },
         "underside":{
             "img":"./images/marasmiaceae/omphalotus-olivascens/underside.jpg",
@@ -39,9 +48,21 @@
             "desc":"Has True Gills"
         },
         "side":{
-            "img":"./images/marasmiaceae/omphalotus-olivascens/side.jpg",
-            "caption":"Found in Coyote Lake Harvey Bear Ranch County Park, CA, in December 2021",
-            "desc":""
+            "img":[
+                "./images/marasmiaceae/omphalotus-olivascens/side1.jpg",
+                "./images/marasmiaceae/omphalotus-olivascens/side2.jpg",
+                "./images/marasmiaceae/omphalotus-olivascens/side3.jpg"
+            ],
+            "caption":[
+                "Found from Saratoga, CA, in January",
+                "Found in Coyote Lake Harvey Bear Ranch County Park, CA, in December",
+                "Found from Saratoga, CA, in January"
+            ],
+            "desc":[
+                "",
+                "",
+                ""
+            ]
         },
         "halved":{
             "img":"./images/templates/halved.jpg",
@@ -142,8 +163,8 @@
                 "desc":""
             },
             "young":{
-                "img":"",
-                "caption":"",
+                "img":"./images/marasmiaceae/omphalotus-olivascens/lifestages-young.jpg",
+                "caption":"Found from Saratoga, CA, in January",
                 "desc":""
             },
             "mature":{
