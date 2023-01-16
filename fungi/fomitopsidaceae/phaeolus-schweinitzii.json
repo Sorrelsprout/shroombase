@@ -31,11 +31,15 @@
         "cap":{
             "img":[
                 "./images/fomitopsidaceae/phaeolus-schweinitzii/top1.jpg",
-                "./images/fomitopsidaceae/phaeolus-schweinitzii/top2.jpg"
+                "./images/fomitopsidaceae/phaeolus-schweinitzii/top2.jpg",
+                "./images/fomitopsidaceae/phaeolus-schweinitzii/top3.jpg",
+                "./images/fomitopsidaceae/phaeolus-schweinitzii/top4.jpg"
             ],
             "caption":[
-                "Found in Portola State Park, CA, in October",
-                "Found in Sunnyvale, CA, in October"
+                "Found in Portola Redwoods State Park, CA, in October",
+                "Found in Sunnyvale, CA, in October",
+                "Found in Sunnyvale, CA, in November",
+                "Found in Portola Redwoods State Park, CA, in November"
             ],
             "desc":""
         },
@@ -45,7 +49,7 @@
                 "./images/fomitopsidaceae/phaeolus-schweinitzii/underside2.jpg"
             ],
             "caption":[
-                "Found in Portola State Park, CA, in October",
+                "Found in Portola Redwoods State Park, CA, in October",
                 "Found in Sunnyvale, CA, in October"
             ],
             "desc":""
@@ -57,16 +61,15 @@
                 "./images/fomitopsidaceae/phaeolus-schweinitzii/side3.jpg"
             ],
             "caption":[
-                "Found in Portola State Park, CA, in October",
-                "Found in Portola State Park, CA, in October. Close-up.",
-                "Found in Sunnyvale, CA, in October. Close-up.",
-                "Found in Portola State Park, CA, in October. Close-up."
+                "Found in Portola Redwoods State Park, CA, in October",
+                "Found in Portola Redwoods State Park, CA, in October. Close-up.",
+                "Found in Sunnyvale, CA, in October. Close-up."
             ],
             "desc":""
         },
         "halved":{
             "img":"./images/fomitopsidaceae/phaeolus-schweinitzii/halved.jpg",
-            "caption":"Found in Portola State Park, CA, in October",
+            "caption":"Found in Portola Redwoods State Park, CA, in October",
             "desc":""
         },
         "stem":{
@@ -90,14 +93,14 @@
                 "./images/fomitopsidaceae/phaeolus-schweinitzii/habitat2.jpg"
             ],
             "caption":[
-                "Found in Portola State Park, CA, in October",
+                "Found in Portola Redwoods State Park, CA, in October",
                 "Found in Sunnyvale, CA, in October"
             ],
             "desc":""
         },
         "bruising":{
             "img":"./images/fomitopsidaceae/phaeolus-schweinitzii/bruising.jpg",
-            "caption":"Sampled in October",
+            "caption":"Sampled in Sunnyvale, in October",
             "desc":""
         },
         "latex":{
@@ -168,18 +171,18 @@
                 "desc":""
             },
             "young":{
-                "img":"",
-                "caption":"",
+                "img":"./images/fomitopsidaceae/phaeolus-schweinitzii/lifestages-young.jpg",
+                "caption":"Found in Portola Redwoods State Park, CA, in November",
                 "desc":""
             },
             "mature":{
-                "img":"",
-                "caption":"",
+                "img":"./images/fomitopsidaceae/phaeolus-schweinitzii/lifestages-mature.jpg",
+                "caption":"Found in Portola Redwoods State Park, CA, in November",
                 "desc":""
             },
             "old":{
-                "img":"",
-                "caption":"",
+                "img":"./images/fomitopsidaceae/phaeolus-schweinitzii/lifestages-old.jpg",
+                "caption":"Found in Sunnyvale, CA, in November",
                 "desc":""
             },
             "dead":{
