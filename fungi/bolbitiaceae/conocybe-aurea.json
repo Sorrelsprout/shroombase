@@ -29,8 +29,14 @@
 
     "characteristics": {
         "cap":{
-            "img":"./images/bolbitiaceae/conocybe-aurea/cap.jpg",
-            "caption":"Found in Sunnyvale, CA, in July",
+            "img":[
+                "./images/bolbitiaceae/conocybe-aurea/cap1.jpg",
+                "./images/bolbitiaceae/conocybe-aurea/cap2.jpg"
+            ],
+            "caption":[
+                "Found in Sunnyvale, CA, in August",
+                "Found in Sunnyvale, CA, in July"
+            ],
             "desc":"Smooth cap. Top is deep golden, orangey-tan, or light umber in color. When young, striations can be seen on the cap. Sometimes a lighter shade of the deep golden color can be seen at the top of the cap around 1/3 to 2/3 of the way down."
         },
         "underside":{
