@@ -29,23 +29,43 @@
 
     "characteristics": {
         "cap":{
-            "img":"./images/fomitopsidaceae/rhodofomes-cajanderi/top.jpg",
-            "caption":"Found in La Honda, CA, in February",
+            "img":[
+                "./images/fomitopsidaceae/rhodofomes-cajanderi/top1.jpg",
+                "./images/fomitopsidaceae/rhodofomes-cajanderi/top2.jpg"
+            ],
+            "caption":[
+                "Found in La Honda, CA, in February",
+                "Found in La Honda, CA, in February"
+            ],
             "desc":"Stiff, but slightly velvety on lighter portions."
         },
         "underside":{
-            "img":"./images/fomitopsidaceae/rhodofomes-cajanderi/underside.jpg",
-            "caption":"",
+            "img":[
+                "./images/fomitopsidaceae/rhodofomes-cajanderi/underside1.jpg",
+                "./images/fomitopsidaceae/rhodofomes-cajanderi/underside2.jpg",
+                "./images/fomitopsidaceae/rhodofomes-cajanderi/underside3.jpg"
+            ],
+            "caption":[
+                "Found in Pescadero Creek, CA, in February",
+                "Found in Portola Redwoods State Park, CA, in November",
+                "Found in Portola Redwoods State Park, CA, in November"
+            ],
             "desc":""
         },
         "side":{
-            "img":"./images/fomitopsidaceae/rhodofomes-cajanderi/side.jpg",
-            "caption":"Found in La Honda, CA, in February",
+            "img":[
+                "./images/fomitopsidaceae/rhodofomes-cajanderi/side1.jpg",
+                "./images/fomitopsidaceae/rhodofomes-cajanderi/side2.jpg"
+            ],
+            "caption":[
+                "Found in La Honda, CA, in February",
+                "Found in Portola Redwoods State Park, CA, in November"
+            ],
             "desc":""
         },
         "halved":{
             "img":"./images/fomitopsidaceae/rhodofomes-cajanderi/halved.jpg",
-            "caption":"",
+            "caption":"Found in Pescadero Creek, CA, in February",
             "desc":""
         },
         "stem":{
@@ -64,8 +84,16 @@
             "desc":""
         },
         "habitat":{
-            "img":"./images/fomitopsidaceae/rhodofomes-cajanderi/habitat.jpg",
-            "caption":"",
+            "img":[
+                "./images/fomitopsidaceae/rhodofomes-cajanderi/habitat1.jpg",
+                "./images/fomitopsidaceae/rhodofomes-cajanderi/habitat2.jpg",
+                "./images/fomitopsidaceae/rhodofomes-cajanderi/habitat3.jpg"
+            ],
+            "caption":[
+                "Found in Portola Redwoods State Park, CA, in November",
+                "Found in Portola Redwoods State Park, CA, in November",
+                "Found in Pescadero Creek, CA, in February"
+            ],
             "desc":""
         },
         "bruising":{
@@ -151,8 +179,8 @@
                 "desc":""
             },
             "old":{
-                "img":"",
-                "caption":"",
+                "img":"./images/fomitopsidaceae/rhodofomes-cajanderi/lifestages-old.jpg",
+                "caption":"Found in Portola Redwoods State Park, CA, in November",
                 "desc":""
             },
             "dead":{
