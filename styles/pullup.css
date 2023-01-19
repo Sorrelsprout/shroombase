@@ -35,9 +35,7 @@
 
 #pullupToggle::selection { background: none; }
 
-#pullupToggle:hover {
-    opacity: 0.5;
-}
+#pullupToggle:hover { opacity: 0.5; }
 
 #pullup .hero::before {
     content:'';
@@ -256,12 +254,6 @@
     background: var(--BGColor);
 }
 
-/* #pullup h2:first-child {
-    border-top: none;
-    margin-top: 0;
-    padding-top: 2rem;
-} */
-
 #pullup h3 {
     font-size: 1.2em;
     margin-bottom: 1rem;
@@ -310,9 +302,7 @@
 
 #pullup strong { font-weight: 600; }
 
-#pullup .citations {
-    font-size: 0.75em;
-}
+#pullup .citations { font-size: 0.75em; }
 
 #pullup .warning {
     color: #a88332;
