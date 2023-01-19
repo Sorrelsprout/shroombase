@@ -103,8 +103,9 @@ nav .socials {
 /* Project Grid ---------------------------------------------------------------*/
 
 #fungiGrid {
-  display: flex;
-  flex-flow: row wrap;
+  display: grid;
+  grid-template-columns: calc(25% - 2px) calc(25% - 2px) calc(25% - 2px) calc(25% - 2px);
+  grid-gap: 2px;
   max-width: 1200px;
   width: 100%;
   margin: auto;
@@ -114,7 +115,6 @@ nav .socials {
 }
 
 #fungiGrid > div {
-  flex-basis: 24.8%;
   min-width: 24.8%;
   height: 15rem;
   margin: 0.1%;
