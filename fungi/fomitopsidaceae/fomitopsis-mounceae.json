@@ -1,64 +1,74 @@
 {
     "tags": {
-        "edibility":"Edible",
+        "edibility":"",
         "treelationship":[],
-        "color":[],
+        "color":["Red", "Orange", "Brown", "Grey", "White"],
         "type":["Saprotrophic"]
     },
 
     "nomenclature":{
         "division":"Basidiomycota",
         "class":"Agaricomycetes",
-        "order":"Agaricales",
-        "family":"Lyophyllaceae",
-        "genus":"Hypsizygus",
-        "species":"tessulatus",
-        "variation":"Bunashimeji",
-        "aliases":"Beech mushroom, Brown beech mushroom, Brown clamshell mushroom, Bunashimeji",
-        "displayalias":"Brown Beech Mushroom"
+        "order":"Polyporales",
+        "family":"Fomitopsidaceae",
+        "genus":"Fomitopsis",
+        "species":"mounceae",
+        "variation":"",
+        "aliases":"Northern Red Belt",
+        "displayalias":""
     },
 
     "distinguishing":{
         "coverimg":"",
         "abundancy":"",
         "smell":"",
-        "texture":"Slippery when wet.",
+        "texture":"",
         "size":"",
         "tidbits":""
     },
 
     "characteristics": {
         "cap":{
-            "img":"./images/lyophyllaceae/hypsizygus-tessulatus/cap.jpg",
-            "caption":"Specimen purchased in Sunnyvale, CA in August",
+            "img":[
+                "./images/fomitopsidaceae/fomitopsis-mounceae/top1.jpg",
+                "./images/fomitopsidaceae/fomitopsis-mounceae/top2.jpg"
+            ],
+            "caption":[
+                "Found in Whitehorn, CA, in December",
+                "Found in Whitehorn, CA, in December"
+            ],
             "desc":""
         },
         "underside":{
             "img":[
-                "./images/lyophyllaceae/hypsizygus-tessulatus/underside.jpg",
-                "./images/lyophyllaceae/hypsizygus-tessulatus/underside2.jpg",
-                "./images/lyophyllaceae/hypsizygus-tessulatus/underside3.jpg"
+                "./images/fomitopsidaceae/fomitopsis-mounceae/underside1.jpg",
+                "./images/fomitopsidaceae/fomitopsis-mounceae/underside2.jpg"
             ],
             "caption":[
-                "Specimen purchased in Sunnyvale, CA in August",
-                "Specimen purchased in Sunnyvale, CA in August",
-                "Specimen purchased in Sunnyvale, CA in August. Pin stage viewed under a microscope."
+                "Found in Moulton Falls Regional Park, OR, in January",
+                "Found in Bryant Woods Nature Park, OR, in February"
             ],
             "desc":""
         },
         "side":{
-            "img":"./images/templates/side.jpg",
-            "caption":"",
+            "img":[
+                "./images/fomitopsidaceae/fomitopsis-mounceae/side1.jpg",
+                "./images/fomitopsidaceae/fomitopsis-mounceae/side2.jpg"
+            ],
+            "caption":[
+                "Found in Bryant Woods Nature Park, OR, in February",
+                "Scouters Mountain Nature Park, OR, in February"
+            ],
             "desc":""
         },
         "halved":{
-            "img":"./images/lyophyllaceae/hypsizygus-tessulatus/halved.jpg",
-            "caption":"Specimen purchased in Sunnyvale, CA in August",
+            "img":"./images/templates/halved.jpg",
+            "caption":"",
             "desc":""
         },
         "stem":{
-            "img":"./images/lyophyllaceae/hypsizygus-tessulatus/stem.jpg",
-            "caption":"Specimen purchased in Sunnyvale, CA in August",
+            "img":"./images/templates/stem.jpg",
+            "caption":"",
             "desc":""
         },
         "sporeprint":{
@@ -67,18 +77,24 @@
             "desc":""
         },
         "mycelium":{
-            "img":"./images/lyophyllaceae/hypsizygus-tessulatus/mycelium.jpg",
-            "caption":"Specimen purchased in Sunnyvale, CA in August",
+            "img":"./images/templates/mycelium.jpg",
+            "caption":"",
             "desc":""
         },
         "habitat":{
-            "img":"./images/templates/habitat.jpg",
-            "caption":"",
+            "img":[
+                "./images/fomitopsidaceae/fomitopsis-mounceae/habitat1.jpg",
+                "./images/fomitopsidaceae/fomitopsis-mounceae/habitat2.jpg"
+            ],
+            "caption":[
+                "Found in Bryant Woods Nature Park, OR, in February",
+                "Found in Whitehorn, CA, in December"
+            ],
             "desc":""
         },
         "bruising":{
-            "img":"./images/templates/bruising.jpg",
-            "caption":"",
+            "img":"./images/fomitopsidaceae/fomitopsis-mounceae/bruising.jpg",
+            "caption":"Found in Tryon Creek State Natural Area, OR, in February",
             "desc":""
         },
         "latex":{
@@ -119,7 +135,7 @@
     },
 
     "lifestages":{
-        "fruitseason":[],
+        "fruitseason":["Winter"],
         "lifespan":"",
         "showTitles": true,
         "images":{
@@ -134,13 +150,13 @@
                 "desc":""
             },
             "eruption":{
-                "img":"",
-                "caption":"",
+                "img":"./images/fomitopsidaceae/fomitopsis-mounceae/lifestages-eruption.jpg",
+                "caption":"Found in Tryon Creek State Natural Area, OR, in February",
                 "desc":""
             },
             "pin":{
-                "img":"./images/lyophyllaceae/hypsizygus-tessulatus/lifestages-pin.jpg",
-                "caption":"Specimen purchased in Sunnyvale, CA in August",
+                "img":"",
+                "caption":"",
                 "desc":""
             },
             "button":{
@@ -149,13 +165,13 @@
                 "desc":""
             },
             "young":{
-                "img":"",
-                "caption":"",
+                "img":"./images/fomitopsidaceae/fomitopsis-mounceae/lifestages-young.jpg",
+                "caption":"Found in Moulton Falls Regional Park, OR, in January",
                 "desc":""
             },
             "mature":{
-                "img":"",
-                "caption":"",
+                "img":"./images/fomitopsidaceae/fomitopsis-mounceae/lifestages-mature.jpg",
+                "caption":"Found in Tryon Creek State Natural Area, OR, in February",
                 "desc":""
             },
             "old":{
@@ -183,15 +199,15 @@
             "funfacts":""
         },
         "cullinary":{
-            "cullinary":"Cultivated in East Asia and Europe.",
-            "taste":"Slightly crunchy",
+            "cullinary":"",
+            "taste":"",
             "recipelist":[]
         }
     },
 
     "geography":{
-        "region":["North America", "Europe", "East Asia", "Australia"],
-        "fruitlocation":"Native to East Asia.",
+        "region":[],
+        "fruitlocation":"",
         "mapURL":""
     },
 
@@ -204,8 +220,6 @@
     },
 
     "relevantlinks":{
-        "linkslist":[
-            "<a href='https://www.mushroomexpert.com/hypsizygus_tessulatus.html' target='_blank' rel='noreferrer noopener'>Mushroom Expert</a>"
-        ]
+        "linkslist":[]
     }
 }

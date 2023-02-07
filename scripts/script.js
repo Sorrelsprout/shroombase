@@ -314,7 +314,7 @@ function preloadPullup(JSONURL) {
                     <figcaption>"+ shroom[7].caption[i] +"</figcaption>"
                 }
                 lookalikeContent += "<div title='" + edibilityIcon + "'><figure>" + imagePresentContent + "</figure>\
-                    <h3 class=" + shroom[7].edibility[i] + ">" + shroom[7].names[i] + "</h3>\
+                    <h3 class=" + shroom[7].edibility[i].toLowerCase() + ">" + shroom[7].names[i] + "</h3>\
                     <p>" + shroom[7].desc[i] + "</p>\
                 </div>"
             }
