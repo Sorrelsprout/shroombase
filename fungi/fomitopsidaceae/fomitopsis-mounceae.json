@@ -2,19 +2,19 @@
     "tags": {
         "edibility":"",
         "treelationship":[],
-        "color":["Black", "Grey", "White"],
+        "color":["Red", "Orange", "Brown", "Grey", "White"],
         "type":["Saprotrophic"]
     },
 
     "nomenclature":{
-        "division":"Ascomycota",
-        "class":"Sordariomycetes",
-        "order":"Xylariales",
-        "family":"Xylariaceae",
-        "genus":"Xylaria",
-        "species":"Hypoxylon",
+        "division":"Basidiomycota",
+        "class":"Agaricomycetes",
+        "order":"Polyporales",
+        "family":"Fomitopsidaceae",
+        "genus":"Fomitopsis",
+        "species":"Mounceae",
         "variation":"",
-        "aliases":"Candlesnuff fungus, Candlestick fungus, Carbon antlers, Stag's horn fungus",
+        "aliases":"Northern Red Belt",
         "displayalias":""
     },
 
@@ -29,18 +29,36 @@
 
     "characteristics": {
         "cap":{
-            "img":"./images/xylariaceae/xylaria-hypoxylon/top.jpg",
-            "caption":"Found in Bryant Woods Nature Park, OR, in February",
+            "img":[
+                "./images/fomitopsidaceae/fomitopsis-mounceae/top1.jpg",
+                "./images/fomitopsidaceae/fomitopsis-mounceae/top2.jpg"
+            ],
+            "caption":[
+                "Found in Whitehorn, CA, in December",
+                "Found in Whitehorn, CA, in December"
+            ],
             "desc":""
         },
         "underside":{
-            "img":"./images/templates/underside.jpg",
-            "caption":"",
+            "img":[
+                "./images/fomitopsidaceae/fomitopsis-mounceae/underside1.jpg",
+                "./images/fomitopsidaceae/fomitopsis-mounceae/underside2.jpg"
+            ],
+            "caption":[
+                "Found in Moulton Falls Regional Park, OR, in January",
+                "Found in Bryant Woods Nature Park, OR, in February"
+            ],
             "desc":""
         },
         "side":{
-            "img":"./images/xylariaceae/xylaria-hypoxylon/side.jpg",
-            "caption":"Found in Tryon Creek State Natural Area, OR, in February",
+            "img":[
+                "./images/fomitopsidaceae/fomitopsis-mounceae/side1.jpg",
+                "./images/fomitopsidaceae/fomitopsis-mounceae/side2.jpg"
+            ],
+            "caption":[
+                "Found in Bryant Woods Nature Park, OR, in February",
+                "Scouters Mountain Nature Park, OR, in February"
+            ],
             "desc":""
         },
         "halved":{
@@ -56,7 +74,7 @@
         "sporeprint":{
             "img":"./images/templates/sporeprint.jpg",
             "caption":"",
-            "desc":"Black sporeprint."
+            "desc":""
         },
         "mycelium":{
             "img":"./images/templates/mycelium.jpg",
@@ -65,18 +83,18 @@
         },
         "habitat":{
             "img":[
-                "./images/xylariaceae/xylaria-hypoxylon/habitat1.jpg",
-                "./images/xylariaceae/xylaria-hypoxylon/habitat2.jpg"
+                "./images/fomitopsidaceae/fomitopsis-mounceae/habitat1.jpg",
+                "./images/fomitopsidaceae/fomitopsis-mounceae/habitat2.jpg"
             ],
             "caption":[
-                "Found in Boulder Creek, CA, in January",
-                "Found in Portola Redwoods, CA, in December"
+                "Found in Bryant Woods Nature Park, OR, in February",
+                "Found in Whitehorn, CA, in December"
             ],
             "desc":""
         },
         "bruising":{
-            "img":"./images/templates/bruising.jpg",
-            "caption":"",
+            "img":"./images/fomitopsidaceae/fomitopsis-mounceae/bruising.jpg",
+            "caption":"Found in Tryon Creek State Natural Area, OR, in February",
             "desc":""
         },
         "latex":{
@@ -90,9 +108,9 @@
             "desc":""
         },
         "other":{
-            "img":"./images/xylariaceae/xylaria-hypoxylon/sporocarp.jpg",
-            "caption":"Found in Tryon Creek State Natural Area, OR, in February",
-            "desc":"White spore-containing powder is shed by the fungus. When sexually mature, black spores are revealed."
+            "img":"./images/templates/other.jpg",
+            "caption":"",
+            "desc":""
         },
         "water":{
             "img":"./images/templates/water.jpg",
@@ -132,8 +150,8 @@
                 "desc":""
             },
             "eruption":{
-                "img":"./images/xylariaceae/xylaria-hypoxylon/lifestages-eruption.jpg",
-                "caption":"Found in Bryant Woods Nature Park, OR, in February",
+                "img":"./images/fomitopsidaceae/fomitopsis-mounceae/lifestages-eruption.jpg",
+                "caption":"Found in Tryon Creek State Natural Area, OR, in February",
                 "desc":""
             },
             "pin":{
@@ -147,18 +165,18 @@
                 "desc":""
             },
             "young":{
-                "img":"./images/xylariaceae/xylaria-hypoxylon/lifestages-young.jpg",
-                "caption":"Found in Bryant Woods Nature Park, OR, in February",
+                "img":"./images/fomitopsidaceae/fomitopsis-mounceae/lifestages-young.jpg",
+                "caption":"Found in Moulton Falls Regional Park, OR, in January",
                 "desc":""
             },
             "mature":{
-                "img":"./images/xylariaceae/xylaria-hypoxylon/lifestages-mature.jpg",
+                "img":"./images/fomitopsidaceae/fomitopsis-mounceae/lifestages-mature.jpg",
                 "caption":"Found in Tryon Creek State Natural Area, OR, in February",
                 "desc":""
             },
             "old":{
-                "img":"./images/xylariaceae/xylaria-hypoxylon/lifestages-old.jpg",
-                "caption":"Found in Tryon Creek State Natural Area, OR, in February",
+                "img":"",
+                "caption":"",
                 "desc":""
             },
             "dead":{
@@ -194,26 +212,14 @@
     },
 
     "lookalikes":{
-        "names":[
-            "Xylaria mali"
-        ],
-        "images":[
-            ""
-        ],
-        "caption":[
-            ""
-        ],
-        "desc":[
-            ""
-        ],
-        "edibility":[
-            ""
-        ]
+        "names":[],
+        "images":[],
+        "caption":[],
+        "desc":[],
+        "edibility":[]
     },
 
     "relevantlinks":{
-        "linkslist":[
-            "<a href='https://en.wikipedia.org/wiki/Xylaria_hypoxylon' target='_blank' rel='noreferrer noopener'>Wikipedia</a>"
-        ]
+        "linkslist":[]
     }
 }
