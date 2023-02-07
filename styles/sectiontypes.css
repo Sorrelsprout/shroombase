@@ -1,3 +1,10 @@
+:root {
+    --edible: #679450;
+    --poisonous: #cb6248;
+    --psychedelic: linear-gradient(to right, #864949, #996c31, #406e8f, #864949);
+    --medicinal: #9e896c;
+}
+
 /* H 2   T A G S   Q U I C K N A V ------------------------------------------- */
 
 #pageH2Tags-container {
@@ -70,17 +77,22 @@
 
 #tags-poisonousEdible.poisonous {
     color: #fff;
-    background: #cb6248;
+    background: var(--poisonous);
 }
 
 #tags-poisonousEdible.edible {
     color: #fff;
-    background: #679450;
+    background: var(--edible);
 }
 
 #tags-poisonousEdible.medicinal {
     color: #fff;
-    background: #9e896c;
+    background: var(--medicinal);
+}
+
+#tags-poisonousEdible.psychedelic {
+    color: #fff;
+    background: var(--psychedelic);
 }
 
 /* M U L T I   I M G   G A L L E R Y ----------------------------------------- */
@@ -214,8 +226,15 @@
     }
 }
 
-#lookalikeGrid.characteristicsGrid .poisonous { color: #cb6248; }
-#lookalikeGrid.characteristicsGrid .edible {  color: #679450; }
+#lookalikeGrid.characteristicsGrid .poisonous { color: var(--poisonous); }
+#lookalikeGrid.characteristicsGrid .edible {  color: var(--edible); }
+#lookalikeGrid.characteristicsGrid .medicinal {  color: var(--medicinal); }
+#lookalikeGrid.characteristicsGrid .psychedelic {
+    background: var(--psychedelic);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: brightness(150%);
+}
 
 
 /* R E L A V E N T   L I N K S ----------------------------------------------- */

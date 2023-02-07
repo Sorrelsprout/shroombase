@@ -1,20 +1,20 @@
 {
     "tags": {
-        "edibility":"",
+        "edibility":"Psychedelic",
         "treelationship":[],
-        "color":["Red", "Orange", "Brown", "Grey", "White"],
+        "color":["Brown", "Tan"],
         "type":["Saprotrophic"]
     },
 
     "nomenclature":{
         "division":"Basidiomycota",
         "class":"Agaricomycetes",
-        "order":"Polyporales",
-        "family":"Fomitopsidaceae",
-        "genus":"Fomitopsis",
-        "species":"mounceae",
+        "order":"Agaricales",
+        "family":"Hymenogastraceae",
+        "genus":"Psilocybe",
+        "species":"allenii",
         "variation":"",
-        "aliases":"Northern Red Belt",
+        "aliases":"",
         "displayalias":""
     },
 
@@ -30,45 +30,47 @@
     "characteristics": {
         "cap":{
             "img":[
-                "./images/fomitopsidaceae/fomitopsis-mounceae/top1.jpg",
-                "./images/fomitopsidaceae/fomitopsis-mounceae/top2.jpg"
+                "./images/hymenogastraceae/psilocybe-allenii/cap1.jpg",
+                "./images/hymenogastraceae/psilocybe-allenii/cap2.jpg",
+                "./images/hymenogastraceae/psilocybe-allenii/cap3.jpg"
             ],
             "caption":[
-                "Found in Whitehorn, CA, in December",
-                "Found in Whitehorn, CA, in December"
+                "Found in Topanga, CA, in December",
+                "Found in Topanga, CA, in December",
+                "Found in Topanga, CA, in December"
             ],
             "desc":""
         },
         "underside":{
             "img":[
-                "./images/fomitopsidaceae/fomitopsis-mounceae/underside1.jpg",
-                "./images/fomitopsidaceae/fomitopsis-mounceae/underside2.jpg"
+                "./images/hymenogastraceae/psilocybe-allenii/underside1.jpg",
+                "./images/hymenogastraceae/psilocybe-allenii/underside2.jpg"
             ],
             "caption":[
-                "Found in Moulton Falls Regional Park, OR, in January",
-                "Found in Bryant Woods Nature Park, OR, in February"
+                "Found in Topanga, CA, in December",
+                "Found in Topanga, CA, in December"
             ],
             "desc":""
         },
         "side":{
             "img":[
-                "./images/fomitopsidaceae/fomitopsis-mounceae/side1.jpg",
-                "./images/fomitopsidaceae/fomitopsis-mounceae/side2.jpg"
+                "./images/hymenogastraceae/psilocybe-allenii/side1.jpg",
+                "./images/hymenogastraceae/psilocybe-allenii/side2.jpg"
             ],
             "caption":[
-                "Found in Bryant Woods Nature Park, OR, in February",
-                "Scouters Mountain Nature Park, OR, in February"
+                "Found in Topanga, CA, in December",
+                "Found in Topanga, CA, in December"
             ],
             "desc":""
         },
         "halved":{
-            "img":"./images/templates/halved.jpg",
-            "caption":"",
+            "img":"./images/hymenogastraceae/psilocybe-allenii/halved.jpg",
+            "caption":"Found in Topanga, CA, in December",
             "desc":""
         },
         "stem":{
-            "img":"./images/templates/stem.jpg",
-            "caption":"",
+            "img":"./images/hymenogastraceae/psilocybe-allenii/stem.jpg",
+            "caption":"Found in Topanga, CA, in December",
             "desc":""
         },
         "sporeprint":{
@@ -82,20 +84,14 @@
             "desc":""
         },
         "habitat":{
-            "img":[
-                "./images/fomitopsidaceae/fomitopsis-mounceae/habitat1.jpg",
-                "./images/fomitopsidaceae/fomitopsis-mounceae/habitat2.jpg"
-            ],
-            "caption":[
-                "Found in Bryant Woods Nature Park, OR, in February",
-                "Found in Whitehorn, CA, in December"
-            ],
-            "desc":""
+            "img":"./images/hymenogastraceae/psilocybe-allenii/habitat.jpg",
+            "caption":"Found in Topanga, CA, in December",
+            "desc":"Grows on damp dead wood."
         },
         "bruising":{
-            "img":"./images/fomitopsidaceae/fomitopsis-mounceae/bruising.jpg",
-            "caption":"Found in Tryon Creek State Natural Area, OR, in February",
-            "desc":""
+            "img":"./images/hymenogastraceae/psilocybe-allenii/bruising.jpg",
+            "caption":"Found in Topanga, CA, in December",
+            "desc":"Bruises navy blue."
         },
         "latex":{
             "img":"./images/templates/latex.jpg",
@@ -135,7 +131,7 @@
     },
 
     "lifestages":{
-        "fruitseason":["Winter"],
+        "fruitseason":[],
         "lifespan":"",
         "showTitles": true,
         "images":{
@@ -150,8 +146,8 @@
                 "desc":""
             },
             "eruption":{
-                "img":"./images/fomitopsidaceae/fomitopsis-mounceae/lifestages-eruption.jpg",
-                "caption":"Found in Tryon Creek State Natural Area, OR, in February",
+                "img":"",
+                "caption":"",
                 "desc":""
             },
             "pin":{
@@ -165,18 +161,18 @@
                 "desc":""
             },
             "young":{
-                "img":"./images/fomitopsidaceae/fomitopsis-mounceae/lifestages-young.jpg",
-                "caption":"Found in Moulton Falls Regional Park, OR, in January",
+                "img":"./images/hymenogastraceae/psilocybe-allenii/lifestages-young.jpg",
+                "caption":"Found in Topanga, CA, in December",
                 "desc":""
             },
             "mature":{
-                "img":"./images/fomitopsidaceae/fomitopsis-mounceae/lifestages-mature.jpg",
-                "caption":"Found in Tryon Creek State Natural Area, OR, in February",
+                "img":"./images/hymenogastraceae/psilocybe-allenii/lifestages-mature.jpg",
+                "caption":"Found in Topanga, CA, in December",
                 "desc":""
             },
             "old":{
-                "img":"",
-                "caption":"",
+                "img":"./images/hymenogastraceae/psilocybe-allenii/lifestages-old.jpg",
+                "caption":"Found in Topanga, CA, in December",
                 "desc":""
             },
             "dead":{
@@ -212,14 +208,27 @@
     },
 
     "lookalikes":{
-        "names":[],
-        "images":[],
-        "caption":[],
-        "desc":[],
-        "edibility":[]
+        "names":[
+            "Wavy caps"
+        ],
+        "images":[
+            "https://upload.wikimedia.org/wikipedia/commons/e/e6/Psilocybe_cyanescens_12435190.jpg"
+        ],
+        "caption":[
+            "Image from <a href='https://commons.wikimedia.org/wiki/File:Psilocybe_cyanescens_12435190.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by <a href='https://www.inaturalist.org/people/timsage' target='_blank' rel='noreferrer noopener'>Tim Sage</a>, <a title='Tim Sage, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/4.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 4.0</a>. In November, 2020."
+        ],
+        "desc":[
+            "Scientifically named <strong>Psilocybe cyanescens</strong>. Also called the <strong>Potent psilocybe</strong>."
+        ],
+        "edibility":[
+            "Psychedelic"
+        ]
     },
 
     "relevantlinks":{
-        "linkslist":[]
+        "linkslist":[
+            "<a href='https://doubleblindmag.com/psilocybe-allenii' target='_blank' rel='noreferrer noopener'>DoubleBlind</a>",
+            "<a href='https://en.wikipedia.org/wiki/Psilocybe_allenii' target='_blank' rel='noreferrer noopener'>Wikipedia</a>"
+        ]
     }
 }
