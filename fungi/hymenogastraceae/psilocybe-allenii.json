@@ -202,9 +202,9 @@
     },
 
     "geography":{
-        "region":[],
-        "fruitlocation":"",
-        "mapURL":""
+        "region":["North America"],
+        "fruitlocation":"Found along the USA west coast, but more concentrated in the Bay Area in California.",
+        "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=348831"
     },
 
     "lookalikes":{

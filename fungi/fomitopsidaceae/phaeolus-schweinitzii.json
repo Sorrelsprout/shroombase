@@ -3,7 +3,7 @@
         "edibility":"",
         "treelationship":[],
         "color":["orange", "tan", "brown"],
-        "type":[]
+        "type":["Parasitic"]
     },
 
     "nomenclature":{
@@ -212,9 +212,9 @@
     },
 
     "geography":{
-        "region":[],
+        "region":["Australia", "Europe", "New Zealand", "North America", "South Africa"],
         "fruitlocation":"",
-        "mapURL":""
+        "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=118084"
     },
 
     "lookalikes":{

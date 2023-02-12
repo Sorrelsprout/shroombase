@@ -196,7 +196,7 @@
         "cultural":{
             "cultural":"",
             "medicinal":"",
-            "funfacts":""
+            "funfacts":"Named after Canadian mycologist Irene Mounce"
         },
         "cullinary":{
             "cullinary":"",
@@ -206,17 +206,32 @@
     },
 
     "geography":{
-        "region":[],
-        "fruitlocation":"",
-        "mapURL":""
+        "region":["North America"],
+        "fruitlocation":"Found in Canada and northern California",
+        "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=877361"
     },
 
     "lookalikes":{
-        "names":[],
-        "images":[],
-        "caption":[],
-        "desc":[],
-        "edibility":[]
+        "names":[
+            "Fomitopsis pinicola",
+            "Fomitopsis schrenkii"
+        ],
+        "images":[
+            "",
+            ""
+        ],
+        "caption":[
+            "",
+            ""
+        ],
+        "desc":[
+            "Almost identical species, grows in Europe.",
+            "Almost identical species, also grows in North America but in the eastern and southern regions."
+        ],
+        "edibility":[
+            "",
+            ""
+        ]
     },
 
     "relevantlinks":{
