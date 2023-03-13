@@ -60,7 +60,12 @@ $(document).ready(function(){
 
         $(this).append(fungusIMGHTML);
         $(this).append(fungusDESC);
+
+        //Show favorites on pageload (doesn't work yet)
+        // if($("#" + fungusID).data("favorite") !== 1){ $(this).addClass("hiddenTag"); }
      });
+
+    
    
      
 

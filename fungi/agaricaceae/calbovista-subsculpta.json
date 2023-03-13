@@ -1,0 +1,240 @@
+{
+    "tags": {
+        "edibility":"Edible",
+        "treelationship":[],
+        "color":["White"],
+        "type":["Saptrotrophic"]
+    },
+
+    "nomenclature":{
+        "division":"Basidiomycota",
+        "class":"Agaricomycetes",
+        "order":"Agaricales",
+        "family":"Agaricaceae",
+        "genus":"Calbovista",
+        "species":"subsculpta",
+        "variation":"",
+        "aliases":"Sculptured giant puffball, Sculptured puffball, Warted buffball",
+        "displayalias":"Sculptured puffball"
+    },
+
+    "distinguishing":{
+        "coverimg":"",
+        "abundancy":"",
+        "smell":"",
+        "texture":"",
+        "size":"",
+        "tidbits":""
+    },
+
+    "characteristics": {
+        "cap":{
+            "img":[
+                "./images/agaricaceae/calbovista-subsculpta/top.jpg",
+                "./images/agaricaceae/calbovista-subsculpta/top2.jpg"
+            ],
+            "caption":[
+                "Found in Yosemite National Park, CA, in May",
+                "Sampled in Yosemite National Park, CA, in May"
+            ],
+            "desc":""
+        },
+        "underside":{
+            "img":"./images/templates/underside.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "side":{
+            "img":[
+                "./images/agaricaceae/calbovista-subsculpta/side.jpg",
+                "./images/agaricaceae/calbovista-subsculpta/side2.jpg"
+            ],
+            "caption":[
+                "Found in Yosemite National Park, CA, in May",
+                "Sampled in Yosemite National Park, CA, in May"
+            ],
+            "desc":""
+        },
+        "halved":{
+            "img":"./images/agaricaceae/calbovista-subsculpta/halved.jpg",
+            "caption":"Found in Yosemite National Park, CA, in May",
+            "desc":""
+        },
+        "stem":{
+            "img":"./images/templates/stem.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "sporeprint":{
+            "img":"./images/templates/sporeprint.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "mycelium":{
+            "img":"./images/templates/mycelium.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "habitat":{
+            "img":"./images/agaricaceae/calbovista-subsculpta/habitat.jpg",
+            "caption":"Found in Yosemite National Park, CA, in May",
+            "desc":""
+        },
+        "bruising":{
+            "img":"./images/templates/bruising.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "latex":{
+            "img":"./images/templates/latex.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bioluminescence":{
+            "img":"./images/templates/bioluminescence.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "other":{
+            "img":"./images/templates/other.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "water":{
+            "img":"./images/templates/water.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "feso4":{
+            "img":"./images/templates/feso4.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "koh":{
+            "img":"./images/templates/koh.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "nh3":{
+            "img":"./images/templates/nh3.jpg",
+            "caption":"",
+            "desc":""
+        }
+    },
+
+    "lifestages":{
+        "fruitseason":["Spring"],
+        "lifespan":"",
+        "showTitles": true,
+        "images":{
+            "spore":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "egg":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "eruption":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "pin":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "button":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "young":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "mature":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "old":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "dead":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            }
+        }
+    },
+
+    "significance":{
+        "scientific":{
+            "scientific":"",
+            "environmental":"",
+            "genetic":""
+        },
+        "cultural":{
+            "cultural":"",
+            "medicinal":"",
+            "funfacts":""
+        },
+        "cullinary":{
+            "cullinary":"",
+            "taste":"",
+            "recipelist":[]
+        }
+    },
+
+    "geography":{
+        "region":[],
+        "fruitlocation":"",
+        "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=128574"
+    },
+
+    "lookalikes":{
+        "names":[
+            "Calvatia booniana",
+            "Sculpted Puffball",
+            "Calvatia subcretacea",
+            "Mycenastrum corium"
+        ],
+        "images":[
+            "",
+            "",
+            "",
+            ""
+        ],
+        "caption":[
+            "",
+            "Scientifically named <strong>Calvatia Sculpta</strong>. Also called the <strong>Pyramid puffball</strong>, <strong>Sierran puffball</strong>, <strong>Sculpted puffball</strong>, and <strong>Sculptured puffball</strong>.",
+            "",
+            ""
+        ],
+        "desc":[
+            "",
+            "",
+            "",
+            ""
+        ],
+        "edibility":[
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+
+    "relevantlinks":{
+        "linkslist":[
+            "<a href='https://en.wikipedia.org/wiki/Calbovista' target='_blank' rel='noreferrer noopener'>Wikipedia</a>"
+        ]
+    }
+}
