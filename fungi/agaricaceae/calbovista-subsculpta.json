@@ -1,21 +1,21 @@
 {
     "tags": {
-        "edibility":"",
+        "edibility":"Edible",
         "treelationship":[],
-        "color":["Red", "Orange", "Brown", "Grey", "White"],
-        "type":["Saprotrophic"]
+        "color":["White"],
+        "type":["Saptrotrophic"]
     },
 
     "nomenclature":{
         "division":"Basidiomycota",
         "class":"Agaricomycetes",
-        "order":"Polyporales",
-        "family":"Fomitopsidaceae",
-        "genus":"Fomitopsis",
-        "species":"mounceae",
+        "order":"Agaricales",
+        "family":"Agaricaceae",
+        "genus":"Calbovista",
+        "species":"subsculpta",
         "variation":"",
-        "aliases":"Northern Red Belt",
-        "displayalias":""
+        "aliases":"Sculptured giant puffball, Sculptured puffball, Warted buffball",
+        "displayalias":"Sculptured puffball"
     },
 
     "distinguishing":{
@@ -30,40 +30,34 @@
     "characteristics": {
         "cap":{
             "img":[
-                "./images/fomitopsidaceae/fomitopsis-mounceae/top1.jpg",
-                "./images/fomitopsidaceae/fomitopsis-mounceae/top2.jpg"
+                "./images/agaricaceae/calbovista-subsculpta/top.jpg",
+                "./images/agaricaceae/calbovista-subsculpta/top2.jpg"
             ],
             "caption":[
-                "Found in Whitehorn, CA, in December",
-                "Found in Whitehorn, CA, in December"
+                "Found in Yosemite National Park, CA, in May",
+                "Sampled in Yosemite National Park, CA, in May"
             ],
             "desc":""
         },
         "underside":{
-            "img":[
-                "./images/fomitopsidaceae/fomitopsis-mounceae/underside1.jpg",
-                "./images/fomitopsidaceae/fomitopsis-mounceae/underside2.jpg"
-            ],
-            "caption":[
-                "Found in Moulton Falls Regional Park, OR, in January",
-                "Found in Bryant Woods Nature Park, OR, in February"
-            ],
+            "img":"./images/templates/underside.jpg",
+            "caption":"",
             "desc":""
         },
         "side":{
             "img":[
-                "./images/fomitopsidaceae/fomitopsis-mounceae/side1.jpg",
-                "./images/fomitopsidaceae/fomitopsis-mounceae/side2.jpg"
+                "./images/agaricaceae/calbovista-subsculpta/side.jpg",
+                "./images/agaricaceae/calbovista-subsculpta/side2.jpg"
             ],
             "caption":[
-                "Found in Bryant Woods Nature Park, OR, in February",
-                "Scouters Mountain Nature Park, OR, in February"
+                "Found in Yosemite National Park, CA, in May",
+                "Sampled in Yosemite National Park, CA, in May"
             ],
             "desc":""
         },
         "halved":{
-            "img":"./images/templates/halved.jpg",
-            "caption":"",
+            "img":"./images/agaricaceae/calbovista-subsculpta/halved.jpg",
+            "caption":"Found in Yosemite National Park, CA, in May",
             "desc":""
         },
         "stem":{
@@ -82,19 +76,13 @@
             "desc":""
         },
         "habitat":{
-            "img":[
-                "./images/fomitopsidaceae/fomitopsis-mounceae/habitat1.jpg",
-                "./images/fomitopsidaceae/fomitopsis-mounceae/habitat2.jpg"
-            ],
-            "caption":[
-                "Found in Bryant Woods Nature Park, OR, in February",
-                "Found in Whitehorn, CA, in December"
-            ],
+            "img":"./images/agaricaceae/calbovista-subsculpta/habitat.jpg",
+            "caption":"Found in Yosemite National Park, CA, in May",
             "desc":""
         },
         "bruising":{
-            "img":"./images/fomitopsidaceae/fomitopsis-mounceae/bruising.jpg",
-            "caption":"Found in Tryon Creek State Natural Area, OR, in February",
+            "img":"./images/templates/bruising.jpg",
+            "caption":"",
             "desc":""
         },
         "latex":{
@@ -135,7 +123,7 @@
     },
 
     "lifestages":{
-        "fruitseason":["Winter"],
+        "fruitseason":["Spring"],
         "lifespan":"",
         "showTitles": true,
         "images":{
@@ -150,8 +138,8 @@
                 "desc":""
             },
             "eruption":{
-                "img":"./images/fomitopsidaceae/fomitopsis-mounceae/lifestages-eruption.jpg",
-                "caption":"Found in Tryon Creek State Natural Area, OR, in February",
+                "img":"",
+                "caption":"",
                 "desc":""
             },
             "pin":{
@@ -165,13 +153,13 @@
                 "desc":""
             },
             "young":{
-                "img":"./images/fomitopsidaceae/fomitopsis-mounceae/lifestages-young.jpg",
-                "caption":"Found in Moulton Falls Regional Park, OR, in January",
+                "img":"",
+                "caption":"",
                 "desc":""
             },
             "mature":{
-                "img":"./images/fomitopsidaceae/fomitopsis-mounceae/lifestages-mature.jpg",
-                "caption":"Found in Tryon Creek State Natural Area, OR, in February",
+                "img":"",
+                "caption":"",
                 "desc":""
             },
             "old":{
@@ -196,7 +184,7 @@
         "cultural":{
             "cultural":"",
             "medicinal":"",
-            "funfacts":"Named after Canadian mycologist Irene Mounce"
+            "funfacts":""
         },
         "cullinary":{
             "cullinary":"",
@@ -206,35 +194,47 @@
     },
 
     "geography":{
-        "region":["North America"],
-        "fruitlocation":"Found in Canada and northern California",
-        "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=877361"
+        "region":[],
+        "fruitlocation":"",
+        "mapURL":"https://www.inaturalist.org/observations/map?taxon_id=128574"
     },
 
     "lookalikes":{
         "names":[
-            "Fomitopsis pinicola",
-            "Fomitopsis schrenkii"
+            "Calvatia booniana",
+            "Sculpted Puffball",
+            "Calvatia subcretacea",
+            "Mycenastrum corium"
         ],
         "images":[
+            "",
+            "",
             "",
             ""
         ],
         "caption":[
             "",
+            "Scientifically named <strong>Calvatia Sculpta</strong>. Also called the <strong>Pyramid puffball</strong>, <strong>Sierran puffball</strong>, <strong>Sculpted puffball</strong>, and <strong>Sculptured puffball</strong>.",
+            "",
             ""
         ],
         "desc":[
-            "Almost identical species, grows in Europe.",
-            "Almost identical species, also grows in North America but in the eastern and southern regions."
+            "",
+            "",
+            "",
+            ""
         ],
         "edibility":[
+            "",
+            "",
             "",
             ""
         ]
     },
 
     "relevantlinks":{
-        "linkslist":[]
+        "linkslist":[
+            "<a href='https://en.wikipedia.org/wiki/Calbovista' target='_blank' rel='noreferrer noopener'>Wikipedia</a>"
+        ]
     }
 }
