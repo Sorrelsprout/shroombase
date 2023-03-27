@@ -67,6 +67,23 @@
         "other_image":"",
         "other_imageCaption":""
     },
+    "elm": {
+        "name":"Elm",
+        "scientificName":"Ulmaceae Ulmus",
+        "description":"",
+        "tree_image":"https://upload.wikimedia.org/wikipedia/commons/d/d2/East_Coker_elm%2C_2.jpg",
+        "tree_imageCaption":"Ulmus minor from <a href='https://commons.wikimedia.org/wiki/File:East_Coker_elm,_2.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Ptelea, <a title='Ptelea, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/3.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 3.0</a>. In East Coker, UK.",
+        "wood_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Ulmus_glabra_Wych_Elm_bark.jpg/1596px-Ulmus_glabra_Wych_Elm_bark.jpg",
+        "wood_imageCaption":"Ulmus glabra bark from <a href='https://commons.wikimedia.org/wiki/File:Ulmus_glabra_Wych_Elm_bark.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by T.Voekler, <a title='T.Voekler, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/3.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 3.0</a>.",
+        "leaf_image":"https://upload.wikimedia.org/wikipedia/commons/a/a6/Ulmus_%27Wingham%27_leaf.jpg",
+        "leaf_imageCaption":"Ulmus 'Wingham' leaf from <a href='https://commons.wikimedia.org/wiki/File:Ulmus_%27Wingham%27_leaf.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Izigabo, <a title='Izigabo, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/4.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 4.0</a>.",
+        "flower_image":"https://upload.wikimedia.org/wikipedia/commons/7/72/An_Elm_flower_%28Ulmus_procera%29_at_Spier%27s_School%2C_Beith%2C_Ayrshire.jpg",
+        "flower_imageCaption":"Ulmus procera flower from <a href='https://commons.wikimedia.org/wiki/File:An_Elm_flower_(Ulmus_procera)_at_Spier%27s_School,_Beith,_Ayrshire.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Rosser1954, <a title='Rosser1954, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/4.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 4.0</a>.",
+        "fruitSeed_image":"https://upload.wikimedia.org/wikipedia/commons/2/29/Seed_Ulmus_davidiana_var._japonica.jpg",
+        "fruitSeed_imageCaption":"Ulmus davidiana seed from <a href='https://commons.wikimedia.org/wiki/File:Seed_Ulmus_davidiana_var._japonica.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>, by Izigabo, <a title='Izigabo, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons' href='https://creativecommons.org/licenses/by-sa/4.0/legalcode' target='_blank' rel='noreferrer noopener'>CC BY-SA 4.0</a>.",
+        "other_image":"",
+        "other_imageCaption":""
+    },
     "fir": {
         "name":"Fir",
         "scientificName":"Pinaceae Abies",

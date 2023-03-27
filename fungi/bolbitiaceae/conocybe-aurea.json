@@ -2,7 +2,7 @@
     "tags": {
         "edibility":"",
         "treelationship":[],
-        "color":["orange", "tan"],
+        "color":["Orange", "Yellow", "Tan"],
         "type":["Saprotrophic"]
     },
 
@@ -12,7 +12,7 @@
         "order":"Agaricales",
         "family":"Bolbitiaceae",
         "genus":"Conocybe",
-        "species":"aurea",
+        "species":"Aurea",
         "variation":"",
         "aliases":"Conocybe aurea var. hololeuca, Galera aurea, Golden conecap",
         "displayalias":"Golden Conecap"

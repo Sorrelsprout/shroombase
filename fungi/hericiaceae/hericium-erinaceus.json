@@ -1,41 +1,41 @@
 {
     "tags": {
         "edibility":"Edible",
-        "treelationship":["Elm", "Deciduous"],
-        "color":["Black"],
-        "type":["Mycorrhizal", "Saprotrophic"]
+        "treelationship":[],
+        "color":["White", "Yellow", "Tan"],
+        "type":["Saprotrophic"]
     },
 
     "nomenclature":{
-        "division":"Ascomycota",
-        "class":"Pezizomycetes",
-        "order":"Pezizales",
-        "family":"Morchellaceae",
-        "genus":"Morchella",
-        "species":"sp",
+        "division":"Basidiomycota",
+        "class":"Agaricomycetes",
+        "order":"Russulales",
+        "family":"Hericiaceae",
+        "genus":"Hericium",
+        "species":"Erinaceus",
         "variation":"",
-        "aliases":"Morel",
-        "displayalias":"Morel, True morel"
+        "aliases":"Bearded hedgehog, Bearded tooth, Lion's Mane, Mountain priest mushroom, Pom pom mushroom, Yamabushitake",
+        "displayalias":"Lion's Mane"
     },
 
     "distinguishing":{
-        "coverimg":"",
+        "coverimg":"https://images.unsplash.com/photo-1634194405074-e1f9f172543a?w=2000&h=1500&fit=crop",
         "abundancy":"",
         "smell":"",
-        "texture":"Rubbery and spongy. Delicate and when dried for a while, crumbles.",
+        "texture":"",
         "size":"",
-        "tidbits":"Very similar to M. esculenta. Depending on their life stage, morels can be saprobes or mycorrhizal."
+        "tidbits":""
     },
 
     "characteristics": {
         "cap":{
-            "img":"./images/morchellaceae/morchella-sp/cap.jpg",
-            "caption":"Specimen purchased at Eataly in San Jose, CA in August",
-            "desc":"Many ridges and holes. The edges of the ridges are darker than the inner regions."
+            "img":"./images/templates/cap.jpg",
+            "caption":"",
+            "desc":""
         },
         "underside":{
-            "img":"./images/morchellaceae/morchella-sp/underside.jpg",
-            "caption":"Specimen purchased at Eataly in San Jose, CA in August",
+            "img":"./images/templates/underside.jpg",
+            "caption":"",
             "desc":""
         },
         "side":{
@@ -44,19 +44,19 @@
             "desc":""
         },
         "halved":{
-            "img":"./images/morchellaceae/morchella-sp/halved.jpg",
-            "caption":"Specimen purchased at Eataly in San Jose, CA in August",
-            "desc":"Hollow interior. Inside is bumpy with a slightly rough texture. Some portions look like there are lots of tiny white spots inside."
+            "img":"./images/templates/halved.jpg",
+            "caption":"",
+            "desc":""
         },
         "stem":{
-            "img":"./images/morchellaceae/morchella-sp/stem.jpg",
-            "caption":"Specimen purchased at Eataly in San Jose, CA in August",
-            "desc":"Beige stem, similar to the texture of aged rubber but not as stiff. Brown and slight furfuraceous texture on certain parts."
+            "img":"./images/templates/stem.jpg",
+            "caption":"",
+            "desc":""
         },
         "sporeprint":{
-            "img":"./images/morchellaceae/morchella-sp/sporeprint.jpg",
-            "caption":"Specimen purchased at Eataly in San Jose, CA in August",
-            "desc":"Yellowy-beige spore print."
+            "img":"./images/templates/sporeprint.jpg",
+            "caption":"",
+            "desc":""
         },
         "mycelium":{
             "img":"./images/templates/mycelium.jpg",
@@ -64,8 +64,8 @@
             "desc":""
         },
         "habitat":{
-            "img":"./images/templates/habitat.jpg",
-            "caption":"",
+            "img":"./images/hericiaceae/hericium-erinaceus/habitat.jpg",
+            "caption":"Image by Artur Kornakov, from <a href='https://unsplash.com/photos/gqTd5MSZaHc' target='_blank' rel='noreferrer noopener'>Unsplash</a>",
             "desc":""
         },
         "bruising":{
@@ -111,7 +111,7 @@
     },
 
     "lifestages":{
-        "fruitseason":["Spring"],
+        "fruitseason":[],
         "lifespan":"",
         "showTitles": true,
         "images":{
@@ -175,8 +175,8 @@
             "funfacts":""
         },
         "cullinary":{
-            "cullinary":"Ridges holds sauces well.",
-            "taste":"Rubbery and savory. Very flavorful, with taste most apparent at the back of the tongue.",
+            "cullinary":"",
+            "taste":"",
             "recipelist":[]
         }
     },
@@ -196,6 +196,9 @@
     },
 
     "relevantlinks":{
-        "linkslist":[]
+        "linkslist":[
+            "<a href='https://www.mushroomexpert.com/hericium_erinaceus.html' target='_blank' rel='noreferrer noopener'>Mushroom Expert</a>",
+            "<a href='https://en.wikipedia.org/wiki/Hericium_erinaceus' target='_blank' rel='noreferrer noopener'>Wikipedia</a>"
+        ]
     }
 }

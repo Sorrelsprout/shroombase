@@ -104,7 +104,7 @@ function preloadPullup(JSONURL) {
         if (shroom[1].family == "") { $("#nomenclature-family-container").css({"display":"none"}) }
         $("#nomenclature-genus").html(shroom[1].genus);
         if (shroom[1].genus == "") { $("#nomenclature-genus-container").css({"display":"none"}) }
-        $("#nomenclature-species").html(shroom[1].species);
+        $("#nomenclature-species").html(shroom[1].species.toLowerCase());
         if ((shroom[1].species == "") || shroom[1].species == "sp") { $("#nomenclature-species-container").css({"display":"none"}) }
         $("#nomenclature-variation").html(shroom[1].variation);
         if (shroom[1].variation == "") { $("#nomenclature-variation-container").css({"display":"none"}) }
@@ -157,7 +157,9 @@ function preloadPullup(JSONURL) {
                             <figcaption class='characteristics-" + subcategory[i] + "-caption'>" + CCAPTION[i] + "</figcaption>\
                         </figure></label>"
                     }
-                    newContainerContents += "</div><h3>" + subcategory[i] + "</h3><p id='characteristics-" + subcategory[i] + "-desc'></p>";
+                    let sc = subcategory[i];
+                    if(sc == "cap") { sc = "Cap or Top"}
+                    newContainerContents += "</div><h3>" + sc + "</h3><p id='characteristics-" + subcategory[i] + "-desc'></p>";
                     $(CONTAINERNAME).html(newContainerContents).addClass("multiImg").removeClass("click-zoom"); // Replace container contents
 
                     /* Toggling Multiple Images */
@@ -551,7 +553,7 @@ $("#searchAdvancedToggle").click(function() {
     const PAGEHEROES = [
         "https://images.unsplash.com/photo-1583723708278-6fb1bd59d89b?w=2000",
         "./images/about/banner-about.jpg",
-        "https://images.unsplash.com/photo-1550824730-05ededc35e7a?w=2000&h=800&fit=crop&fp-y=0",
+        "./images/about/banner-communities.jpg",
         "https://images.unsplash.com/photo-1501169527804-c216a681aab8?w=2000",
         "https://images.unsplash.com/photo-1615382596404-fbce9f0fdd6a?w=2000",
         "https://images.unsplash.com/photo-1472024600210-31360ee97719?w=2000",
@@ -639,7 +641,7 @@ $("#searchAdvancedToggle").click(function() {
         const JSONURL = "../trees/trees.json";
         $.getJSON(JSONURL, function(json) { 
             let tree = Object.values(json);
-            let treetypes = ["beech", "birch", "californiabaylaurel", "cedar", "fir", "maple", "oak", "pine", "spruce", "placeholder"];
+            let treetypes = ["beech", "birch", "californiabaylaurel", "cedar", "elm", "fir", "maple", "oak", "pine", "spruce", "placeholder"];
 
             for (let i=0; i<treetypes.length-1; i++) { // length-1 due to placeholder
                 let treeClassTag = "." + treetypes[i];
