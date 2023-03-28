@@ -29,18 +29,18 @@
 
     "characteristics": {
         "cap":{
-            "img":"./images/templates/cap.jpg",
-            "caption":"",
+            "img":"./images/marasmiaceae/marasmius-plicatulus/cap.jpg",
+            "caption":"Found in Los Gatos, CA, in January",
             "desc":""
         },
         "underside":{
-            "img":"./images/templates/underside.jpg",
-            "caption":"",
+            "img":"./images/marasmiaceae/marasmius-plicatulus/underside.jpg",
+            "caption":"Found in Los Gatos, CA, in January",
             "desc":""
         },
         "side":{
-            "img":"./images/templates/side.jpg",
-            "caption":"",
+            "img":"./images/marasmiaceae/marasmius-plicatulus/side.jpg",
+            "caption":"Found in Los Gatos, CA, in January",
             "desc":""
         },
         "halved":{
@@ -49,8 +49,8 @@
             "desc":""
         },
         "stem":{
-            "img":"./images/templates/stem.jpg",
-            "caption":"",
+            "img":"./images/marasmiaceae/marasmius-plicatulus/stem.jpg",
+            "caption":"Found in Los Gatos, CA, in January",
             "desc":""
         },
         "sporeprint":{
@@ -64,8 +64,8 @@
             "desc":""
         },
         "habitat":{
-            "img":"./images/templates/habitat.jpg",
-            "caption":"",
+            "img":"./images/marasmiaceae/marasmius-plicatulus/habitat.jpg",
+            "caption":"Found in Los Gatos, CA, in January",
             "desc":""
         },
         "bruising":{
@@ -141,13 +141,13 @@
                 "desc":""
             },
             "young":{
-                "img":"",
-                "caption":"",
+                "img":"./images/marasmiaceae/marasmius-plicatulus/lifestages-young.jpg",
+                "caption":"Found in Los Gatos, CA, in January",
                 "desc":""
             },
             "mature":{
-                "img":"",
-                "caption":"",
+                "img":"./images/marasmiaceae/marasmius-plicatulus/lifestages-mature.jpg",
+                "caption":"Found in Los Gatos, CA, in January",
                 "desc":""
             },
             "old":{
