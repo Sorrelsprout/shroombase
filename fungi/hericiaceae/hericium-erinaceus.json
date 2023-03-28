@@ -14,12 +14,12 @@
         "genus":"Hericium",
         "species":"Erinaceus",
         "variation":"",
-        "aliases":"Bearded hedgehog, Bearded tooth, Lion's Mane, Mountain priest mushroom, Pom pom mushroom, Yamabushitake",
+        "aliases":"Bearded hedgehog, Bearded tooth, Lion's Mane, Monkeyhead, Mountain priest mushroom, Pom pom mushroom, Yamabushitake",
         "displayalias":"Lion's Mane"
     },
 
     "distinguishing":{
-        "coverimg":"https://images.unsplash.com/photo-1634194405074-e1f9f172543a?w=2000&h=1500&fit=crop",
+        "coverimg":"",
         "abundancy":"",
         "smell":"",
         "texture":"",
@@ -29,8 +29,14 @@
 
     "characteristics": {
         "cap":{
-            "img":"./images/templates/cap.jpg",
-            "caption":"",
+            "img":[
+                "./images/hericiaceae/hericium-erinaceus/top.jpg",
+                "./images/hericiaceae/hericium-erinaceus/teeth.jpg"
+            ],
+            "caption":[
+                "Top view. Purchased in San Jose, CA, in November",
+                "Teeth view. Purchased in San Jose, CA, in November"
+            ],
             "desc":""
         },
         "underside":{
@@ -39,13 +45,13 @@
             "desc":""
         },
         "side":{
-            "img":"./images/templates/side.jpg",
-            "caption":"",
+            "img":"./images/hericiaceae/hericium-erinaceus/side.jpg",
+            "caption":"Purchased in San Jose, CA, in November",
             "desc":""
         },
         "halved":{
-            "img":"./images/templates/halved.jpg",
-            "caption":"",
+            "img":"./images/hericiaceae/hericium-erinaceus/halved.jpg",
+            "caption":"Purchased in San Jose, CA, in November",
             "desc":""
         },
         "stem":{

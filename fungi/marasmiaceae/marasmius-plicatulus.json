@@ -2,7 +2,7 @@
     "tags": {
         "edibility":"",
         "treelationship":[],
-        "color":["Red"],
+        "color":["Red", "Pink"],
         "type":["Saprotrophic"]
     },
 
@@ -39,8 +39,14 @@
             "desc":""
         },
         "side":{
-            "img":"./images/marasmiaceae/marasmius-plicatulus/side.jpg",
-            "caption":"Found in Los Gatos, CA, in January",
+            "img":[
+                "./images/marasmiaceae/marasmius-plicatulus/side1.jpg",
+                "./images/marasmiaceae/marasmius-plicatulus/side2.jpg"
+            ],
+            "caption":[
+                "Found in Los Gatos, CA, in January",
+                "Found in Los Gatos, CA, in January"
+            ],
             "desc":""
         },
         "halved":{
