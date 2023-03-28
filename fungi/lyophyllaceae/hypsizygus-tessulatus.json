@@ -121,7 +121,7 @@
     "lifestages":{
         "fruitseason":[],
         "lifespan":"",
-        "showTitles": true,
+        "showTitles": false,
         "images":{
             "spore":{
                 "img":"",
@@ -144,13 +144,13 @@
                 "desc":""
             },
             "button":{
-                "img":"",
-                "caption":"",
+                "img":"./images/lyophyllaceae/hypsizygus-tessulatus/lifestages-button.jpg",
+                "caption":"Specimen purchased in Sunnyvale, CA in August",
                 "desc":""
             },
             "young":{
-                "img":"",
-                "caption":"",
+                "img":"./images/lyophyllaceae/hypsizygus-tessulatus/lifestages-young.jpg",
+                "caption":"Specimen purchased in Sunnyvale, CA in August",
                 "desc":""
             },
             "mature":{
