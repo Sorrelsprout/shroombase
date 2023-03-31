@@ -39,7 +39,7 @@
                 "Top view. Purchased in San Jose, CA, in November",
                 "Teeth view. Purchased in Portland, OR, in March"
             ],
-            "desc":""
+            "desc":"Has a lot of white-to-beige colored teeth that are slightly rubbery in texture. With age and dryness, the teeth turn yellow."
         },
         "underside":{
             "img":"./images/templates/underside.jpg",
@@ -179,11 +179,11 @@
         },
         "cultural":{
             "cultural":"",
-            "medicinal":"",
+            "medicinal":"Tinctures.",
             "funfacts":""
         },
         "cullinary":{
-            "cullinary":"",
+            "cullinary":"Choice edible mushroom. Tastes good lightly fried with salt and pepper.",
             "taste":"",
             "recipelist":[]
         }
