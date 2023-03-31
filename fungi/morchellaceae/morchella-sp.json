@@ -1,7 +1,7 @@
 {
     "tags": {
         "edibility":"Edible",
-        "treelationship":["Elm", "Deciduous"],
+        "treelationship":["Elm", "Tulip Poplar", "Deciduous"],
         "color":["Black"],
         "type":["Mycorrhizal", "Saprotrophic"]
     },
