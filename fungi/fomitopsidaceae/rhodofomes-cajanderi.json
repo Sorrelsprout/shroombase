@@ -1,7 +1,7 @@
 {
     "tags": {
         "edibility":"",
-        "treelationship":["Douglas Fir"],
+        "treelationship":["Douglas Fir", "Conifer"],
         "color":["pink", "brown"],
         "type":["Saprotrophic", "Parasitic"]
     },
