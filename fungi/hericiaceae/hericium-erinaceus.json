@@ -30,12 +30,14 @@
     "characteristics": {
         "cap":{
             "img":[
-                "./images/hericiaceae/hericium-erinaceus/top.jpg",
+                "./images/hericiaceae/hericium-erinaceus/top1.jpg",
+                "./images/hericiaceae/hericium-erinaceus/top2.jpg",
                 "./images/hericiaceae/hericium-erinaceus/teeth.jpg"
             ],
             "caption":[
                 "Top view. Purchased in San Jose, CA, in November",
-                "Teeth view. Purchased in San Jose, CA, in November"
+                "Top view. Purchased in San Jose, CA, in November",
+                "Teeth view. Purchased in Portland, OR, in March"
             ],
             "desc":""
         },
@@ -152,7 +154,7 @@
                 "desc":""
             },
             "mature":{
-                "img":"",
+                "img":"./images/hericiaceae/hericium-erinaceus/lifestages-mature.jpg",
                 "caption":"",
                 "desc":""
             },
