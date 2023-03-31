@@ -641,7 +641,7 @@ $("#searchAdvancedToggle").click(function() {
         const JSONURL = "../trees/trees.json";
         $.getJSON(JSONURL, function(json) { 
             let tree = Object.values(json);
-            let treetypes = ["beech", "birch", "californiabaylaurel", "cedar", "elm", "fir", "maple", "oak", "pine", "spruce", "tulippoplar", "placeholder"];
+            let treetypes = ["apple", "ash", "beech", "birch", "californiabaylaurel", "cedar", "douglasfir", "elm", "fir", "maple", "oak", "pine", "spruce", "tulippoplar", "yew", "placeholder"];
 
             for (let i=0; i<treetypes.length-1; i++) { // length-1 due to placeholder
                 let treeClassTag = "." + treetypes[i];
