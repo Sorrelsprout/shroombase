@@ -14,8 +14,8 @@
         "genus":"Genus",
         "species":"Species",
         "variation":"",
-        "aliases":"Aliases",
-        "displayalias":"Display Alias"
+        "aliases":"",
+        "displayalias":""
     },
 
     "distinguishing":{
