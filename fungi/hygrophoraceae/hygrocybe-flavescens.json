@@ -13,9 +13,9 @@
         "family":"Family",
         "genus":"Hygrocybe",
         "species":"Flavescens",
-        "variation":"Var",
-        "aliases":"Aliases",
-        "displayalias":"Hygrocybe flavescens"
+        "variation":"",
+        "aliases":"",
+        "displayalias":""
     },
 
     "distinguishing":{
