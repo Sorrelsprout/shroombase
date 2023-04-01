@@ -187,8 +187,8 @@
             "funfacts":""
         },
         "cullinary":{
-            "cullinary":"",
-            "taste":"",
+            "cullinary":"<label class='click-zoom'><figure><input type='checkbox'><img src='./images/agaricaceae/calbovista-subsculpta/cooking.jpg' alt='cooking the sculptured puffball' loading='lazy'></figure></label>",
+            "taste":"Tastes light and airy, great with a bit of salt and pepper.",
             "recipelist":[]
         }
     },
