@@ -31,12 +31,12 @@
         "cap":{
             "img":"./images/marasmiaceae/marasmius-plicatulus/cap.jpg",
             "caption":"Found in Los Gatos, CA, in January",
-            "desc":""
+            "desc":"Cap is red. Texture is waxy, similar to an unlit candle."
         },
         "underside":{
             "img":"./images/marasmiaceae/marasmius-plicatulus/underside.jpg",
-            "caption":"Found in Los Gatos, CA, in January",
-            "desc":""
+            "caption":"Underside is usually not wet, but thus specimen was dropped in a puddle. Found in Los Gatos, CA, in January.",
+            "desc":"Underside is light yellow-beige."
         },
         "side":{
             "img":[
@@ -57,7 +57,7 @@
         "stem":{
             "img":"./images/marasmiaceae/marasmius-plicatulus/stem.jpg",
             "caption":"Found in Los Gatos, CA, in January",
-            "desc":""
+            "desc":"Stem is light red at top and then fades to dark red on the bottom."
         },
         "sporeprint":{
             "img":"./images/templates/sporeprint.jpg",
