@@ -216,6 +216,10 @@
     },
 
     "relevantlinks":{
-        "linkslist":[]
+        "linkslist":[
+            "<a href='https://www.inaturalist.org/taxa/118051-Cryptoporus-volvatus' target='_blank' rel='noreferrer noopener'>iNaturalist</a>",
+            "<a href='https://ecoshare.info/wp-content/uploads/2019/08/Watson-and-Shaw-2018-Veiled-Polypore-and-WHWO.pdf' target='_blank' rel='noreferrer noopener'>Northwestern Naturalist Paper</a>",
+            "<a href='https://en.wikipedia.org/wiki/Cryptoporus_volvatus' target='_blank' rel='noreferrer noopener'>Wikipedia</a>"
+        ]
     }
 }
