@@ -1,2 +1,6 @@
 
 .DS_Store
+.idea/misc.xml
+.idea/modules.xml
+.idea/shroombase.iml
+.idea/vcs.xml
