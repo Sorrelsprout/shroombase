@@ -21,9 +21,9 @@
     "distinguishing":{
         "coverimg":"",
         "abundancy":"",
-        "smell":"",
-        "texture":"",
-        "size":"Usually palm-sized",
+        "smell":"Pungent and eggy, and smells a bit like fried <a href='https://en.wikipedia.org/wiki/Choy_sum' target='_blank'>You Cai</a>",
+        "texture":"Soft, slightly spongy, and pliable when young. Easy to break apart with hands.",
+        "size":"Palm sized, but can grow larger",
         "tidbits":"Shelf mushroom polypore. As a parasite, it causes brown heart rot in trees."
     },
 
@@ -41,7 +41,7 @@
         "side":{
             "img":"https://upload.wikimedia.org/wikipedia/commons/c/ca/Laetiporus_sulphureus.jpg",
             "caption":"Image by Algirdas, from <a href='https://commons.wikimedia.org/wiki/File:Laetiporus_sulphureus.jpg' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>.",
-            "desc":""
+            "desc":"Flattish, and found in horizontal shelves."
         },
         "halved":{
             "img":"./images/fomitopsidaceae/laetiporus-sulphureus/halved.jpg",
@@ -175,10 +175,11 @@
             "funfacts":""
         },
         "cullinary":{
-            "cullinary":"Avoid specimens when found on <strong>Eucalyptus</strong>, <strong>Conifers</strong>, and <strong>Yew trees</strong>, which contain toxic alkaloids that can be absorbed by the mushroom. Specimens growing on hardwoods shoud be generally avoided to prevent gastrointestinal distress. When removing specimen from tree, gently wiggle or slice it off at the base.",
+            "cullinary":"Avoid specimens when found on <strong>Eucalyptus</strong>, <strong>Conifers</strong>, and <strong>Yew trees</strong>, which contain toxic alkaloids that can be absorbed by the mushroom. Specimens growing on hardwoods shoud be generally avoided to prevent gastrointestinal distress. When removing specimen from tree, gently wiggle or slice it off at the base. They should be cooked thoroughly (at least 20m on high heat) to avoid stomachaches.",
             "taste":"",
             "recipelist":[
-                "<a href='https://foragerchef.com/chicken-fried-chicken-of-the-woods' target='_blank' rel='noreferrer noopener'>Chicken Fried Chicken of the Woods</a> - Forager Chef"
+                "<a href='https://foragerchef.com/chicken-fried-chicken-of-the-woods' target='_blank' rel='noreferrer noopener'>Chicken Fried Chicken of the Woods</a> - Forager Chef",
+                "<a href='https://www.thesophisticatedcaveman.com/sauteed-chicken-of-the-woods/#:~:text=Cook%20the%20mushrooms%20for%20about,cup%20of%20dry%20white%20wine.' target='_blank' rel='noreferrer noopener'>Sautéed Chicken of the Woods</a>"
             ]
         }
     },
@@ -200,7 +201,7 @@
             "Image from <a href='https://commons.wikimedia.org/wiki/File:Laetiporus_sulphureus15366.JPG' target='_blank' rel='noreferrer noopener'>Wikimedia Commons</a>."
         ],
         "desc":[
-            "Scientifically named <strong>Laetiporus cincinnatus</strong>. Grows at the base of trees or on tree roots, and is more pastel-colored than L. sulphureus."
+            "Scientifically named <strong>Laetiporus cincinnatus</strong>. Grows at the base of trees or on tree roots, and is more salmon/peach-colored than L. sulphureus. The bottom is generally white instead of yellow"
         ],
         "edibility":[
             "edible"
