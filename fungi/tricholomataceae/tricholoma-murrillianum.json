@@ -1,0 +1,230 @@
+{
+    "tags": {
+        "edibility":"edible",
+        "treelationship":["Madrone", "Pine", "Tan Oak", "Conifers"],
+        "color":["white", "tan"],
+        "type":["Mycorrhizal", "Ectomycorrhizal"]
+    },
+
+    "nomenclature":{
+        "division":"Basidiomycota",
+        "class":"Agaricomycetes",
+        "order":"Agaricales",
+        "family":"Tricholomataceae",
+        "genus":"Tricholoma",
+        "species":"murrillianum",
+        "variation":"",
+        "aliases":"Pine mushroom, Ponderosa mushroom, Western matsutake",
+        "displayalias":""
+    },
+
+    "distinguishing":{
+        "coverimg":"",
+        "abundancy":"",
+        "smell":"",
+        "texture":"",
+        "size":"",
+        "tidbits":"&ldquo;Matsu&rdquo; means &ldquo;pine&rdquo;, and &ldquo;take&rdquo; means &ldquo;mushroom&rdquo; in Japanese"
+    },
+
+    "characteristics": {
+        "cap":{
+            "img":"./images/templates/cap.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "underside":{
+            "img":"./images/templates/underside.jpg",
+            "caption":"",
+            "desc":"Has gills"
+        },
+        "side":{
+            "img":"./images/templates/side.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "halved":{
+            "img":"./images/templates/halved.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "stem":{
+            "img":"./images/templates/stem.jpg",
+            "caption":"",
+            "desc":"Ring present"
+        },
+        "sporeprint":{
+            "img":"./images/templates/sporeprint.jpg",
+            "caption":"",
+            "desc":"White spore print"
+        },
+        "mycelium":{
+            "img":"./images/templates/mycelium.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "habitat":{
+            "img":"./images/templates/habitat.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bruising":{
+            "img":"./images/templates/bruising.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "latex":{
+            "img":"./images/templates/latex.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "bioluminescence":{
+            "img":"./images/templates/bioluminescence.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "other":{
+            "img":"./images/templates/other.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "water":{
+            "img":"./images/templates/water.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "feso4":{
+            "img":"./images/templates/feso4.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "koh":{
+            "img":"./images/templates/koh.jpg",
+            "caption":"",
+            "desc":""
+        },
+        "nh3":{
+            "img":"./images/templates/nh3.jpg",
+            "caption":"",
+            "desc":""
+        }
+    },
+
+    "lifestages":{
+        "fruitseason":["Summer", "Fall"],
+        "lifespan":"Fruits in the late summer and early fall.",
+        "showTitles": true,
+        "images":{
+            "spore":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "egg":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "eruption":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "pin":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "button":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "young":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "mature":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "old":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            },
+            "dead":{
+                "img":"",
+                "caption":"",
+                "desc":""
+            }
+        }
+    },
+
+    "significance":{
+        "scientific":{
+            "scientific":"",
+            "environmental":"",
+            "genetic":""
+        },
+        "cultural":{
+            "cultural":"",
+            "medicinal":"",
+            "funfacts":""
+        },
+        "cullinary":{
+            "cullinary":"",
+            "taste":"",
+            "recipelist":[]
+        }
+    },
+
+    "geography":{
+        "region":[],
+        "fruitlocation":"",
+        "mapURL":""
+    },
+
+    "lookalikes":{
+        "names":[
+            "American matsutake",
+            "Matsutake",
+            "Mexican matsutake",
+            "Smith's Amanita"
+        ],
+        "images":[
+            "",
+            "",
+            "",
+            ""
+        ],
+        "caption":[
+            "",
+            "",
+            "",
+            ""
+        ],
+        "desc":[
+            "Also known as &ldquo;Tricholoma magnivelare&rdquo;",
+            "Also known as &ldquo;Tricholoma matsutake&rdquo;. Prized in Japan",
+            "Also known as &ldquo;Tricholoma mesoamericanum&rdquo;",
+            "Also known as &ldquo;Amanita smithiana&rdquo;"
+        ],
+        "edibility":[
+            "Edible",
+            "Edible",
+            "Edible",
+            "Poisonous"
+        ]
+    },
+
+    "relevantlinks":{
+        "linkslist":[
+            "<a href='https://inaturalist.ca/taxa/521711-Tricholoma-murrillianum' target='_blank' rel='noreferrer noopener'>iNaturalist</a>",
+            "<a href='https://www.mushroom-appreciation.com/american-matsutake.html' target='_blank' rel='noreferrer noopener'>Mushroom Appreciation</a>",
+            "<a href='https://www.mushroomexpert.com/tricholoma_murrillianum.html' target='_blank' rel='noreferrer noopener'>Mushroom Expert</a>"
+        ]
+    }
+}
