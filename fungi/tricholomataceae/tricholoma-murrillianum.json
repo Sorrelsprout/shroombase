@@ -1,6 +1,6 @@
 {
     "tags": {
-        "edibility":"edible",
+        "edibility":"Edible",
         "treelationship":["Madrone", "Pine", "Tan Oak", "Conifers"],
         "color":["white", "tan"],
         "type":["Mycorrhizal", "Ectomycorrhizal"]
@@ -21,8 +21,8 @@
     "distinguishing":{
         "coverimg":"",
         "abundancy":"",
-        "smell":"",
-        "texture":"",
+        "smell":"Cinnamon-like and spicy, but missing the aroma that hits the back of your throat when smelling a stick of cinnamon. Slightly fishy.",
+        "texture":"Smooth overall, speckled with dirt and hard at the base where the fruiting body and mycelium meet",
         "size":"",
         "tidbits":"&ldquo;Matsu&rdquo; means &ldquo;pine&rdquo;, and &ldquo;take&rdquo; means &ldquo;mushroom&rdquo; in Japanese"
     },
